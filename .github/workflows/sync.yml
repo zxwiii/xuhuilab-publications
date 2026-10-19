@@ -1,0 +1,50 @@
+name: Auto Sync Publications from ORCID to Gitee
+
+on:
+  schedule:
+    # 设定为：每月 1 号上午 10:00 (北京时间) 自动运行
+    - cron: '0 2 1 * *'
+  workflow_dispatch: # 允许您在 GitHub 网页上手动点击按钮随时立即运行
+
+jobs:
+  sync-to-gitee:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout GitHub Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run ORCID & Crossref Precision Sync
+        run: |
+          python sync_orcid.py
+
+      - name: Commit and Push Changes to GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add publications.json publications_data.js orcid_raw_cache.json crossref_cache.json archive_publications_2025.json || true
+          if git diff --staged --quiet; then
+            echo "No changes in publications data."
+          else
+            git commit -m "Auto sync new publications [skip ci]"
+            git push
+          fi
+
+      - name: Sync & Mirror to Gitee
+        env:
+          GITEE_USER: ${{ secrets.GITEE_USER }}
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          echo "Mirroring latest publications to Gitee..."
+          git remote add gitee https://${GITEE_USER}:${GITEE_TOKEN}@gitee.com/${GITEE_USER}/xuhuilab-publications.git || true
+          git push -f gitee main:master || git push -f gitee main:main
+          echo "Gitee sync finished successfully!"
