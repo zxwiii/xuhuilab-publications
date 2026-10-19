@@ -1,6 +1,6 @@
 /**
  * 许晖课题组 (Hui Xu Lab) 学术成果数据库
- * 更新时间: 2026-10-19 19:43:45
+ * 更新时间: 2026-10-19 11:58:02
  * 总收录篇数: 508
  */
 window.XUHUILAB_STATS = {
@@ -32,7 +32,7 @@ window.XUHUILAB_STATS = {
     "battery": 14,
     "biomass": 11
   },
-  "updated_at": "2026-10-19 19:43:45"
+  "updated_at": "2026-10-19 11:58:02"
 };
 window.XUHUILAB_PUBLICATIONS = [
   {
