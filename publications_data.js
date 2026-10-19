@@ -1,11 +1,11 @@
 /**
  * 许晖课题组 (Hui Xu Lab) 学术成果数据库
- * 更新时间: 2026-10-19 13:12:16
+ * 更新时间: 2026-10-19 13:39:16
  * 总收录篇数: 508
  */
 window.XUHUILAB_STATS = {
   "total": 508,
-  "selected": 22,
+  "selected": 24,
   "esi": 0,
   "years": {
     "2026": 12,
@@ -32,7 +32,7 @@ window.XUHUILAB_STATS = {
     "env": 111,
     "battery": 14
   },
-  "updated_at": "2026-10-19 13:12:16"
+  "updated_at": "2026-10-19 13:39:16"
 };
 window.XUHUILAB_PUBLICATIONS = [
   {
@@ -144,9 +144,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "name_en": "CO2 Reduction & Conversion"
       }
     ],
-    "is_selected": false,
+    "is_selected": true,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Selected"
+    ],
     "index": 505
   },
   {
@@ -2784,9 +2786,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "name_en": "CO2 Reduction & Conversion"
       }
     ],
-    "is_selected": false,
+    "is_selected": true,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Selected"
+    ],
     "index": 409,
     "volume": "69",
     "issue": "12",

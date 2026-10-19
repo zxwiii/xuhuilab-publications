@@ -108,9 +108,11 @@
         "name_en": "CO2 Reduction & Conversion"
       }
     ],
-    "is_selected": false,
+    "is_selected": true,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Selected"
+    ],
     "index": 505
   },
   {
@@ -2748,9 +2750,11 @@
         "name_en": "CO2 Reduction & Conversion"
       }
     ],
-    "is_selected": false,
+    "is_selected": true,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Selected"
+    ],
     "index": 409,
     "volume": "69",
     "issue": "12",
