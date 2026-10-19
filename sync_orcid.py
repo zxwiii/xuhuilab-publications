@@ -38,6 +38,7 @@ CACHE_FILE = "orcid_raw_cache.json"
 CROSSREF_CACHE_FILE = "crossref_cache.json"
 OUTPUT_JSON = "publications.json"
 OUTPUT_JS = "publications_data.js"
+ARCHIVE_FILE = "archive_publications_2025.json"
 SELECTED_FILE = "selected_doi.txt"
 ESI_FILE = "esi_top_1_percent.txt"
 
@@ -397,13 +398,51 @@ def sync_orcid_data():
         except Exception:
             pass
 
-    # 5. 精确格式化每篇论文
-    publications = []
+    # 5. 加载已固化的 2025 年及以前历史文章库 (彻底锁定历史数据)
+    archived_publications = []
     seen_dois = set()
     seen_titles = set()
+    if os.path.exists(ARCHIVE_FILE):
+        try:
+            with open(ARCHIVE_FILE, 'r', encoding='utf-8') as f:
+                archived_publications = json.load(f)
+            print(f"[Archive] 已加载并固化 2025 年及以前历史成果: {len(archived_publications)} 篇 (永不重复抓取)")
+            for item in archived_publications:
+                if item.get("doi"):
+                    seen_dois.add(item["doi"])
+                if item.get("title"):
+                    seen_titles.add(re.sub(r'[^a-zA-Z0-9]', '', item["title"].lower()))
+                # 动态刷新代表作与高被引徽章
+                item_doi = item.get("doi", "")
+                if item_doi:
+                    if item_doi in selected_dois and not item.get("is_selected"):
+                        item["is_selected"] = True
+                        if "Selected" not in item["badges"]:
+                            item["badges"].append("Selected")
+                    if item_doi in esi_dois and not item.get("is_esi"):
+                        item["is_esi"] = True
+                        if "ESI Top 1%" not in item["badges"]:
+                            item["badges"].append("ESI Top 1%")
+        except Exception as e:
+            print(f"[Archive] 读取历史固化库异常: {e}")
+
+    new_2026_publications = []
 
     for pc, w in raw_cache.items():
         if not w:
+            continue
+
+        # 发表年份预检：2025年及以前已由归档库固化，直接跳过
+        pub_date = w.get('publication-date') or {}
+        year_str = str(pub_date.get('year', {}).get('value', '')) if pub_date.get('year') else ""
+        if not year_str or not year_str.isdigit():
+            ym = re.search(r'\b(20\d\d|19\d\d)\b', str(w))
+            year_int = int(ym.group(1)) if ym else 2024
+        else:
+            year_int = int(year_str)
+
+        # 核心：2025年及以前直接跳过，彻底锁定！
+        if year_int <= 2025 and archived_publications:
             continue
 
         raw_title = w.get('title', {}).get('title', {}).get('value', '')
@@ -434,23 +473,10 @@ def sync_orcid_data():
         if norm_title_key:
             seen_titles.add(norm_title_key)
 
-        # 发表年份与日期
-        pub_date = w.get('publication-date') or {}
-        year_str = str(pub_date.get('year', {}).get('value', '')) if pub_date.get('year') else ""
         month = str(pub_date.get('month', {}).get('value', '01')).zfill(2) if pub_date.get('month') else "01"
         day = str(pub_date.get('day', {}).get('value', '01')).zfill(2) if pub_date.get('day') else "01"
 
-        if not year_str or not year_str.isdigit():
-            ym = re.search(r'\b(20\d\d|19\d\d)\b', str(w))
-            year_int = int(ym.group(1)) if ym else 2024
-        else:
-            year_int = int(year_str)
-
-        # 年份分类归并：<=2014 统一归入 2014及以前
-        if year_int <= 2014:
-            year_group = "2014及以前"
-        else:
-            year_group = str(year_int)
+        year_group = str(year_int)
 
         # 期刊
         raw_journal = w.get('journal-title', {}).get('value', '') if w.get('journal-title') else ""
@@ -555,10 +581,18 @@ def sync_orcid_data():
             "is_esi": is_esi,
             "badges": badges
         }
-        publications.append(item)
+        new_2026_publications.append(item)
 
-    # 排序：年份倒序、日期倒序
-    publications.sort(key=lambda x: (x.get("year", 0), x.get("date", "")), reverse=True)
+    # 合并固化历史库 (<=2025) 与最新增量成果 (>=2026)
+    publications = new_2026_publications + archived_publications
+
+    # 先按最早到最新排序，分配终生固定编号（最早一篇为 1，最新一篇为 N）
+    publications.sort(key=lambda x: (x.get("year", 0), x.get("date", "")))
+    for idx, p in enumerate(publications):
+        p["index"] = idx + 1
+
+    # 最终按编号倒序排列（最新文章排在最上方）
+    publications.sort(key=lambda x: x["index"], reverse=True)
 
     # 统计汇总
     year_group_stats = {}
