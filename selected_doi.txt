@@ -1,0 +1,45 @@
+# 许晖课题组代表作清单 (Selected Works)
+# ==============================================================
+# 说明与使用提示：
+# 1. 容错率极高：支持直接粘贴纯 DOI、或完整链接 (如 https://doi.org/10.1002/anie.xxx)；
+# 2. 自动忽略大小写、空格、前后引号与重复粘贴；
+# 3. 支持以 # 开头的行作为中文/英文注释；
+# 4. 严谨收录顶级期刊：Nature Energy, Advanced Materials, Advanced Energy Materials,
+#    Angewandte Chemie, ACS Nano, Nano Energy, ACS Catalysis 等。
+# ==============================================================
+
+# --- [2026] 最新顶级期刊 Angewandte Chemie & ACS Catalysis ---
+10.1002/anie.7758933
+10.1021/acscatal.6c03039
+
+# --- [2025] ACS Catalysis ---
+10.1021/acscatal.5c00090
+
+# --- [2023] Angewandte Chemie & Nano Energy ---
+10.1002/ANIE.202218694
+10.1016/J.NANOEN.2023.108363
+
+# --- [2022] ACS Nano & Angewandte Chemie & ACS Catalysis ---
+10.1021/ACSNANO.1C10003
+10.1002/ANIE.202211396
+10.1021/ACSCATAL.2C01328
+10.1021/ACSCATAL.2C03970
+
+# --- [2021] Nano Energy ---
+10.1016/j.nanoen.2021.105869
+
+# --- [2020] Nano Energy & Cell Reports Physical Science ---
+10.1016/j.nanoen.2020.104604
+10.1016/j.xcrp.2020.100051
+
+# --- [2019] ACS Nano & Angewandte Chemie & Small ---
+10.1021/acsnano.9b04443
+10.1002/anie.201813417
+10.1002/smll.201804613
+
+# --- [2018-2017] Advanced Energy Materials ---
+10.1002/aenm.201703487
+10.1002/aenm.201700025
+
+# --- [2016] Nano Energy ---
+10.1016/J.NANOEN.2016.06.042
