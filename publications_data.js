@@ -1,7 +1,7 @@
 /**
  * 许晖课题组 (Hui Xu Lab) 学术成果数据库
- * 更新时间: 2026-10-19 12:04:24
- * 总收录篇数: 508
+ * 更新时间: 2026-10-19 20:45:19
+ * 收录总篇数: 508
  */
 window.XUHUILAB_STATS = {
   "total": 508,
@@ -31,9 +31,9 @@ window.XUHUILAB_STATS = {
     "env": 111,
     "battery": 14,
     "biomass": 11
-  },
-  "updated_at": "2026-10-19 12:04:24"
+  }
 };
+
 window.XUHUILAB_PUBLICATIONS = [
   {
     "title": "External-Field-Enhanced Helmholtz-Layer Local Charge Density Enables C-C Coupling in Pure-H2O-Fed CO2 Electroreduction To C2+ Products",
@@ -62,7 +62,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Angew. Chem."
     ],
-    "index": 508
+    "index": 508,
+    "volume": "65",
+    "issue": "41",
+    "page": "e7758933"
   },
   {
     "title": "Buffering the local pH via alkaline-earth metals-modified Cu@C electrocatalyst to boost CO2 methanation",
@@ -90,7 +93,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 507
+    "index": 507,
+    "volume": "390",
+    "issue": "",
+    "page": "126500"
   },
   {
     "title": "Organic-Molecular Modification Strategy on the Local Microenvironment and Catalysts for CO2 Electroreduction to C2+",
@@ -114,7 +120,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "ACS Catal."
     ],
-    "index": 506
+    "index": 506,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Stable CO2 electroreduction to CH4 at an engineering-relevant scale enabled by confined Cu nanoclusters",
@@ -135,7 +144,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 505
+    "index": 505,
+    "volume": "72",
+    "issue": "6",
+    "page": "e70330"
   },
   {
     "title": "The advantageous active sites construction and the electronic structure modification of cobalt-modified CeO2 for efficient solar-driven CO2 reduction",
@@ -161,7 +173,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 504
+    "index": 504,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Atomic-level Mn incorporation into Co3O4 for selective CO2 photoreduction in pure water under dilute CO2 atmosphere",
@@ -182,7 +197,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 503
+    "index": 503,
+    "volume": "81",
+    "issue": "",
+    "page": "216-226"
   },
   {
     "title": "Oxygen vacancy regulation in S-scheme heterojunction of half-metallic carbon nitride and Bi2WO6: Accelerated charge transfer for efficient CO2 photoreduction",
@@ -210,7 +228,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 502
+    "index": 502,
+    "volume": "389",
+    "issue": "",
+    "page": "126579"
   },
   {
     "title": "Facet-selective synthesis of cadmium sulfide photocatalysts for high-efficiency CO2 conversion",
@@ -236,7 +257,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 501
+    "index": 501,
+    "volume": "701",
+    "issue": "",
+    "page": "138723"
   },
   {
     "title": "Ultrafast Carbothermal Shock Strategy for Engineering Lattice Hydroxyl-Enriched Co-Based Catalysts toward Nitrate Electroreduction",
@@ -260,7 +284,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "ACS Catal."
     ],
-    "index": 500
+    "index": 500,
+    "volume": "16",
+    "issue": "1",
+    "page": "831-841"
   },
   {
     "title": "Enhanced photocatalytic disinfection with surface plasmon resonance effect in S-scheme heterojunction",
@@ -281,7 +308,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 499
+    "index": 499,
+    "volume": "306",
+    "issue": "",
+    "page": "114321"
   },
   {
     "title": "Rational design of donor-acceptor structured tubular carbon nitride modulates charge distribution for photocatalytic hydrogen evolution",
@@ -307,7 +337,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 498
+    "index": 498,
+    "volume": "8",
+    "issue": "1",
+    "page": "234-243"
   },
   {
     "title": "Synergistic Cl and O co-doping in self-assembled red carbon nitride nanorods for enhanced photocatalytic H2O2 production",
@@ -330,7 +363,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 497
+    "index": 497,
+    "volume": "380",
+    "issue": "",
+    "page": "125804"
   },
   {
     "title": "High-intensity interfacial electric fields between co-catalysts and semiconductor: A determinant factor in enhancing photocatalytic hydrogen production",
@@ -358,7 +394,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 496
+    "index": 496,
+    "volume": "371",
+    "issue": "",
+    "page": "125265"
   },
   {
     "title": "Molecular Structure Engineering of Graphitic Carbon Nitride for Photocatalytic Hydrogen Evolution: Recent Advances and Perspectives",
@@ -386,7 +425,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Small"
     ],
-    "index": 495
+    "index": 495,
+    "volume": "",
+    "issue": "",
+    "page": "2503954"
   },
   {
     "title": "Advances in Defect Engineering of Metal Oxides for Photocatalytic CO2 Reduction",
@@ -414,7 +456,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Small"
     ],
-    "index": 494
+    "index": 494,
+    "volume": "21",
+    "issue": "28",
+    "page": "2310677"
   },
   {
     "title": "Synergistic utilization of photogenerated electrons and holes in carbon nitride nanosheet assembly for enhanced photocatalytic H2O2 production",
@@ -437,7 +482,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 493
+    "index": 493,
+    "volume": "366",
+    "issue": "",
+    "page": "124998"
   },
   {
     "title": "Boosting the C-C Coupling Efficiency for Diluted CO2 Electroreduction to Dual Carbon Products",
@@ -461,7 +509,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "ACS Catal."
     ],
-    "index": 492
+    "index": 492,
+    "volume": "15",
+    "issue": "9",
+    "page": "7352-7360"
   },
   {
     "title": "Polymer-induced self-assembly strategy toward 3D printable porous MoO3/Al2O3 catalyst for efficient oxidative desulfurization",
@@ -482,7 +533,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 491
+    "index": 491,
+    "volume": "686",
+    "issue": "",
+    "page": "14-26"
   },
   {
     "title": "Enhancement of photocatalytic activity of 2D/2D Sb2WO6/g-C3N4 Z-scheme heterojunction via effective interfacial charge transfer",
@@ -503,7 +557,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 490
+    "index": 490,
+    "volume": "711",
+    "issue": "",
+    "page": "136342"
   },
   {
     "title": "Direct photo-curing 3D printed bionic multistage Mo-doped tungsten oxide catalysts for static and dynamic oxidative desulfurization of fuels",
@@ -524,7 +581,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 489
+    "index": 489,
+    "volume": "354",
+    "issue": "",
+    "page": "128399"
   },
   {
     "title": "Regulation of Active Site Accessibility Enables Efficient Electrocatalytic CO2 Methanation",
@@ -550,7 +610,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 488
+    "index": 488,
+    "volume": "64",
+    "issue": "2",
+    "page": "1164-1172"
   },
   {
     "title": "Hierarchical Bi/Bi2O3 heterostructures with robust oxygen vacancies for efficient electrochemical CO2 reduction to formate",
@@ -576,7 +639,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 487
+    "index": 487,
+    "volume": "61",
+    "issue": "92",
+    "page": "18140-18143"
   },
   {
     "title": "F and B co-modification activated Cu/NC catalyst for enhanced electrocatalytic CO2 reduction to CH4",
@@ -602,7 +668,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 486
+    "index": 486,
+    "volume": "61",
+    "issue": "37",
+    "page": "6779-6782"
   },
   {
     "title": "Boosting H2 evolution via dual-functional interfacial design in Pt/Co0.85Se/ g-C3N4 antenna photocatalyst",
@@ -633,7 +702,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 485
+    "index": 485,
+    "volume": "13",
+    "issue": "6",
+    "page": "119807"
   },
   {
     "title": "Electron relay between S-Scheme heterojunction and variable-valence metals promotes photocatalytic hydrogen production over CeO2@MnXCd1-XS",
@@ -661,7 +733,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 484
+    "index": 484,
+    "volume": "526",
+    "issue": "",
+    "page": "170911"
   },
   {
     "title": "Research progress of graphitic carbon nitride in photocatalytic hydrogen evolution",
@@ -687,7 +762,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 483
+    "index": 483,
+    "volume": "187",
+    "issue": "",
+    "page": "152004"
   },
   {
     "title": "Electrocatalytic CO2 Reduction into Value-Added Chemicals: Selectivity Tuning, Efficiency Improvement, and Scalability Challenge",
@@ -713,7 +791,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 482
+    "index": 482,
+    "volume": "18",
+    "issue": "24",
+    "page": "e202501842"
   },
   {
     "title": "Degradation of Tetracycline by Laccase-Mediator System Using Tea Polyphenols as Mediator",
@@ -734,7 +815,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 481
+    "index": 481,
+    "volume": "15",
+    "issue": "10",
+    "page": "952"
   },
   {
     "title": "Proton exchange membranes enhanced by MOF arrays for promoting acidic CO2 electrolysis",
@@ -757,7 +841,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 480
+    "index": 480,
+    "volume": "524",
+    "issue": "",
+    "page": "169012"
   },
   {
     "title": "Wearable H2S Sensors with Enhanced Humidity Tolerance: Microcrumpled SnO2 Quantum-Wire Films for Real-Time Room-Temperature Gas Monitoring",
@@ -778,7 +865,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 479
+    "index": 479,
+    "volume": "17",
+    "issue": "36",
+    "page": "50856-50864"
   },
   {
     "title": "Constructing an oasis-desert type water chestnut-shaped Sb2WO6/mesoporous carbon nitride Z-scheme heterojunction for enhancing photocatalytic performance",
@@ -799,7 +889,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 478
+    "index": 478,
+    "volume": "377",
+    "issue": "",
+    "page": "134104"
   },
   {
     "title": "Cobalt-modified crystalline carbon nitride homojunction with enhanced interfacial charge separation for photocatalytic pure water splitting",
@@ -825,7 +918,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 477
+    "index": 477,
+    "volume": "688",
+    "issue": "",
+    "page": "375-385"
   },
   {
     "title": "Improving Electrocatalytic Activity and Durability of Cobalt-Free Bismuth Ferrite-Based Perovskite Oxygen Electrode for Reversible Solid Oxide Cells",
@@ -846,7 +942,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 476
+    "index": 476,
+    "volume": "35",
+    "issue": "48",
+    "page": "2509535"
   },
   {
     "title": "S-Scheme Homojunction Carbon Nitride for Photocatalytic Overall Water Splitting",
@@ -875,7 +974,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "ACS Catal."
     ],
-    "index": 475
+    "index": 475,
+    "volume": "15",
+    "issue": "11",
+    "page": "8822-8832"
   },
   {
     "title": "Three dimensional topological porous carbon/carbon nanotube/graphene matrix decorated with CoFe alloy for lithium sulfur batteries",
@@ -896,7 +998,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 474
+    "index": 474,
+    "volume": "239",
+    "issue": "",
+    "page": "120322"
   },
   {
     "title": "Sulfonamide-linked π-conjugated carbon nitride with enhanced intramolecular carrier generation and transfer for efficient photocatalysis",
@@ -922,7 +1027,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 473
+    "index": 473,
+    "volume": "13",
+    "issue": "3",
+    "page": "116585"
   },
   {
     "title": "g-C3N4 S-Scheme Homojunction through Van der Waals Interface Regulation by Intrinsic Polymerization Tailoring for Enhanced Photocatalytic H2 Evolution and CO2 Reduction",
@@ -956,7 +1064,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Angew. Chem."
     ],
-    "index": 472
+    "index": 472,
+    "volume": "64",
+    "issue": "13",
+    "page": "e202425439"
   },
   {
     "title": "Engineering the S-scheme heterojunction modulating the charge density of the central carbon atom of half-metallic carbon nitride for boosting CO2 photoreduction",
@@ -984,7 +1095,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 471
+    "index": 471,
+    "volume": "371",
+    "issue": "",
+    "page": "125200"
   },
   {
     "title": "Enhanced hydrogen production via piezo-photocatalytic water splitting using BaTiO3 crystal phase engineering",
@@ -1010,7 +1124,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 470
+    "index": 470,
+    "volume": "345",
+    "issue": "",
+    "page": "125251"
   },
   {
     "title": "P-doped and cyano-modified carbon nitride nanotubes for photocatalytic hydrogen evolution coupled with bisphenol A degradation",
@@ -1041,7 +1158,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 469
+    "index": 469,
+    "volume": "686",
+    "issue": "",
+    "page": "525-534"
   },
   {
     "title": "Recent research advances in adsorption removal of gaseous hydrogen sulfide by biochar",
@@ -1062,7 +1182,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 468
+    "index": 468,
+    "volume": "388",
+    "issue": "",
+    "page": "134390"
   },
   {
     "title": "Functionalized sulfonic acid groups enhance solubility and stability of graphene quantum dots for efficient photosynthesis of lettuce",
@@ -1083,7 +1206,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 467
+    "index": 467,
+    "volume": "463",
+    "issue": "",
+    "page": "116280"
   },
   {
     "title": "Fluorene-Terminated π-Conjugated Spiro-Type Hole Transport Materials for Perovskite Solar Cells",
@@ -1104,7 +1230,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 466
+    "index": 466,
+    "volume": "10",
+    "issue": "2",
+    "page": "915-924"
   },
   {
     "title": "In situ construction of metal phosphide-anchored Zn0.5Cd0.5S Schottky junction photocatalysts for efficient hydrogen evolution via photocatalytic reforming of plastics",
@@ -1130,7 +1259,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 465
+    "index": 465,
+    "volume": "102",
+    "issue": "",
+    "page": "963-971"
   },
   {
     "title": "Bipolar hydrogen generation via furfural-water co-electrolysis over bifunctional CuPt catalysts",
@@ -1151,7 +1283,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 464
+    "index": 464,
+    "volume": "102",
+    "issue": "",
+    "page": "856-865"
   },
   {
     "title": "C-S bonds mediated rapid charge transfer in hm-C4N3/CdS heterostructure for efficient photocatalytic CO2 reduction",
@@ -1177,7 +1312,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 463
+    "index": 463,
+    "volume": "684",
+    "issue": "",
+    "page": "300-308"
   },
   {
     "title": "Crystal facet engineering of CeO2-supported Cu sites and efficient anodic coupling for enhanced electrocatalytic CO2 reduction to CH4",
@@ -1203,7 +1341,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 462
+    "index": 462,
+    "volume": "305",
+    "issue": "",
+    "page": "121095"
   },
   {
     "title": "Engineering Multiple Optimization Strategy on Bismuth Oxyhalide Photoactive Materials for Efficient Photoelectrochemical Applications",
@@ -1229,7 +1370,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 461
+    "index": 461,
+    "volume": "41",
+    "issue": "2",
+    "page": "100014"
   },
   {
     "title": "Monodispersed Cu sites assembled on ultrathin 2D C3N4 for efficient electrocatalytic CO2 methanation",
@@ -1255,7 +1399,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 460
+    "index": 460,
+    "volume": "681",
+    "issue": "",
+    "page": "161492"
   },
   {
     "title": "Enhanced CO2 photoreduction in pure water systems by surface-reconstructed asymmetric Mn-Cu sites",
@@ -1278,7 +1425,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 459
+    "index": 459,
+    "volume": "361",
+    "issue": "",
+    "page": "124617"
   },
   {
     "title": "Controlling the coverage of intermediates on the active site enables efficient carbon dioxide electroreduction to hydrocarbons",
@@ -1299,7 +1449,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 458
+    "index": 458,
+    "volume": "670",
+    "issue": "",
+    "page": "160550"
   },
   {
     "title": "Bifunctional electrocatalytic reduction performance of nitrogen containing biomass based nanoreactors loaded with Ni nanoparticles for oxygen and carbon dioxide",
@@ -1330,7 +1483,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 457
+    "index": 457,
+    "volume": "35",
+    "issue": "17",
+    "page": "175402"
   },
   {
     "title": "Promotion of intramolecular electron transfer in g-C3N4 tubes by introducing pyridine structure to accelerate photocatalytic hydrogen evolution",
@@ -1356,7 +1512,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 456
+    "index": 456,
+    "volume": "686",
+    "issue": "",
+    "page": "133261"
   },
   {
     "title": "Simultaneously tuning electronic reaction pathway and photoactivity of P, O modified cyano-rich carbon nitride enhances the photosynthesis of H2O2",
@@ -1379,7 +1538,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 455
+    "index": 455,
+    "volume": "342",
+    "issue": "",
+    "page": "123337"
   },
   {
     "title": "Symmetry breaking induced local electron rearrangement to enhance photocatalytic tetracycline hydrochloride oxidation and hydrogen evolution of carbon nitride",
@@ -1405,7 +1567,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 454
+    "index": 454,
+    "volume": "649",
+    "issue": "",
+    "page": "158964"
   },
   {
     "title": "Ag/ZnO Composite Structure Modulated by Hybrid Engineering for Efficient Electroreduction of CO2 to CO",
@@ -1426,7 +1591,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 453
+    "index": 453,
+    "volume": "10",
+    "issue": "2",
+    "page": "e202300450"
   },
   {
     "title": "Structurally disordered MoSe 2 with rich 1T phase as a universal platform for enhanced photocatalytic hydrogen production",
@@ -1452,7 +1620,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 452
+    "index": 452,
+    "volume": "668",
+    "issue": "",
+    "page": "492-501"
   },
   {
     "title": "Non-metal inducing charge rearrangement in carbon nitride to promote photocatalytic hydrogen production",
@@ -1478,7 +1649,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 451
+    "index": 451,
+    "volume": "195",
+    "issue": "",
+    "page": "1-8"
   },
   {
     "title": "Multifunctional fluorescent probe for simultaneous revealing Cys and ONOO- dynamic correlation in the ferroptosis",
@@ -1499,7 +1673,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 450
+    "index": 450,
+    "volume": "315",
+    "issue": "",
+    "page": "124248"
   },
   {
     "title": "Na-mediated carbon nitride realizing CO 2 photoreduction with selectivity modulation",
@@ -1520,7 +1697,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 449
+    "index": 449,
+    "volume": "670",
+    "issue": "",
+    "page": "348-356"
   },
   {
     "title": "Halogen-doped ultrathin Bi2WO6 for promoted separation of photogenerated carriers and efficient photocatalysis",
@@ -1541,7 +1721,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 448
+    "index": 448,
+    "volume": "695",
+    "issue": "",
+    "page": "134113"
   },
   {
     "title": "Co single atom coupled oxygen vacancy on W18O49 nanowires surface to construct asymmetric active site enhanced peroxymonosulfate activation",
@@ -1562,7 +1745,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 447
+    "index": 447,
+    "volume": "664",
+    "issue": "",
+    "page": "736-747"
   },
   {
     "title": "Plasmonic Au nanoparticles enhance the photogenerated electron efficiency for carbon dioxide photoreduction",
@@ -1583,7 +1769,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 446
+    "index": 446,
+    "volume": "48",
+    "issue": "18",
+    "page": "8116-8124"
   },
   {
     "title": "Ionic liquids assisted construction of efficient ceramic-based catalyst by direct ink writing 3D printing for ultra-deep oxidative desulfurization of diesel",
@@ -1604,7 +1793,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 445
+    "index": 445,
+    "volume": "50",
+    "issue": "7",
+    "page": "10990-11002"
   },
   {
     "title": "NH3 plasma synthesis of amino modified NiCo layered double hydroxide nanoflowers for carbon dioxide photoreduction",
@@ -1630,7 +1822,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 444
+    "index": 444,
+    "volume": "12",
+    "issue": "1",
+    "page": "111855"
   },
   {
     "title": "Breaking the intrinsic activity barriers of bilayer metal oxides for catalytic CO2 reduction",
@@ -1651,7 +1846,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 443
+    "index": 443,
+    "volume": "675",
+    "issue": "",
+    "page": "419-428"
   },
   {
     "title": "Phosphorus doped PdMo bimetallene as a superior bifunctional fuel cell electrocatalyst",
@@ -1674,7 +1872,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 442
+    "index": 442,
+    "volume": "486",
+    "issue": "",
+    "page": "150258"
   },
   {
     "title": "Synergistic photocatalysis of oxygen-enriched vacancy BiOBr based on rice husk biochar: Efficient seawater purification achieved by carrier directional migration",
@@ -1700,7 +1901,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 441
+    "index": 441,
+    "volume": "189",
+    "issue": "",
+    "page": "505-516"
   },
   {
     "title": "Al-doped oxide-derived copper catalyst with stable Cu+ site for efficient electrocatalytic CO2 reduction to C2H4",
@@ -1726,7 +1930,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 440
+    "index": 440,
+    "volume": "299",
+    "issue": "",
+    "page": "120415"
   },
   {
     "title": "Ingenious Regulation and Activation of Sites in the 2h-Mos2basal Planes by Oxygen Incorporation for Enhanced Photocatalytic Hydrogen Evolution of CDS",
@@ -1752,7 +1959,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 439
+    "index": 439,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Integration of Phosphorus in PdCr Metallene for Enhanced CO-Tolerant Alcohol Electrooxidation",
@@ -1773,7 +1983,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 438
+    "index": 438,
+    "volume": "64",
+    "issue": "1",
+    "page": "123-132"
   },
   {
     "title": "Built-in Electric Fields Enhancing Photocarrier Separation and H2 Evolution",
@@ -1794,7 +2007,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 437
+    "index": 437,
+    "volume": "40",
+    "issue": "11",
+    "page": "2311001"
   },
   {
     "title": "Lattice energy transfer from homo-crystalline substitution for enhanced piezo-photocatalytic CO2 conversion",
@@ -1822,7 +2038,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 436
+    "index": 436,
+    "volume": "501",
+    "issue": "",
+    "page": "157345"
   },
   {
     "title": "In situ construction of donor-acceptor structured g-C3N4 nanotubes incorporated with pyridine heterocyclic rings for efficient photocatalytic water splitting",
@@ -1848,7 +2067,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 435
+    "index": 435,
+    "volume": "12",
+    "issue": "1",
+    "page": "161-170"
   },
   {
     "title": "Co-W18O49/PDI Z-scheme heterojunction photocatalyst for photocatalytic BPA degradation and mechanism",
@@ -1874,7 +2096,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 434
+    "index": 434,
+    "volume": "703",
+    "issue": "",
+    "page": "135050"
   },
   {
     "title": "Integration of Silver Nanoparticles into Carbon-Encapsulated Tungsten Oxide Promoting Visible-Light-Driven Photocatalytic Degradation Efficiency",
@@ -1900,7 +2125,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 433
+    "index": 433,
+    "volume": "678",
+    "issue": "",
+    "page": "161112"
   },
   {
     "title": "Enhanced tetracycline hydrochloride degradation at near neutral conditions with FeOx modified Bi4TaO8Cl catalyst: Coupling the photocatalytic and Fenton oxidation",
@@ -1926,7 +2154,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 432
+    "index": 432,
+    "volume": "12",
+    "issue": "5",
+    "page": "113496"
   },
   {
     "title": "Interfacial built-in electric fields facilitating surface reconstruction in heterojunction electrocatalysts for boosting water oxidation and simulated seawater oxidation",
@@ -1957,7 +2188,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 431
+    "index": 431,
+    "volume": "369",
+    "issue": "",
+    "page": "131716"
   },
   {
     "title": "Facilitating charge separation by constructing CuInS2/PCN S-scheme heterojunction with the intimate contact interface for enhanced photocatalytic CO2 reduction",
@@ -1983,7 +2217,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 430
+    "index": 430,
+    "volume": "341",
+    "issue": "",
+    "page": "126808"
   },
   {
     "title": "Application of plasma technology in Hg0 removal from flue gas: Recent advances and future perspectives",
@@ -2004,7 +2241,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 429
+    "index": 429,
+    "volume": "336",
+    "issue": "",
+    "page": "126259"
   },
   {
     "title": "Localized surface plasmon resonance effect of bismuth nanoparticles in Bi/ TiO2 catalysts for boosting visible light-driven CO2 reduction to CH4",
@@ -2027,7 +2267,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 428
+    "index": 428,
+    "volume": "344",
+    "issue": "",
+    "page": "123651"
   },
   {
     "title": "Structural design of hierarchical porous biomass carbon with a built-in electric field for efficient peroxymonosulfate activation",
@@ -2055,7 +2298,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 427
+    "index": 427,
+    "volume": "499",
+    "issue": "",
+    "page": "156075"
   },
   {
     "title": "Optimizing the separation process for improved zirconia molding through liquid crystal display 3D printing",
@@ -2076,7 +2322,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 426
+    "index": 426,
+    "volume": "50",
+    "issue": "21",
+    "page": "43350-43361"
   },
   {
     "title": "Role of Heteroatom Doping in Enhancing the Catalytic Activities and Stability of Atomically Dispersed Metal Catalysts for Oxygen Evolution Reaction",
@@ -2097,7 +2346,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 425
+    "index": 425,
+    "volume": "128",
+    "issue": "29",
+    "page": "12101-12108"
   },
   {
     "title": "Pure-water-fed, electrocatalytic CO2 reduction to ethylene beyond 1,000 h stability at 10 A",
@@ -2126,7 +2378,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Nat. Energy"
     ],
-    "index": 424
+    "index": 424,
+    "volume": "9",
+    "issue": "1",
+    "page": "81-91"
   },
   {
     "title": "Non-metallic nitrogen-doped graphene quantum dots coupled with g-C3N4 achieve efficient photocatalytic performance",
@@ -2147,7 +2402,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 423
+    "index": 423,
+    "volume": "649",
+    "issue": "",
+    "page": "159171"
   },
   {
     "title": "Low-temperature plasma-induced porous Sb2WO6 microspheres with rich oxygen vacancies to promote high-performance photocatalytic activity",
@@ -2168,7 +2426,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 422
+    "index": 422,
+    "volume": "681",
+    "issue": "",
+    "page": "132724"
   },
   {
     "title": "Adjacent Mn site boosts photocatalytic hydrogen evolution of MnXCd1-XS solid solution through a dual-metal-site design",
@@ -2194,7 +2455,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 421
+    "index": 421,
+    "volume": "652",
+    "issue": "",
+    "page": "470-479"
   },
   {
     "title": "Cyano-rich carbon nitride with tunable n → π* electronic transition for enhanced broad-spectrum photocatalytic H2O2 production",
@@ -2217,7 +2481,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 420
+    "index": 420,
+    "volume": "478",
+    "issue": "",
+    "page": "147337"
   },
   {
     "title": "Electronic and energy level structural engineering of graphitic carbon nitride nanotubes with B and S co-doping for photocatalytic hydrogen evolution",
@@ -2243,7 +2510,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 419
+    "index": 419,
+    "volume": "645",
+    "issue": "",
+    "page": "525-532"
   },
   {
     "title": "Three coordinate nitrogen (N3c) vacancies from in-situ hydrogen bond breaking over polymeric carbon nitride for efficient photocatalysis",
@@ -2269,7 +2539,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 418
+    "index": 418,
+    "volume": "11",
+    "issue": "2",
+    "page": "109495"
   },
   {
     "title": "Band engineering of non-metal modified polymeric carbon nitride with broad spectral response for enhancing photocatalytic CO2 reduction",
@@ -2297,7 +2570,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 417
+    "index": 417,
+    "volume": "461",
+    "issue": "",
+    "page": "141841"
   },
   {
     "title": "CoMo layered double hydroxide equipped with carbon nanotubes for electrocatalytic oxygen evolution reaction",
@@ -2318,7 +2594,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 416
+    "index": 416,
+    "volume": "34",
+    "issue": "6",
+    "page": "065401"
   },
   {
     "title": "Building a Z-scheme heterojunction with Keggin-type heteropolymer modified two-dimensional g-C3N4 for significant photocatalytic performance",
@@ -2339,7 +2618,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 415
+    "index": 415,
+    "volume": "47",
+    "issue": "39",
+    "page": "18143-18154"
   },
   {
     "title": "Construction atomic-level N-P charge transfer channel for boosted CO2 photoreduction",
@@ -2367,7 +2649,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 414
+    "index": 414,
+    "volume": "328",
+    "issue": "",
+    "page": "122472"
   },
   {
     "title": "A candy-like photocatalyst by wrapping Co, N-co-doped hollow carbon sphere with ultrathin mesoporous carbon nitride for boosted photocatalytic hydrogen evolution",
@@ -2393,7 +2678,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 413
+    "index": 413,
+    "volume": "34",
+    "issue": "2",
+    "page": "107749"
   },
   {
     "title": "BiOBr microspheres anchored with Cu2O nanoparticles and rGO: A Z-scheme heterojunction photocatalyst for efficient reduction of Cr(VI) under visible light irradiation",
@@ -2414,7 +2702,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 412
+    "index": 412,
+    "volume": "609",
+    "issue": "",
+    "page": "155247"
   },
   {
     "title": "Boosted solar water photoreduction by conjugated polymer-mediated tandem charge transfer",
@@ -2435,7 +2726,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 411
+    "index": 411,
+    "volume": "48",
+    "issue": "6",
+    "page": "2211-2220"
   },
   {
     "title": "Amorphized core-shell NiFeMo electrode for efficient bifunctional water splitting",
@@ -2456,7 +2750,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 410
+    "index": 410,
+    "volume": "607",
+    "issue": "",
+    "page": "154803"
   },
   {
     "title": "Tailored monolithic catalyst and reactor by direct photo-curing 3D printing for oxidative desulfurization of fuels",
@@ -2477,7 +2774,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 409
+    "index": 409,
+    "volume": "327",
+    "issue": "",
+    "page": "124826"
   },
   {
     "title": "Supercharged CO2 Photothermal Catalytic Methanation: High Conversion, Rate, and Selectivity",
@@ -2506,7 +2806,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Angew. Chem."
     ],
-    "index": 408
+    "index": 408,
+    "volume": "62",
+    "issue": "22",
+    "page": "e202218694"
   },
   {
     "title": "Construction of amphiphilic and polyoxometalate poly(ionic liquids) for enhanced oxidative desulfurization in fuel",
@@ -2527,7 +2830,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 407
+    "index": 407,
+    "volume": "379",
+    "issue": "",
+    "page": "121650"
   },
   {
     "title": "Stereolithography 3D printed monolithic catalyst for highly efficient oxidative desulfurization of fuels",
@@ -2548,7 +2854,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 406
+    "index": 406,
+    "volume": "332",
+    "issue": "",
+    "page": "126021"
   },
   {
     "title": "Surface Self-Transforming FeTi-LDH Overlayer in Fe2O3/Fe2TiO5 Photoanode for Improved Water Oxidation",
@@ -2576,7 +2885,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Small"
     ],
-    "index": 405
+    "index": 405,
+    "volume": "19",
+    "issue": "40",
+    "page": "2301114"
   },
   {
     "title": "Implanting nitrogen-doped graphene quantum dots on porous ultrathin carbon nitride for efficient metal-free photocatalytic hydrogen evolution",
@@ -2607,7 +2919,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 404
+    "index": 404,
+    "volume": "11",
+    "issue": "3",
+    "page": "109801"
   },
   {
     "title": "Highly Efficient and Exceptionally Durable Photooxidation Properties on Co3O4/g-C3N4 Surfaces",
@@ -2628,7 +2943,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 403
+    "index": 403,
+    "volume": "16",
+    "issue": "10",
+    "page": "3879"
   },
   {
     "title": "Modulating buried interface with multi-fluorine containing organic molecule toward efficient NiOx-based inverted perovskite solar cell",
@@ -2652,7 +2970,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Nano Energy"
     ],
-    "index": 402
+    "index": 402,
+    "volume": "111",
+    "issue": "",
+    "page": "108363"
   },
   {
     "title": "Crystal phase of nickel sulfide dictates hydrogen evolution activity of various semiconducting photocatalysts",
@@ -2678,7 +2999,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 401
+    "index": 401,
+    "volume": "10",
+    "issue": "20",
+    "page": "5917-5926"
   },
   {
     "title": "Incorporating Fe, Co co-doped graphene with PDI supermolecular for promoted photocatalytic activity: A story of electron transfer",
@@ -2699,7 +3023,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 400
+    "index": 400,
+    "volume": "637",
+    "issue": "",
+    "page": "94-103"
   },
   {
     "title": "The effects of the planarity of the core building block and peripheral donor groups on the photovoltaic performance of triarylated amine-based hole transport materials",
@@ -2720,7 +3047,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 399
+    "index": 399,
+    "volume": "47",
+    "issue": "24",
+    "page": "11470-11477"
   },
   {
     "title": "Unraveling the unique role of brown graphitic carbon nitride in robust CO2 photoreduction",
@@ -2741,7 +3071,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 398
+    "index": 398,
+    "volume": "615",
+    "issue": "",
+    "page": "156173"
   },
   {
     "title": "Variable valence Mo5+/Mo6+ionic bridge in hollow spherical g-C3N4/Bi2MoO6 catalysts for promoting selective visible light-driven CO2 photoreduction into CO",
@@ -2762,7 +3095,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 397
+    "index": 397,
+    "volume": "80",
+    "issue": "",
+    "page": "361-372"
   },
   {
     "title": "Indium-based ternary metal sulfide for photocatalytic CO2 reduction application",
@@ -2788,7 +3124,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 396
+    "index": 396,
+    "volume": "44",
+    "issue": "",
+    "page": "67-95"
   },
   {
     "title": "Enhancement of the Photocatalytic Oxygen Production by Tantalum Nitride Supported Fe Atom Embedded N-Doped Graphene Oxide",
@@ -2809,7 +3148,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 395
+    "index": 395,
+    "volume": "41",
+    "issue": "3",
+    "page": "280-286"
   },
   {
     "title": "Crystalline Ni-Fe phosphide/amorphous P doped Fe-(oxy)hydroxide heterostructure as a multifunctional electrocatalyst for solar cell-driven hydrogen production",
@@ -2835,7 +3177,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 394
+    "index": 394,
+    "volume": "631",
+    "issue": "",
+    "page": "56-65"
   },
   {
     "title": "Porous carbon nitride nanotubes efficiently promote two-electron O2 reduction for photocatalytic H2O2 production",
@@ -2856,7 +3201,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 393
+    "index": 393,
+    "volume": "934",
+    "issue": "",
+    "page": "167901"
   },
   {
     "title": "Modulating electronic structure of lattice O-modified orange polymeric carbon nitrogen to promote photocatalytic CO2 conversion",
@@ -2889,7 +3237,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 392
+    "index": 392,
+    "volume": "320",
+    "issue": "",
+    "page": "122005"
   },
   {
     "title": "Highly exposed active sites of Au nanoclusters for photocatalytic CO2 reduction",
@@ -2917,7 +3268,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 391
+    "index": 391,
+    "volume": "451",
+    "issue": "",
+    "page": "138392"
   },
   {
     "title": "Direct reduction of diluted CO2 gas to C2 products by copper hydroxyphosphate microrods",
@@ -2938,7 +3292,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 390
+    "index": 390,
+    "volume": "69",
+    "issue": "12",
+    "page": "e18233"
   },
   {
     "title": "Recent advances in graphitic carbon nitride-based photocatalysts for solar-driven hydrogen production",
@@ -2964,7 +3321,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 389
+    "index": 389,
+    "volume": "3",
+    "issue": "4",
+    "page": "100235"
   },
   {
     "title": "Stacking Engineering of Heterojunctions in Half-Metallic Carbon Nitride for Efficient CO2 Photoreduction",
@@ -2990,7 +3350,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 388
+    "index": 388,
+    "volume": "10",
+    "issue": "36",
+    "page": "2307192"
   },
   {
     "title": "Strongly coupled NH2NH-modified high crystallinity Graphene quantum dots/Carbon Nitride for efficient photocatalytic hydrogen evolution",
@@ -3016,7 +3379,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 387
+    "index": 387,
+    "volume": "48",
+    "issue": "94",
+    "page": "36818-36824"
   },
   {
     "title": "Piezo-photocatalysis for efficient charge separation to promote CO2 photoreduction in nanoclusters",
@@ -3042,7 +3408,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 386
+    "index": 386,
+    "volume": "101",
+    "issue": "",
+    "page": "106653"
   },
   {
     "title": "Carbonized polymer dots modified ZnIn2S4 microspheres for visible-light-driven hydrogen evolution promotion performance",
@@ -3068,7 +3437,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 385
+    "index": 385,
+    "volume": "651",
+    "issue": "",
+    "page": "948-958"
   },
   {
     "title": "Parametric Analysis and Optimization Design of the Twin-Volute for a New Type of Dishwasher Pump",
@@ -3089,7 +3461,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 384
+    "index": 384,
+    "volume": "11",
+    "issue": "2",
+    "page": "305"
   },
   {
     "title": "Mesoporous Ultrathin g-C3N4 with Surface Defects Activates Peroxodisulfate for Tetracycline Removal under Visible Light: Synergy and Mechanism",
@@ -3110,7 +3485,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 383
+    "index": 383,
+    "volume": "6",
+    "issue": "12",
+    "page": "2200278"
   },
   {
     "title": "Tailoring Surface Frustrated Lewis Pairs of Mo-Doped Porous Ultrathin Carbon Nitride for Photocatalytic Nitrogen Fixation",
@@ -3131,7 +3509,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 382
+    "index": 382,
+    "volume": "219",
+    "issue": "24",
+    "page": "2200499"
   },
   {
     "title": "Improved atomic hydrogen desorption by Cu3N with suitable electronic structure to enhance photocatalytic H2 evolution",
@@ -3157,7 +3538,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 381
+    "index": 381,
+    "volume": "29",
+    "issue": "",
+    "page": "101111"
   },
   {
     "title": "Engineering oxygen into ultrathin graphitic carbon nitride: synergistic improvement of electron reduction and charge carrier dynamics for efficient photocatalysis",
@@ -3178,7 +3562,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 380
+    "index": 380,
+    "volume": "25",
+    "issue": "",
+    "page": "100956"
   },
   {
     "title": "Activation of Fe species on graphitic carbon nitride nanotubes for efficient photocatalytic ammonia synthesis",
@@ -3199,7 +3586,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 379
+    "index": 379,
+    "volume": "46",
+    "issue": "10",
+    "page": "13453-13462"
   },
   {
     "title": "A bubble-assisted strategy to prepare porous ultrathin carbon nitride for highly-active photocatalytic hydrogen production",
@@ -3225,7 +3615,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 378
+    "index": 378,
+    "volume": "904",
+    "issue": "",
+    "page": "163788"
   },
   {
     "title": "Construction of brown mesoporous carbon nitride with a wide spectral response for high performance photocatalytic H2evolution",
@@ -3246,7 +3639,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 377
+    "index": 377,
+    "volume": "9",
+    "issue": "1",
+    "page": "103-110"
   },
   {
     "title": "Highly efficient photosynthesis of H2O2via twochannel pathway photocatalytic water splitting",
@@ -3272,7 +3668,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 376
+    "index": 376,
+    "volume": "9",
+    "issue": "8",
+    "page": "1701-1707"
   },
   {
     "title": "Crystal phase engineering boosted photo-electrochemical kinetics of CoSe2 for oxygen evolution catalysis",
@@ -3293,7 +3692,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 375
+    "index": 375,
+    "volume": "611",
+    "issue": "",
+    "page": "22-28"
   },
   {
     "title": "Inherent Facet-Dominant effect for cobalt oxide nanosheets to enhance photocatalytic CO2 reduction",
@@ -3319,7 +3721,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 374
+    "index": 374,
+    "volume": "578",
+    "issue": "",
+    "page": "151848"
   },
   {
     "title": "Nanozyme-catalyzed cascade reactions for high-sensitive glucose sensing and efficient bacterial killing",
@@ -3340,7 +3745,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 373
+    "index": 373,
+    "volume": "353",
+    "issue": "",
+    "page": "131156"
   },
   {
     "title": "Multidimensional In2O3/In2S3 heterojunction with lattice distortion for CO2 photoconversion",
@@ -3366,7 +3774,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 372
+    "index": 372,
+    "volume": "43",
+    "issue": "5",
+    "page": "1286-1294"
   },
   {
     "title": "Mo-O-Bi Bonds as interfacial electron transport bridges to fuel CO2 photoreduction via in-situ reconstruction of black Bi2MoO6/BiO2-x heterojunction",
@@ -3394,7 +3805,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 371
+    "index": 371,
+    "volume": "429",
+    "issue": "",
+    "page": "132204"
   },
   {
     "title": "Modulating electronic structure of ternary NiMoV LDH nanosheet array induced by doping engineering to promote urea oxidation reaction",
@@ -3417,7 +3831,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 370
+    "index": 370,
+    "volume": "430",
+    "issue": "",
+    "page": "133100"
   },
   {
     "title": "An all-organic spatial structure composed of perylene diimide/mesoporous graphitic carbon nitride for high efficiency photocatalysis",
@@ -3438,7 +3855,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 369
+    "index": 369,
+    "volume": "605",
+    "issue": "",
+    "page": "154625"
   },
   {
     "title": "Challenges and Opportunities in Electrocatalytic CO2 Reduction to Chemicals and Fuels",
@@ -3467,7 +3887,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Angew. Chem."
     ],
-    "index": 368
+    "index": 368,
+    "volume": "61",
+    "issue": "49",
+    "page": "e202211396"
   },
   {
     "title": "Construction of S-Co-S internal electron transport bridges in Co-doped CuInS2 for enhancing photocatalytic CO2 reduction",
@@ -3493,7 +3916,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 367
+    "index": 367,
+    "volume": "26",
+    "issue": "",
+    "page": "101078"
   },
   {
     "title": "0D/2D CoN/g-C3N4 Composites: Structure and Photocatalytic Performance for Hydrogen Production",
@@ -3519,7 +3945,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 366
+    "index": 366,
+    "volume": "37",
+    "issue": "9",
+    "page": "1001"
   },
   {
     "title": "Improved Water Oxidation of Fe2O3/Fe2TiO5 Photoanode by Functionalizing with a Hydrophilic Organic Hole Storage Overlayer",
@@ -3548,7 +3977,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "ACS Catal."
     ],
-    "index": 365
+    "index": 365,
+    "volume": "12",
+    "issue": "13",
+    "page": "7833-7842"
   },
   {
     "title": "Boosting Hydrogen Production by Selective Anodic Electrooxidation of Ethanol over Trimetallic PdSbBi Nanoparticles: Composition Matters",
@@ -3569,7 +4001,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 364
+    "index": 364,
+    "volume": "61",
+    "issue": "40",
+    "page": "16211-16219"
   },
   {
     "title": "Electron transport interface engineering with pyridine functionalized perylene diimide-based material for inverted perovskite solar cell",
@@ -3592,7 +4027,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 363
+    "index": 363,
+    "volume": "438",
+    "issue": "",
+    "page": "135410"
   },
   {
     "title": "Adsorption of BiOBr microspheres to rhodamine B and its influence on photocatalytic reaction",
@@ -3618,7 +4056,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 362
+    "index": 362,
+    "volume": "304",
+    "issue": "",
+    "page": "135320"
   },
   {
     "title": "Facet-dependent CdS/Bi4TaO8Cl Z-scheme heterojunction for enhanced photocatalytic tetracycline hydrochloride degradation and the carrier separation mechanism study via single-particle spectroscopy",
@@ -3644,7 +4085,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 361
+    "index": 361,
+    "volume": "9",
+    "issue": "10",
+    "page": "2252-2263"
   },
   {
     "title": "Anchoring Copper Single Atoms on Porous Boron Nitride Nanofiber to Boost Selective Reduction of Nitroaromatics",
@@ -3668,7 +4112,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "ACS Nano"
     ],
-    "index": 360
+    "index": 360,
+    "volume": "16",
+    "issue": "3",
+    "page": "4152-4161"
   },
   {
     "title": "Donor-π-acceptor cobalt porphyrins for electrocatalytic oxygen reduction reaction in acidic medium",
@@ -3689,7 +4136,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 359
+    "index": 359,
+    "volume": "902",
+    "issue": "",
+    "page": "163790"
   },
   {
     "title": "Enhanced photoelectrochemical aptasensing triggered by nitrogen deficiency and cyano group simultaneously engineered 2D carbon nitride for sensitively monitoring atrazine",
@@ -3715,7 +4165,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 358
+    "index": 358,
+    "volume": "206",
+    "issue": "",
+    "page": "114144"
   },
   {
     "title": "Facile synthesis of a novel 0D/2D CdS/Bi4TaO8Br heterojunction for enhanced photocatalytic tetracycline hydrochloride degradation under visible light",
@@ -3741,7 +4194,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 357
+    "index": 357,
+    "volume": "46",
+    "issue": "37",
+    "page": "17704-17712"
   },
   {
     "title": "Facile Synthesis of Novel 0d/2d Cds/Bi4tao8br Heterojunction for Enhanced Photocatalytic Tetracycline Hydrochloride Degradation Under Visible Light",
@@ -3767,7 +4223,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 356
+    "index": 356,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Zeolite imidazole framework-8(ZIF-8) decorated keratin-based air filters with formaldehyde removal and photocatalytic disinfection performance",
@@ -3788,7 +4247,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 355
+    "index": 355,
+    "volume": "23",
+    "issue": "",
+    "page": "100689"
   },
   {
     "title": "Porous silver microrods by plasma vulcanization activation for enhanced electrocatalytic carbon dioxide reduction",
@@ -3814,7 +4276,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 354
+    "index": 354,
+    "volume": "606",
+    "issue": "",
+    "page": "793-799"
   },
   {
     "title": "Synergistic effect of isolated Co and Fe dual active sites boosting the photocatalytic hydrogen evolution reaction",
@@ -3840,7 +4305,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 353
+    "index": 353,
+    "volume": "895",
+    "issue": "",
+    "page": "162290"
   },
   {
     "title": "Self-assembly construction of NiCo LDH/ultrathin g-C3N4 nanosheets photocatalyst for enhanced CO2 reduction and charge separation mechanism study",
@@ -3866,7 +4334,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 352
+    "index": 352,
+    "volume": "41",
+    "issue": "6",
+    "page": "2118-2128"
   },
   {
     "title": "Positively charged silver improve carbon dioxide electroreduction reaction performance by introducing phosphate",
@@ -3887,7 +4358,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 351
+    "index": 351,
+    "volume": "609",
+    "issue": "",
+    "page": "65-74"
   },
   {
     "title": "Ultrathin structure of oxygen doped carbon nitride for efficient CO2photocatalytic reduction",
@@ -3908,7 +4382,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 350
+    "index": 350,
+    "volume": "33",
+    "issue": "11",
+    "page": "115404"
   },
   {
     "title": "UV-Vis-NIR full-range-responsive carbon-rich carbon nitride nanotubes for enhanced photocatalytic performance",
@@ -3929,7 +4406,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 349
+    "index": 349,
+    "volume": "46",
+    "issue": "10",
+    "page": "4654-4665"
   },
   {
     "title": "Synergistic Effect in Plasmonic CuAu Alloys as Co-Catalyst on SnIn4S8 for Boosted Solar-Driven CO2 Reduction",
@@ -3955,7 +4435,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 348
+    "index": 348,
+    "volume": "12",
+    "issue": "12",
+    "page": "1588"
   },
   {
     "title": "Simultaneous manipulation of scalable absorbance and the electronic bridge for efficient CO2 photoreduction",
@@ -3976,7 +4459,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 347
+    "index": 347,
+    "volume": "10",
+    "issue": "48",
+    "page": "25661-25670"
   },
   {
     "title": "Tuning Metal-Free Hierarchical Boron Nitride-like Catalyst for Enhanced Photocatalytic CO2 Reduction Activity",
@@ -4005,7 +4491,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "ACS Catal."
     ],
-    "index": 346
+    "index": 346,
+    "volume": "12",
+    "issue": "19",
+    "page": "12217-12226"
   },
   {
     "title": "Reinforcement effect in printing precision and sintering performance for liquid crystal display stereolithography additive manufacturing of alumina ceramics",
@@ -4026,7 +4515,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 345
+    "index": 345,
+    "volume": "48",
+    "issue": "22",
+    "page": "33809-33818"
   },
   {
     "title": "Noble-metal-free Co-N-graphene/PDI for significant enhancement of photocatalytic performance",
@@ -4047,7 +4539,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 344
+    "index": 344,
+    "volume": "925",
+    "issue": "",
+    "page": "166370"
   },
   {
     "title": "Nb-doped NiFe LDH nanosheet with superhydrophilicity and superaerophobicity surface for solar cell-driven electrocatalytic water splitting",
@@ -4073,7 +4568,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 343
+    "index": 343,
+    "volume": "429",
+    "issue": "",
+    "page": "140947"
   },
   {
     "title": "Selective CO2 Reduction to Ethylene Over a Wide Potential Window by Copper Nanowires with High Density of Defects",
@@ -4094,7 +4592,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 342
+    "index": 342,
+    "volume": "61",
+    "issue": "50",
+    "page": "20666-20673"
   },
   {
     "title": "Orthogonal Optimization Design of the Compound Impeller for a New Type of Dishwasher Pump",
@@ -4115,7 +4616,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 341
+    "index": 341,
+    "volume": "10",
+    "issue": "9",
+    "page": "1813"
   },
   {
     "title": "Extraction of cucumber phloem sap based on the capillary-air pressure principle",
@@ -4136,7 +4640,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 340
+    "index": 340,
+    "volume": "72",
+    "issue": "6",
+    "page": "233-243"
   },
   {
     "title": "Investigation of Unsteady Pressure Pulsation in New Type Dishwasher Pump with Special Double Tongue Volute",
@@ -4157,7 +4664,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 339
+    "index": 339,
+    "volume": "2022",
+    "issue": "",
+    "page": "1-11"
   },
   {
     "title": "Numerical Analysis of a New Type of Dishwasher Pump for Different Rotation Speeds of the Volute",
@@ -4178,7 +4688,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 338
+    "index": 338,
+    "volume": "9",
+    "issue": "",
+    "page": "825159"
   },
   {
     "title": "Designing all-solid-state heterostructure photocatalyst Bi405l2/ Ag3P04 for improved photocatalysis and photocatalytic mechanism insight",
@@ -4204,7 +4717,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 337
+    "index": 337,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Construction 3D rod-like Bi3.64Mo0.36O6.55/CuBi2O4 photocatalyst for enhanced photocatalytic activity via a photo-Fenton-like Cu2+/Cu+ redox cycle",
@@ -4230,7 +4746,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 336
+    "index": 336,
+    "volume": "254",
+    "issue": "",
+    "page": "117546"
   },
   {
     "title": "Large-scale production of ultrathin carbon nitride-based photocatalysts for high-yield hydrogen evolution",
@@ -4263,7 +4782,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 335
+    "index": 335,
+    "volume": "281",
+    "issue": "",
+    "page": "119475"
   },
   {
     "title": "In-situ surface reconstruction in Pt and P co-treated hematite for enhanced water oxidation",
@@ -4286,7 +4808,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 334
+    "index": 334,
+    "volume": "413",
+    "issue": "",
+    "page": "127416"
   },
   {
     "title": "In Situ Growth and Activation of Ag/Ag2S Nanowire Clusters by H2S Plasma Treatment for Promoted Electrocatalytic CO2 Reduction",
@@ -4312,7 +4837,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 333
+    "index": 333,
+    "volume": "5",
+    "issue": "12",
+    "page": "2100256"
   },
   {
     "title": "Metallic rhombohedral NbS2/2D g-C3N4 composite with enhanced photogenerated carriers separation and photocatalytic performance",
@@ -4333,7 +4861,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 332
+    "index": 332,
+    "volume": "542",
+    "issue": "",
+    "page": "148619"
   },
   {
     "title": "Realizing the synergistic effect of electronic modulation over graphitic carbon nitride for highly efficient photodegradation of bisphenol A and 2-mercaptobenzothiazole: Mechanism, degradation pathway and density functional theory calculation",
@@ -4359,7 +4890,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 331
+    "index": 331,
+    "volume": "583",
+    "issue": "",
+    "page": "113-127"
   },
   {
     "title": "Accelerating photocatalytic hydrogen evolution of Ta2O5/g-C3N4 via nanostructure engineering and surface assembly",
@@ -4385,7 +4919,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 330
+    "index": 330,
+    "volume": "46",
+    "issue": "39",
+    "page": "20516-20523"
   },
   {
     "title": "Black phosphorus nanoflakes decorated hematite photoanode with functional phosphate bridges for enhanced water oxidation",
@@ -4413,7 +4950,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 329
+    "index": 329,
+    "volume": "425",
+    "issue": "",
+    "page": "131500"
   },
   {
     "title": "Carbon-mediated electron transfer channel between SnO2 QDs and g-C3N4 for enhanced photocatalytic H2 production",
@@ -4441,7 +4981,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 328
+    "index": 328,
+    "volume": "425",
+    "issue": "",
+    "page": "131512"
   },
   {
     "title": "Preparation and photocatalytic performance of metallic Nb0.9Ta0.1S2/2D-C3N4composite",
@@ -4462,7 +5005,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 327
+    "index": 327,
+    "volume": "1",
+    "issue": "1",
+    "page": "itab005"
   },
   {
     "title": "An efficient broad spectrum-driven carbon and oxygen co-doped g-C3N4 for the photodegradation of endocrine disrupting: Mechanism, degradation pathway, DFT calculation and toluene selective oxidation",
@@ -4493,7 +5039,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 326
+    "index": 326,
+    "volume": "401",
+    "issue": "",
+    "page": "123309"
   },
   {
     "title": "Novel ionic liquid modified carbon nitride fabricated by in situ pyrolysis of 1-butyl-3-methylimidazolium cyanamide to improve electronic structure for efficiently degradation of bisphenol A",
@@ -4514,7 +5063,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 325
+    "index": 325,
+    "volume": "610",
+    "issue": "",
+    "page": "125648"
   },
   {
     "title": "Construction of dual ion (Fe3+/Fe2+ and Nb5+/Nb4+) synergy and full spectrum 1D nanorod Fe2O3/NaNbO3 photo-Fenton catalyst for the degradation of antibiotic: Effects of H2O2, S2O82- and toxicity",
@@ -4535,7 +5087,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 324
+    "index": 324,
+    "volume": "261",
+    "issue": "",
+    "page": "118269"
   },
   {
     "title": "A novel composite material based on hydroxylated g-C3N4 and oxygen-vacant TiO2 for improvement of photocatalytic performance",
@@ -4556,7 +5111,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 323
+    "index": 323,
+    "volume": "546",
+    "issue": "",
+    "page": "149085"
   },
   {
     "title": "Recent advance in single-atom catalysis",
@@ -4577,7 +5135,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 322
+    "index": 322,
+    "volume": "40",
+    "issue": "4",
+    "page": "767-789"
   },
   {
     "title": "Boosting CO2 Capture and Its Photochemical Conversion on Bismuth Surface",
@@ -4598,7 +5159,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 321
+    "index": 321,
+    "volume": "218",
+    "issue": "9",
+    "page": "2000671"
   },
   {
     "title": "Complete removal of phenolic contaminants from bismuth-modified TiO2 single-crystal photocatalysts",
@@ -4619,7 +5183,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 320
+    "index": 320,
+    "volume": "42",
+    "issue": "2",
+    "page": "347-355"
   },
   {
     "title": "Surface Engineering of 2D Carbon Nitride with Cobalt Sulfide Cocatalyst for Enhanced Photocatalytic Hydrogen Evolution",
@@ -4645,7 +5212,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 319
+    "index": 319,
+    "volume": "218",
+    "issue": "10",
+    "page": "2100012"
   },
   {
     "title": "Nanostructure and functional group engineering of black phosphorus via plasma treatment for CO2 photoreduction",
@@ -4666,7 +5236,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 318
+    "index": 318,
+    "volume": "54",
+    "issue": "",
+    "page": "101745"
   },
   {
     "title": "Synthesis of carbon nitride in moist environments: A defect engineering strategy toward superior photocatalytic hydrogen evolution reaction",
@@ -4692,7 +5265,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 317
+    "index": 317,
+    "volume": "54",
+    "issue": "",
+    "page": "403-413"
   },
   {
     "title": "Plasma-induced black bismuth tungstate as a photon harvester for photocatalytic carbon dioxide conversion",
@@ -4718,7 +5294,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 316
+    "index": 316,
+    "volume": "45",
+    "issue": "4",
+    "page": "1993-2000"
   },
   {
     "title": "Grain-boundary surface terminations incorporating oxygen vacancies for selectively boosting CO2 photoreduction activity",
@@ -4742,7 +5321,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Nano Energy"
     ],
-    "index": 315
+    "index": 315,
+    "volume": "84",
+    "issue": "",
+    "page": "105869"
   },
   {
     "title": "Constructing Ni3C/2D g-C3N4 Photocatalyst and the Internal Catalytic Mechanism Study",
@@ -4763,7 +5345,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 314
+    "index": 314,
+    "volume": "218",
+    "issue": "19",
+    "page": "2100171"
   },
   {
     "title": "Accelerated Photoreduction of CO2to CO over a Stable Heterostructure with a Seamless Interface",
@@ -4784,7 +5369,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 313
+    "index": 313,
+    "volume": "13",
+    "issue": "33",
+    "page": "39523-39532"
   },
   {
     "title": "Sulfur promoted n-π* electron transitions in thiophene-doped g-C3N4 for enhanced photocatalytic activity",
@@ -4805,7 +5393,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 312
+    "index": 312,
+    "volume": "42",
+    "issue": "3",
+    "page": "450-459"
   },
   {
     "title": "Steering Hole Transfer from the Light Absorber to Oxygen Evolution Sites for Photocatalytic Overall Water Splitting",
@@ -4831,7 +5422,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 311
+    "index": 311,
+    "volume": "8",
+    "issue": "22",
+    "page": "2101158"
   },
   {
     "title": "Minireview on the Commonly Applied Copper-Based Electrocatalysts for Electrochemical CO2Reduction",
@@ -4852,7 +5446,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 310
+    "index": 310,
+    "volume": "35",
+    "issue": "10",
+    "page": "8585-8601"
   },
   {
     "title": "Fe atom clusters embedded N-doped graphene decorated with ultrathin mesoporous carbon nitride nanosheets for high efficient photocatalytic performance",
@@ -4873,7 +5470,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 309
+    "index": 309,
+    "volume": "629",
+    "issue": "",
+    "page": "127360"
   },
   {
     "title": "Exploring deep effects of atomic vacancies on activating CO2 photoreduction via rationally designing indium oxide photocatalysts",
@@ -4901,7 +5501,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 308
+    "index": 308,
+    "volume": "422",
+    "issue": "",
+    "page": "129888"
   },
   {
     "title": "Construction of 2D/2D Z-scheme MnO2-x/g-C3N4 photocatalyst for efficient nitrogen fixation to ammonia",
@@ -4922,7 +5525,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 307
+    "index": 307,
+    "volume": "6",
+    "issue": "4",
+    "page": "538-545"
   },
   {
     "title": "Self-assembly and boosted photodegradation properties of perylene diimide via different solvents",
@@ -4948,7 +5554,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 306
+    "index": 306,
+    "volume": "45",
+    "issue": "46",
+    "page": "21701-21707"
   },
   {
     "title": "Facilitated interfacial charge separation using triphenylamine-zinc porphyrin dyad-sensitized TiO2 nanoparticles for photocatalysis",
@@ -4974,7 +5583,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 305
+    "index": 305,
+    "volume": "889",
+    "issue": "",
+    "page": "161795"
   },
   {
     "title": "Highly efficient removal of organic pollutants from wastewater using a recyclable graphene oxide membrane intercalated with g-C3N4@TiO2-nanowires",
@@ -4995,7 +5607,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 304
+    "index": 304,
+    "volume": "337",
+    "issue": "",
+    "page": "116461"
   },
   {
     "title": "DESIGNING ALL-SOLID-STATE HETEROSTRUCTURE PHOTOCATALYST Bi4O5I2/Ag3PO4 FOR IMPROVED PHOTOCATALYSIS AND PHOTOCATALYTIC MECHANISM INSIGHT",
@@ -5021,7 +5636,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 303
+    "index": 303,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Unique Dual-Sites Boosting Overall CO2 Photoconversion by Hierarchical Electron Harvesters",
@@ -5044,7 +5662,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Small"
     ],
-    "index": 302
+    "index": 302,
+    "volume": "17",
+    "issue": "40",
+    "page": "2103796"
   },
   {
     "title": "Unraveling the role of Ti3C2 MXene underlayer for enhanced photoelectrochemical water oxidation of hematite photoanodes",
@@ -5080,7 +5701,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 301
+    "index": 301,
+    "volume": "52",
+    "issue": "",
+    "page": "147-154"
   },
   {
     "title": "Ultrafast electron extraction by 2D carbon nitride modified with CoS cocatalyst for efficient photocatalytic performance",
@@ -5101,7 +5725,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 300
+    "index": 300,
+    "volume": "617",
+    "issue": "",
+    "page": "126151"
   },
   {
     "title": "A critical introduction to language evolution: Current controversies and future prospects",
@@ -5122,7 +5749,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 299
+    "index": 299,
+    "volume": "55",
+    "issue": "1",
+    "page": "307-312"
   },
   {
     "title": "Experimental Investigation of Unsteady Pressure Pulsation in New Type Dishwasher Pump with Special Double-Tongue Volute",
@@ -5143,7 +5773,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 298
+    "index": 298,
+    "volume": "9",
+    "issue": "11",
+    "page": "288"
   },
   {
     "title": "Direct Z-scheme red carbon nitride/rod-like lanthanum vanadate composites with enhanced photodegradation of antibiotic contaminants",
@@ -5171,7 +5804,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 297
+    "index": 297,
+    "volume": "277",
+    "issue": "",
+    "page": "119245"
   },
   {
     "title": "Graphene Oxide-Loaded SnO2Quantum Wires with Sub-4 Nanometer Diameters for Low-Temperature H2S Gas Sensing",
@@ -5192,7 +5828,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 296
+    "index": 296,
+    "volume": "3",
+    "issue": "7",
+    "page": "6385-6393"
   },
   {
     "title": "Cryo-induced closely bonded heterostructure for effective CO2 conversion: The case of ultrathin BP nanosheets/g-C3N4",
@@ -5213,7 +5852,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 295
+    "index": 295,
+    "volume": "49",
+    "issue": "",
+    "page": "89-95"
   },
   {
     "title": "Nitrogen-rich graphitic carbon nitride nanotubes for photocatalytic hydrogen evolution with simultaneous contaminant degradation",
@@ -5244,7 +5886,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 294
+    "index": 294,
+    "volume": "560",
+    "issue": "",
+    "page": "555-564"
   },
   {
     "title": "ENHANCED PHOTODEGRADATION ACTIVITY of METHYLENE BLUE over Z-SCHEME TYPE mpg-C3N4/MoO3 COMPOSITE under VISIBLE LIGHT IRRADIATION",
@@ -5270,7 +5915,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 293
+    "index": 293,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Construction of polythiophene/Bi4O5I2 nanocomposites to promote photocatalytic degradation of bisphenol a",
@@ -5296,7 +5944,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 292
+    "index": 292,
+    "volume": "823",
+    "issue": "",
+    "page": "153773"
   },
   {
     "title": "Preparation of magnetically recoverable and Z-scheme BaFe12O19/AgBr composite for degradation of 2-Mercaptobenzothiazole and Methyl orange under visible light",
@@ -5317,7 +5968,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 291
+    "index": 291,
+    "volume": "521",
+    "issue": "",
+    "page": "146343"
   },
   {
     "title": "Crystal phase dependent solar driven hydrogen evolution catalysis over cobalt diselenide",
@@ -5340,7 +5994,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 290
+    "index": 290,
+    "volume": "396",
+    "issue": "",
+    "page": "125244"
   },
   {
     "title": "Accelerating the Hole Mobility of Graphitic Carbon Nitride for Photocatalytic Hydrogen Evolution via 2D/2D Heterojunction Structural Advantages and Ni(OH)2 Characteristic",
@@ -5366,7 +6023,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 289
+    "index": 289,
+    "volume": "4",
+    "issue": "8",
+    "page": "1900538"
   },
   {
     "title": "Short-time Thermal Oxidation of Ultrathin and Broadband Carbon Nitride for Efficient Photocatalytic H2 Generation",
@@ -5392,7 +6052,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 288
+    "index": 288,
+    "volume": "12",
+    "issue": "4",
+    "page": "1169-1176"
   },
   {
     "title": "Dopant-free methoxy substituted copper(II) phthalocyanine for highly efficient and stable perovskite solar cells",
@@ -5415,7 +6078,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 287
+    "index": 287,
+    "volume": "387",
+    "issue": "",
+    "page": "124130"
   },
   {
     "title": "Hierarchical: Z-scheme g-C3N4/Au/ZnIn2S4 photocatalyst for highly enhanced visible-light photocatalytic nitric oxide removal and carbon dioxide conversion",
@@ -5446,7 +6112,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 286
+    "index": 286,
+    "volume": "7",
+    "issue": "2",
+    "page": "676-687"
   },
   {
     "title": "Surface amorphous carbon doping of carbon nitride for efficient acceleration of electron transfer to boost photocatalytic activities",
@@ -5467,7 +6136,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 285
+    "index": 285,
+    "volume": "507",
+    "issue": "",
+    "page": "145145"
   },
   {
     "title": "Preparation of MOFs-derived hollow Co3O4/CdIn2S4 heterojunction with enhanced photocatalytic carbon dioxide reduction activity,MOFs诱导中空Co3O4/CdIn2S4合成及光催化CO2还原性能研究",
@@ -5493,7 +6165,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 284
+    "index": 284,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Spatially confined Fe2O3 in hierarchical SiO2@TiO2 hollow sphere exhibiting superior photocatalytic efficiency for degrading antibiotics",
@@ -5521,7 +6196,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 283
+    "index": 283,
+    "volume": "380",
+    "issue": "",
+    "page": "122583"
   },
   {
     "title": "Constructing binary electron transport layer with cascade energy level alignment for efficient CsPbI2Br solar cells",
@@ -5545,7 +6223,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Nano Energy"
     ],
-    "index": 282
+    "index": 282,
+    "volume": "71",
+    "issue": "",
+    "page": "104604"
   },
   {
     "title": "Porous defective carbon nitride obtained by a universal method for photocatalytic hydrogen production from water splitting",
@@ -5571,7 +6252,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 281
+    "index": 281,
+    "volume": "566",
+    "issue": "",
+    "page": "171-182"
   },
   {
     "title": "Enhanced visible-light-driven photocatalytic hydrogen evolution and NO photo-oxidation capacity of ZnO/g-C3N4 with N dopant",
@@ -5597,7 +6281,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 280
+    "index": 280,
+    "volume": "599",
+    "issue": "",
+    "page": "124869"
   },
   {
     "title": "Novel broad-spectrum-driven oxygen-linked band and porous defect co-modified orange carbon nitride for photodegradation of Bisphenol A and 2-Mercaptobenzothiazole",
@@ -5623,7 +6310,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 279
+    "index": 279,
+    "volume": "396",
+    "issue": "",
+    "page": "122659"
   },
   {
     "title": "Understanding Photoelectrochemical Water Oxidation with X-ray Absorption Spectroscopy",
@@ -5654,7 +6344,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 278
+    "index": 278,
+    "volume": "5",
+    "issue": "3",
+    "page": "975-993"
   },
   {
     "title": "Tandem Electrodes for Carbon Dioxide Reduction into C2+ Products at Simultaneously High Production Efficiency and Rate",
@@ -5677,7 +6370,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Selected"
     ],
-    "index": 277
+    "index": 277,
+    "volume": "1",
+    "issue": "4",
+    "page": "100051"
   },
   {
     "title": "Plasma-induced defect engineering: Boosted the reverse water gas shift reaction performance with electron trap",
@@ -5698,7 +6394,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 276
+    "index": 276,
+    "volume": "580",
+    "issue": "",
+    "page": "814-821"
   },
   {
     "title": "Enhanced photocatalytic H2 evolution by deposition of metal nanoparticles into mesoporous structure of g-C3N4",
@@ -5724,7 +6423,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 275
+    "index": 275,
+    "volume": "585",
+    "issue": "",
+    "page": "124067"
   },
   {
     "title": "Direct Z-scheme photocatalyst for efficient water pollutant degradation: A case study of 2D g-C3N4/BiVO4",
@@ -5750,7 +6452,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 274
+    "index": 274,
+    "volume": "241",
+    "issue": "",
+    "page": "122308"
   },
   {
     "title": "Plasma treated Bi2WO6 ultrathin nanosheets with oxygen vacancies for improved photocatalytic CO2 reduction",
@@ -5776,7 +6481,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 273
+    "index": 273,
+    "volume": "7",
+    "issue": "3",
+    "page": "597-602"
   },
   {
     "title": "Emerging surface strategies on graphitic carbon nitride for solar driven water splitting",
@@ -5799,7 +6507,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 272
+    "index": 272,
+    "volume": "382",
+    "issue": "",
+    "page": "122812"
   },
   {
     "title": "An All-Organic D-A System for Visible-Light-Driven Overall Water Splitting",
@@ -5827,7 +6538,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Small"
     ],
-    "index": 271
+    "index": 271,
+    "volume": "16",
+    "issue": "48",
+    "page": "2003914"
   },
   {
     "title": "In situ construction efficient visible-light-driven three-dimensional Polypyrrole/Zn3In2S6 nanoflower to systematically explore the photoreduction of Cr(VI): Performance, factors and mechanism",
@@ -5848,7 +6562,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 270
+    "index": 270,
+    "volume": "384",
+    "issue": "",
+    "page": "121480"
   },
   {
     "title": "In-situ hydroxyl modification of monolayer black phosphorus for stable photocatalytic carbon dioxide conversion",
@@ -5881,7 +6598,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 269
+    "index": 269,
+    "volume": "269",
+    "issue": "",
+    "page": "118760"
   },
   {
     "title": "An all-organic TPA-3CN/2D-C3N4 heterostructure for high efficiency photocatalytic hydrogen evolution",
@@ -5907,7 +6627,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 268
+    "index": 268,
+    "volume": "589",
+    "issue": "",
+    "page": "124397"
   },
   {
     "title": "Efficient Z-scheme photocatalysts of ultrathin g-C3N4-wrapped Au/TiO2-nanocrystals for enhanced visible-light-driven conversion of CO2 with H2O",
@@ -5940,7 +6663,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 267
+    "index": 267,
+    "volume": "263",
+    "issue": "",
+    "page": "118314"
   },
   {
     "title": "Efficient photocatalytic hydrogen evolution by engineering amino groups into ultrathin 2D graphitic carbon nitride",
@@ -5966,7 +6692,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 266
+    "index": 266,
+    "volume": "507",
+    "issue": "",
+    "page": "145085"
   },
   {
     "title": "Metal Nanoparticles Confined within an Inorganic-Organic Framework Enable Superior Substrate-Selective Catalysis",
@@ -5987,7 +6716,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 265
+    "index": 265,
+    "volume": "12",
+    "issue": "38",
+    "page": "42739-42748"
   },
   {
     "title": "Nitriding Nickel-Based Cocatalyst: A Strategy to Maneuver Hydrogen Evolution Capacity for Enhanced Photocatalysis",
@@ -6013,7 +6745,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 264
+    "index": 264,
+    "volume": "8",
+    "issue": "2",
+    "page": "884-892"
   },
   {
     "title": "Solar driven high efficiency hydrogen evolution catalyzed by surface engineered ultrathin carbon nitride",
@@ -6034,7 +6769,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 263
+    "index": 263,
+    "volume": "44",
+    "issue": "44",
+    "page": "19314-19322"
   },
   {
     "title": "Effect of Acid Leaching on Silicon Nanoparticles and Their Electrochemical Performance in Lithium-Ion Batteries",
@@ -6060,7 +6798,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 262
+    "index": 262,
+    "volume": "20",
+    "issue": "4",
+    "page": "2543-2549"
   },
   {
     "title": "Heat transfer enhancement of wall with a near wall cylinder in a channel at low and middle Reynolds number ranges",
@@ -6081,7 +6822,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 261
+    "index": 261,
+    "volume": "53",
+    "issue": "9-10",
+    "page": "1998-2009"
   },
   {
     "title": "Evaluation of health risks associated with trace metal exposure in water from the Barekese reservoir in Kumasi, Ghana",
@@ -6102,7 +6846,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 260
+    "index": 260,
+    "volume": "26",
+    "issue": "4",
+    "page": "1134-1148"
   },
   {
     "title": "Aberrant NSUN2-mediated m5C modification of H19 lncRNA is associated with poor differentiation of hepatocellular carcinoma",
@@ -6123,7 +6870,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 259
+    "index": 259,
+    "volume": "39",
+    "issue": "45",
+    "page": "6906-6919"
   },
   {
     "title": "Chemical reduction implanted oxygen vacancy on the surface of 1D MoO3-x/g-C3N4 composite for boosted LED light-driven photoactivity",
@@ -6144,7 +6894,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 258
+    "index": 258,
+    "volume": "54",
+    "issue": "7",
+    "page": "5343-5358"
   },
   {
     "title": "Conjugated conducting polymers PANI decorated Bi 12 O 17 Cl 2 photocatalyst with extended light response range and enhanced photoactivity",
@@ -6165,7 +6918,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 257
+    "index": 257,
+    "volume": "464",
+    "issue": "",
+    "page": "552-561"
   },
   {
     "title": "Constructing Schottky junction between 2D semiconductor and metallic nickel phosphide for highly efficient catalytic hydrogen evolution",
@@ -6186,7 +6942,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 256
+    "index": 256,
+    "volume": "495",
+    "issue": "",
+    "page": "143528"
   },
   {
     "title": "2020 Roadmap on two-dimensional nanomaterials for environmental catalysis",
@@ -6207,7 +6966,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 255
+    "index": 255,
+    "volume": "30",
+    "issue": "12",
+    "page": "2065-2088"
   },
   {
     "title": "Accelerating Photogenerated Charge Kinetics via the Synergetic Utilization of 2D Semiconducting Structural Advantages and Noble-Metal-Free Schottky Junction Effect",
@@ -6231,7 +6993,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Small"
     ],
-    "index": 254
+    "index": 254,
+    "volume": "15",
+    "issue": "11",
+    "page": "1804613"
   },
   {
     "title": "Constructing Pd/2D-C 3 N 4 composites for efficient photocatalytic H 2 evolution through nonplasmon-induced bound electrons",
@@ -6252,7 +7017,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 253
+    "index": 253,
+    "volume": "467-468",
+    "issue": "",
+    "page": "151-157"
   },
   {
     "title": "Calcination synthesis of N-doped BiOIO 3 with high LED-light-driven photocatalytic activity",
@@ -6273,7 +7041,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 252
+    "index": 252,
+    "volume": "246",
+    "issue": "",
+    "page": "219-222"
   },
   {
     "title": "Advanced asymmetric supercapacitor based on molybdenum trioxide decorated nickel cobalt oxide nanosheets and three-dimensional α-FeOOH/rGO",
@@ -6294,7 +7065,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 251
+    "index": 251,
+    "volume": "320",
+    "issue": "",
+    "page": "134580"
   },
   {
     "title": "Unveiling the origin of boosted photocatalytic hydrogen evolution in simultaneously (S, P, O)-Codoped and exfoliated ultrathin g-C3N4 nanosheets",
@@ -6327,7 +7101,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 250
+    "index": 250,
+    "volume": "248",
+    "issue": "",
+    "page": "84-94"
   },
   {
     "title": "Efficient photocatalytic hydrogen evolution mediated by defect-rich 1T-PtS2 atomic layer nanosheet modified mesoporous graphitic carbon nitride",
@@ -6353,7 +7130,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 249
+    "index": 249,
+    "volume": "7",
+    "issue": "32",
+    "page": "18906-18914"
   },
   {
     "title": "Oxidative Absorption of Elemental Mercury from Flue Gas Using a Modified Fenton-like Wet Scrubbing System",
@@ -6374,7 +7154,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 248
+    "index": 248,
+    "volume": "33",
+    "issue": "4",
+    "page": "3028-3033"
   },
   {
     "title": "Integration of metallic TaS2 Co-catalyst on carbon nitride photoharvester for enhanced photocatalytic performance",
@@ -6395,7 +7178,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 247
+    "index": 247,
+    "volume": "97",
+    "issue": "6",
+    "page": "1821-1827"
   },
   {
     "title": "Construction of 3D Hierarchical GO/MoS2/g-C3N4 Ternary Nanocomposites with Enhanced Visible-Light Photocatalytic Degradation Performance",
@@ -6421,7 +7207,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 246
+    "index": 246,
+    "volume": "4",
+    "issue": "24",
+    "page": "7123-7133"
   },
   {
     "title": "Cryo-mediated liquid-phase exfoliated 2D BP coupled with 2D C3N4 to photodegradate organic pollutants and simultaneously generate hydrogen",
@@ -6447,7 +7236,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 245
+    "index": 245,
+    "volume": "490",
+    "issue": "",
+    "page": "117-123"
   },
   {
     "title": "Construction of a few-layer g-C3N4/Α-MoO3 nanoneedles all-solid-state Z-scheme photocatalytic system for photocatalytic degradation",
@@ -6473,7 +7265,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 244
+    "index": 244,
+    "volume": "29",
+    "issue": "",
+    "page": "65-71"
   },
   {
     "title": "Construction of cobaltous oxide/nickel-iron oxide electrodes with great cycle stability and high energy density for advanced asymmetry supercapacitor",
@@ -6494,7 +7289,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 243
+    "index": 243,
+    "volume": "30",
+    "issue": "24",
+    "page": "21219-21228"
   },
   {
     "title": "Construction of novel CNT/LaVO4 nanostructures for efficient antibiotic photodegradation",
@@ -6522,7 +7320,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 242
+    "index": 242,
+    "volume": "357",
+    "issue": "",
+    "page": "487-497"
   },
   {
     "title": "Construction of 2D SnS 2 /g-C 3 N 4 Z-scheme composite with superior visible-light photocatalytic performance",
@@ -6543,7 +7344,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 241
+    "index": 241,
+    "volume": "467-468",
+    "issue": "",
+    "page": "56-64"
   },
   {
     "title": "Construction of MnO2/Monolayer g-C3N4 with Mn vacancies for Z-scheme overall water splitting",
@@ -6571,7 +7375,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 240
+    "index": 240,
+    "volume": "241",
+    "issue": "",
+    "page": "452-460"
   },
   {
     "title": "Visible light driven 2H-MoS2/Bi2WO6 composite photocatalyst with enhanced visible light photocatalytic activity",
@@ -6597,7 +7404,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 239
+    "index": 239,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Metallic cobalt nanoparticles embedded in sulfur and nitrogen co-doped rambutan-like nanocarbons for the oxygen reduction reaction under both acidic and alkaline conditions",
@@ -6618,7 +7428,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 238
+    "index": 238,
+    "volume": "7",
+    "issue": "23",
+    "page": "14291-14301"
   },
   {
     "title": "Graphene quantum dots modified flower like Bi2WO6 for enhanced photocatalytic nitrogen fixation",
@@ -6639,7 +7452,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 237
+    "index": 237,
+    "volume": "557",
+    "issue": "",
+    "page": "498-505"
   },
   {
     "title": "Highly Efficient Adsorption of Oils and Pollutants by Porous Ultrathin Oxygen-Modified BCN Nanosheets",
@@ -6660,7 +7476,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 236
+    "index": 236,
+    "volume": "7",
+    "issue": "3",
+    "page": "3234-3242"
   },
   {
     "title": "Novel broad spectrum light responsive PPy/hexagonal-SnS2 photocatalyst for efficient photoreduction of Cr(VI)",
@@ -6681,7 +7500,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 235
+    "index": 235,
+    "volume": "112",
+    "issue": "",
+    "page": "226-235"
   },
   {
     "title": "Metal-Oxide-Mediated Subtractive Manufacturing of Two-Dimensional Carbon Nitride for High-Efficiency and High-Yield Photocatalytic H2 Evolution",
@@ -6710,7 +7532,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "ACS Nano"
     ],
-    "index": 234
+    "index": 234,
+    "volume": "13",
+    "issue": "10",
+    "page": "11294-11302"
   },
   {
     "title": "In-situ formation of hierarchical 1D-3D hybridized carbon nanostructure supported nonnoble transition metals for efficient electrocatalysis of oxygen reaction",
@@ -6738,7 +7563,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 233
+    "index": 233,
+    "volume": "243",
+    "issue": "",
+    "page": "151-160"
   },
   {
     "title": "Preparation of oxygen-deficient 2D WO3-x nanoplates and their adsorption behaviors for organic pollutants: equilibrium and kinetics modeling",
@@ -6759,7 +7587,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 232
+    "index": 232,
+    "volume": "54",
+    "issue": "19",
+    "page": "12463-12475"
   },
   {
     "title": "Oxidation removal of gaseous Hg0 using enhanced-Fenton system in a bubble column reactor",
@@ -6780,7 +7611,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 231
+    "index": 231,
+    "volume": "246",
+    "issue": "",
+    "page": "358-364"
   },
   {
     "title": "Rapid synthesis of ultrathin 2D materials through liquid-nitrogen and microwave treatments",
@@ -6801,7 +7635,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 230
+    "index": 230,
+    "volume": "7",
+    "issue": "10",
+    "page": "5209-5213"
   },
   {
     "title": "Integrating CoO x cocatalyst on hexagonal α-Fe 2 O 3 for effective photocatalytic oxygen evolution",
@@ -6822,7 +7659,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 229
+    "index": 229,
+    "volume": "469",
+    "issue": "",
+    "page": "933-940"
   },
   {
     "title": "Phase and interlayer effect of transition metal dichalcogenide cocatalyst toward photocatalytic hydrogen evolution: The case of MoSe2",
@@ -6855,7 +7695,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 228
+    "index": 228,
+    "volume": "243",
+    "issue": "",
+    "page": "330-336"
   },
   {
     "title": "In-situ solid-state synthesis and regulation of Ag2O/Ag2CO3 heterojunctions with promoted visible-light driven photocatalytic decomposition for organic pollutant",
@@ -6881,7 +7724,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 227
+    "index": 227,
+    "volume": "226",
+    "issue": "",
+    "page": "95-108"
   },
   {
     "title": "Probing supramolecular assembly and charge carrier dynamics toward enhanced photocatalytic hydrogen evolution in 2D graphitic carbon nitride nanosheets",
@@ -6914,7 +7760,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 226
+    "index": 226,
+    "volume": "256",
+    "issue": "",
+    "page": "117867"
   },
   {
     "title": "The construction of a Fenton system to achieve: In situ H2O2 generation and decomposition for enhanced photocatalytic performance",
@@ -6940,7 +7789,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 225
+    "index": 225,
+    "volume": "6",
+    "issue": "6",
+    "page": "1490-1500"
   },
   {
     "title": "Porous nitrogen-rich g-C3N4 nanotubes for efficient photocatalytic CO2 reduction",
@@ -6973,7 +7825,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 224
+    "index": 224,
+    "volume": "256",
+    "issue": "",
+    "page": "117854"
   },
   {
     "title": "Enhanced photocatalytic activity of ternary Ag 3 PO 4 /GO/g-C 3 N 4 photocatalysts for Rhodamine B degradation under visible light radiation",
@@ -7004,7 +7859,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 223
+    "index": 223,
+    "volume": "466",
+    "issue": "",
+    "page": "70-77"
   },
   {
     "title": "Integrating the merits of two-dimensional structure and heteroatom modification into semiconductor photocatalyst to boost NO removal",
@@ -7032,7 +7890,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 222
+    "index": 222,
+    "volume": "370",
+    "issue": "",
+    "page": "944-951"
   },
   {
     "title": "One-step synthesis of Fe-doped surface-alkalinized g-C 3 N 4 and their improved visible-light photocatalytic performance",
@@ -7053,7 +7914,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 221
+    "index": 221,
+    "volume": "469",
+    "issue": "",
+    "page": "739-746"
   },
   {
     "title": "Z-Scheme 2D/2D Heterojunction of Black Phosphorus/Monolayer Bi 2 WO 6 Nanosheets with Enhanced Photocatalytic Activities",
@@ -7077,7 +7941,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Angew. Chem."
     ],
-    "index": 220
+    "index": 220,
+    "volume": "58",
+    "issue": "7",
+    "page": "2073-2077"
   },
   {
     "title": "Tailoring of crystalline structure of carbon nitride for superior photocatalytic hydrogen evolution",
@@ -7103,7 +7970,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 219
+    "index": 219,
+    "volume": "556",
+    "issue": "",
+    "page": "324-334"
   },
   {
     "title": "Facile in situ synthesis of Ag and Bi co-decorated BiOCl heterojunction with high photocatalytic performance over the full solar spectrum",
@@ -7124,7 +7994,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 218
+    "index": 218,
+    "volume": "89",
+    "issue": "",
+    "page": "74-84"
   },
   {
     "title": "Three dimensional polyaniline/MgIn2S4 nanoflower photocatalysts accelerated interfacial charge transfer for the photoreduction of Cr(VI), photodegradation of organic pollution and photocatalytic H2 production",
@@ -7157,7 +8030,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 217
+    "index": 217,
+    "volume": "360",
+    "issue": "",
+    "page": "1601-1612"
   },
   {
     "title": "Two-dimensional carbon nitride-based composites for photocatalytic hydrogen evolution",
@@ -7183,7 +8059,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 216
+    "index": 216,
+    "volume": "44",
+    "issue": "59",
+    "page": "30935-30948"
   },
   {
     "title": "Enhanced long-wavelength light utilization with polyaniline/bismuth-rich bismuth oxyhalide composite towards photocatalytic degradation of antibiotics",
@@ -7209,7 +8088,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 215
+    "index": 215,
+    "volume": "537",
+    "issue": "",
+    "page": "101-111"
   },
   {
     "title": "Fabrication of magnetic BaFe12O19/Ag3PO4 composites with an: In situ photo-Fenton-like reaction for enhancing reactive oxygen species under visible light irradiation",
@@ -7230,7 +8112,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 214
+    "index": 214,
+    "volume": "9",
+    "issue": "10",
+    "page": "2563-2570"
   },
   {
     "title": "One-step oxygen vacancy engineering of WO3-x/2D g-C3N4 heterostructure: Triple effects for sustaining photoactivity",
@@ -7251,7 +8136,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 213
+    "index": 213,
+    "volume": "795",
+    "issue": "",
+    "page": "426-435"
   },
   {
     "title": "Facile synthesis of three-dimensional WO3-x/Bi/BiOCl hierarchical heterostructures with broad spectrum driven photocatalytic activity",
@@ -7272,7 +8160,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 212
+    "index": 212,
+    "volume": "806",
+    "issue": "",
+    "page": "418-427"
   },
   {
     "title": "Visible light-driven flower-like Bi/BiOClxBr(1-x) heterojunction with excellent photocatalytic performance",
@@ -7293,7 +8184,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 211
+    "index": 211,
+    "volume": "16",
+    "issue": "12",
+    "page": "2743-2754"
   },
   {
     "title": "Partial Oxidation of Sn 2+ Induced Oxygen Vacancy Overspread on the Surface of SnO 2-x /g-C 3 N 4 Composites for Enhanced LED-Light-Driven Photoactivity",
@@ -7314,7 +8208,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 210
+    "index": 210,
+    "volume": "29",
+    "issue": "3",
+    "page": "765-775"
   },
   {
     "title": "Smart in situ construction of NiS/MoS2 composite nanosheets with ultrahigh specific capacity for high-performance asymmetric supercapacitor",
@@ -7335,7 +8232,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 209
+    "index": 209,
+    "volume": "811",
+    "issue": "",
+    "page": "151915"
   },
   {
     "title": "Steering charge transfer for boosting photocatalytic H2 evolution: Integration of two-dimensional semiconductor superiorities and noble-metal-free Schottky junction effect",
@@ -7368,7 +8268,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 208
+    "index": 208,
+    "volume": "245",
+    "issue": "",
+    "page": "477-485"
   },
   {
     "title": "Pseudocapacitive performance of binder-free nanostructured TT-Nb2O5/FTO electrode in aqueous electrolyte",
@@ -7389,7 +8292,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 207
+    "index": 207,
+    "volume": "30",
+    "issue": "2",
+    "page": "025401"
   },
   {
     "title": "Engineering black phosphorus to porous g-C 3 N 4 -metal-organic framework membrane: A platform for highly boosting photocatalytic performance",
@@ -7410,7 +8316,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 206
+    "index": 206,
+    "volume": "7",
+    "issue": "9",
+    "page": "4408-4414"
   },
   {
     "title": "Single-Atom Coated Separator for Robust Lithium-Sulfur Batteries",
@@ -7431,7 +8340,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 205
+    "index": 205,
+    "volume": "11",
+    "issue": "28",
+    "page": "25147-25154"
   },
   {
     "title": "Fabrication of UV-Vis-NIR-driven photocatalysts Ag/Bi/BiOCl0.8Br0.2 with high catalytic activity",
@@ -7452,7 +8364,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 204
+    "index": 204,
+    "volume": "210",
+    "issue": "",
+    "page": "281-291"
   },
   {
     "title": "Depletion of TRDMT1 affects 5-methylcytosine modification of mRNA and inhibits HEK293 cell proliferation and migration",
@@ -7473,7 +8388,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 203
+    "index": 203,
+    "volume": "520",
+    "issue": "1",
+    "page": "60-66"
   },
   {
     "title": "Expression profiles of long noncoding RNAs associated with the NSUN2 gene in HepG2 cells",
@@ -7494,7 +8412,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 202
+    "index": 202,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Effects of NSUN2 deficiency on the mRNA 5-methylcytosine modification and gene expression profile in HEK293 cells",
@@ -7515,7 +8436,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 201
+    "index": 201,
+    "volume": "11",
+    "issue": "4",
+    "page": "439-453"
   },
   {
     "title": "1D metallic MoO 2 -C as co-catalyst on 2D g-C 3 N 4 semiconductor to promote photocatlaytic hydrogen production",
@@ -7536,7 +8460,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 200
+    "index": 200,
+    "volume": "447",
+    "issue": "",
+    "page": "732-739"
   },
   {
     "title": "0D/2D Fe2O3 quantum dots/g-C3N4 for enhanced visible-light-driven photocatalysis",
@@ -7557,7 +8484,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 199
+    "index": 199,
+    "volume": "541",
+    "issue": "",
+    "page": "188-194"
   },
   {
     "title": "2D heterostructure comprised of metallic 1T-MoS2/Monolayer O-g-C3N4 towards efficient photocatalytic hydrogen evolution",
@@ -7590,7 +8520,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 198
+    "index": 198,
+    "volume": "220",
+    "issue": "",
+    "page": "379-385"
   },
   {
     "title": "Recyclable Visible Light-Driven O-g-C 3 N 4 /Graphene Oxide/N-Carbon Nanotube Membrane for Efficient Removal of Organic Pollutants",
@@ -7611,7 +8544,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 197
+    "index": 197,
+    "volume": "10",
+    "issue": "49",
+    "page": "42427-42435"
   },
   {
     "title": "The effects of solvent on photocatalytic properties of Bi2WO6/TiO2 heterojunction under visible light irradiation",
@@ -7632,7 +8568,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 196
+    "index": 196,
+    "volume": "78",
+    "issue": "",
+    "page": "95-106"
   },
   {
     "title": "Facile synthesis of few-layer g-C3N4/ZnO composite photocatalyst for enhancing visible light photocatalytic performance of pollutants removal",
@@ -7658,7 +8597,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 195
+    "index": 195,
+    "volume": "537",
+    "issue": "",
+    "page": "516-523"
   },
   {
     "title": "Different Morphologies of SnS2 Supported on 2D g-C3N4 for Excellent and Stable Visible Light Photocatalytic Hydrogen Generation",
@@ -7679,7 +8621,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 194
+    "index": 194,
+    "volume": "6",
+    "issue": "4",
+    "page": "5132-5141"
   },
   {
     "title": "Designing Visible-Light-Driven Z-scheme Catalyst 2D g-C3N4/Bi2MoO6: Enhanced Photodegradation Activity of Organic Pollutants",
@@ -7705,7 +8650,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 193
+    "index": 193,
+    "volume": "215",
+    "issue": "21",
+    "page": "1800520"
   },
   {
     "title": "Synthesis of zinc ferrite/silver iodide composite with enhanced photocatalytic antibacterial and pollutant degradation ability",
@@ -7731,7 +8679,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 192
+    "index": 192,
+    "volume": "528",
+    "issue": "",
+    "page": "70-81"
   },
   {
     "title": "Facile fabrication of permselective g-C3N4 separator for improved lithium-sulfur batteries",
@@ -7752,7 +8703,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 191
+    "index": 191,
+    "volume": "272",
+    "issue": "",
+    "page": "60-67"
   },
   {
     "title": "Surface N modified 2D g-C 3 N 4 nanosheets derived from DMF for photocatalytic H 2 evolution",
@@ -7773,7 +8727,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 190
+    "index": 190,
+    "volume": "459",
+    "issue": "",
+    "page": "845-852"
   },
   {
     "title": "3D Coral-Like Ni3S2 on Ni Foam as a Bifunctional Electrocatalyst for Overall Water Splitting",
@@ -7799,7 +8756,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 189
+    "index": 189,
+    "volume": "10",
+    "issue": "37",
+    "page": "31330-31339"
   },
   {
     "title": "Controllable synthesized heterostructure photocatalyst Mo2C@C/2D g-C3N4: Enhanced catalytic performance for hydrogen production",
@@ -7825,7 +8785,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 188
+    "index": 188,
+    "volume": "47",
+    "issue": "41",
+    "page": "14706-14712"
   },
   {
     "title": "A multidimensional In2S3-CuInS2 heterostructure for photocatalytic carbon dioxide reduction",
@@ -7851,7 +8814,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 187
+    "index": 187,
+    "volume": "5",
+    "issue": "12",
+    "page": "3163-3169"
   },
   {
     "title": "Construction of solid-liquid interfacial Fenton-like reaction under visible light irradiation over etched Co:XFeyO4-BiOBr photocatalysts",
@@ -7877,7 +8843,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 186
+    "index": 186,
+    "volume": "8",
+    "issue": "2",
+    "page": "551-561"
   },
   {
     "title": "Fabrication of Ag/AgCl/ZnFe2O4 composites with enhanced photocatalytic activity for pollutant degradation and E. coli disinfection",
@@ -7903,7 +8872,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 185
+    "index": 185,
+    "volume": "553",
+    "issue": "",
+    "page": "114-124"
   },
   {
     "title": "A Specifically Exposed Cobalt Oxide/Carbon Nitride 2D Heterostructure for Carbon Dioxide Photoreduction",
@@ -7924,7 +8896,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 184
+    "index": 184,
+    "volume": "57",
+    "issue": "51",
+    "page": "17394-17400"
   },
   {
     "title": "Solvothermal fabrication of La-WO3/SrTiO3 heterojunction with high photocatalytic performance under visible light irradiation",
@@ -7945,7 +8920,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 183
+    "index": 183,
+    "volume": "176",
+    "issue": "",
+    "page": "230-238"
   },
   {
     "title": "Gold/monolayer graphitic carbon nitride plasmonic photocatalyst for ultrafast electron transfer in solar-to-hydrogen energy conversion,具有超快电子传输能力的金/薄层氮化碳等离子光催化剂用于光催化产氢",
@@ -7966,7 +8944,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 182
+    "index": 182,
+    "volume": "39",
+    "issue": "4",
+    "page": "760-770"
   },
   {
     "title": "Multifunctional C-Doped CoFe2O4 Material as Cocatalyst to Promote Reactive Oxygen Species Generation over Magnetic Recyclable C-CoFe/Ag-AgX Photocatalysts",
@@ -7987,7 +8968,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 181
+    "index": 181,
+    "volume": "6",
+    "issue": "9",
+    "page": "11968-11978"
   },
   {
     "title": "Solvothermal synthesis of metallic 1T-WS2: A supporting co-catalyst on carbon nitride nanosheets toward photocatalytic hydrogen evolution",
@@ -8015,7 +8999,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 180
+    "index": 180,
+    "volume": "335",
+    "issue": "",
+    "page": "282-289"
   },
   {
     "title": "Co 3 O 4 nanoparticles decorated Ag 3 PO 4 as heterostructure for improving solar-light-driven photocatalysis",
@@ -8041,7 +9028,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 179
+    "index": 179,
+    "volume": "199",
+    "issue": "",
+    "page": "032087"
   },
   {
     "title": "Electrochemical CO2 Reduction with Atomic Iron-Dispersed on Nitrogen-Doped Graphene",
@@ -8070,7 +9060,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Adv. Energy Mater."
     ],
-    "index": 178
+    "index": 178,
+    "volume": "8",
+    "issue": "19",
+    "page": "1703487"
   },
   {
     "title": "Construction of molybdenum dioxide nanosheets coated on the surface of nickel ferrite nanocrystals with ultrahigh specific capacity for hybrid supercapacitor",
@@ -8091,7 +9084,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 177
+    "index": 177,
+    "volume": "260",
+    "issue": "",
+    "page": "439-448"
   },
   {
     "title": "Highly Efficient Visible-Light-Driven Schottky Catalyst MoN/2D g-C3N4 for Hydrogen Production and Organic Pollutants Degradation",
@@ -8122,7 +9118,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 176
+    "index": 176,
+    "volume": "57",
+    "issue": "27",
+    "page": "8863-8870"
   },
   {
     "title": "Graphene oxide-modified LaVO4 nanocomposites with enhanced photocatalytic degradation efficiency of antibiotics",
@@ -8148,7 +9147,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 175
+    "index": 175,
+    "volume": "5",
+    "issue": "11",
+    "page": "2818-2828"
   },
   {
     "title": "Synergistic effects of MoO 2 nanosheets and graphene-like C 3 N 4 for highly improved visible light photocatalytic activities",
@@ -8169,7 +9171,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 174
+    "index": 174,
+    "volume": "457",
+    "issue": "",
+    "page": "1142-1150"
   },
   {
     "title": "Interfacial self-assembly of monolayer Mg-doped NiO honeycomb structured thin film with enhanced performance for gas sensing",
@@ -8190,7 +9195,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 173
+    "index": 173,
+    "volume": "29",
+    "issue": "13",
+    "page": "11498-11508"
   },
   {
     "title": "A construction of Ag-modified raspberry-like AgCl/Ag2WO4 with excellent visible-light photocatalytic property and stability",
@@ -8211,7 +9219,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 172
+    "index": 172,
+    "volume": "102",
+    "issue": "",
+    "page": "342-352"
   },
   {
     "title": "Constructing magnetic catalysts with in-situ solid-liquid interfacial photo-Fenton-like reaction over Ag3PO4@NiFe2O4 composites",
@@ -8234,7 +9245,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 171
+    "index": 171,
+    "volume": "225",
+    "issue": "",
+    "page": "40-50"
   },
   {
     "title": "Self-assembled synthesis of defect-engineered graphitic carbon nitride nanotubes for efficient conversion of solar energy",
@@ -8257,7 +9271,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 170
+    "index": 170,
+    "volume": "225",
+    "issue": "",
+    "page": "154-161"
   },
   {
     "title": "Fast fabricated high performance antisolvent-free perovskite solar cells via dual-flash process",
@@ -8278,7 +9295,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 169
+    "index": 169,
+    "volume": "259",
+    "issue": "",
+    "page": "402-409"
   },
   {
     "title": "Hexamethylenetetramine-assisted hydrothermal synthesis of octahedral nickel ferrite oxide nanocrystallines with excellent supercapacitive performance",
@@ -8299,7 +9319,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 168
+    "index": 168,
+    "volume": "53",
+    "issue": "10",
+    "page": "7621-7636"
   },
   {
     "title": "Visible-light-driven Ag/AgBr/ZnFe2O4 composites with excellent photocatalytic activity for E. coli disinfection and organic pollutant degradation",
@@ -8325,7 +9348,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 167
+    "index": 167,
+    "volume": "512",
+    "issue": "",
+    "page": "555-566"
   },
   {
     "title": "The formation of visible light-driven Ag/Ag2O photocatalyst with excellent property of photocatalytic activity and photocorrosion inhibition",
@@ -8346,7 +9372,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 166
+    "index": 166,
+    "volume": "516",
+    "issue": "",
+    "page": "511-521"
   },
   {
     "title": "Atomic Layered Titanium Sulfide Quantum Dots as Electrocatalysts for Enhanced Hydrogen Evolution Reaction",
@@ -8372,7 +9401,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 165
+    "index": 165,
+    "volume": "5",
+    "issue": "1",
+    "page": "1700895"
   },
   {
     "title": "Designing all-solid-state Z-Scheme 2D g-C3N4/Bi2WO6 for improved photocatalysis and photocatalytic mechanism insight",
@@ -8393,7 +9425,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 164
+    "index": 164,
+    "volume": "3",
+    "issue": "3",
+    "page": "229-238"
   },
   {
     "title": "Novel Ag2S quantum dot modified 3D flower-like SnS2 composites for photocatalytic and photoelectrochemical applications",
@@ -8419,7 +9454,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 163
+    "index": 163,
+    "volume": "5",
+    "issue": "1",
+    "page": "63-72"
   },
   {
     "title": "Carbon Nanorod-MoS2 Core-Sheath Heterostructure and Its Electrochemical Properties over Various Electrochemical Windows",
@@ -8440,7 +9478,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 162
+    "index": 162,
+    "volume": "5",
+    "issue": "9",
+    "page": "1288-1296"
   },
   {
     "title": "Gene expression profile and long non-coding RNA analysis, using RNA-Seq, in chicken embryonic fibroblast cells infected by avian leukosis virus J",
@@ -8461,7 +9502,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 161
+    "index": 161,
+    "volume": "163",
+    "issue": "3",
+    "page": "639-647"
   },
   {
     "title": "Role of microRNAs in regulation of cutaneous wound healing",
@@ -8482,7 +9526,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 160
+    "index": 160,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Hydrothermal synthesis of mpg-C3N4 and Bi2WO6 nest-like structure nanohybrids with enhanced visible light photocatalytic activities",
@@ -8503,7 +9550,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 159
+    "index": 159,
+    "volume": "7",
+    "issue": "61",
+    "page": "38682-38690"
   },
   {
     "title": "Gold Nanoparticles and g-C3N4-Intercalated Graphene Oxide Membrane for Recyclable Surface Enhanced Raman Scattering",
@@ -8524,7 +9574,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 158
+    "index": 158,
+    "volume": "27",
+    "issue": "31",
+    "page": "1701714"
   },
   {
     "title": "Cryo-mediated exfoliation and fracturing of layered materials into 2D quantum dots",
@@ -8545,7 +9598,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 157
+    "index": 157,
+    "volume": "3",
+    "issue": "12",
+    "page": "e1701500"
   },
   {
     "title": "Construction of SnO2/graphene-like g-C3N4 with enhanced visible light photocatalytic activity",
@@ -8566,7 +9622,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 156
+    "index": 156,
+    "volume": "7",
+    "issue": "57",
+    "page": "36101-36111"
   },
   {
     "title": "High Efficiency Photocatalytic Water Splitting Using 2D Α-Fe2O3/g-C3N4 Z-Scheme Catalysts",
@@ -8595,7 +9654,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Adv. Energy Mater."
     ],
-    "index": 155
+    "index": 155,
+    "volume": "7",
+    "issue": "17",
+    "page": "1700025"
   },
   {
     "title": "Design of 3D WO3/h-BN nanocomposites for efficient visible-light-driven photocatalysis",
@@ -8616,7 +9678,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 154
+    "index": 154,
+    "volume": "7",
+    "issue": "40",
+    "page": "25160-25170"
   },
   {
     "title": "Green solid-state chemical synthesis and excellent xylene-detecting behaviors of Y-doped α-MoO3 nanoarrays",
@@ -8637,7 +9702,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 153
+    "index": 153,
+    "volume": "93",
+    "issue": "",
+    "page": "256-263"
   },
   {
     "title": "Construction and preparation of novel 2D metal-free few-layer BN modified graphene-like g-C3N4 with enhanced photocatalytic performance",
@@ -8658,7 +9726,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 152
+    "index": 152,
+    "volume": "46",
+    "issue": "34",
+    "page": "11250-11258"
   },
   {
     "title": "Enhancing charge density and steering charge unidirectional flow in 2D non-metallic semiconductor-CNTs-metal coupled photocatalyst for solar energy conversion",
@@ -8686,7 +9757,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 151
+    "index": 151,
+    "volume": "202",
+    "issue": "",
+    "page": "112-117"
   },
   {
     "title": "Facile preparation of NiFe2O4/MoS2 composite material with synergistic effect for high performance supercapacitor",
@@ -8707,7 +9781,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 150
+    "index": 150,
+    "volume": "726",
+    "issue": "",
+    "page": "608-617"
   },
   {
     "title": "Designing Z-scheme 2D-C3N4/Ag3VO4 hybrid structures for improved photocatalysis and photocatalytic mechanism insight",
@@ -8728,7 +9805,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 149
+    "index": 149,
+    "volume": "214",
+    "issue": "6",
+    "page": "1600946"
   },
   {
     "title": "Enhancing reactive oxygen species generation and photocatalytic performance via adding oxygen reduction reaction catalysts into the photocatalysts",
@@ -8756,7 +9836,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 148
+    "index": 148,
+    "volume": "218",
+    "issue": "",
+    "page": "174-185"
   },
   {
     "title": "Graphene quantum dots modified mesoporous graphite carbon nitride with significant enhancement of photocatalytic activity",
@@ -8784,7 +9867,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 147
+    "index": 147,
+    "volume": "207",
+    "issue": "",
+    "page": "429-437"
   },
   {
     "title": "A Z-scheme magnetic recyclable Ag/AgBr@CoFe2O4 photocatalyst with enhanced photocatalytic performance for pollutant and bacterial elimination",
@@ -8810,7 +9896,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 146
+    "index": 146,
+    "volume": "7",
+    "issue": "49",
+    "page": "30845-30854"
   },
   {
     "title": "Metallic 1T-TiS2 nanodots anchored on a 2D graphitic C3N4 nanosheet nanostructure with high electron transfer capability for enhanced photocatalytic performance",
@@ -8831,7 +9920,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 145
+    "index": 145,
+    "volume": "7",
+    "issue": "87",
+    "page": "55269-55275"
   },
   {
     "title": "Synthesis of dark orange montmorillonite/g-C3N4 composites and their applications in the environment",
@@ -8852,7 +9944,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 144
+    "index": 144,
+    "volume": "107",
+    "issue": "",
+    "page": "131-139"
   },
   {
     "title": "Visible-light-driven ZnFe2O4/Ag/Ag3VO4 photocatalysts with enhanced photocatalytic activity under visible light irradiation",
@@ -8873,7 +9968,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 143
+    "index": 143,
+    "volume": "95",
+    "issue": "",
+    "page": "607-615"
   },
   {
     "title": "Preparation and Properties of Biomimetic Superhydrophobic Polypropylene/Titanium Dioxide Films",
@@ -8894,7 +9992,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 142
+    "index": 142,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Reversible Formation of g-C3N4 3D Hydrogels through Ionic Liquid Activation: Gelation Behavior and Room-Temperature Gas-Sensing Properties",
@@ -8915,7 +10016,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 141
+    "index": 141,
+    "volume": "27",
+    "issue": "22",
+    "page": "1700653"
   },
   {
     "title": "Non-metal photocatalyst nitrogen-doped carbon nanotubes modified mpg-C3N4: facile synthesis and the enhanced visible-light photocatalytic activity",
@@ -8936,7 +10040,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 140
+    "index": 140,
+    "volume": "494",
+    "issue": "",
+    "page": "38-46"
   },
   {
     "title": "Interface Engineering of electron Transport Layer-Free Planar Perovskite Solar Cells with Efficiency Exceeding 15 %",
@@ -8957,7 +10064,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 139
+    "index": 139,
+    "volume": "5",
+    "issue": "10",
+    "page": "1844-1851"
   },
   {
     "title": "Porous-C3N4 with High Ability for Selective Adsorption and Photodegradation of Dyes Under Visible-Light",
@@ -8983,7 +10093,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 138
+    "index": 138,
+    "volume": "27",
+    "issue": "6",
+    "page": "1674-1682"
   },
   {
     "title": "Kinetics and mechanism of enhanced photocatalytic activity employing ZnS nanospheres/graphene-like C3N4",
@@ -9004,7 +10117,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 137
+    "index": 137,
+    "volume": "438",
+    "issue": "",
+    "page": "103-112"
   },
   {
     "title": "Single layer two-dimensional O-g-C3N4: An efficient photocatalyst for improved molecular oxygen activation ability",
@@ -9025,7 +10141,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 136
+    "index": 136,
+    "volume": "214",
+    "issue": "5",
+    "page": "1600704"
   },
   {
     "title": "In situ solid-state fabrication of hybrid AgCl/AgI/AgIO3 with improved UV-to-visible photocatalytic performance",
@@ -9046,7 +10165,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 135
+    "index": 135,
+    "volume": "7",
+    "issue": "1",
+    "page": "12365"
   },
   {
     "title": "Solid-state chemical synthesis and xylene-sensing properties of Α-MoO3 arrays assembled by nanoplates",
@@ -9067,7 +10189,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 134
+    "index": 134,
+    "volume": "242",
+    "issue": "",
+    "page": "769-776"
   },
   {
     "title": "Novel magnetic BaFe12O19/g-C3N4 composites with enhanced thermocatalytic and photo-Fenton activity under visible-light",
@@ -9093,7 +10218,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 133
+    "index": 133,
+    "volume": "710",
+    "issue": "",
+    "page": "510-518"
   },
   {
     "title": "Morphology controlled preparation of ZnCo2O4 nanostructures for asymmetric supercapacitor with ultrahigh energy density",
@@ -9114,7 +10242,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 132
+    "index": 132,
+    "volume": "123",
+    "issue": "",
+    "page": "296-304"
   },
   {
     "title": "Preparation and Properties of Hydrogels Based on PEGylated Lignosulfonate Amine",
@@ -9135,7 +10266,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 131
+    "index": 131,
+    "volume": "2",
+    "issue": "1",
+    "page": "251-259"
   },
   {
     "title": "Ionic liquid-assisted synthesis and improved photocatalytic activity of p-n junction g-C3N4/BiOCl",
@@ -9156,7 +10290,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 130
+    "index": 130,
+    "volume": "51",
+    "issue": "10",
+    "page": "4769-4777"
   },
   {
     "title": "Synthesis of Multiwalled Carbon Nanotube Modified BiOCl Microspheres with Enhanced Visible-Light Response Photoactivity",
@@ -9177,7 +10314,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 129
+    "index": 129,
+    "volume": "44",
+    "issue": "7",
+    "page": "781-787"
   },
   {
     "title": "The CeO2/Ag3PO4 photocatalyst with stability and high photocatalytic activity under visible light irradiation",
@@ -9198,7 +10338,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 128
+    "index": 128,
+    "volume": "213",
+    "issue": "9",
+    "page": "2356-2363"
   },
   {
     "title": "Construction of a 2D Graphene-Like MoS2/C3N4 Heterojunction with Enhanced Visible-Light Photocatalytic Activity and Photoelectrochemical Activity",
@@ -9224,7 +10367,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 127
+    "index": 127,
+    "volume": "22",
+    "issue": "14",
+    "page": "4764-4773"
   },
   {
     "title": "Novel magnetic CoFe2O4/Ag/Ag3VO4 composites: Highly efficient visible light photocatalytic and antibacterial activity",
@@ -9252,7 +10398,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 126
+    "index": 126,
+    "volume": "199",
+    "issue": "",
+    "page": "11-22"
   },
   {
     "title": "Oxygenated monolayer carbon nitride for excellent photocatalytic hydrogen evolution and external quantum efficiency",
@@ -9281,7 +10430,10 @@ window.XUHUILAB_PUBLICATIONS = [
       "Selected",
       "Nano Energy"
     ],
-    "index": 125
+    "index": 125,
+    "volume": "27",
+    "issue": "",
+    "page": "138-146"
   },
   {
     "title": "BN nanosheets modified WO3 photocatalysts for enhancing photocatalytic properties under visible light irradiation",
@@ -9302,7 +10454,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 124
+    "index": 124,
+    "volume": "660",
+    "issue": "",
+    "page": "48-54"
   },
   {
     "title": "Constructing confined surface carbon defects in ultrathin graphitic carbon nitride for photocatalytic free radical manipulation",
@@ -9323,7 +10478,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 123
+    "index": 123,
+    "volume": "107",
+    "issue": "",
+    "page": "1-10"
   },
   {
     "title": "Controlled synthesis of ordered mesoporous g-C3N4 with a confined space effect on its photocatalytic activity",
@@ -9344,7 +10502,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 122
+    "index": 122,
+    "volume": "46",
+    "issue": "",
+    "page": "59-68"
   },
   {
     "title": "Template-free synthesis of 2D porous ultrathin nonmetal-doped g-C3N4 nanosheets with highly efficient photocatalytic H2 evolution from water under visible light",
@@ -9377,7 +10538,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 121
+    "index": 121,
+    "volume": "187",
+    "issue": "",
+    "page": "144-153"
   },
   {
     "title": "SYNTHESIS OF MAGNETIC BiOBr-NiFe2O4 HYBRIDS AND THE EFFICIENT PHOTOCATALYTIC ACTIVITY",
@@ -9403,7 +10567,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 120
+    "index": 120,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Ionic liquid-induced strategy for carbon quantum dots/BiOX (X=Br, Cl) hybrid nanosheets with superior visible light-driven photocatalysis",
@@ -9431,7 +10598,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 119
+    "index": 119,
+    "volume": "181",
+    "issue": "",
+    "page": "260-269"
   },
   {
     "title": "Synthesis of erbium ions doped BiOBr via a reactive ionic liquid with improved photocatalytic activity",
@@ -9452,7 +10622,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 118
+    "index": 118,
+    "volume": "489",
+    "issue": "",
+    "page": "343-350"
   },
   {
     "title": "A silver on 2D white-C3N4 support photocatalyst for mechanistic insights: synergetic utilization of plasmonic effect for solar hydrogen evolution",
@@ -9478,7 +10651,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 117
+    "index": 117,
+    "volume": "6",
+    "issue": "113",
+    "page": "112420-112428"
   },
   {
     "title": "Novel visible-light-driven Fe2O3/Ag3VO4 composite with enhanced photocatalytic activity toward organic pollutants degradation",
@@ -9504,7 +10680,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 116
+    "index": 116,
+    "volume": "6",
+    "issue": "5",
+    "page": "3600-3607"
   },
   {
     "title": "g-C3N4/TiO2 Nanocomposites for Degradation of Ciprofloxacin under Visible Light Irradiation",
@@ -9525,7 +10704,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 115
+    "index": 115,
+    "volume": "1",
+    "issue": "18",
+    "page": "5679-5685"
   },
   {
     "title": "Carbon Quantum Dots Induced Ultrasmall BiOI Nanosheets with Assembled Hollow Structures for Broad Spectrum Photocatalytic Activity and Mechanism Insight",
@@ -9546,7 +10728,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 114
+    "index": 114,
+    "volume": "32",
+    "issue": "8",
+    "page": "2075-2084"
   },
   {
     "title": "Graphene-like BN/BiOBr composite: synthesis via a reactable ionic liquid and enhanced visible light photocatalytic performance",
@@ -9567,7 +10752,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 113
+    "index": 113,
+    "volume": "31",
+    "issue": "8",
+    "page": "463-470"
   },
   {
     "title": "Reactable ionic liquid assisted synthesis of BiPO4 and the influences of solvent on structure, morphology and photocatalytic performance",
@@ -9588,7 +10776,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 112
+    "index": 112,
+    "volume": "488",
+    "issue": "",
+    "page": "110-117"
   },
   {
     "title": "HYBRIDIZATION OF MoO3 WITH BN NANOSHEETS FOR IMPROVING SOLAR-LIGHT-DRIVEN PHOTOCATALYSIS",
@@ -9614,7 +10805,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 111
+    "index": 111,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "MO degradation by Ag-Ag2O/g-C3N4 composites under visible-light irradation",
@@ -9640,7 +10834,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 110
+    "index": 110,
+    "volume": "5",
+    "issue": "1",
+    "page": "369"
   },
   {
     "title": "WO3 nanorod photocatalysts decorated with few-layer g-C3N4 nanosheets: controllable synthesis and photocatalytic mechanism research",
@@ -9661,7 +10858,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 109
+    "index": 109,
+    "volume": "6",
+    "issue": "83",
+    "page": "80193-80200"
   },
   {
     "title": "Three-dimensionally ordered macroporous WO3 modified Ag3PO4 with enhanced visible light photocatalytic performance",
@@ -9682,7 +10882,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 108
+    "index": 108,
+    "volume": "42",
+    "issue": "1",
+    "page": "1392-1398"
   },
   {
     "title": "Facile synthesis of CNT/AgI with enhanced photocatalytic degradation and antibacterial ability",
@@ -9708,7 +10911,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 107
+    "index": 107,
+    "volume": "6",
+    "issue": "9",
+    "page": "6905-6914"
   },
   {
     "title": "Synthesis and photocatalytic activity of g-C3N4/BiOI/BiOBr ternary composites",
@@ -9729,7 +10935,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 106
+    "index": 106,
+    "volume": "6",
+    "issue": "47",
+    "page": "41204-41213"
   },
   {
     "title": "Core-shell magnetic Ag/AgCl@Fe2O3 photocatalysts with enhanced photoactivity for eliminating bisphenol A and microbial contamination",
@@ -9750,7 +10959,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 105
+    "index": 105,
+    "volume": "40",
+    "issue": "4",
+    "page": "3413-3422"
   },
   {
     "title": "Modification of Ag3VO4 with graphene-like MoS2 for enhanced visible-light photocatalytic property and stability",
@@ -9771,7 +10983,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 104
+    "index": 104,
+    "volume": "40",
+    "issue": "3",
+    "page": "2168-2177"
   },
   {
     "title": "Fabrication of AgX-loaded Ag2CO3 (X = Cl, I) composites and their efficient visible-light-driven photocatalytic activity",
@@ -9792,7 +11007,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 103
+    "index": 103,
+    "volume": "622",
+    "issue": "",
+    "page": "347-357"
   },
   {
     "title": "Magnetic g-C3N4/NiFe2O4 hybrids with enhanced photocatalytic activity",
@@ -9813,7 +11031,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 102
+    "index": 102,
+    "volume": "5",
+    "issue": "71",
+    "page": "57960-57967"
   },
   {
     "title": "Controllable synthesis of Bi4O5Br2 ultrathin nanosheets for photocatalytic removal of ciprofloxacin and mechanism insight",
@@ -9834,7 +11055,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 101
+    "index": 101,
+    "volume": "3",
+    "issue": "29",
+    "page": "15108-15118"
   },
   {
     "title": "AgCl/Ag3PO4 HYBRID MATERIALS WITH ENHANCED VISIBLE LIGHT PHOTOCATALYTIC ACTIVITY FOR THE DEGRADATION OF 4-CHLOROPHENOL",
@@ -9860,7 +11084,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 100
+    "index": 100,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "A core-shell structured magnetic Ag/AgBr@Fe2O3 composite with enhanced photocatalytic activity for organic pollutant degradation and antibacterium",
@@ -9886,7 +11113,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 99
+    "index": 99,
+    "volume": "5",
+    "issue": "87",
+    "page": "71035-71045"
   },
   {
     "title": "High yield synthesis of nano-size g-C3N4 derivatives by a dissolve-regrowth method with enhanced photocatalytic ability",
@@ -9907,7 +11137,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 98
+    "index": 98,
+    "volume": "5",
+    "issue": "33",
+    "page": "26281-26290"
   },
   {
     "title": "Controllable synthesis of CeO2/g-C3N4 composites and their applications in the environment",
@@ -9928,7 +11161,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 97
+    "index": 97,
+    "volume": "44",
+    "issue": "15",
+    "page": "7021-7031"
   },
   {
     "title": "In situ growth of Ag/AgCl on the surface of CNT and the effect of CNT on the photoactivity of the composite",
@@ -9949,7 +11185,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 96
+    "index": 96,
+    "volume": "39",
+    "issue": "7",
+    "page": "5540-5547"
   },
   {
     "title": "Synthesis of g-C3N4/Ag3VO4 composites with enhanced photocatalytic activity under visible light irradiation",
@@ -9972,7 +11211,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 95
+    "index": 95,
+    "volume": "271",
+    "issue": "",
+    "page": "96-105"
   },
   {
     "title": "The synergistic role of carbon quantum dots for the improved photocatalytic performance of Bi2MoO6",
@@ -9993,7 +11235,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 94
+    "index": 94,
+    "volume": "7",
+    "issue": "26",
+    "page": "11433-11443"
   },
   {
     "title": "Migration of Volatile Organic Contaminations Through a Deformable Clay Liner: Effects of Occluded Gas Bubbles",
@@ -10014,7 +11259,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 93
+    "index": 93,
+    "volume": "226",
+    "issue": "5",
+    "page": "152"
   },
   {
     "title": "g-C3N4/Ag3PO4 composites with synergistic effect for increased photocatalytic activity under the visible light irradiation",
@@ -10035,7 +11283,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 92
+    "index": 92,
+    "volume": "39",
+    "issue": "",
+    "page": "726-734"
   },
   {
     "title": "Synthesis of magnetic CoFe2O4/g-C3N4 composite and its enhancement of photocatalytic ability under visible-light",
@@ -10056,7 +11307,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 91
+    "index": 91,
+    "volume": "478",
+    "issue": "",
+    "page": "71-80"
   },
   {
     "title": "Significant improvement of photocatalytic activity of porous graphitic-carbon nitride/bismuth oxybromide microspheres synthesized in an ionic liquid by microwave-assisted processing",
@@ -10077,7 +11331,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 90
+    "index": 90,
+    "volume": "32",
+    "issue": "",
+    "page": "117-124"
   },
   {
     "title": "Visible-light-induced blue MoO3-C3N4 composite with enhanced photocatalytic activity",
@@ -10098,7 +11355,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 89
+    "index": 89,
+    "volume": "70",
+    "issue": "",
+    "page": "500-505"
   },
   {
     "title": "The enhanced visible light photocatalytic activity of yttrium-doped BiOBr synthesized via a reactable ionic liquid",
@@ -10119,7 +11379,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 88
+    "index": 88,
+    "volume": "331",
+    "issue": "",
+    "page": "170-178"
   },
   {
     "title": "Novel visible-light-driven CQDs/Bi2WO6 hybrid materials with enhanced photocatalytic activity toward organic pollutants degradation and mechanism insight",
@@ -10147,7 +11410,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 87
+    "index": 87,
+    "volume": "168-169",
+    "issue": "",
+    "page": "51-61"
   },
   {
     "title": "Preparation of magnetic Ag/AgCl/CoFe2O4 composites with high photocatalytic and antibacterial ability",
@@ -10168,7 +11434,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 86
+    "index": 86,
+    "volume": "5",
+    "issue": "52",
+    "page": "41475-41483"
   },
   {
     "title": "Synthesis of g-C3N4 at different temperatures for superior visible/UV photocatalytic performance and photoelectrochemical sensing of MB solution",
@@ -10194,7 +11463,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 85
+    "index": 85,
+    "volume": "5",
+    "issue": "123",
+    "page": "101552-101562"
   },
   {
     "title": "Reactable ionic liquid assisted synthesis of Pd modified BiOBr flower-like microsphere with high dispersion and their enhanced photocatalytic performances",
@@ -10215,7 +11487,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 84
+    "index": 84,
+    "volume": "30",
+    "issue": "2",
+    "page": "113-121"
   },
   {
     "title": "Magnetically separable Fe2O3/g-C3N4 catalyst with enhanced photocatalytic activity",
@@ -10236,7 +11511,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 83
+    "index": 83,
+    "volume": "5",
+    "issue": "116",
+    "page": "95727-95735"
   },
   {
     "title": "g-C3N4 modified Bi2O3 composites with enhanced visible-light photocatalytic activity",
@@ -10257,7 +11535,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 82
+    "index": 82,
+    "volume": "76",
+    "issue": "",
+    "page": "112-119"
   },
   {
     "title": "Synthesis and characterization of BN/Bi2WO6 composite photocatalysts with enhanced visible-light photocatalytic activity",
@@ -10278,7 +11559,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 81
+    "index": 81,
+    "volume": "5",
+    "issue": "108",
+    "page": "88832-88840"
   },
   {
     "title": "Magnetic g-C3N4/NiFe2O4 hybrids with enhanced photocatalytic activity (vol 5, 57960, 2015)",
@@ -10299,7 +11583,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 80
+    "index": 80,
+    "volume": "5",
+    "issue": "79",
+    "page": "64299-64299"
   },
   {
     "title": "Synthesis of few-layer MoS2 nanosheet-loaded Ag3PO4 for enhanced photocatalytic activity",
@@ -10320,7 +11607,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 79
+    "index": 79,
+    "volume": "44",
+    "issue": "7",
+    "page": "3057-3066"
   },
   {
     "title": "Photocatalytic properties of zinc sulfide nanocrystals biofabricated by metal-reducing bacterium Shewanella oneidensis MR-1",
@@ -10341,7 +11631,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 78
+    "index": 78,
+    "volume": "288",
+    "issue": "",
+    "page": "134-139"
   },
   {
     "title": "CNT/Ag3PO4 composites with highly enhanced visible light photocatalytic activity and stability",
@@ -10364,7 +11657,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 77
+    "index": 77,
+    "volume": "241",
+    "issue": "",
+    "page": "35-42"
   },
   {
     "title": "Exfoliated graphene-like carbon nitride in organic solvents: enhanced photocatalytic activity and highly selective and sensitive sensor for the detection of trace amounts of Cu2+",
@@ -10385,7 +11681,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 76
+    "index": 76,
+    "volume": "2",
+    "issue": "8",
+    "page": "2563"
   },
   {
     "title": "Improving the photocatalytic activity and stability of graphene-like BN/AgBr composites",
@@ -10406,7 +11705,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 75
+    "index": 75,
+    "volume": "313",
+    "issue": "",
+    "page": "1-9"
   },
   {
     "title": "Graphitic Carbon Nitride Nanorods for Photoelectrochemical Sensing of Trace Copper(II) Ions",
@@ -10432,7 +11734,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 74
+    "index": 74,
+    "volume": "2014",
+    "issue": "23",
+    "page": "3665-3673"
   },
   {
     "title": "Synthesis, Characterization and Photocatalytic Activity of Ag/AgCl/Graphite-Like C3N4 Under Visible Light Irradiation",
@@ -10453,7 +11758,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 73
+    "index": 73,
+    "volume": "14",
+    "issue": "9",
+    "page": "6809-6815"
   },
   {
     "title": "Graphitic carbon nitride nanosheet supported high loading silver nanoparticle catalysts for the oxygen reduction reaction",
@@ -10474,7 +11782,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 72
+    "index": 72,
+    "volume": "128",
+    "issue": "",
+    "page": "349-353"
   },
   {
     "title": "In situ oxidation synthesis of visible-light-driven plasmonic photocatalyst Ag/AgCl/g-C3N4 and its activity",
@@ -10495,7 +11806,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 71
+    "index": 71,
+    "volume": "40",
+    "issue": "7",
+    "page": "9293-9301"
   },
   {
     "title": "Application of graphene-like layered molybdenum disulfide and its excellent adsorption behavior for doxycycline antibiotic",
@@ -10518,7 +11832,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 70
+    "index": 70,
+    "volume": "243",
+    "issue": "",
+    "page": "60-67"
   },
   {
     "title": "Preparation of TiO2/g-C3N4 composites and their application in photocatalytic oxidative desulfurization",
@@ -10539,7 +11856,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 69
+    "index": 69,
+    "volume": "40",
+    "issue": "8",
+    "page": "11627-11635"
   },
   {
     "title": "Solvothermal synthesis and enhanced visible-light photocatalytic decontamination of bisphenol A (BPA) by g-C3N4/BiOBr heterojunctions",
@@ -10560,7 +11880,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 68
+    "index": 68,
+    "volume": "24",
+    "issue": "",
+    "page": "96-103"
   },
   {
     "title": "Reactable ionic liquid-assisted rapid synthesis of BiOI hollow microspheres at room temperature with enhanced photocatalytic activity",
@@ -10581,7 +11904,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 67
+    "index": 67,
+    "volume": "2",
+    "issue": "38",
+    "page": "15864-15874"
   },
   {
     "title": "Synthesis and photocatalytic activity of a bentonite/g-C3N4 composite",
@@ -10602,7 +11928,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 66
+    "index": 66,
+    "volume": "4",
+    "issue": "23",
+    "page": "11831"
   },
   {
     "title": "Photocatalytic degradation of bisphenol A and dye by graphene-oxide/Ag3PO4 composite under visible light irradiation",
@@ -10628,7 +11957,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 65
+    "index": 65,
+    "volume": "40",
+    "issue": "6",
+    "page": "8061-8070"
   },
   {
     "title": "Synthesis, characterization and visible-light photocatalytic performance of Ag2CO3 modified by graphene-oxide",
@@ -10649,7 +11981,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 64
+    "index": 64,
+    "volume": "592",
+    "issue": "",
+    "page": "258-265"
   },
   {
     "title": "One-pot solvothermal synthesis of Cu-modified BiOCl via a Cu-containing ionic liquid and its visible-light photocatalytic properties",
@@ -10670,7 +12005,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 63
+    "index": 63,
+    "volume": "4",
+    "issue": "27",
+    "page": "14281"
   },
   {
     "title": "Graphene-analogue carbon nitride: novel exfoliation synthesis and its application in photocatalysis and photoelectrochemical selective detection of trace amount of Cu2+",
@@ -10696,7 +12034,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 62
+    "index": 62,
+    "volume": "6",
+    "issue": "3",
+    "page": "1406-1415"
   },
   {
     "title": "Preparation of sphere-like g-C3N4/BiOI photocatalysts via a reactable ionic liquid for visible-light-driven photocatalytic degradation of pollutants",
@@ -10722,7 +12063,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 61
+    "index": 61,
+    "volume": "2",
+    "issue": "15",
+    "page": "5340"
   },
   {
     "title": "Reactable ionic liquid assisted solvothermal synthesis of graphite-like C3N4 hybridized α-Fe2O3 hollow microspheres with enhanced supercapacitive performance",
@@ -10743,7 +12087,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 60
+    "index": 60,
+    "volume": "245",
+    "issue": "",
+    "page": "866-874"
   },
   {
     "title": "Synthesis and characterization of g-C3N4/Ag2CO3 with enhanced visible-light photocatalytic activity for the degradation of organic pollutants",
@@ -10769,7 +12116,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 59
+    "index": 59,
+    "volume": "4",
+    "issue": "65",
+    "page": "34539"
   },
   {
     "title": "Enhanced wet hydrogen peroxide catalytic oxidation performances based on CuS nanocrystals/reduced graphene oxide composites",
@@ -10790,7 +12140,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 58
+    "index": 58,
+    "volume": "288",
+    "issue": "",
+    "page": "633-640"
   },
   {
     "title": "Facile fabrication of the visible-light-driven Bi2WO6/BiOBr composite with enhanced photocatalytic activity",
@@ -10811,7 +12164,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 57
+    "index": 57,
+    "volume": "4",
+    "issue": "1",
+    "page": "82-90"
   },
   {
     "title": "Graphene-analogue boron nitride/Ag3PO4 composite for efficient visible-light-driven photocatalysis",
@@ -10832,7 +12188,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 56
+    "index": 56,
+    "volume": "4",
+    "issue": "100",
+    "page": "56853-56862"
   },
   {
     "title": "Ion-exchange preparation for visible-light-driven photocatalyst AgBr/Ag2CO3 and its photocatalytic activity",
@@ -10853,7 +12212,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 55
+    "index": 55,
+    "volume": "4",
+    "issue": "18",
+    "page": "9139"
   },
   {
     "title": "Facile fabrication and enhanced visible light photocatalytic activity of few-layer MoS2 coupled BiOBr microspheres",
@@ -10874,7 +12236,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 54
+    "index": 54,
+    "volume": "43",
+    "issue": "41",
+    "page": "15429-15438"
   },
   {
     "title": "A Self-adaptive Reliable Packet Transmission Scheme for Wireless Mesh Networks",
@@ -10895,7 +12260,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 53
+    "index": 53,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Synthesis of carbon-doped g-C3N4 composites with enhanced visible-light photocatalytic activity",
@@ -10916,7 +12284,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 52
+    "index": 52,
+    "volume": "137",
+    "issue": "",
+    "page": "281-284"
   },
   {
     "title": "Vapor pressure and isobaric vapor-liquid equilibrium for dichloronitrobenzene isomers",
@@ -10937,7 +12308,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 51
+    "index": 51,
+    "volume": "367",
+    "issue": "",
+    "page": "103-108"
   },
   {
     "title": "Photocatalytic oxidative desulfurization of dibenzothiophene catalyzed by amorphous TiO2 in ionic liquid",
@@ -10958,7 +12332,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 50
+    "index": 50,
+    "volume": "31",
+    "issue": "2",
+    "page": "211-217"
   },
   {
     "title": "AgI/Ag3PO4 heterojunction composites with enhanced photocatalytic activity under visible light irradiation",
@@ -10979,7 +12356,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 49
+    "index": 49,
+    "volume": "287",
+    "issue": "",
+    "page": "178-186"
   },
   {
     "title": "A plasmonic photocatalyst of Ag/AgBr nanoparticles coupled with g-C3N4 with enhanced visible-light photocatalytic ability",
@@ -11000,7 +12380,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 48
+    "index": 48,
+    "volume": "436",
+    "issue": "",
+    "page": "474-483"
   },
   {
     "title": "AgX/graphite-like C3N4 (X = Br, I) hybrid materials for photoelectrochemical determination of copper(II) ion",
@@ -11026,7 +12409,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 47
+    "index": 47,
+    "volume": "138",
+    "issue": "22",
+    "page": "6721"
   },
   {
     "title": "Advanced visible light photocatalytic properties of BiOCl micro/nanospheres synthesized via reactable ionic liquids",
@@ -11047,7 +12433,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 46
+    "index": 46,
+    "volume": "74",
+    "issue": "2",
+    "page": "298-304"
   },
   {
     "title": "Improvement of visible light photocatalytic activity over flower-like BiOCl/BiOBr microspheres synthesized by reactable ionic liquids",
@@ -11068,7 +12457,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 45
+    "index": 45,
+    "volume": "420",
+    "issue": "",
+    "page": "89-95"
   },
   {
     "title": "A g-C3N4/BiOBr visible-light-driven composite: synthesis via a reactable ionic liquid and improved photocatalytic activity",
@@ -11089,7 +12481,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 44
+    "index": 44,
+    "volume": "3",
+    "issue": "42",
+    "page": "19624"
   },
   {
     "title": "A novel visible-light-response plasmonic photocatalyst CNT/Ag/AgBr and its photocatalytic properties",
@@ -11110,7 +12505,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 43
+    "index": 43,
+    "volume": "15",
+    "issue": "16",
+    "page": "5821"
   },
   {
     "title": "Ionic liquid assisted synthesis and photocatalytic properties of α-Fe2O3 hollow microspheres",
@@ -11131,7 +12529,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 42
+    "index": 42,
+    "volume": "42",
+    "issue": "18",
+    "page": "6468"
   },
   {
     "title": "Improved visible light photocatalytic properties of Fe/BiOCl microspheres synthesized via self-doped reactable ionic liquids",
@@ -11152,7 +12553,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 41
+    "index": 41,
+    "volume": "15",
+    "issue": "46",
+    "page": "10132"
   },
   {
     "title": "Synthesis and characterization of AgBr/AgNbO3 composite with enhanced visible-light photocatalytic activity",
@@ -11173,7 +12577,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 40
+    "index": 40,
+    "volume": "273",
+    "issue": "",
+    "page": "159-166"
   },
   {
     "title": "Visible-light photocatalytic efficiencies and anti-photocorrosion behavior of CdS/graphene nanocomposites: Evaluation using methylene blue degradation",
@@ -11199,7 +12606,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 39
+    "index": 39,
+    "volume": "34",
+    "issue": "10",
+    "page": "1876-1882"
   },
   {
     "title": "Novel visible-light-driven AgX/graphite-like C3N4 (X = Br, I) hybrid materials with synergistic photocatalytic activity",
@@ -11227,7 +12637,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "Appl. Catal. B"
     ],
-    "index": 38
+    "index": 38,
+    "volume": "129",
+    "issue": "",
+    "page": "182-193"
   },
   {
     "title": "Ionic liquid oxidation synthesis of Ag@AgCl core-shell structure for photocatalytic application under visible-light irradiation",
@@ -11248,7 +12661,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 37
+    "index": 37,
+    "volume": "416",
+    "issue": "",
+    "page": "80-85"
   },
   {
     "title": "Synthesis and characterization of g-C3N4/MoO3 photocatalyst with improved visible-light photoactivity",
@@ -11269,7 +12685,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 36
+    "index": 36,
+    "volume": "283",
+    "issue": "",
+    "page": "25-32"
   },
   {
     "title": "Reactable ionic liquid-assisted solvothermal synthesis of flower-like bismuth oxybromide microspheres with highly visible-light photocatalytic performances",
@@ -11290,7 +12709,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 35
+    "index": 35,
+    "volume": "8",
+    "issue": "8",
+    "page": "450-454"
   },
   {
     "title": "Synthesis and characterization of CeO2/g-C3N4 composites with enhanced visible-light photocatatalytic activity",
@@ -11311,7 +12733,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 34
+    "index": 34,
+    "volume": "3",
+    "issue": "44",
+    "page": "22269"
   },
   {
     "title": "The CNT modified white C3N4 composite photocatalyst with enhanced visible-light response photoactivity",
@@ -11332,7 +12757,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 33
+    "index": 33,
+    "volume": "42",
+    "issue": "21",
+    "page": "7604"
   },
   {
     "title": "Visible-light-induced WO3/g-C3N4 composites with enhanced photocatalytic activity",
@@ -11353,7 +12781,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 32
+    "index": 32,
+    "volume": "42",
+    "issue": "24",
+    "page": "8606"
   },
   {
     "title": "Measurement and calculation of solid-liquid phase equilibrium for ternary 4-chlorophthalic anhydride+3-chlorophthalic anhydride plus acetone system",
@@ -11374,7 +12805,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 31
+    "index": 31,
+    "volume": "358",
+    "issue": "",
+    "page": "319-325"
   },
   {
     "title": "Plasmonic-enhanced visible-light-driven photocatalytic activity of Ag-AgBr synthesized in reactable ionic liquid",
@@ -11395,7 +12829,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 30
+    "index": 30,
+    "volume": "87",
+    "issue": "12",
+    "page": "1626-1633"
   },
   {
     "title": "Synthesis of one-dimensional β-Ni(OH)2 nanostructure and their application as nonenzymatic glucose sensors",
@@ -11416,7 +12853,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 29
+    "index": 29,
+    "volume": "132",
+    "issue": "2-3",
+    "page": "387-394"
   },
   {
     "title": "Controllable synthesis of hexagon-shaped β-AgI nanoplates in reactable ionic liquid and their photocatalytic activity",
@@ -11437,7 +12877,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 28
+    "index": 28,
+    "volume": "410",
+    "issue": "",
+    "page": "23-30"
   },
   {
     "title": "Synthesis and Photocatalytic Activity of Pd-AgNbO3",
@@ -11458,7 +12901,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 27
+    "index": 27,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Reactable ionic liquid synthesis and visible-light photocatalytic activity of dendritic ferric oxide hierarchical structures",
@@ -11479,7 +12925,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 26
+    "index": 26,
+    "volume": "7",
+    "issue": "8",
+    "page": "806-809"
   },
   {
     "title": "Synthesis, characterization and photocatalytic property of AgBr/BiPO4 heterojunction photocatalyst",
@@ -11500,7 +12949,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 25
+    "index": 25,
+    "volume": "41",
+    "issue": "12",
+    "page": "3387"
   },
   {
     "title": "Photocatalytic Degradation of Methylene Blue over AgAlO2 under UV light Irradiation",
@@ -11526,7 +12978,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 24
+    "index": 24,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Synthesis and characterization of the efficient visible-light-induced photocatalyst AgBr and its photodegradation activity",
@@ -11552,7 +13007,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 23
+    "index": 23,
+    "volume": "73",
+    "issue": "4",
+    "page": "523-529"
   },
   {
     "title": "REACTION KINETICS AND THIOUREA REMOVAL BY OZONE OXIDATION",
@@ -11573,7 +13031,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 22
+    "index": 22,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Synthesis, characterization and photocatalytic activity of NaNbO3/ZnO heterojunction photocatalysts",
@@ -11594,7 +13055,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 21
+    "index": 21,
+    "volume": "509",
+    "issue": "37",
+    "page": "9157-9163"
   },
   {
     "title": "Photocatalytic degradation of methylene blue over Co-Ag3VO4 under visible light irradiation",
@@ -11620,7 +13084,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 20
+    "index": 20,
+    "volume": "335-336",
+    "issue": "",
+    "page": "1385-1390"
   },
   {
     "title": "Enhanced photocatalytic activity of bismuth oxyiodine (BiOI) porous microspheres synthesized via reactable ionic liquid-assisted solvothermal method",
@@ -11641,7 +13108,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 19
+    "index": 19,
+    "volume": "387",
+    "issue": "1-3",
+    "page": "23-28"
   },
   {
     "title": "ENHANCED PHOTOCATALYTIC ACTIVITY OF AgNbO3 DOPED WITH Fe3+",
@@ -11667,7 +13137,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 18
+    "index": 18,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Enhanced photocatalytic activity of new photocatalyst Ag/AgCl/ZnO",
@@ -11688,7 +13161,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 17
+    "index": 17,
+    "volume": "509",
+    "issue": "7",
+    "page": "3286-3292"
   },
   {
     "title": "Self-Assembly and Enhanced Photocatalytic Properties of BiOI Hollow Microspheres via a Reactable Ionic Liquid",
@@ -11709,7 +13185,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 16
+    "index": 16,
+    "volume": "27",
+    "issue": "3",
+    "page": "1200-1206"
   },
   {
     "title": "One-Pot Synthesis of Visible-Light-Driven Plasmonic Photocatalyst Ag/AgCl in Ionic Liquid",
@@ -11730,7 +13209,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 15
+    "index": 15,
+    "volume": "3",
+    "issue": "1",
+    "page": "22-29"
   },
   {
     "title": "Improved visible light photocatalytic activity of sphere-like BiOBr hollow and porous structures synthesized via a reactable ionic liquid",
@@ -11751,7 +13233,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 14
+    "index": 14,
+    "volume": "40",
+    "issue": "19",
+    "page": "5249"
   },
   {
     "title": "Efficient degradation of methylene blue dye by catalytic oxidation using the Na8Nb6O19•13H2O/H2O2 system",
@@ -11772,7 +13257,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 13
+    "index": 13,
+    "volume": "28",
+    "issue": "4",
+    "page": "1126-1132"
   },
   {
     "title": "Self-assembly and enhanced optical absorption of Bi2WO6 nests via ionic liquid-assisted hydrothermal method",
@@ -11793,7 +13281,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 12
+    "index": 12,
+    "volume": "121",
+    "issue": "1-2",
+    "page": "6-9"
   },
   {
     "title": "Fabrication and characterization of visible-light-induced photocatalyst Gd2O3/Ag3VO4",
@@ -11814,7 +13305,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 11
+    "index": 11,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "SYNERGISTIC EFFECTS OF STRONG IONIZATION DISCHARGING AND DESULFURIZER ON FLUE GAS DESULFURIZATION PROCESS",
@@ -11835,7 +13329,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 10
+    "index": 10,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Photocatalytic activity of La2O3-modified silver vanadates catalyst for Rhodamine B dye degradation under visible light irradiation",
@@ -11868,7 +13365,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "badges": [
       "CEJ"
     ],
-    "index": 9
+    "index": 9,
+    "volume": "160",
+    "issue": "1",
+    "page": "33-41"
   },
   {
     "title": "Characterization and Photocatalytic Activity of ZnO/AgNbO3",
@@ -11889,7 +13389,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 8
+    "index": 8,
+    "volume": "25",
+    "issue": "9",
+    "page": "935-941"
   },
   {
     "title": "Structural characterization and photocatalytic activity of NiO/AgNbO3",
@@ -11910,7 +13413,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 7
+    "index": 7,
+    "volume": "496",
+    "issue": "1-2",
+    "page": "633-637"
   },
   {
     "title": "Synthesis, characterization and photocatalytic activities of rare earth-loaded BiVO4 catalysts",
@@ -11931,7 +13437,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 6
+    "index": 6,
+    "volume": "256",
+    "issue": "3",
+    "page": "597-602"
   },
   {
     "title": "Enhanced Photocatalytic Activity of Ag3VO4 Loaded with Rare-Earth Elements under Visible-Light Irradiation",
@@ -11952,7 +13461,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 5
+    "index": 5,
+    "volume": "48",
+    "issue": "24",
+    "page": "10771-10778"
   },
   {
     "title": "Preparation, characterization and photocatalytic activity of transition metal-loaded BiVO4",
@@ -11973,7 +13485,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 4
+    "index": 4,
+    "volume": "147",
+    "issue": "1",
+    "page": "52-56"
   },
   {
     "title": "Photocatalytic decolorization of methylene blue via Ag-deposited BiVo4 under UV-light irradiation",
@@ -11999,7 +13514,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 3
+    "index": 3,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Photodegradation of methylene blue over Ag-deposited BiVO4 under VU irradiation",
@@ -12025,7 +13543,10 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 2
+    "index": 2,
+    "volume": "",
+    "issue": "",
+    "page": ""
   },
   {
     "title": "Photocatalytic degradation of methylene blue using Ag-loaded BiVO4 catalyst under visible light irradiation",
@@ -12051,6 +13572,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": false,
     "is_esi": false,
     "badges": [],
-    "index": 1
+    "index": 1,
+    "volume": "",
+    "issue": "",
+    "page": ""
   }
 ];

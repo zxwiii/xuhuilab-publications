@@ -234,7 +234,7 @@ def fetch_json(url, timeout=15):
         return json.loads(resp.read().decode('utf-8'))
 
 def fetch_single_crossref(doi):
-    """从 Crossref API 查询完整作者列表与期刊详情"""
+    """从 Crossref API 查询完整作者列表与期刊、卷期详情"""
     url = f"https://api.crossref.org/works/{doi}"
     try:
         data = fetch_json(url, timeout=8)
@@ -253,9 +253,14 @@ def fetch_single_crossref(doi):
         
         container = msg.get('container-title', [])
         journal_name = container[0] if container else ""
-        return doi, author_names, journal_name
+        vol = str(msg.get("volume") or "").strip()
+        iss = str(msg.get("issue") or "").strip()
+        pg = str(msg.get("page") or "").strip()
+        art_num = str(msg.get("article-number") or "").strip()
+        final_page = pg if pg else art_num
+        return doi, author_names, journal_name, vol, iss, final_page
     except Exception:
-        return doi, None, None
+        return doi, None, None, "", "", ""
 
 def sync_orcid_data():
     print("=" * 65)
@@ -382,11 +387,14 @@ def sync_orcid_data():
             print(f"  -> 正在补全 [{i+1}~{min(i+len(chunk), len(dois_to_enrich))}/{len(dois_to_enrich)}] 篇权威作者元数据...")
             with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
                 future_results = executor.map(fetch_single_crossref, chunk)
-                for d, names, jname in future_results:
+                for d, names, jname, vol, iss, pg in future_results:
                     if names and len(names) > 0:
                         crossref_cache[d] = {
                             "authors": names,
-                            "journal": jname
+                            "journal": jname,
+                            "volume": vol,
+                            "issue": iss,
+                            "page": pg
                         }
                         total_enriched += 1
             time.sleep(0.4)
@@ -567,6 +575,14 @@ def sync_orcid_data():
 
         doi_url = f"https://doi.org/{doi}" if doi else ""
 
+        vol = ""
+        iss = ""
+        pg = ""
+        if doi in crossref_cache:
+            vol = crossref_cache[doi].get("volume", "")
+            iss = crossref_cache[doi].get("issue", "")
+            pg = crossref_cache[doi].get("page", "")
+
         item = {
             "title": title,
             "authors": authors_display,
@@ -574,6 +590,9 @@ def sync_orcid_data():
             "year": year_int,
             "year_group": year_group,
             "date": f"{year_int}-{month}-{day}",
+            "volume": vol,
+            "issue": iss,
+            "page": pg,
             "doi": doi,
             "url": doi_url,
             "topics": matched_topics,
