@@ -1,6 +1,6 @@
 /**
  * 许晖课题组 (Hui Xu Lab) 学术成果数据库
- * 更新时间: 2026-10-19 12:56:20
+ * 更新时间: 2026-10-19 21:05:26
  * 总收录篇数: 508
  */
 window.XUHUILAB_STATS = {
@@ -32,7 +32,7 @@ window.XUHUILAB_STATS = {
     "env": 111,
     "battery": 14
   },
-  "updated_at": "2026-10-19 12:56:20"
+  "updated_at": "2026-10-19 21:05:26"
 };
 window.XUHUILAB_PUBLICATIONS = [
   {
@@ -42,9 +42,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "year": 2026,
     "year_group": "2026",
     "date": "2026-10-05",
-    "volume": "",
-    "issue": "",
-    "page": "",
+    "volume": "65",
+    "issue": "41",
+    "page": "e7758933",
     "doi": "10.1002/anie.7758933",
     "url": "https://doi.org/10.1002/anie.7758933",
     "topics": [
@@ -74,9 +74,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "year": 2026,
     "year_group": "2026",
     "date": "2026-08-01",
-    "volume": "",
+    "volume": "390",
     "issue": "",
-    "page": "",
+    "page": "126500",
     "doi": "10.1016/j.apcatb.2026.126500",
     "url": "https://doi.org/10.1016/j.apcatb.2026.126500",
     "topics": [
@@ -107,7 +107,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2026-06-16",
     "volume": "",
     "issue": "",
-    "page": "",
+    "page": "acscatal.6c03039",
     "doi": "10.1021/acscatal.6c03039",
     "url": "https://doi.org/10.1021/acscatal.6c03039",
     "topics": [
@@ -132,9 +132,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "year": 2026,
     "year_group": "2026",
     "date": "2026-06-01",
-    "volume": "",
-    "issue": "",
-    "page": "",
+    "volume": "72",
+    "issue": "6",
+    "page": "e70330",
     "doi": "10.1002/aic.70330",
     "url": "https://doi.org/10.1002/aic.70330",
     "topics": [
@@ -152,7 +152,7 @@ window.XUHUILAB_PUBLICATIONS = [
   {
     "title": "The advantageous active sites construction and the electronic structure modification of cobalt-modified CeO2 for efficient solar-driven CO2 reduction",
     "authors": "Xianxian Yang, Yixuan Hu, Jinman Yang, Haoyuan Yin, Yansheng Du, Minqiang He, Xiaojie She, Yanhua Song, Xingwang Zhu, <strong>Hui Xu</strong>",
-    "journal": "Green Energy & Environment",
+    "journal": "Green Energy &amp; Environment",
     "year": 2026,
     "year_group": "2026",
     "date": "2026-04-01",
@@ -185,9 +185,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "year": 2026,
     "year_group": "2026",
     "date": "2026-01-01",
-    "volume": "",
+    "volume": "81",
     "issue": "",
-    "page": "",
+    "page": "216-226",
     "doi": "10.1016/s1872-2067(25)64861-3",
     "url": "https://doi.org/10.1016/s1872-2067(25)64861-3",
     "topics": [
@@ -209,9 +209,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "year": 2026,
     "year_group": "2026",
     "date": "2026-01-01",
-    "volume": "",
+    "volume": "389",
     "issue": "",
-    "page": "",
+    "page": "126579",
     "doi": "10.1016/j.apcatb.2026.126579",
     "url": "https://doi.org/10.1016/j.apcatb.2026.126579",
     "topics": [
@@ -240,9 +240,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "year": 2026,
     "year_group": "2026",
     "date": "2026-01-01",
-    "volume": "",
+    "volume": "701",
     "issue": "",
-    "page": "",
+    "page": "138723",
     "doi": "10.1016/j.jcis.2025.138723",
     "url": "https://doi.org/10.1016/j.jcis.2025.138723",
     "topics": [
@@ -269,9 +269,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "year": 2026,
     "year_group": "2026",
     "date": "2026-01-01",
-    "volume": "",
-    "issue": "",
-    "page": "",
+    "volume": "16",
+    "issue": "1",
+    "page": "831-841",
     "doi": "10.1021/acscatal.5c08597",
     "url": "https://doi.org/10.1021/acscatal.5c08597",
     "topics": [
@@ -296,9 +296,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "year": 2026,
     "year_group": "2026",
     "date": "2026-01-01",
-    "volume": "",
+    "volume": "306",
     "issue": "",
-    "page": "",
+    "page": "114321",
     "doi": "10.1016/j.solener.2026.114321",
     "url": "https://doi.org/10.1016/j.solener.2026.114321",
     "topics": [
@@ -320,9 +320,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "year": 2026,
     "year_group": "2026",
     "date": "2026-01-01",
-    "volume": "",
-    "issue": "",
-    "page": "",
+    "volume": "8",
+    "issue": "1",
+    "page": "234-243",
     "doi": "10.1016/j.nanoms.2025.03.007",
     "url": "https://doi.org/10.1016/j.nanoms.2025.03.007",
     "topics": [
@@ -349,9 +349,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "year": 2026,
     "year_group": "2026",
     "date": "2026-01-01",
-    "volume": "",
+    "volume": "380",
     "issue": "",
-    "page": "",
+    "page": "125804",
     "doi": "10.1016/j.apcatb.2025.125804",
     "url": "https://doi.org/10.1016/j.apcatb.2025.125804",
     "topics": [

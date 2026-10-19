@@ -371,34 +371,54 @@ def sync_orcid_data():
         if not d:
             continue
 
-        # 检查 ORCID 中的作者情况
+        # 权威学术元数据补全条件核对：
+        # 凡是有 DOI 的成果：
+        # 1. 若从未查询过 Crossref 缓存，或者
+        # 2. 缓存中尚未收录卷号与页码，或者
+        # 3. 作者数量缺失
+        # 均加入并发查询池，确保无论谁运行都能精准拿到卷期与完整作者
         contribs = (w.get('contributors') or {}).get('contributor') or []
-        # 若 ORCID 无作者、或仅有 1 个作者且该 DOI 尚未缓存过 Crossref
-        if (len(contribs) <= 1 or not any(c.get('credit-name') for c in contribs)) and d not in crossref_cache:
+        need_enrich = False
+        if d not in crossref_cache:
+            need_enrich = True
+        else:
+            c_info = crossref_cache[d]
+            if not c_info.get("volume") and not c_info.get("page"):
+                need_enrich = True
+            elif len(c_info.get("authors", [])) <= 1:
+                need_enrich = True
+
+        if need_enrich:
             dois_to_enrich.append(d)
 
     dois_to_enrich = list(set(dois_to_enrich))
     if dois_to_enrich:
-        print(f"[Crossref] 发现 {len(dois_to_enrich)} 篇论文在 ORCID 中作者信息不全，正在通过 Crossref 高速补全...")
+        print(f"[Crossref] 发现 {len(dois_to_enrich)} 篇论文需通过 Crossref 补充权威作者或卷期数据...")
         chunk_size = 50
         total_enriched = 0
         for i in range(0, len(dois_to_enrich), chunk_size):
             chunk = dois_to_enrich[i:i + chunk_size]
-            print(f"  -> 正在补全 [{i+1}~{min(i+len(chunk), len(dois_to_enrich))}/{len(dois_to_enrich)}] 篇权威作者元数据...")
+            print(f"  -> 正在补全 [{i+1}~{min(i+len(chunk), len(dois_to_enrich))}/{len(dois_to_enrich)}] 篇权威元数据...")
             with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
                 future_results = executor.map(fetch_single_crossref, chunk)
                 for d, names, jname, vol, iss, pg in future_results:
-                    if names and len(names) > 0:
+                    if d:
+                        existing = crossref_cache.get(d, {})
+                        final_authors = names if (names and len(names) > 0) else existing.get("authors", [])
+                        final_journal = jname if jname else existing.get("journal", "")
+                        final_vol = vol if vol else existing.get("volume", "")
+                        final_iss = iss if iss else existing.get("issue", "")
+                        final_pg = pg if pg else existing.get("page", "")
                         crossref_cache[d] = {
-                            "authors": names,
-                            "journal": jname,
-                            "volume": vol,
-                            "issue": iss,
-                            "page": pg
+                            "authors": final_authors,
+                            "journal": final_journal,
+                            "volume": final_vol,
+                            "issue": final_iss,
+                            "page": final_pg
                         }
                         total_enriched += 1
             time.sleep(0.4)
-        print(f"[Crossref] 补全完毕！共成功补全 {total_enriched} 篇论文的完整作者名单！")
+        print(f"[Crossref] 补全完毕！共成功更新 {total_enriched} 篇论文的权威元数据！")
         # 保存 Crossref 缓存
         try:
             with open(CROSSREF_CACHE_FILE, 'w', encoding='utf-8') as f:
