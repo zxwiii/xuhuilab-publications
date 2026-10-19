@@ -11,6 +11,7 @@
 # --- [2026] 最新顶级期刊 Angewandte Chemie & ACS Catalysis ---
 10.1002/anie.7758933
 10.1021/acscatal.6c03039
+10.1002/aic.70330
 
 # --- [2025] ACS Catalysis ---
 10.1021/acscatal.5c00090
@@ -18,6 +19,7 @@
 # --- [2023] Angewandte Chemie & Nano Energy ---
 10.1002/ANIE.202218694
 10.1016/J.NANOEN.2023.108363
+10.1002/aic.18233
 
 # --- [2022] ACS Nano & Angewandte Chemie & ACS Catalysis ---
 10.1021/ACSNANO.1C10003
