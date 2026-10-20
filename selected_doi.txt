@@ -7,7 +7,7 @@
 # 4. 严谨收录顶级期刊：Nature Energy, Advanced Materials, Advanced Energy Materials,
 #    Angewandte Chemie, ACS Nano, Nano Energy, ACS Catalysis 等。
 # ==============================================================
-
+10.1038/s41560-023-01415-4
 # --- [2026] 最新顶级期刊 Angewandte Chemie & ACS Catalysis ---
 10.1002/anie.7758933
 10.1021/acscatal.6c03039

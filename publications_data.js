@@ -1,12 +1,12 @@
 /**
  * 许晖课题组 (Hui Xu Lab) 学术成果数据库
- * 更新时间: 2026-10-19 13:39:16
+ * 更新时间: 2026-10-20 16:48:33
  * 总收录篇数: 508
  */
 window.XUHUILAB_STATS = {
   "total": 508,
-  "selected": 24,
-  "esi": 0,
+  "selected": 29,
+  "esi": 27,
   "years": {
     "2026": 12,
     "2025": 38,
@@ -24,15 +24,31 @@ window.XUHUILAB_STATS = {
   },
   "topics": {
     "co2": 73,
-    "electrocat": 39,
-    "photocat": 330,
-    "materials": 77,
+    "electrocat": 60,
+    "photocat": 359,
     "h2": 84,
     "biomass": 11,
-    "env": 111,
+    "env": 114,
     "battery": 14
   },
-  "updated_at": "2026-10-19 13:39:16"
+  "journals": {
+    "Nat. Energy": 1,
+    "Adv. Energy Mater.": 2,
+    "AFM": 3,
+    "Angew. Chem.": 5,
+    "CES": 2,
+    "AIChE J.": 2,
+    "ACS Nano": 2,
+    "Nano Energy": 4,
+    "ACS Catal.": 6,
+    "Appl. Catal. B": 33,
+    "CEJ": 27,
+    "JMCA": 9,
+    "J. Energy Chem.": 5,
+    "Chin. J. Catal.": 7,
+    "Small": 6
+  },
+  "updated_at": "2026-10-20 16:48:33"
 };
 window.XUHUILAB_PUBLICATIONS = [
   {
@@ -115,6 +131,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": true,
@@ -142,12 +163,18 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": true,
     "is_esi": false,
     "badges": [
-      "Selected"
+      "Selected",
+      "AIChE J."
     ],
     "index": 505
   },
@@ -197,11 +224,18 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Chin. J. Catal."
+    ],
     "index": 503
   },
   {
@@ -278,9 +312,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1021/acscatal.5c08597",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": true,
@@ -392,8 +426,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 496,
@@ -454,8 +489,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Small"
     ],
     "index": 494,
@@ -480,8 +516,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 493,
@@ -503,6 +540,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": true,
@@ -525,13 +567,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2025-05-01",
     "doi": "10.1016/j.jcis.2025.01.140",
     "url": "https://doi.org/10.1016/j.jcis.2025.01.140",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -573,13 +609,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2025-02-01",
     "doi": "10.1016/j.seppur.2024.128399",
     "url": "https://doi.org/10.1016/j.seppur.2024.128399",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -631,6 +661,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -722,9 +757,12 @@ window.XUHUILAB_PUBLICATIONS = [
         "name_en": "Electrocatalysis"
       }
     ],
-    "is_selected": false,
+    "is_selected": true,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Selected",
+      "CES"
+    ],
     "index": 484,
     "volume": "305",
     "issue": "",
@@ -821,13 +859,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2025-01-01",
     "doi": "10.1021/acsenergylett.4c03233",
     "url": "https://doi.org/10.1021/acsenergylett.4c03233",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -845,13 +877,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2025-01-01",
     "doi": "10.1016/j.jphotochem.2025.116280",
     "url": "https://doi.org/10.1016/j.jphotochem.2025.116280",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -869,13 +895,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2025-01-01",
     "doi": "10.1016/j.fuel.2025.134390",
     "url": "https://doi.org/10.1016/j.fuel.2025.134390",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -937,6 +957,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -1005,9 +1030,10 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": true,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
       "Selected",
+      "ESI Top 1%",
       "Angew. Chem."
     ],
     "index": 474,
@@ -1087,12 +1113,18 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": true,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
       "Selected",
+      "ESI Top 1%",
       "ACS Catal."
     ],
     "index": 471,
@@ -1116,9 +1148,12 @@ window.XUHUILAB_PUBLICATIONS = [
         "name_en": "Electrocatalysis"
       }
     ],
-    "is_selected": false,
+    "is_selected": true,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Selected",
+      "AFM"
+    ],
     "index": 470,
     "volume": "35",
     "issue": "48",
@@ -1143,6 +1178,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -1186,13 +1226,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2025-01-01",
     "doi": "10.1021/acsami.5c10408",
     "url": "https://doi.org/10.1021/acsami.5c10408",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -1446,6 +1480,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -1559,6 +1598,11 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1016/j.apcatb.2023.123337",
     "topics": [
       {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
         "id": "env",
         "name_cn": "环境催化",
         "name_en": "Environmental Catalysis"
@@ -1588,6 +1632,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -1668,9 +1717,10 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": true,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
       "Selected",
+      "ESI Top 1%",
       "Nat. Energy"
     ],
     "index": 450,
@@ -1687,13 +1737,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2024-01-01",
     "doi": "10.1021/acs.jpcc.4c02747",
     "url": "https://doi.org/10.1021/acs.jpcc.4c02747",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -1711,13 +1755,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2024-01-01",
     "doi": "10.1016/j.ceramint.2024.08.110",
     "url": "https://doi.org/10.1016/j.ceramint.2024.08.110",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -1771,6 +1809,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -1792,13 +1835,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2024-01-01",
     "doi": "10.1016/j.seppur.2023.126259",
     "url": "https://doi.org/10.1016/j.seppur.2023.126259",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -1976,6 +2013,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -2052,9 +2094,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1021/acs.inorgchem.4c04334",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -2115,9 +2157,12 @@ window.XUHUILAB_PUBLICATIONS = [
         "name_en": "Electrocatalysis"
       }
     ],
-    "is_selected": false,
+    "is_selected": true,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Selected",
+      "CES"
+    ],
     "index": 434,
     "volume": "299",
     "issue": "",
@@ -2218,6 +2263,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "name_en": "CO2 Reduction & Conversion"
       },
       {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
         "id": "env",
         "name_cn": "环境催化",
         "name_en": "Environmental Catalysis"
@@ -2240,13 +2290,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2024-01-01",
     "doi": "10.1016/j.ceramint.2023.12.416",
     "url": "https://doi.org/10.1016/j.ceramint.2023.12.416",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -2269,6 +2313,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -2338,9 +2387,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1016/j.jcis.2024.05.003",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -2360,13 +2409,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2024-01-01",
     "doi": "10.1016/j.saa.2024.124248",
     "url": "https://doi.org/10.1016/j.saa.2024.124248",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -2539,8 +2582,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "CEJ"
     ],
     "index": 418,
@@ -2610,13 +2654,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2023-01-01",
     "doi": "10.3390/pr11020305",
     "url": "https://doi.org/10.3390/pr11020305",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -2734,8 +2772,10 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
-    "badges": [],
+    "is_esi": true,
+    "badges": [
+      "ESI Top 1%"
+    ],
     "index": 411,
     "volume": "10",
     "issue": "36",
@@ -2789,7 +2829,8 @@ window.XUHUILAB_PUBLICATIONS = [
     "is_selected": true,
     "is_esi": false,
     "badges": [
-      "Selected"
+      "Selected",
+      "AIChE J."
     ],
     "index": 409,
     "volume": "69",
@@ -2818,8 +2859,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "CEJ"
     ],
     "index": 408,
@@ -2854,8 +2896,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 407,
@@ -2963,7 +3006,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Chin. J. Catal."
+    ],
     "index": 403,
     "volume": "44",
     "issue": "",
@@ -2983,11 +3028,18 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "J. Energy Chem."
+    ],
     "index": 402,
     "volume": "80",
     "issue": "",
@@ -3007,6 +3059,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -3103,17 +3160,12 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2023-01-01",
     "doi": "10.1016/j.nanoen.2023.108363",
     "url": "https://doi.org/10.1016/j.nanoen.2023.108363",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": true,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
       "Selected",
+      "ESI Top 1%",
       "Nano Energy"
     ],
     "index": 397,
@@ -3132,9 +3184,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.3390/ma16103879",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -3219,13 +3271,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2023-01-01",
     "doi": "10.1016/j.fuel.2022.126021",
     "url": "https://doi.org/10.1016/j.fuel.2022.126021",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -3243,13 +3289,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2023-01-01",
     "doi": "10.1016/j.molliq.2023.121650",
     "url": "https://doi.org/10.1016/j.molliq.2023.121650",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -3280,9 +3320,10 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": true,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
       "Selected",
+      "ESI Top 1%",
       "Angew. Chem."
     ],
     "index": 391,
@@ -3299,13 +3340,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2023-01-01",
     "doi": "10.1016/j.seppur.2023.124826",
     "url": "https://doi.org/10.1016/j.seppur.2023.124826",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -3328,6 +3363,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "h2",
         "name_cn": "制氢与全解水",
         "name_en": "H2 Evolution & Water Splitting"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -3349,9 +3389,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1016/j.ijhydene.2022.10.033",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -3376,6 +3416,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "env",
+        "name_cn": "环境催化",
+        "name_en": "Environmental Catalysis"
       }
     ],
     "is_selected": false,
@@ -3429,6 +3474,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       },
       {
         "id": "env",
@@ -3505,9 +3555,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1002/adsu.202200278",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -3604,13 +3654,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2022-01-01",
     "doi": "10.3389/fenrg.2021.825159",
     "url": "https://doi.org/10.3389/fenrg.2021.825159",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -3628,13 +3672,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2022-01-01",
     "doi": "10.1155/2022/9349432",
     "url": "https://doi.org/10.1155/2022/9349432",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -3652,13 +3690,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2022-01-01",
     "doi": "10.2144/btn-2021-0101",
     "url": "https://doi.org/10.2144/btn-2021-0101",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -3676,13 +3708,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2022-01-01",
     "doi": "10.3390/pr10091813",
     "url": "https://doi.org/10.3390/pr10091813",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -3777,13 +3803,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2022-01-01",
     "doi": "10.1016/j.ceramint.2022.07.328",
     "url": "https://doi.org/10.1016/j.ceramint.2022.07.328",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -3838,11 +3858,18 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "JMCA"
+    ],
     "index": 369,
     "volume": "10",
     "issue": "48",
@@ -3939,6 +3966,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -4180,13 +4212,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2022-01-01",
     "doi": "10.1021/acsnano.1c10003",
     "url": "https://doi.org/10.1021/acsnano.1c10003",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": true,
     "is_esi": false,
     "badges": [
@@ -4265,13 +4291,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2022-01-01",
     "doi": "10.1016/j.cej.2022.135410",
     "url": "https://doi.org/10.1016/j.cej.2022.135410",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [
@@ -4296,6 +4316,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "h2",
         "name_cn": "制氢与全解水",
         "name_en": "H2 Evolution & Water Splitting"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -4418,9 +4443,10 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": true,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
       "Selected",
+      "ESI Top 1%",
       "Angew. Chem."
     ],
     "index": 348,
@@ -4461,13 +4487,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2022-01-01",
     "doi": "10.1016/j.cej.2021.133100",
     "url": "https://doi.org/10.1016/j.cej.2021.133100",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [
@@ -4532,7 +4552,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Chin. J. Catal."
+    ],
     "index": 344,
     "volume": "43",
     "issue": "5",
@@ -4547,13 +4569,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2022-01-01",
     "doi": "10.1016/j.snb.2021.131156",
     "url": "https://doi.org/10.1016/j.snb.2021.131156",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -4634,6 +4650,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -4706,13 +4727,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2021-01-01",
     "doi": "10.3390/machines9110288",
     "url": "https://doi.org/10.3390/machines9110288",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -4730,13 +4745,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2021-01-01",
     "doi": "10.1515/flin-2021-2077",
     "url": "https://doi.org/10.1515/flin-2021-2077",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -4802,7 +4811,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "J. Energy Chem."
+    ],
     "index": 334,
     "volume": "52",
     "issue": "",
@@ -4991,8 +5002,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "CEJ"
     ],
     "index": 327,
@@ -5067,6 +5079,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -5095,7 +5112,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Chin. J. Catal."
+    ],
     "index": 323,
     "volume": "42",
     "issue": "3",
@@ -5112,9 +5131,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1021/acsami.1c12692",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -5163,6 +5182,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": true,
@@ -5228,7 +5252,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "J. Energy Chem."
+    ],
     "index": 318,
     "volume": "54",
     "issue": "",
@@ -5248,6 +5274,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -5305,7 +5336,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Chin. J. Catal."
+    ],
     "index": 315,
     "volume": "42",
     "issue": "2",
@@ -5344,13 +5377,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2021-01-01",
     "doi": "10.1007/s12598-020-01592-1",
     "url": "https://doi.org/10.1007/s12598-020-01592-1",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -5393,6 +5420,11 @@ window.XUHUILAB_PUBLICATIONS = [
     "doi": "10.1016/j.seppur.2020.118269",
     "url": "https://doi.org/10.1016/j.seppur.2020.118269",
     "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
       {
         "id": "env",
         "name_cn": "环境催化",
@@ -5791,13 +5823,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2020-01-01",
     "doi": "10.1038/s41388-020-01475-w",
     "url": "https://doi.org/10.1038/s41388-020-01475-w",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -5815,13 +5841,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2020-01-01",
     "doi": "10.1080/10807039.2018.1559033",
     "url": "https://doi.org/10.1080/10807039.2018.1559033",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -5839,13 +5859,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2020-01-01",
     "doi": "10.1177/0020294020962127",
     "url": "https://doi.org/10.1177/0020294020962127",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -5945,13 +5959,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2020-01-01",
     "doi": "10.1021/acsami.0c10814",
     "url": "https://doi.org/10.1021/acsami.0c10814",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -6016,8 +6024,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 289,
@@ -6081,8 +6090,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 287,
@@ -6104,6 +6114,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "env",
+        "name_cn": "环境催化",
+        "name_en": "Environmental Catalysis"
       }
     ],
     "is_selected": false,
@@ -6133,6 +6148,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -6159,11 +6179,17 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "h2",
         "name_cn": "制氢与全解水",
         "name_en": "H2 Evolution & Water Splitting"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "CEJ"
     ],
     "index": 284,
@@ -6267,13 +6293,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2020-01-01",
     "doi": "10.1016/j.jcis.2020.07.032",
     "url": "https://doi.org/10.1016/j.jcis.2020.07.032",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -6419,6 +6439,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": false,
@@ -6438,13 +6463,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2020-01-01",
     "doi": "10.1016/j.nanoen.2020.104604",
     "url": "https://doi.org/10.1016/j.nanoen.2020.104604",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": true,
     "is_esi": false,
     "badges": [
@@ -6583,13 +6602,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2020-01-01",
     "doi": "10.1016/j.cej.2020.124130",
     "url": "https://doi.org/10.1016/j.cej.2020.124130",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [
@@ -6694,6 +6707,11 @@ window.XUHUILAB_PUBLICATIONS = [
     "doi": "10.1016/j.apsusc.2020.146343",
     "url": "https://doi.org/10.1016/j.apsusc.2020.146343",
     "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
       {
         "id": "env",
         "name_cn": "环境催化",
@@ -6818,7 +6836,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "J. Energy Chem."
+    ],
     "index": 261,
     "volume": "49",
     "issue": "",
@@ -6833,13 +6853,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2020-01-01",
     "doi": "10.1021/acsanm.0c00826",
     "url": "https://doi.org/10.1021/acsanm.0c00826",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -6888,13 +6902,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2019-01-01",
     "doi": "10.2217/epi-2018-0169",
     "url": "https://doi.org/10.2217/epi-2018-0169",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -6912,13 +6920,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2019-01-01",
     "doi": "10.3892/mmr.2019.9984",
     "url": "https://doi.org/10.3892/mmr.2019.9984",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -6936,13 +6938,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2019-01-01",
     "doi": "10.1016/j.bbrc.2019.09.098",
     "url": "https://doi.org/10.1016/j.bbrc.2019.09.098",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -7017,7 +7013,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "JMCA"
+    ],
     "index": 253,
     "volume": "7",
     "issue": "9",
@@ -7032,13 +7030,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2019-01-01",
     "doi": "10.1088/1361-6528/aae999",
     "url": "https://doi.org/10.1088/1361-6528/aae999",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -7118,9 +7110,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1007/s10904-018-1050-1",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -7190,9 +7182,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1016/j.jallcom.2019.04.297",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -7213,6 +7205,11 @@ window.XUHUILAB_PUBLICATIONS = [
     "doi": "10.1039/c8cy02449a",
     "url": "https://doi.org/10.1039/c8cy02449a",
     "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
       {
         "id": "env",
         "name_cn": "环境催化",
@@ -7391,9 +7388,10 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": true,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
       "Selected",
+      "ESI Top 1%",
       "Angew. Chem."
     ],
     "index": 239,
@@ -7517,8 +7515,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 235,
@@ -7689,16 +7688,12 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2019-01-01",
     "doi": "10.1039/c8ta11497h",
     "url": "https://doi.org/10.1039/c8ta11497h",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "JMCA"
+    ],
     "index": 229,
     "volume": "7",
     "issue": "10",
@@ -7829,6 +7824,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "env",
+        "name_cn": "环境催化",
+        "name_en": "Environmental Catalysis"
       }
     ],
     "is_selected": false,
@@ -7896,16 +7896,12 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2019-01-01",
     "doi": "10.1039/c9ta01234f",
     "url": "https://doi.org/10.1039/c9ta01234f",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "JMCA"
+    ],
     "index": 221,
     "volume": "7",
     "issue": "23",
@@ -7956,14 +7952,25 @@ window.XUHUILAB_PUBLICATIONS = [
         "name_en": "H2 Evolution & Water Splitting"
       },
       {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
+      },
+      {
         "id": "env",
         "name_cn": "环境催化",
         "name_en": "Environmental Catalysis"
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 219,
@@ -8073,7 +8080,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "J. Energy Chem."
+    ],
     "index": 215,
     "volume": "29",
     "issue": "",
@@ -8208,7 +8217,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "JMCA"
+    ],
     "index": 210,
     "volume": "7",
     "issue": "32",
@@ -8241,8 +8252,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 209,
@@ -8331,13 +8343,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2019-01-01",
     "doi": "10.1002/smll.201804613",
     "url": "https://doi.org/10.1002/smll.201804613",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": true,
     "is_esi": false,
     "badges": [
@@ -8432,9 +8438,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1007/s10853-018-03227-4",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -8454,13 +8460,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2018-01-01",
     "doi": "",
     "url": "",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -8478,13 +8478,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2018-01-01",
     "doi": "10.1007/s00705-017-3659-8",
     "url": "https://doi.org/10.1007/s00705-017-3659-8",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -8685,13 +8679,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2018-01-01",
     "doi": "10.1016/j.electacta.2017.10.143",
     "url": "https://doi.org/10.1016/j.electacta.2017.10.143",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -8717,8 +8705,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 190,
@@ -8736,6 +8725,11 @@ window.XUHUILAB_PUBLICATIONS = [
     "doi": "10.1016/j.apcatb.2017.11.045",
     "url": "https://doi.org/10.1016/j.apcatb.2017.11.045",
     "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
       {
         "id": "env",
         "name_cn": "环境催化",
@@ -8785,13 +8779,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2018-01-01",
     "doi": "10.1007/s10854-018-9245-3",
     "url": "https://doi.org/10.1007/s10854-018-9245-3",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -8933,9 +8921,10 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": true,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
       "Selected",
+      "ESI Top 1%",
       "Adv. Energy Mater."
     ],
     "index": 182,
@@ -9045,7 +9034,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Chin. J. Catal."
+    ],
     "index": 178,
     "volume": "39",
     "issue": "4",
@@ -9089,6 +9080,11 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "co2",
         "name_cn": "CO2还原与转化",
         "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -9438,6 +9434,11 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1021/acsami.8b15905",
     "topics": [
       {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
         "id": "env",
         "name_cn": "环境催化",
         "name_en": "Environmental Catalysis"
@@ -9645,13 +9646,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2017-01-01",
     "doi": "10.1016/j.snb.2016.11.081",
     "url": "https://doi.org/10.1016/j.snb.2016.11.081",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -9770,13 +9765,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2017-01-01",
     "doi": "10.1002/ente.201700437",
     "url": "https://doi.org/10.1002/ente.201700437",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -9818,16 +9807,13 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2017-01-01",
     "doi": "10.1002/adfm.201700653",
     "url": "https://doi.org/10.1002/adfm.201700653",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
-    "is_selected": false,
+    "topics": [],
+    "is_selected": true,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Selected",
+      "AFM"
+    ],
     "index": 148,
     "volume": "27",
     "issue": "22",
@@ -9842,13 +9828,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2017-01-01",
     "doi": "10.11896/j.issn.1005-023x.2017.024.020",
     "url": "https://doi.org/10.11896/j.issn.1005-023x.2017.024.020",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -9890,13 +9870,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2017-01-01",
     "doi": "10.1016/j.jpcs.2017.03.023",
     "url": "https://doi.org/10.1016/j.jpcs.2017.03.023",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -10132,13 +10106,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2017-01-01",
     "doi": "10.1016/j.materresbull.2017.05.018",
     "url": "https://doi.org/10.1016/j.materresbull.2017.05.018",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -10190,12 +10158,18 @@ window.XUHUILAB_PUBLICATIONS = [
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
       }
     ],
     "is_selected": true,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
       "Selected",
+      "ESI Top 1%",
       "Adv. Energy Mater."
     ],
     "index": 134,
@@ -10236,13 +10210,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2017-01-01",
     "doi": "10.1126/sciadv.1701500",
     "url": "https://doi.org/10.1126/sciadv.1701500",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -10260,16 +10228,13 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2017-01-01",
     "doi": "10.1002/adfm.201701714",
     "url": "https://doi.org/10.1002/adfm.201701714",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
-    "is_selected": false,
+    "topics": [],
+    "is_selected": true,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Selected",
+      "AFM"
+    ],
     "index": 131,
     "volume": "27",
     "issue": "31",
@@ -10565,6 +10530,11 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1002/slct.201600861",
     "topics": [
       {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
         "id": "env",
         "name_cn": "环境催化",
         "name_en": "Environmental Catalysis"
@@ -10682,8 +10652,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 115,
@@ -10747,8 +10718,9 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": false,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
+      "ESI Top 1%",
       "Appl. Catal. B"
     ],
     "index": 113,
@@ -10850,9 +10822,10 @@ window.XUHUILAB_PUBLICATIONS = [
       }
     ],
     "is_selected": true,
-    "is_esi": false,
+    "is_esi": true,
     "badges": [
       "Selected",
+      "ESI Top 1%",
       "Nano Energy"
     ],
     "index": 109,
@@ -11373,13 +11346,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2015-01-01",
     "doi": "10.1007/s11270-015-2414-6",
     "url": "https://doi.org/10.1007/s11270-015-2414-6",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -11449,9 +11416,9 @@ window.XUHUILAB_PUBLICATIONS = [
     "url": "https://doi.org/10.1039/c5nj00489f",
     "topics": [
       {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
       }
     ],
     "is_selected": false,
@@ -11471,13 +11438,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2015-01-01",
     "doi": "10.1039/c4dt03793f",
     "url": "https://doi.org/10.1039/c4dt03793f",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -11586,7 +11547,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "JMCA"
+    ],
     "index": 80,
     "volume": "3",
     "issue": "29",
@@ -11673,13 +11636,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2014-01-01",
     "doi": "10.1016/j.fluid.2014.01.034",
     "url": "https://doi.org/10.1016/j.fluid.2014.01.034",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -11721,13 +11678,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2014-01-01",
     "doi": "",
     "url": "",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -11841,13 +11792,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2014-01-01",
     "doi": "10.1016/j.apsusc.2013.10.086",
     "url": "https://doi.org/10.1016/j.apsusc.2013.10.086",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -11894,13 +11839,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2014-01-01",
     "doi": "10.1016/j.jpowsour.2013.07.014",
     "url": "https://doi.org/10.1016/j.jpowsour.2013.07.014",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -11932,7 +11871,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "JMCA"
+    ],
     "index": 66,
     "volume": "2",
     "issue": "15",
@@ -12086,7 +12027,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "JMCA"
+    ],
     "index": 60,
     "volume": "2",
     "issue": "38",
@@ -12199,13 +12142,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2014-01-01",
     "doi": "10.1016/j.matlet.2014.04.110",
     "url": "https://doi.org/10.1016/j.matlet.2014.04.110",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -12309,7 +12246,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "JMCA"
+    ],
     "index": 51,
     "volume": "2",
     "issue": "8",
@@ -12350,13 +12289,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2013-01-01",
     "doi": "10.1016/j.fluid.2013.08.032",
     "url": "https://doi.org/10.1016/j.fluid.2013.08.032",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -12563,7 +12496,9 @@ window.XUHUILAB_PUBLICATIONS = [
     ],
     "is_selected": false,
     "is_esi": false,
-    "badges": [],
+    "badges": [
+      "Chin. J. Catal."
+    ],
     "index": 41,
     "volume": "34",
     "issue": "10",
@@ -12823,13 +12758,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2012-01-01",
     "doi": "10.5277/epe120408",
     "url": "https://doi.org/10.5277/epe120408",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -13001,13 +12930,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2012-01-01",
     "doi": "10.1016/j.matchemphys.2011.11.041",
     "url": "https://doi.org/10.1016/j.matchemphys.2011.11.041",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],
@@ -13407,13 +13330,7 @@ window.XUHUILAB_PUBLICATIONS = [
     "date": "2010-01-01",
     "doi": "10.1016/j.matchemphys.2010.01.046",
     "url": "https://doi.org/10.1016/j.matchemphys.2010.01.046",
-    "topics": [
-      {
-        "id": "materials",
-        "name_cn": "功能材料与催化",
-        "name_en": "Advanced Catalytic Materials"
-      }
-    ],
+    "topics": [],
     "is_selected": false,
     "is_esi": false,
     "badges": [],

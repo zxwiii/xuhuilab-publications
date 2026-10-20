@@ -10,3 +10,31 @@
 # 示例（您可以随时在下方追加或替换）：
 # 10.1016/j.apcatb.2018.09.082
 # 10.1016/j.apcatb.2020.118760
+https://doi.org/10.1016/j.cej.2023.141841
+https://doi.org/10.1016/j.apcatb.2022.122005
+https://doi.org/10.1016/j.cej.2022.138392
+https://doi.org/10.1016/j.apcatb.2020.118760
+https://doi.org/10.1021/acscatal.5c01086
+https://doi.org/10.1002/anie.202425439
+https://doi.org/10.1016/j.apcatb.2025.125265
+https://doi.org/10.1016/j.apcatb.2024.124998
+https://doi.org/10.1002/smll.202310677
+https://doi.org/10.1038/s41560-023-01415-4
+https://doi.org/10.1002/advs.202307192
+https://doi.org/10.1002/anie.202218694
+https://doi.org/10.1016/j.nanoen.2023.108363
+https://doi.org/10.1002/anie.202211396
+https://doi.org/10.1016/j.cej.2021.129888
+https://doi.org/10.1016/j.apcatb.2019.118314
+https://doi.org/10.1016/j.cej.2019.122812
+https://doi.org/10.1016/j.apcatb.2019.117854
+https://doi.org/10.1016/j.apcatb.2019.02.020
+https://doi.org/10.1002/anie.201813417
+https://doi.org/10.1016/j.apcatb.2018.08.073
+https://doi.org/10.1002/aenm.201703487
+https://doi.org/10.1016/j.apcatb.2017.11.041
+https://doi.org/10.1002/aenm.201700025
+https://doi.org/10.1016/j.nanoen.2016.06.042
+https://doi.org/10.1016/j.apcatb.2015.12.046
+https://doi.org/10.1016/j.apcatb.2015.07.035
+

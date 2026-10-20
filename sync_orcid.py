@@ -42,13 +42,67 @@ ARCHIVE_FILE = "archive_publications_2025.json"
 SELECTED_FILE = "selected_doi.txt"
 ESI_FILE = "esi_top_1_percent.txt"
 
-# 严谨顶级期刊白名单规则
+# 严谨顶级期刊白名单规则（按权威排序：Nat. Energy -> Angew. Chem. -> AIChE J. -> CES -> ACS Catal. -> ACS Nano -> AFM -> Adv. Energy Mater. -> Appl. Catal. B 等）
 TOP_JOURNALS_STRICT = [
     {
         "name": "Nature Energy",
         "abbr": "Nat. Energy",
         "is_top": True,
         "pattern": r"\bnature energy\b"
+    },
+    {
+        "name": "Angewandte Chemie",
+        "abbr": "Angew. Chem.",
+        "is_top": True,
+        "pattern": r"\bangewandte chemie\b"
+    },
+    {
+        "name": "AIChE Journal",
+        "abbr": "AIChE J.",
+        "is_top": True,
+        "pattern": r"\baiche journal\b|\baic journal\b"
+    },
+    {
+        "name": "Chemical Engineering Science",
+        "abbr": "CES",
+        "is_top": True,
+        "pattern": r"\bchemical engineering science\b"
+    },
+    {
+        "name": "ACS Catalysis",
+        "abbr": "ACS Catal.",
+        "is_top": True,
+        "pattern": r"\bacs catalysis\b"
+    },
+    {
+        "name": "ACS Nano",
+        "abbr": "ACS Nano",
+        "is_top": True,
+        "pattern": r"\bacs nano\b"
+    },
+    {
+        "name": "Advanced Functional Materials",
+        "abbr": "AFM",
+        "is_top": True,
+        "pattern": r"\badvanced functional materials\b"
+    },
+    {
+        "name": "Advanced Energy Materials",
+        "abbr": "Adv. Energy Mater.",
+        "is_top": True,
+        "pattern": r"\badvanced energy materials\b"
+    },
+    {
+        "name": "Applied Catalysis B: Environmental",
+        "abbr": "Appl. Catal. B",
+        "is_top": False,
+        "pattern": r"\bapplied catalysis b\b"
+    },
+    {
+        "name": "Nano Energy",
+        "abbr": "Nano Energy",
+        "is_top": True,
+        "pattern": r"\bnano energy\b"
     },
     {
         "name": "Nature Communications",
@@ -64,46 +118,28 @@ TOP_JOURNALS_STRICT = [
         "pattern": r"\badvanced materials\b(?!\s+(?:interfaces|research|technologies|sustainability))"
     },
     {
-        "name": "Advanced Energy Materials",
-        "abbr": "Adv. Energy Mater.",
-        "is_top": True,
-        "pattern": r"\badvanced energy materials\b"
-    },
-    {
-        "name": "Angewandte Chemie",
-        "abbr": "Angew. Chem.",
-        "is_top": True,
-        "pattern": r"\bangewandte chemie\b"
-    },
-    {
-        "name": "ACS Nano",
-        "abbr": "ACS Nano",
-        "is_top": True,
-        "pattern": r"\bacs nano\b"
-    },
-    {
-        "name": "Nano Energy",
-        "abbr": "Nano Energy",
-        "is_top": True,
-        "pattern": r"\bnano energy\b"
-    },
-    {
-        "name": "ACS Catalysis",
-        "abbr": "ACS Catal.",
-        "is_top": True,
-        "pattern": r"\bacs catalysis\b"
-    },
-    {
-        "name": "Applied Catalysis B: Environmental",
-        "abbr": "Appl. Catal. B",
-        "is_top": False,
-        "pattern": r"\bapplied catalysis b\b"
-    },
-    {
         "name": "Chemical Engineering Journal",
         "abbr": "CEJ",
         "is_top": False,
         "pattern": r"\bchemical engineering journal\b"
+    },
+    {
+        "name": "Journal of Materials Chemistry A",
+        "abbr": "JMCA",
+        "is_top": False,
+        "pattern": r"\bjournal of materials chemistry a\b"
+    },
+    {
+        "name": "Journal of Energy Chemistry",
+        "abbr": "J. Energy Chem.",
+        "is_top": False,
+        "pattern": r"\bjournal of energy chemistry\b"
+    },
+    {
+        "name": "Chinese Journal of Catalysis",
+        "abbr": "Chin. J. Catal.",
+        "is_top": False,
+        "pattern": r"\bchinese journal of catalysis\b"
     },
     {
         "name": "Small",
@@ -113,7 +149,7 @@ TOP_JOURNALS_STRICT = [
     }
 ]
 
-# 纯正学术主题词规则（严谨无 Emoji、纯文本 CO2 无下标）
+# 纯正学术主题词规则（严谨无 Emoji、纯文本 CO2 无下标，深度丰富关键词库）
 TOPIC_RULES = [
     {
         "id": "co2",
@@ -121,7 +157,8 @@ TOPIC_RULES = [
         "name_en": "CO2 Reduction & Conversion",
         "keywords": [
             r"\bco2\b", r"carbon dioxide", r"co2 reduction", r"co2 conversion",
-            r"co2 electroreduction", r"co2 photoreduction", r"methanation", r"c-c coupling"
+            r"co2 electroreduction", r"co2 photoreduction", r"co2 hydrogenation",
+            r"methanation", r"c-c coupling", r"\bco2rr\b", r"dry reforming of methane"
         ]
     },
     {
@@ -131,7 +168,7 @@ TOPIC_RULES = [
         "keywords": [
             r"hydrogen evolution", r"water splitting", r"\bh2\b", r"hydrogen production",
             r"water oxidation", r"overall water splitting", r"h2-evolution", r"h2 generation",
-            r"photoelectrochemical water oxidation"
+            r"photoelectrochemical water oxidation", r"water electrolysis", r"piezo-photocatalytic water splitting"
         ]
     },
     {
@@ -139,8 +176,11 @@ TOPIC_RULES = [
         "name_cn": "光催化",
         "name_en": "Photocatalysis",
         "keywords": [
-            r"photocataly", r"photodegrad", r"photoelectr", r"solar-driven",
-            r"visible-light", r"heterojunction", r"photothermal"
+            r"photocataly", r"photodegrad", r"photoelectr", r"photoreduct", r"photo-reduct",
+            r"photo-oxidat", r"photooxidat", r"solar-driven", r"solar-to-", r"visible-light",
+            r"visible light", r"heterojunction", r"photothermal", r"photoactivity", r"photoactive",
+            r"photolysis", r"photoelectrochemical", r"\bpec\b", r"light irradiation", r"near-infrared",
+            r"photofenton", r"photo-fenton", r"z-scheme", r"s-scheme", r"plasmonic"
         ]
     },
     {
@@ -148,8 +188,11 @@ TOPIC_RULES = [
         "name_cn": "电催化",
         "name_en": "Electrocatalysis",
         "keywords": [
-            r"electrocataly", r"\boer\b", r"\bher\b", r"\borr\b", r"electrochemical",
-            r"electrosynthesis", r"faradaic efficiency", r"helmholtz"
+            r"electrocataly", r"electro-cataly", r"electroreduct", r"electro-reduct", r"electro-oxidat",
+            r"electrooxidat", r"\boer\b", r"\bher\b", r"\borr\b", r"\bco2rr\b", r"\bnrr\b",
+            r"electrochemical", r"electrosynthesis", r"faradaic efficiency", r"helmholtz",
+            r"water electrolysis", r"membrane electrode", r"zero-gap", r"overpotential",
+            r"gas diffusion electrode", r"flow cell", r"water splitting"
         ]
     },
     {
@@ -159,7 +202,7 @@ TOPIC_RULES = [
         "keywords": [
             r"degradation", r"pollutant", r"wastewater", r"peroxymonosulfate",
             r"persulfate", r"fenton", r"no removal", r"dye degradation",
-            r"antibiotic", r"environmental", r"organic pollutant"
+            r"antibiotic", r"environmental", r"organic pollutant", r"cr\(vi\)", r"heavy metal"
         ]
     },
     {
@@ -169,7 +212,7 @@ TOPIC_RULES = [
         "keywords": [
             r"biomass", r"organic synthesis", r"coupling reaction", r"furfural",
             r"lignin", r"oxidation of alcohol", r"amine", r"selective oxidation",
-            r"selective hydrogenation"
+            r"selective hydrogenation", r"5-hydroxymethylfurfural", r"\bhmf\b"
         ]
     },
     {
@@ -178,7 +221,7 @@ TOPIC_RULES = [
         "name_en": "Batteries & Energy Storage",
         "keywords": [
             r"battery", r"batteries", r"supercapacitor", r"storage", r"lithium",
-            r"sodium-ion", r"zinc-ion", r"anode", r"cathode"
+            r"sodium-ion", r"zinc-ion", r"anode", r"cathode", r"solid-state electrolyte"
         ]
     }
 ]
@@ -440,17 +483,57 @@ def sync_orcid_data():
                     seen_dois.add(item["doi"])
                 if item.get("title"):
                     seen_titles.add(re.sub(r'[^a-zA-Z0-9]', '', item["title"].lower()))
-                # 动态刷新代表作与高被引徽章
+                
                 item_doi = item.get("doi", "")
-                if item_doi:
-                    if item_doi in selected_dois and not item.get("is_selected"):
-                        item["is_selected"] = True
-                        if "Selected" not in item["badges"]:
-                            item["badges"].append("Selected")
-                    if item_doi in esi_dois and not item.get("is_esi"):
-                        item["is_esi"] = True
-                        if "ESI Top 1%" not in item["badges"]:
-                            item["badges"].append("ESI Top 1%")
+                is_sel = (item_doi in selected_dois) if item_doi else False
+                is_e = (item_doi in esi_dois) if item_doi else False
+                
+                # 期刊徽章与顶级期刊识别
+                j_lower = (item.get("journal") or "").lower()
+                matched_j_badge = ""
+                for top_rule in TOP_JOURNALS_STRICT:
+                    if re.search(top_rule["pattern"], j_lower, re.I):
+                        matched_j_badge = top_rule["abbr"]
+                        if top_rule.get("is_top"):
+                            is_sel = True
+                        break
+                
+                item["is_selected"] = is_sel or item.get("is_selected", False)
+                item["is_esi"] = is_e or item.get("is_esi", False)
+                
+                # 重构 badges
+                new_badges = []
+                if item["is_selected"]:
+                    new_badges.append("Selected")
+                if item["is_esi"]:
+                    new_badges.append("ESI Top 1%")
+                if matched_j_badge and matched_j_badge not in new_badges:
+                    new_badges.append(matched_j_badge)
+                for b in item.get("badges", []):
+                    if b not in new_badges:
+                        new_badges.append(b)
+                item["badges"] = new_badges
+
+                # 动态刷新主题词（补全光催化/电催化漏标）
+                title_text = (item.get("title") or "") + " " + (item.get("journal") or "")
+                updated_topics = []
+                for tr in TOPIC_RULES:
+                    for kw in tr["keywords"]:
+                        if re.search(kw, title_text, re.IGNORECASE):
+                            updated_topics.append({
+                                "id": tr["id"],
+                                "name_cn": tr["name_cn"],
+                                "name_en": tr["name_en"]
+                            })
+                            break
+                item["topics"] = updated_topics
+
+            # 保存最新固化库
+            try:
+                with open(ARCHIVE_FILE, 'w', encoding='utf-8') as f:
+                    json.dump(archived_publications, f, ensure_ascii=False, indent=2)
+            except Exception:
+                pass
         except Exception as e:
             print(f"[Archive] 读取历史固化库异常: {e}")
 
@@ -636,8 +719,15 @@ def sync_orcid_data():
     # 统计汇总
     year_group_stats = {}
     topic_stats = {}
+    journal_stats = {}
     selected_count = sum(1 for p in publications if p.get("is_selected"))
     esi_count = sum(1 for p in publications if p.get("is_esi"))
+
+    for rule in TOP_JOURNALS_STRICT:
+        abbr = rule["abbr"]
+        count = sum(1 for p in publications if abbr in p.get("badges", []))
+        if count > 0:
+            journal_stats[abbr] = count
 
     for p in publications:
         yg = p.get("year_group", "2014及以前")
@@ -652,6 +742,7 @@ def sync_orcid_data():
         "esi": esi_count,
         "years": year_group_stats,
         "topics": topic_stats,
+        "journals": journal_stats,
         "updated_at": time.strftime("%Y-%m-%d %H:%M:%S")
     }
 
