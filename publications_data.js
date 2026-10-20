@@ -1,6 +1,6 @@
 /**
  * 许晖课题组 (Hui Xu Lab) 学术成果数据库
- * 更新时间: 2026-10-20 16:48:33
+ * 更新时间: 2026-10-20 09:14:10
  * 总收录篇数: 508
  */
 window.XUHUILAB_STATS = {
@@ -33,22 +33,22 @@ window.XUHUILAB_STATS = {
   },
   "journals": {
     "Nat. Energy": 1,
-    "Adv. Energy Mater.": 2,
-    "AFM": 3,
     "Angew. Chem.": 5,
-    "CES": 2,
     "AIChE J.": 2,
-    "ACS Nano": 2,
-    "Nano Energy": 4,
+    "CES": 2,
     "ACS Catal.": 6,
+    "ACS Nano": 2,
+    "AFM": 3,
+    "Adv. Energy Mater.": 2,
     "Appl. Catal. B": 33,
+    "Nano Energy": 4,
     "CEJ": 27,
     "JMCA": 9,
     "J. Energy Chem.": 5,
     "Chin. J. Catal.": 7,
     "Small": 6
   },
-  "updated_at": "2026-10-20 16:48:33"
+  "updated_at": "2026-10-20 09:14:10"
 };
 window.XUHUILAB_PUBLICATIONS = [
   {
