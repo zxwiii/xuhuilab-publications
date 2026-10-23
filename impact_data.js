@@ -1,0 +1,35 @@
+/**
+ * 许晖课题组 (xuhuilab.com) 学术影响力与学者头衔独立数据包
+ * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年10月23日
+ */
+window.XH_IMPACT_DATA = {
+  "scholar_name": "许晖",
+  "scholar_title": "教授 / 博导",
+  "institution": "江苏大学",
+  "researcher_id": "ADN-0578-2022",
+  "total_publications": 500,
+  "total_citations": 35458,
+  "h_index": 101,
+  "source": "Clarivate Web of Science (核心合集)",
+  "updated_at": "2026年10月23日",
+  "honors": [
+    {
+      "title": "科睿唯安全球高被引科学家",
+      "title_en": "Clarivate Highly Cited Researcher",
+      "years": "2019-2023",
+      "url": "https://www.webofscience.com/wos/author/record/ADN-0578-2022"
+    },
+    {
+      "title": "爱思唯尔中国高被引学者",
+      "title_en": "Elsevier Highly Cited Chinese Researcher",
+      "years": "2021-2025",
+      "url": "http://elsevier.2020mostcited.blue-dot.com.cn/index.php?m=index&a=downloadseach&years=2025&keywords="
+    },
+    {
+      "title": "全球前 2% 顶尖科学家 (终身/年度科学影响力榜单)",
+      "title_en": "World's Top 2% Scientists (Career & Single-Year Impact)",
+      "years": "2022-2026",
+      "url": "https://topresearcherslist.com/Home/Profile/1247233"
+    }
+  ]
+};
