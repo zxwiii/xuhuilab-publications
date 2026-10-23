@@ -1,0 +1,22 @@
+# 敏感凭据与安全秘钥 (严禁提交到 GitHub / Gitee 公开仓库)
+.env
+*.env
+wos_keys.json
+*api_key*
+*secret*
+*.pem
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# 操作系统与临时文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/

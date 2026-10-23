@@ -4,14 +4,15 @@
  */
 window.XH_PUBLICATIONS_DATA = {
   "meta": {
-    "total": 500,
+    "total": 504,
     "updated_at": "2026年10月23日",
     "source": "Clarivate Web of Science (核心合集)",
-    "selected_count": 29,
+    "selected_count": 30,
     "esi_count": 27,
     "first_or_corr_count": 275,
     "journal_stats": {
       "Nat. Energy": 1,
+      "Adv. Mater.": 1,
       "Adv. Energy Mater.": 2,
       "Angew. Chem.": 5,
       "ACS Nano": 2,
@@ -30,11 +31,11 @@ window.XH_PUBLICATIONS_DATA = {
     "topic_stats": {
       "co2": 74,
       "electrocat": 65,
-      "photocat": 369,
-      "c3n4_2d": 284,
-      "env": 168,
+      "photocat": 372,
+      "c3n4_2d": 286,
+      "env": 170,
       "energy": 105,
-      "materials": 27,
+      "materials": 28,
       "ionic": 40,
       "biomass": 19,
       "battery": 17
@@ -44,19 +45,19 @@ window.XH_PUBLICATIONS_DATA = {
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis",
-        "count": 369
+        "count": 372
       },
       {
         "id": "c3n4_2d",
         "name_cn": "碳氮材料与二维半导体",
         "name_en": "Carbon Nitride & 2D Materials",
-        "count": 284
+        "count": 286
       },
       {
         "id": "env",
         "name_cn": "环境催化",
         "name_en": "Environmental Catalysis",
-        "count": 168
+        "count": 170
       },
       {
         "id": "energy",
@@ -86,7 +87,7 @@ window.XH_PUBLICATIONS_DATA = {
         "id": "materials",
         "name_cn": "功能材料与基础研究",
         "name_en": "Advanced Functional Materials",
-        "count": 27
+        "count": 28
       },
       {
         "id": "biomass",
@@ -116,7 +117,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "e7758933",
       "doi": "10.1002/anie.7758933",
       "url": "https://doi.org/10.1002/anie.7758933",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001842817000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001842817000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": true,
@@ -139,7 +140,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "Angew. Chem."
       ],
-      "index": 500
+      "index": 504
     },
     {
       "uid": "WOS:001668263100001",
@@ -154,7 +155,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "114321",
       "doi": "10.1016/j.solener.2026.114321",
       "url": "https://doi.org/10.1016/j.solener.2026.114321",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001668263100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001668263100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 2,
       "is_first_author": false,
       "is_corr_author": false,
@@ -179,7 +180,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 499
+      "index": 503
     },
     {
       "uid": "WOS:001708313100001",
@@ -194,7 +195,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "e70330",
       "doi": "10.1002/aic.70330",
       "url": "https://doi.org/10.1002/aic.70330",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001708313100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001708313100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 0,
       "is_first_author": false,
       "is_corr_author": true,
@@ -217,7 +218,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "AIChE J."
       ],
-      "index": 498
+      "index": 502
     },
     {
       "uid": "WOS:001795486900001",
@@ -232,7 +233,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "11845-11883",
       "doi": "10.1021/acscatal.6c03039",
       "url": "https://doi.org/10.1021/acscatal.6c03039",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001795486900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001795486900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": true,
@@ -255,7 +256,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 497
+      "index": 501
     },
     {
       "uid": "WOS:001702248400001",
@@ -270,7 +271,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "126579",
       "doi": "10.1016/j.apcatb.2026.126579",
       "url": "https://doi.org/10.1016/j.apcatb.2026.126579",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001702248400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001702248400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 29,
       "is_first_author": false,
       "is_corr_author": true,
@@ -302,7 +303,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 496
+      "index": 500
     },
     {
       "uid": "WOS:001643696100001",
@@ -317,7 +318,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "831-841",
       "doi": "10.1021/acscatal.5c08597",
       "url": "https://doi.org/10.1021/acscatal.5c08597",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001643696100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001643696100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 6,
       "is_first_author": false,
       "is_corr_author": true,
@@ -335,7 +336,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 495
+      "index": 499
     },
     {
       "uid": "WOS:001576844100002",
@@ -350,7 +351,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "138723",
       "doi": "10.1016/j.jcis.2025.138723",
       "url": "https://doi.org/10.1016/j.jcis.2025.138723",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001576844100002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001576844100002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
       "is_first_author": false,
       "is_corr_author": false,
@@ -370,7 +371,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 494
+      "index": 498
     },
     {
       "uid": "WOS:001602888400001",
@@ -385,7 +386,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "125804",
       "doi": "10.1016/j.apcatb.2025.125804",
       "url": "https://doi.org/10.1016/j.apcatb.2025.125804",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001602888400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001602888400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 25,
       "is_first_author": false,
       "is_corr_author": true,
@@ -417,7 +418,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 493
+      "index": 497
     },
     {
       "uid": "WOS:001684176600001",
@@ -432,7 +433,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "216-226",
       "doi": "10.1016/s1872-2067(25)64861-3",
       "url": "https://doi.org/10.1016/s1872-2067(25)64861-3",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001684176600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001684176600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 8,
       "is_first_author": false,
       "is_corr_author": true,
@@ -454,7 +455,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 492
+      "index": 496
     },
     {
       "uid": "WOS:001679862900005",
@@ -469,7 +470,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "234-243",
       "doi": "10.1016/j.nanoms.2025.03.007",
       "url": "https://doi.org/10.1016/j.nanoms.2025.03.007",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001679862900005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001679862900005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 34,
       "is_first_author": false,
       "is_corr_author": true,
@@ -494,7 +495,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 491
+      "index": 495
     },
     {
       "uid": "WOS:001706065800001",
@@ -509,7 +510,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "126500",
       "doi": "10.1016/j.apcatb.2026.126500",
       "url": "https://doi.org/10.1016/j.apcatb.2026.126500",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001706065800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001706065800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 3,
       "is_first_author": false,
       "is_corr_author": true,
@@ -536,7 +537,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 490
+      "index": 494
     },
     {
       "uid": "WOS:001565595700001",
@@ -551,7 +552,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "50856-50864",
       "doi": "10.1021/acsami.5c10408",
       "url": "https://doi.org/10.1021/acsami.5c10408",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001565595700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001565595700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 5,
       "is_first_author": false,
       "is_corr_author": true,
@@ -566,7 +567,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 489
+      "index": 493
     },
     {
       "uid": "WOS:001602535100001",
@@ -581,7 +582,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "952",
       "doi": "10.3390/catal15100952",
       "url": "https://doi.org/10.3390/catal15100952",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001602535100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001602535100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 4,
       "is_first_author": false,
       "is_corr_author": false,
@@ -596,7 +597,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 488
+      "index": 492
     },
     {
       "uid": "WOS:001589640700023",
@@ -611,7 +612,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "169012",
       "doi": "10.1016/j.cej.2025.169012",
       "url": "https://doi.org/10.1016/j.cej.2025.169012",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001589640700023&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001589640700023&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 5,
       "is_first_author": false,
       "is_corr_author": false,
@@ -628,7 +629,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 487
+      "index": 491
     },
     {
       "uid": "WOS:001599333800001",
@@ -643,7 +644,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "18140-18143",
       "doi": "10.1039/d5cc05453b",
       "url": "https://doi.org/10.1039/d5cc05453b",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001599333800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001599333800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 5,
       "is_first_author": false,
       "is_corr_author": true,
@@ -663,7 +664,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 486
+      "index": 490
     },
     {
       "uid": "WOS:001606055100005",
@@ -678,7 +679,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "152004",
       "doi": "10.1016/j.ijhydene.2025.152004",
       "url": "https://doi.org/10.1016/j.ijhydene.2025.152004",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001606055100005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001606055100005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 11,
       "is_first_author": false,
       "is_corr_author": false,
@@ -703,7 +704,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 485
+      "index": 489
     },
     {
       "uid": "WOS:001508808500001",
@@ -718,7 +719,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2509535",
       "doi": "10.1002/adfm.202509535",
       "url": "https://doi.org/10.1002/adfm.202509535",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001508808500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001508808500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 14,
       "is_first_author": false,
       "is_corr_author": false,
@@ -741,7 +742,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "AFM"
       ],
-      "index": 484
+      "index": 488
     },
     {
       "uid": "WOS:001423333600001",
@@ -756,7 +757,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "525-534",
       "doi": "10.1016/j.jcis.2025.01.258",
       "url": "https://doi.org/10.1016/j.jcis.2025.01.258",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001423333600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001423333600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 23,
       "is_first_author": false,
       "is_corr_author": true,
@@ -786,7 +787,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 483
+      "index": 487
     },
     {
       "uid": "WOS:001422207900001",
@@ -801,7 +802,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "14-26",
       "doi": "10.1016/j.jcis.2025.01.140",
       "url": "https://doi.org/10.1016/j.jcis.2025.01.140",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001422207900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001422207900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 11,
       "is_first_author": false,
       "is_corr_author": true,
@@ -816,7 +817,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 482
+      "index": 486
     },
     {
       "uid": "WOS:001421567000001",
@@ -831,7 +832,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "134390",
       "doi": "10.1016/j.fuel.2025.134390",
       "url": "https://doi.org/10.1016/j.fuel.2025.134390",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001421567000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001421567000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": true,
@@ -856,7 +857,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 481
+      "index": 485
     },
     {
       "uid": "WOS:001485359300001",
@@ -871,7 +872,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "8822-8832",
       "doi": "10.1021/acscatal.5c01086",
       "url": "https://doi.org/10.1021/acscatal.5c01086",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001485359300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001485359300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 106,
       "is_first_author": false,
       "is_corr_author": true,
@@ -900,7 +901,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "ACS Catal."
       ],
-      "index": 480
+      "index": 484
     },
     {
       "uid": "WOS:001473145300001",
@@ -915,7 +916,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "120322",
       "doi": "10.1016/j.carbon.2025.120322",
       "url": "https://doi.org/10.1016/j.carbon.2025.120322",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001473145300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001473145300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 16,
       "is_first_author": false,
       "is_corr_author": true,
@@ -935,7 +936,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 479
+      "index": 483
     },
     {
       "uid": "WOS:001462055300001",
@@ -950,7 +951,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "6779-6782",
       "doi": "10.1039/d5cc00280j",
       "url": "https://doi.org/10.1039/d5cc00280j",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001462055300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001462055300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 3,
       "is_first_author": false,
       "is_corr_author": true,
@@ -970,7 +971,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 478
+      "index": 482
     },
     {
       "uid": "WOS:001427367200001",
@@ -985,7 +986,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "125251",
       "doi": "10.1016/j.jssc.2025.125251",
       "url": "https://doi.org/10.1016/j.jssc.2025.125251",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001427367200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001427367200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 6,
       "is_first_author": false,
       "is_corr_author": false,
@@ -1005,7 +1006,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 477
+      "index": 481
     },
     {
       "uid": "WOS:001456378700042",
@@ -1020,7 +1021,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "e202425439",
       "doi": "10.1002/anie.202425439",
       "url": "https://doi.org/10.1002/anie.202425439",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001456378700042&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001456378700042&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 290,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1054,7 +1055,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Angew. Chem."
       ],
-      "index": 476
+      "index": 480
     },
     {
       "uid": "WOS:001416574300001",
@@ -1069,7 +1070,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "124998",
       "doi": "10.1016/j.apcatb.2024.124998",
       "url": "https://doi.org/10.1016/j.apcatb.2024.124998",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001416574300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001416574300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 63,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1107,7 +1108,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 475
+      "index": 479
     },
     {
       "uid": "WOS:001436962200001",
@@ -1122,7 +1123,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "375-385",
       "doi": "10.1016/j.jcis.2025.02.144",
       "url": "https://doi.org/10.1016/j.jcis.2025.02.144",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001436962200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001436962200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 20,
       "is_first_author": false,
       "is_corr_author": false,
@@ -1147,7 +1148,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 474
+      "index": 478
     },
     {
       "uid": "WOS:001412670400001",
@@ -1162,7 +1163,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "116280",
       "doi": "10.1016/j.jphotochem.2025.116280",
       "url": "https://doi.org/10.1016/j.jphotochem.2025.116280",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001412670400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001412670400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 5,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1177,7 +1178,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 473
+      "index": 477
     },
     {
       "uid": "WOS:001469827000001",
@@ -1192,7 +1193,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "116585",
       "doi": "10.1016/j.jece.2025.116585",
       "url": "https://doi.org/10.1016/j.jece.2025.116585",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001469827000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001469827000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": false,
@@ -1217,7 +1218,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 472
+      "index": 476
     },
     {
       "uid": "WOS:001525720200001",
@@ -1232,7 +1233,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2503954",
       "doi": "10.1002/smll.202503954",
       "url": "https://doi.org/10.1002/smll.202503954",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001525720200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001525720200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 21,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1259,7 +1260,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Small"
       ],
-      "index": 471
+      "index": 475
     },
     {
       "uid": "WOS:001209721500001",
@@ -1274,7 +1275,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2310677",
       "doi": "10.1002/smll.202310677",
       "url": "https://doi.org/10.1002/smll.202310677",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001209721500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001209721500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 180,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1297,7 +1298,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Small"
       ],
-      "index": 470
+      "index": 474
     },
     {
       "uid": "WOS:001389967400001",
@@ -1312,7 +1313,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1164-1172",
       "doi": "10.1021/acs.iecr.4c03428",
       "url": "https://doi.org/10.1021/acs.iecr.4c03428",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001389967400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001389967400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1332,7 +1333,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 469
+      "index": 473
     },
     {
       "uid": "WOS:001403565600001",
@@ -1347,7 +1348,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "915-924",
       "doi": "10.1021/acsenergylett.4c03233",
       "url": "https://doi.org/10.1021/acsenergylett.4c03233",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001403565600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001403565600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 33,
       "is_first_author": false,
       "is_corr_author": false,
@@ -1362,7 +1363,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 468
+      "index": 472
     },
     {
       "uid": "WOS:001272109500001",
@@ -1377,7 +1378,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "128399",
       "doi": "10.1016/j.seppur.2024.128399",
       "url": "https://doi.org/10.1016/j.seppur.2024.128399",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001272109500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001272109500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 16,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1392,7 +1393,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 467
+      "index": 471
     },
     {
       "uid": "WOS:001407945500001",
@@ -1407,7 +1408,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "121095",
       "doi": "10.1016/j.ces.2024.121095",
       "url": "https://doi.org/10.1016/j.ces.2024.121095",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001407945500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001407945500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 13,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1430,7 +1431,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "CES"
       ],
-      "index": 466
+      "index": 470
     },
     {
       "uid": "WOS:001401915600001",
@@ -1445,7 +1446,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "963-971",
       "doi": "10.1016/j.ijhydene.2025.01.145",
       "url": "https://doi.org/10.1016/j.ijhydene.2025.01.145",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001401915600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001401915600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 26,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1465,7 +1466,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 465
+      "index": 469
     },
     {
       "uid": "WOS:001398424300001",
@@ -1480,7 +1481,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "856-865",
       "doi": "10.1016/j.ijhydene.2025.01.096",
       "url": "https://doi.org/10.1016/j.ijhydene.2025.01.096",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001398424300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001398424300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1505,7 +1506,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 464
+      "index": 468
     },
     {
       "uid": "WOS:001344447900001",
@@ -1520,7 +1521,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "161492",
       "doi": "10.1016/j.apsusc.2024.161492",
       "url": "https://doi.org/10.1016/j.apsusc.2024.161492",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001344447900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001344447900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1545,7 +1546,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 463
+      "index": 467
     },
     {
       "uid": "WOS:001492321700005",
@@ -1560,7 +1561,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "100014",
       "doi": "10.3866/pku.whxb202309047",
       "url": "https://doi.org/10.3866/pku.whxb202309047",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001492321700005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001492321700005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 39,
       "is_first_author": false,
       "is_corr_author": false,
@@ -1580,7 +1581,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 462
+      "index": 466
     },
     {
       "uid": "WOS:001324365500001",
@@ -1595,7 +1596,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "124617",
       "doi": "10.1016/j.apcatb.2024.124617",
       "url": "https://doi.org/10.1016/j.apcatb.2024.124617",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001324365500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001324365500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 34,
       "is_first_author": false,
       "is_corr_author": false,
@@ -1622,7 +1623,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 461
+      "index": 465
     },
     {
       "uid": "WOS:001529858400004",
@@ -1637,7 +1638,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "134104",
       "doi": "10.1016/j.seppur.2025.134104",
       "url": "https://doi.org/10.1016/j.seppur.2025.134104",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001529858400004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001529858400004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": false,
@@ -1657,7 +1658,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 460
+      "index": 464
     },
     {
       "uid": "WOS:001625431700021",
@@ -1672,7 +1673,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "170911",
       "doi": "10.1016/j.cej.2025.170911",
       "url": "https://doi.org/10.1016/j.cej.2025.170911",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001625431700021&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001625431700021&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 15,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1694,7 +1695,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 459
+      "index": 463
     },
     {
       "uid": "WOS:001599451500001",
@@ -1709,7 +1710,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "e202501842",
       "doi": "10.1002/cssc.202501842",
       "url": "https://doi.org/10.1002/cssc.202501842",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001599451500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001599451500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 8,
       "is_first_author": false,
       "is_corr_author": false,
@@ -1729,7 +1730,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 458
+      "index": 462
     },
     {
       "uid": "WOS:001600363000002",
@@ -1744,7 +1745,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "119807",
       "doi": "10.1016/j.jece.2025.119807",
       "url": "https://doi.org/10.1016/j.jece.2025.119807",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001600363000002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001600363000002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 5,
       "is_first_author": false,
       "is_corr_author": false,
@@ -1774,7 +1775,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 457
+      "index": 461
     },
     {
       "uid": "WOS:001456594400001",
@@ -1789,7 +1790,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "125265",
       "doi": "10.1016/j.apcatb.2025.125265",
       "url": "https://doi.org/10.1016/j.apcatb.2025.125265",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001456594400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001456594400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 57,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1817,7 +1818,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 456
+      "index": 460
     },
     {
       "uid": "WOS:001441436100001",
@@ -1832,7 +1833,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "125200",
       "doi": "10.1016/j.apcatb.2025.125200",
       "url": "https://doi.org/10.1016/j.apcatb.2025.125200",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001441436100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001441436100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 48,
       "is_first_author": false,
       "is_corr_author": false,
@@ -1864,7 +1865,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 455
+      "index": 459
     },
     {
       "uid": "WOS:001428197900001",
@@ -1879,7 +1880,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "136342",
       "doi": "10.1016/j.colsurfa.2025.136342",
       "url": "https://doi.org/10.1016/j.colsurfa.2025.136342",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001428197900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001428197900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 2,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1904,7 +1905,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 454
+      "index": 458
     },
     {
       "uid": "WOS:001471386600001",
@@ -1919,7 +1920,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "7352-7360",
       "doi": "10.1021/acscatal.5c00090",
       "url": "https://doi.org/10.1021/acscatal.5c00090",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001471386600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001471386600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 17,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1942,7 +1943,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 453
+      "index": 457
     },
     {
       "uid": "WOS:001397250600001",
@@ -1957,7 +1958,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "300-308",
       "doi": "10.1016/j.jcis.2024.12.247",
       "url": "https://doi.org/10.1016/j.jcis.2024.12.247",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001397250600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001397250600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 25,
       "is_first_author": false,
       "is_corr_author": true,
@@ -1977,7 +1978,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 452
+      "index": 456
     },
     {
       "uid": "WOS:001265010500001",
@@ -1992,7 +1993,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "348-356",
       "doi": "10.1016/j.jcis.2024.05.003",
       "url": "https://doi.org/10.1016/j.jcis.2024.05.003",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001265010500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001265010500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2012,7 +2013,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 451
+      "index": 455
     },
     {
       "uid": "WOS:001284046700001",
@@ -2027,7 +2028,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "505-516",
       "doi": "10.1016/j.psep.2024.05.150",
       "url": "https://doi.org/10.1016/j.psep.2024.05.150",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001284046700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001284046700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 10,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2057,7 +2058,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 450
+      "index": 454
     },
     {
       "uid": "WOS:001232046600001",
@@ -2072,7 +2073,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "",
       "doi": "10.1016/j.seppur.2024.127527",
       "url": "https://doi.org/10.1016/j.seppur.2024.127527",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001232046600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001232046600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 33,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2092,7 +2093,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 449
+      "index": 453
     },
     {
       "uid": "WOS:001263857700001",
@@ -2107,7 +2108,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "160550",
       "doi": "10.1016/j.apsusc.2024.160550",
       "url": "https://doi.org/10.1016/j.apsusc.2024.160550",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001263857700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001263857700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 2,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2127,7 +2128,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 448
+      "index": 452
     },
     {
       "uid": "WOS:001217436100001",
@@ -2142,7 +2143,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1-8",
       "doi": "10.1016/j.jmst.2024.01.028",
       "url": "https://doi.org/10.1016/j.jmst.2024.01.028",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001217436100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001217436100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 64,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2167,7 +2168,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 447
+      "index": 451
     },
     {
       "uid": "WOS:001271734300001",
@@ -2182,7 +2183,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "113496",
       "doi": "10.1016/j.jece.2024.113496",
       "url": "https://doi.org/10.1016/j.jece.2024.113496",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001271734300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001271734300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 17,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2202,7 +2203,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 446
+      "index": 450
     },
     {
       "uid": "WOS:001272580700001",
@@ -2217,7 +2218,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "120415",
       "doi": "10.1016/j.ces.2024.120415",
       "url": "https://doi.org/10.1016/j.ces.2024.120415",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001272580700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001272580700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2240,7 +2241,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "CES"
       ],
-      "index": 445
+      "index": 449
     },
     {
       "uid": "WOS:001318849100001",
@@ -2255,7 +2256,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "135050",
       "doi": "10.1016/j.colsurfa.2024.135050",
       "url": "https://doi.org/10.1016/j.colsurfa.2024.135050",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001318849100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001318849100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 8,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2275,7 +2276,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 444
+      "index": 448
     },
     {
       "uid": "WOS:001327423200001",
@@ -2290,7 +2291,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "43350-43361",
       "doi": "10.1016/j.ceramint.2024.08.110",
       "url": "https://doi.org/10.1016/j.ceramint.2024.08.110",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001327423200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001327423200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 4,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2305,7 +2306,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 443
+      "index": 447
     },
     {
       "uid": "WOS:001332741100001",
@@ -2320,7 +2321,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "156367",
       "doi": "10.1016/j.cej.2024.156367",
       "url": "https://doi.org/10.1016/j.cej.2024.156367",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001332741100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001332741100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 45,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2342,7 +2343,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 442
+      "index": 446
     },
     {
       "uid": "WOS:001332615500001",
@@ -2357,7 +2358,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "156075",
       "doi": "10.1016/j.cej.2024.156075",
       "url": "https://doi.org/10.1016/j.cej.2024.156075",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001332615500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001332615500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 26,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2379,7 +2380,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 441
+      "index": 445
     },
     {
       "uid": "WOS:001341133400006",
@@ -2394,7 +2395,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2311001",
       "doi": "10.3866/pku.whxb202311001",
       "url": "https://doi.org/10.3866/pku.whxb202311001",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001341133400006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001341133400006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 27,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2414,7 +2415,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 440
+      "index": 444
     },
     {
       "uid": "WOS:001200527500001",
@@ -2429,7 +2430,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "8116-8124",
       "doi": "10.1039/d3nj05636h",
       "url": "https://doi.org/10.1039/d3nj05636h",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001200527500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001200527500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2449,7 +2450,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 439
+      "index": 443
     },
     {
       "uid": "WOS:001144545600001",
@@ -2464,7 +2465,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "123651",
       "doi": "10.1016/j.apcatb.2023.123651",
       "url": "https://doi.org/10.1016/j.apcatb.2023.123651",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001144545600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001144545600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 89,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2491,7 +2492,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 438
+      "index": 442
     },
     {
       "uid": "WOS:001154776900001",
@@ -2506,7 +2507,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "126259",
       "doi": "10.1016/j.seppur.2023.126259",
       "url": "https://doi.org/10.1016/j.seppur.2023.126259",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001154776900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001154776900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 18,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2521,7 +2522,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 437
+      "index": 441
     },
     {
       "uid": "WOS:001147353700001",
@@ -2536,7 +2537,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "159171",
       "doi": "10.1016/j.apsusc.2023.159171",
       "url": "https://doi.org/10.1016/j.apsusc.2023.159171",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001147353700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001147353700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 28,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2556,7 +2557,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 436
+      "index": 440
     },
     {
       "uid": "WOS:001141059300001",
@@ -2571,7 +2572,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "158964",
       "doi": "10.1016/j.apsusc.2023.158964",
       "url": "https://doi.org/10.1016/j.apsusc.2023.158964",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001141059300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001141059300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 17,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2601,7 +2602,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 435
+      "index": 439
     },
     {
       "uid": "WOS:001091757600001",
@@ -2616,7 +2617,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "123337",
       "doi": "10.1016/j.apcatb.2023.123337",
       "url": "https://doi.org/10.1016/j.apcatb.2023.123337",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001091757600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001091757600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 102,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2648,7 +2649,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 434
+      "index": 438
     },
     {
       "uid": "WOS:001223772200001",
@@ -2663,7 +2664,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "736-747",
       "doi": "10.1016/j.jcis.2024.02.166",
       "url": "https://doi.org/10.1016/j.jcis.2024.02.166",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001223772200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001223772200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 23,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2678,7 +2679,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 433
+      "index": 437
     },
     {
       "uid": "WOS:001227027500001",
@@ -2693,7 +2694,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "124248",
       "doi": "10.1016/j.saa.2024.124248",
       "url": "https://doi.org/10.1016/j.saa.2024.124248",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001227027500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001227027500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 14,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2708,7 +2709,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 432
+      "index": 436
     },
     {
       "uid": "WOS:001270087500001",
@@ -2723,7 +2724,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "12101-12108",
       "doi": "10.1021/acs.jpcc.4c02747",
       "url": "https://doi.org/10.1021/acs.jpcc.4c02747",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001270087500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001270087500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 11,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2738,7 +2739,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 431
+      "index": 435
     },
     {
       "uid": "WOS:001127126200001",
@@ -2753,7 +2754,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "132724",
       "doi": "10.1016/j.colsurfa.2023.132724",
       "url": "https://doi.org/10.1016/j.colsurfa.2023.132724",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001127126200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001127126200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 14,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2773,7 +2774,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 430
+      "index": 434
     },
     {
       "uid": "WOS:001137088500002",
@@ -2788,7 +2789,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "154-162",
       "doi": "10.1038/s41560-023-01415-4",
       "url": "https://doi.org/10.1038/s41560-023-01415-4",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001137088500002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001137088500002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 259,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2812,7 +2813,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Nat. Energy"
       ],
-      "index": 429
+      "index": 433
     },
     {
       "uid": "WOS:001164703900001",
@@ -2827,7 +2828,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "111855",
       "doi": "10.1016/j.jece.2023.111855",
       "url": "https://doi.org/10.1016/j.jece.2023.111855",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001164703900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001164703900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2857,7 +2858,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 428
+      "index": 432
     },
     {
       "uid": "WOS:001124694200001",
@@ -2872,7 +2873,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "e202300450",
       "doi": "10.1002/cnma.202300450",
       "url": "https://doi.org/10.1002/cnma.202300450",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001124694200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001124694200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 8,
       "is_first_author": false,
       "is_corr_author": true,
@@ -2892,7 +2893,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 427
+      "index": 431
     },
     {
       "uid": "WOS:001303908500001",
@@ -2907,7 +2908,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "161112",
       "doi": "10.1016/j.apsusc.2024.161112",
       "url": "https://doi.org/10.1016/j.apsusc.2024.161112",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001303908500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001303908500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 16,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2927,7 +2928,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 426
+      "index": 430
     },
     {
       "uid": "WOS:001383197500001",
@@ -2942,7 +2943,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "123-132",
       "doi": "10.1021/acs.inorgchem.4c04334",
       "url": "https://doi.org/10.1021/acs.inorgchem.4c04334",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001383197500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001383197500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2957,7 +2958,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 425
+      "index": 429
     },
     {
       "uid": "WOS:001366146200001",
@@ -2972,7 +2973,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "161-170",
       "doi": "10.1039/d4qi02452d",
       "url": "https://doi.org/10.1039/d4qi02452d",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001366146200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001366146200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": false,
@@ -2997,7 +2998,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 424
+      "index": 428
     },
     {
       "uid": "WOS:001358437600001",
@@ -3012,7 +3013,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "157345",
       "doi": "10.1016/j.cej.2024.157345",
       "url": "https://doi.org/10.1016/j.cej.2024.157345",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001358437600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001358437600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 25,
       "is_first_author": false,
       "is_corr_author": false,
@@ -3034,7 +3035,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 423
+      "index": 427
     },
     {
       "uid": "WOS:001267867300001",
@@ -3049,7 +3050,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "419-428",
       "doi": "10.1016/j.jcis.2024.06.210",
       "url": "https://doi.org/10.1016/j.jcis.2024.06.210",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001267867300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001267867300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 10,
       "is_first_author": false,
       "is_corr_author": false,
@@ -3069,7 +3070,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 422
+      "index": 426
     },
     {
       "uid": "WOS:001325446800001",
@@ -3084,7 +3085,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "126808",
       "doi": "10.1016/j.seppur.2024.126808",
       "url": "https://doi.org/10.1016/j.seppur.2024.126808",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001325446800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001325446800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 33,
       "is_first_author": false,
       "is_corr_author": false,
@@ -3104,7 +3105,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 421
+      "index": 425
     },
     {
       "uid": "WOS:001243163600001",
@@ -3119,7 +3120,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "134113",
       "doi": "10.1016/j.colsurfa.2024.134113",
       "url": "https://doi.org/10.1016/j.colsurfa.2024.134113",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001243163600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001243163600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 15,
       "is_first_author": false,
       "is_corr_author": true,
@@ -3144,7 +3145,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 420
+      "index": 424
     },
     {
       "uid": "WOS:001238133000001",
@@ -3159,7 +3160,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "492-501",
       "doi": "10.1016/j.jcis.2024.04.166",
       "url": "https://doi.org/10.1016/j.jcis.2024.04.166",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001238133000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001238133000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 22,
       "is_first_author": false,
       "is_corr_author": true,
@@ -3179,7 +3180,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 419
+      "index": 423
     },
     {
       "uid": "WOS:001231804700001",
@@ -3194,7 +3195,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "131716",
       "doi": "10.1016/j.fuel.2024.131716",
       "url": "https://doi.org/10.1016/j.fuel.2024.131716",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001231804700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001231804700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 89,
       "is_first_author": true,
       "is_corr_author": true,
@@ -3219,7 +3220,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 418
+      "index": 422
     },
     {
       "uid": "WOS:001184167500001",
@@ -3234,8 +3235,150 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "133261",
       "doi": "10.1016/j.colsurfa.2024.133261",
       "url": "https://doi.org/10.1016/j.colsurfa.2024.133261",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001184167500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001184167500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 5,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 421
+    },
+    {
+      "uid": "WOS:001158323100001",
+      "title": "Bifunctional electrocatalytic reduction performance of nitrogen containing biomass based nanoreactors loaded with Ni nanoparticles for oxygen and carbon dioxide",
+      "authors": "Junjie Yuan, Jiayi Zou, Zhongqiu Wu, Zhaolong Wang, Zongli Yang, <strong>Hui Xu</strong>",
+      "journal": "Nanotechnology",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-APR 22",
+      "volume": "35",
+      "issue": "17",
+      "page": "175402",
+      "doi": "10.1088/1361-6528/ad0301",
+      "url": "https://doi.org/10.1088/1361-6528/ad0301",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001158323100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 3,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 420
+    },
+    {
+      "uid": "WOS:001217483300001",
+      "title": "Phosphorus doped PdMo bimetallene as a superior bifunctional fuel cell electrocatalyst",
+      "authors": "Junfeng Liu, Haiting Liu, Qiuxia Wang, Tong Li, Tingting Yang, Wenjie Zhang, <strong>Hui Xu</strong>, Huaming Li, Xueqiang Qi, Yong Wang, Andreu Cabot",
+      "journal": "Chemical Engineering Journal",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-APR 15",
+      "volume": "486",
+      "issue": "",
+      "page": "150258",
+      "doi": "10.1016/j.cej.2024.150258",
+      "url": "https://doi.org/10.1016/j.cej.2024.150258",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001217483300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 41,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "CEJ"
+      ],
+      "index": 419
+    },
+    {
+      "uid": "WOS:001197543400001",
+      "title": "Ionic liquids assisted construction of efficient ceramic-based catalyst by direct ink writing 3D printing for ultra-deep oxidative desulfurization of diesel",
+      "authors": "Wenwen Chen, Yingcheng Wu, Jing He, Wei Jiang, Xiaojie She, Yanhua Song, Haiyan Ji, <strong>Hui Xu</strong>, Huaming Li",
+      "journal": "Ceramics International",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-APR 1",
+      "volume": "50",
+      "issue": "7",
+      "page": "10990-11002",
+      "doi": "10.1016/j.ceramint.2023.12.416",
+      "url": "https://doi.org/10.1016/j.ceramint.2023.12.416",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001197543400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 11,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 418
+    },
+    {
+      "uid": "WOS:000996416000001",
+      "title": "Electronic and energy level structural engineering of graphitic carbon nitride nanotubes with B and S co-doping for photocatalytic hydrogen evolution",
+      "authors": "Zhao Mo, Zhihuan Miao, Pengcheng Yan, Peipei Sun, Guanyu Wu, Xingwang Zhu, Cheng Ding, Qiang Zhu, Yucheng Lei, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Colloid And Interface Science",
+      "year": 2023,
+      "year_group": "2023",
+      "date": "2023-SEP",
+      "volume": "645",
+      "issue": "",
+      "page": "525-532",
+      "doi": "10.1016/j.jcis.2023.04.123",
+      "url": "https://doi.org/10.1016/j.jcis.2023.04.123",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000996416000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 91,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -3262,38 +3405,33 @@ window.XH_PUBLICATIONS_DATA = {
       "index": 417
     },
     {
-      "uid": "WOS:001158323100001",
-      "title": "Bifunctional electrocatalytic reduction performance of nitrogen containing biomass based nanoreactors loaded with Ni nanoparticles for oxygen and carbon dioxide",
-      "authors": "Junjie Yuan, Jiayi Zou, Zhongqiu Wu, Zhaolong Wang, Zongli Yang, <strong>Hui Xu</strong>",
-      "journal": "Nanotechnology",
-      "year": 2024,
-      "year_group": "2024",
-      "date": "2024-APR 22",
-      "volume": "35",
-      "issue": "17",
-      "page": "175402",
-      "doi": "10.1088/1361-6528/ad0301",
-      "url": "https://doi.org/10.1088/1361-6528/ad0301",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001158323100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 3,
+      "uid": "WOS:000972815900001",
+      "title": "Building a Z-scheme heterojunction with Keggin-type heteropolymer modified two-dimensional g-C3N4 for significant photocatalytic performance",
+      "authors": "Huimin Han, Jinyuan Liu, Bin Wang, Shumin Zhu, Shihao Jia, Qi Tang, Yingjie Hua, Huaming Li, Chongtai Wang, <strong>Hui Xu</strong>",
+      "journal": "New Journal Of Chemistry",
+      "year": 2023,
+      "year_group": "2023",
+      "date": "2023-OCT 9",
+      "volume": "47",
+      "issue": "39",
+      "page": "18143-18154",
+      "doi": "10.1039/d2nj03132a",
+      "url": "https://doi.org/10.1039/d2nj03132a",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000972815900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 4,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "co2",
-          "name_cn": "二氧化碳捕集与转化",
-          "name_en": "CO2 Reduction & Conversion"
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
-        },
-        {
-          "id": "biomass",
-          "name_cn": "生物质转化与有机合成",
-          "name_en": "Biomass & Organic Synthesis"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -3302,82 +3440,92 @@ window.XH_PUBLICATIONS_DATA = {
       "index": 416
     },
     {
-      "uid": "WOS:001217483300001",
-      "title": "Phosphorus doped PdMo bimetallene as a superior bifunctional fuel cell electrocatalyst",
-      "authors": "Junfeng Liu, Haiting Liu, Qiuxia Wang, Tong Li, Tingting Yang, Wenjie Zhang, <strong>Hui Xu</strong>, Huaming Li, Xueqiang Qi, Yong Wang, Andreu Cabot",
-      "journal": "Chemical Engineering Journal",
-      "year": 2024,
-      "year_group": "2024",
-      "date": "2024-APR 15",
-      "volume": "486",
-      "issue": "",
-      "page": "150258",
-      "doi": "10.1016/j.cej.2024.150258",
-      "url": "https://doi.org/10.1016/j.cej.2024.150258",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001217483300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 41,
-      "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
-      "topics": [
-        {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [
-        "CEJ"
-      ],
-      "index": 415
-    },
-    {
-      "uid": "WOS:001197543400001",
-      "title": "Ionic liquids assisted construction of efficient ceramic-based catalyst by direct ink writing 3D printing for ultra-deep oxidative desulfurization of diesel",
-      "authors": "Wenwen Chen, Yingcheng Wu, Jing He, Wei Jiang, Xiaojie She, Yanhua Song, Haiyan Ji, <strong>Hui Xu</strong>, Huaming Li",
-      "journal": "Ceramics International",
-      "year": 2024,
-      "year_group": "2024",
-      "date": "2024-APR 1",
-      "volume": "50",
-      "issue": "7",
-      "page": "10990-11002",
-      "doi": "10.1016/j.ceramint.2023.12.416",
-      "url": "https://doi.org/10.1016/j.ceramint.2023.12.416",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001197543400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 11,
+      "uid": "WOS:001059781800001",
+      "title": "Crystal phase of nickel sulfide dictates hydrogen evolution activity of various semiconducting photocatalysts",
+      "authors": "Jianjian Yi, Yu Xia, Zhou Zhou, Ganghua Zhou, Xianglin Zhu, Sai Zhang, Xingwang Zhu, Xiaozhi Wang, <strong>Hui Xu</strong>, Huan Pang",
+      "journal": "Inorganic Chemistry Frontiers",
+      "year": 2023,
+      "year_group": "2023",
+      "date": "2023-OCT 10",
+      "volume": "10",
+      "issue": "20",
+      "page": "5917-5926",
+      "doi": "10.1039/d3qi01315d",
+      "url": "https://doi.org/10.1039/d3qi01315d",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001059781800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 13,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "ionic",
-          "name_cn": "绿色化学与离子液体",
-          "name_en": "Ionic Liquids & Green Chemistry"
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
       "is_esi": false,
       "badges": [],
+      "index": 415
+    },
+    {
+      "uid": "WOS:001002401100001",
+      "title": "Surface Self-Transforming FeTi-LDH Overlayer in Fe2O3/Fe2TiO5 Photoanode for Improved Water Oxidation",
+      "authors": "Juliette Chancellevie Nalouzebi Fouemina, Guoqing Li, Xiaojie She, Duan Yan, Xiaoxin Lv, Kaiqi Nie, Jiujun Deng, <strong>Hui Xu</strong>",
+      "journal": "Small",
+      "year": 2023,
+      "year_group": "2023",
+      "date": "2023-OCT",
+      "volume": "19",
+      "issue": "40",
+      "page": "2301114",
+      "doi": "10.1002/smll.202301114",
+      "url": "https://doi.org/10.1002/smll.202301114",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001002401100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 19,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "battery",
+          "name_cn": "电池与储能",
+          "name_en": "Batteries & Energy Storage"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "Small"
+      ],
       "index": 414
     },
     {
-      "uid": "WOS:000996416000001",
-      "title": "Electronic and energy level structural engineering of graphitic carbon nitride nanotubes with B and S co-doping for photocatalytic hydrogen evolution",
-      "authors": "Zhao Mo, Zhihuan Miao, Pengcheng Yan, Peipei Sun, Guanyu Wu, Xingwang Zhu, Cheng Ding, Qiang Zhu, Yucheng Lei, <strong>Hui Xu</strong>",
-      "journal": "Journal Of Colloid And Interface Science",
+      "uid": "WOS:001235118200001",
+      "title": "Recent advances in graphitic carbon nitride-based photocatalysts for solar-driven hydrogen production",
+      "authors": "Zhihuan Miao, Guanyu Wu, Qi Wang, Jinman Yang, Zeyu Wang, Pengcheng Yan, Peipei Sun, Yucheng Lei, Zhao Mo, <strong>Hui Xu</strong>",
+      "journal": "Materials Reports: Energy",
       "year": 2023,
       "year_group": "2023",
-      "date": "2023-SEP",
-      "volume": "645",
-      "issue": "",
-      "page": "525-532",
-      "doi": "10.1016/j.jcis.2023.04.123",
-      "url": "https://doi.org/10.1016/j.jcis.2023.04.123",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000996416000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 91,
+      "date": "2023-NOV",
+      "volume": "3",
+      "issue": "4",
+      "page": "100235",
+      "doi": "10.1016/j.matre.2023.100235",
+      "url": "https://doi.org/10.1016/j.matre.2023.100235",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001235118200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 61,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -3404,153 +3552,6 @@ window.XH_PUBLICATIONS_DATA = {
       "index": 413
     },
     {
-      "uid": "WOS:000972815900001",
-      "title": "Building a Z-scheme heterojunction with Keggin-type heteropolymer modified two-dimensional g-C3N4 for significant photocatalytic performance",
-      "authors": "Huimin Han, Jinyuan Liu, Bin Wang, Shumin Zhu, Shihao Jia, Qi Tang, Yingjie Hua, Huaming Li, Chongtai Wang, <strong>Hui Xu</strong>",
-      "journal": "New Journal Of Chemistry",
-      "year": 2023,
-      "year_group": "2023",
-      "date": "2023-OCT 9",
-      "volume": "47",
-      "issue": "39",
-      "page": "18143-18154",
-      "doi": "10.1039/d2nj03132a",
-      "url": "https://doi.org/10.1039/d2nj03132a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000972815900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 4,
-      "is_first_author": false,
-      "is_corr_author": true,
-      "is_first_or_corr": true,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "c3n4_2d",
-          "name_cn": "碳氮材料与二维半导体",
-          "name_en": "Carbon Nitride & 2D Materials"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 412
-    },
-    {
-      "uid": "WOS:001059781800001",
-      "title": "Crystal phase of nickel sulfide dictates hydrogen evolution activity of various semiconducting photocatalysts",
-      "authors": "Jianjian Yi, Yu Xia, Zhou Zhou, Ganghua Zhou, Xianglin Zhu, Sai Zhang, Xingwang Zhu, Xiaozhi Wang, <strong>Hui Xu</strong>, Huan Pang",
-      "journal": "Inorganic Chemistry Frontiers",
-      "year": 2023,
-      "year_group": "2023",
-      "date": "2023-OCT 10",
-      "volume": "10",
-      "issue": "20",
-      "page": "5917-5926",
-      "doi": "10.1039/d3qi01315d",
-      "url": "https://doi.org/10.1039/d3qi01315d",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001059781800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 13,
-      "is_first_author": false,
-      "is_corr_author": true,
-      "is_first_or_corr": true,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 411
-    },
-    {
-      "uid": "WOS:001002401100001",
-      "title": "Surface Self-Transforming FeTi-LDH Overlayer in Fe2O3/Fe2TiO5 Photoanode for Improved Water Oxidation",
-      "authors": "Juliette Chancellevie Nalouzebi Fouemina, Guoqing Li, Xiaojie She, Duan Yan, Xiaoxin Lv, Kaiqi Nie, Jiujun Deng, <strong>Hui Xu</strong>",
-      "journal": "Small",
-      "year": 2023,
-      "year_group": "2023",
-      "date": "2023-OCT",
-      "volume": "19",
-      "issue": "40",
-      "page": "2301114",
-      "doi": "10.1002/smll.202301114",
-      "url": "https://doi.org/10.1002/smll.202301114",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001002401100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 19,
-      "is_first_author": false,
-      "is_corr_author": true,
-      "is_first_or_corr": true,
-      "topics": [
-        {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
-          "id": "battery",
-          "name_cn": "电池与储能",
-          "name_en": "Batteries & Energy Storage"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [
-        "Small"
-      ],
-      "index": 410
-    },
-    {
-      "uid": "WOS:001235118200001",
-      "title": "Recent advances in graphitic carbon nitride-based photocatalysts for solar-driven hydrogen production",
-      "authors": "Zhihuan Miao, Guanyu Wu, Qi Wang, Jinman Yang, Zeyu Wang, Pengcheng Yan, Peipei Sun, Yucheng Lei, Zhao Mo, <strong>Hui Xu</strong>",
-      "journal": "Materials Reports: Energy",
-      "year": 2023,
-      "year_group": "2023",
-      "date": "2023-NOV",
-      "volume": "3",
-      "issue": "4",
-      "page": "100235",
-      "doi": "10.1016/j.matre.2023.100235",
-      "url": "https://doi.org/10.1016/j.matre.2023.100235",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001235118200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 61,
-      "is_first_author": false,
-      "is_corr_author": true,
-      "is_first_or_corr": true,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "c3n4_2d",
-          "name_cn": "碳氮材料与二维半导体",
-          "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 409
-    },
-    {
       "uid": "WOS:000996712100001",
       "title": "Highly Efficient and Exceptionally Durable Photooxidation Properties on Co3O4/g-C3N4 Surfaces",
       "authors": "Yelin Dai, Ziyi Feng, Kang Zhong, Jianfeng Tian, Guanyu Wu, Qing Liu, Zhaolong Wang, Yingjie Hua, Jinyuan Liu, <strong>Hui Xu</strong>, Xingwang Zhu",
@@ -3563,7 +3564,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "3879",
       "doi": "10.3390/ma16103879",
       "url": "https://doi.org/10.3390/ma16103879",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000996712100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000996712100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
       "is_first_author": false,
       "is_corr_author": false,
@@ -3588,7 +3589,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 408
+      "index": 412
     },
     {
       "uid": "WOS:000972334900001",
@@ -3603,7 +3604,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "e202218694",
       "doi": "10.1002/anie.202218694",
       "url": "https://doi.org/10.1002/anie.202218694",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000972334900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000972334900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 203,
       "is_first_author": false,
       "is_corr_author": false,
@@ -3632,7 +3633,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Angew. Chem."
       ],
-      "index": 407
+      "index": 411
     },
     {
       "uid": "WOS:000950416700001",
@@ -3647,7 +3648,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "361-372",
       "doi": "10.1016/j.jechem.2023.01.028",
       "url": "https://doi.org/10.1016/j.jechem.2023.01.028",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000950416700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000950416700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 78,
       "is_first_author": false,
       "is_corr_author": false,
@@ -3674,7 +3675,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "J. Energy Chem."
       ],
-      "index": 406
+      "index": 410
     },
     {
       "uid": "WOS:000924178900001",
@@ -3689,7 +3690,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "94-103",
       "doi": "10.1016/j.jcis.2022.12.145",
       "url": "https://doi.org/10.1016/j.jcis.2022.12.145",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000924178900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000924178900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
       "is_first_author": false,
       "is_corr_author": true,
@@ -3714,7 +3715,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 405
+      "index": 409
     },
     {
       "uid": "WOS:000999059800001",
@@ -3729,7 +3730,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "11470-11477",
       "doi": "10.1039/d3nj01936e",
       "url": "https://doi.org/10.1039/d3nj01936e",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000999059800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000999059800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": false,
@@ -3744,7 +3745,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 404
+      "index": 408
     },
     {
       "uid": "WOS:000971162900001",
@@ -3759,7 +3760,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "108363",
       "doi": "10.1016/j.nanoen.2023.108363",
       "url": "https://doi.org/10.1016/j.nanoen.2023.108363",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000971162900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000971162900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 195,
       "is_first_author": false,
       "is_corr_author": false,
@@ -3778,7 +3779,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Nano Energy"
       ],
-      "index": 403
+      "index": 407
     },
     {
       "uid": "WOS:000964040000001",
@@ -3793,7 +3794,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "121650",
       "doi": "10.1016/j.molliq.2023.121650",
       "url": "https://doi.org/10.1016/j.molliq.2023.121650",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000964040000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000964040000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 23,
       "is_first_author": false,
       "is_corr_author": true,
@@ -3813,7 +3814,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 402
+      "index": 406
     },
     {
       "uid": "WOS:001042725800001",
@@ -3828,7 +3829,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "109801",
       "doi": "10.1016/j.jece.2023.109801",
       "url": "https://doi.org/10.1016/j.jece.2023.109801",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001042725800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001042725800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 39,
       "is_first_author": false,
       "is_corr_author": true,
@@ -3858,7 +3859,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 401
+      "index": 405
     },
     {
       "uid": "WOS:001053512700001",
@@ -3873,7 +3874,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "122472",
       "doi": "10.1016/j.apcatb.2023.122472",
       "url": "https://doi.org/10.1016/j.apcatb.2023.122472",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001053512700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001053512700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 41,
       "is_first_author": false,
       "is_corr_author": true,
@@ -3905,7 +3906,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 400
+      "index": 404
     },
     {
       "uid": "WOS:000882026700002",
@@ -3920,7 +3921,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "155247",
       "doi": "10.1016/j.apsusc.2022.155247",
       "url": "https://doi.org/10.1016/j.apsusc.2022.155247",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000882026700002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000882026700002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 22,
       "is_first_author": false,
       "is_corr_author": false,
@@ -3945,7 +3946,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 399
+      "index": 403
     },
     {
       "uid": "WOS:000915478600001",
@@ -3960,7 +3961,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2211-2220",
       "doi": "10.1016/j.ijhydene.2022.10.033",
       "url": "https://doi.org/10.1016/j.ijhydene.2022.10.033",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000915478600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000915478600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 3,
       "is_first_author": false,
       "is_corr_author": true,
@@ -3985,7 +3986,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 398
+      "index": 402
     },
     {
       "uid": "WOS:000885888200002",
@@ -4000,7 +4001,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "126021",
       "doi": "10.1016/j.fuel.2022.126021",
       "url": "https://doi.org/10.1016/j.fuel.2022.126021",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000885888200002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000885888200002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 32,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4015,7 +4016,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 397
+      "index": 401
     },
     {
       "uid": "WOS:000862854800002",
@@ -4030,7 +4031,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "138392",
       "doi": "10.1016/j.cej.2022.138392",
       "url": "https://doi.org/10.1016/j.cej.2022.138392",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000862854800002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000862854800002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 102,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4058,7 +4059,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "CEJ"
       ],
-      "index": 396
+      "index": 400
     },
     {
       "uid": "WOS:000876181700004",
@@ -4073,7 +4074,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "154803",
       "doi": "10.1016/j.apsusc.2022.154803",
       "url": "https://doi.org/10.1016/j.apsusc.2022.154803",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000876181700004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000876181700004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 33,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4093,7 +4094,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 395
+      "index": 399
     },
     {
       "uid": "WOS:000910944500005",
@@ -4108,7 +4109,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "67-95",
       "doi": "10.1016/s1872-2067(22)64152-4",
       "url": "https://doi.org/10.1016/s1872-2067(22)64152-4",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000910944500005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000910944500005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 90,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4130,7 +4131,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 394
+      "index": 398
     },
     {
       "uid": "WOS:000867133600002",
@@ -4145,7 +4146,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "122005",
       "doi": "10.1016/j.apcatb.2022.122005",
       "url": "https://doi.org/10.1016/j.apcatb.2022.122005",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000867133600002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000867133600002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 84,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4173,7 +4174,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 393
+      "index": 397
     },
     {
       "uid": "WOS:000891624200001",
@@ -4188,7 +4189,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "065401",
       "doi": "10.1088/1361-6528/ac9abd",
       "url": "https://doi.org/10.1088/1361-6528/ac9abd",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000891624200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000891624200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 11,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4208,7 +4209,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 392
+      "index": 396
     },
     {
       "uid": "WOS:000890482200002",
@@ -4223,7 +4224,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "167901",
       "doi": "10.1016/j.jallcom.2022.167901",
       "url": "https://doi.org/10.1016/j.jallcom.2022.167901",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000890482200002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000890482200002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 33,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4248,7 +4249,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 391
+      "index": 395
     },
     {
       "uid": "WOS:000897679200001",
@@ -4263,7 +4264,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "280-286",
       "doi": "10.1002/cjoc.202200337",
       "url": "https://doi.org/10.1002/cjoc.202200337",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000897679200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000897679200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 4,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4283,7 +4284,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 390
+      "index": 394
     },
     {
       "uid": "WOS:000940580400001",
@@ -4298,7 +4299,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "305",
       "doi": "10.3390/pr11020305",
       "url": "https://doi.org/10.3390/pr11020305",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000940580400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000940580400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 5,
       "is_first_author": false,
       "is_corr_author": false,
@@ -4313,7 +4314,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 389
+      "index": 393
     },
     {
       "uid": "WOS:000908345000003",
@@ -4328,7 +4329,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "56-65",
       "doi": "10.1016/j.jcis.2022.10.130",
       "url": "https://doi.org/10.1016/j.jcis.2022.10.130",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000908345000003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000908345000003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 41,
       "is_first_author": false,
       "is_corr_author": false,
@@ -4348,7 +4349,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 388
+      "index": 392
     },
     {
       "uid": "WOS:000909634800001",
@@ -4363,7 +4364,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "107749",
       "doi": "10.1016/j.cclet.2022.107749",
       "url": "https://doi.org/10.1016/j.cclet.2022.107749",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000909634800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000909634800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 28,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4388,7 +4389,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 387
+      "index": 391
     },
     {
       "uid": "WOS:001107114100001",
@@ -4403,7 +4404,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "36818-36824",
       "doi": "10.1016/j.ijhydene.2023.05.265",
       "url": "https://doi.org/10.1016/j.ijhydene.2023.05.265",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001107114100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001107114100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 28,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4428,7 +4429,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 386
+      "index": 390
     },
     {
       "uid": "WOS:001069752900001",
@@ -4443,7 +4444,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "124826",
       "doi": "10.1016/j.seppur.2023.124826",
       "url": "https://doi.org/10.1016/j.seppur.2023.124826",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001069752900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001069752900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 11,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4458,7 +4459,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 385
+      "index": 389
     },
     {
       "uid": "WOS:001064961300001",
@@ -4473,7 +4474,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "470-479",
       "doi": "10.1016/j.jcis.2023.08.029",
       "url": "https://doi.org/10.1016/j.jcis.2023.08.029",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001064961300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001064961300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 33,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4493,7 +4494,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 384
+      "index": 388
     },
     {
       "uid": "WOS:001119696000001",
@@ -4508,7 +4509,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "147337",
       "doi": "10.1016/j.cej.2023.147337",
       "url": "https://doi.org/10.1016/j.cej.2023.147337",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001119696000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001119696000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 46,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4530,7 +4531,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 383
+      "index": 387
     },
     {
       "uid": "WOS:001104701800001",
@@ -4545,7 +4546,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "106653",
       "doi": "10.1016/j.ultsonch.2023.106653",
       "url": "https://doi.org/10.1016/j.ultsonch.2023.106653",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001104701800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001104701800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 60,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4565,7 +4566,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 382
+      "index": 386
     },
     {
       "uid": "WOS:001057852900001",
@@ -4580,7 +4581,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "948-958",
       "doi": "10.1016/j.jcis.2023.08.057",
       "url": "https://doi.org/10.1016/j.jcis.2023.08.057",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001057852900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001057852900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 23,
       "is_first_author": false,
       "is_corr_author": false,
@@ -4600,7 +4601,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 381
+      "index": 385
     },
     {
       "uid": "WOS:001120836200001",
@@ -4615,7 +4616,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2307192",
       "doi": "10.1002/advs.202307192",
       "url": "https://doi.org/10.1002/advs.202307192",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001120836200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001120836200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 110,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4642,7 +4643,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "ESI Top 1%"
       ],
-      "index": 380
+      "index": 384
     },
     {
       "uid": "WOS:001074868300001",
@@ -4657,7 +4658,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "e18233",
       "doi": "10.1002/aic.18233",
       "url": "https://doi.org/10.1002/aic.18233",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001074868300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001074868300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 21,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4680,7 +4681,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "AIChE J."
       ],
-      "index": 379
+      "index": 383
     },
     {
       "uid": "WOS:000965661900001",
@@ -4695,7 +4696,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "141841",
       "doi": "10.1016/j.cej.2023.141841",
       "url": "https://doi.org/10.1016/j.cej.2023.141841",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000965661900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000965661900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 89,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4723,7 +4724,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "CEJ"
       ],
-      "index": 378
+      "index": 382
     },
     {
       "uid": "WOS:000928317600001",
@@ -4738,7 +4739,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "156173",
       "doi": "10.1016/j.apsusc.2022.156173",
       "url": "https://doi.org/10.1016/j.apsusc.2022.156173",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000928317600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000928317600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 15,
       "is_first_author": false,
       "is_corr_author": false,
@@ -4763,7 +4764,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 377
+      "index": 381
     },
     {
       "uid": "WOS:000998467800001",
@@ -4778,7 +4779,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "109495",
       "doi": "10.1016/j.jece.2023.109495",
       "url": "https://doi.org/10.1016/j.jece.2023.109495",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000998467800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000998467800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 19,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4808,7 +4809,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 376
+      "index": 380
     },
     {
       "uid": "WOS:000848125000001",
@@ -4823,7 +4824,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "17704-17712",
       "doi": "10.1039/d2nj03475a",
       "url": "https://doi.org/10.1039/d2nj03475a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000848125000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000848125000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4843,7 +4844,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 375
+      "index": 379
     },
     {
       "uid": "WOS:000855187600011",
@@ -4858,7 +4859,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1001-+",
       "doi": "10.15541/jim20210806",
       "url": "https://doi.org/10.15541/jim20210806",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000855187600011&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000855187600011&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4883,7 +4884,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 374
+      "index": 378
     },
     {
       "uid": "WOS:000858847700001",
@@ -4898,7 +4899,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1813",
       "doi": "10.3390/pr10091813",
       "url": "https://doi.org/10.3390/pr10091813",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000858847700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000858847700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 5,
       "is_first_author": false,
       "is_corr_author": false,
@@ -4913,7 +4914,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 373
+      "index": 377
     },
     {
       "uid": "WOS:000810431400007",
@@ -4928,7 +4929,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "100956",
       "doi": "10.1016/j.mtchem.2022.100956",
       "url": "https://doi.org/10.1016/j.mtchem.2022.100956",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000810431400007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000810431400007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 27,
       "is_first_author": false,
       "is_corr_author": true,
@@ -4953,7 +4954,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 372
+      "index": 376
     },
     {
       "uid": "WOS:000862366800001",
@@ -4968,7 +4969,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "12217-12226",
       "doi": "10.1021/acscatal.2c03970",
       "url": "https://doi.org/10.1021/acscatal.2c03970",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000862366800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000862366800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 66,
       "is_first_author": false,
       "is_corr_author": false,
@@ -4996,7 +4997,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 371
+      "index": 375
     },
     {
       "uid": "WOS:000861487200001",
@@ -5011,7 +5012,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "16211-16219",
       "doi": "10.1021/acs.inorgchem.2c02888",
       "url": "https://doi.org/10.1021/acs.inorgchem.2c02888",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000861487200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000861487200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 15,
       "is_first_author": false,
       "is_corr_author": false,
@@ -5031,7 +5032,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 370
+      "index": 374
     },
     {
       "uid": "WOS:000861383200003",
@@ -5046,7 +5047,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "140947",
       "doi": "10.1016/j.electacta.2022.140947",
       "url": "https://doi.org/10.1016/j.electacta.2022.140947",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000861383200003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000861383200003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 20,
       "is_first_author": false,
       "is_corr_author": false,
@@ -5071,7 +5072,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 369
+      "index": 373
     },
     {
       "uid": "WOS:000860344100002",
@@ -5086,7 +5087,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "101111",
       "doi": "10.1016/j.mtener.2022.101111",
       "url": "https://doi.org/10.1016/j.mtener.2022.101111",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000860344100002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000860344100002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 34,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5111,7 +5112,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 368
+      "index": 372
     },
     {
       "uid": "WOS:000813345200003",
@@ -5126,7 +5127,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "135320",
       "doi": "10.1016/j.chemosphere.2022.135320",
       "url": "https://doi.org/10.1016/j.chemosphere.2022.135320",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000813345200003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000813345200003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 30,
       "is_first_author": false,
       "is_corr_author": false,
@@ -5156,7 +5157,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 367
+      "index": 371
     },
     {
       "uid": "WOS:000870707800002",
@@ -5171,7 +5172,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "33809-33818",
       "doi": "10.1016/j.ceramint.2022.07.328",
       "url": "https://doi.org/10.1016/j.ceramint.2022.07.328",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000870707800002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000870707800002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 20,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5186,7 +5187,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 366
+      "index": 370
     },
     {
       "uid": "WOS:000749775800002",
@@ -5201,7 +5202,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "163790",
       "doi": "10.1016/j.jallcom.2022.163790",
       "url": "https://doi.org/10.1016/j.jallcom.2022.163790",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000749775800002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000749775800002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 24,
       "is_first_author": false,
       "is_corr_author": false,
@@ -5216,7 +5217,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 365
+      "index": 369
     },
     {
       "uid": "WOS:000779903900003",
@@ -5231,7 +5232,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "163788",
       "doi": "10.1016/j.jallcom.2022.163788",
       "url": "https://doi.org/10.1016/j.jallcom.2022.163788",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000779903900003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000779903900003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 25,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5256,7 +5257,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 364
+      "index": 368
     },
     {
       "uid": "WOS:000779008100001",
@@ -5271,7 +5272,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2252-2263",
       "doi": "10.1039/d2qi00311b",
       "url": "https://doi.org/10.1039/d2qi00311b",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000779008100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000779008100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 36,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5291,7 +5292,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 363
+      "index": 367
     },
     {
       "uid": "WOS:000778498500011",
@@ -5306,7 +5307,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1286-1294",
       "doi": "10.1016/s1872-2067(21)63954-2",
       "url": "https://doi.org/10.1016/s1872-2067(21)63954-2",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000778498500011&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000778498500011&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 98,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5328,7 +5329,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 362
+      "index": 366
     },
     {
       "uid": "WOS:000755242300001",
@@ -5343,7 +5344,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "4654-4665",
       "doi": "10.1039/d1nj05169e",
       "url": "https://doi.org/10.1039/d1nj05169e",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000755242300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000755242300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 8,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5363,7 +5364,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 361
+      "index": 365
     },
     {
       "uid": "WOS:000780214300062",
@@ -5378,7 +5379,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "4152-4161",
       "doi": "10.1021/acsnano.1c10003",
       "url": "https://doi.org/10.1021/acsnano.1c10003",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000780214300062&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000780214300062&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 88,
       "is_first_author": false,
       "is_corr_author": false,
@@ -5396,7 +5397,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Nano"
       ],
-      "index": 360
+      "index": 364
     },
     {
       "uid": "WOS:000809661700002",
@@ -5411,7 +5412,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "151848",
       "doi": "10.1016/j.apsusc.2021.151848",
       "url": "https://doi.org/10.1016/j.apsusc.2021.151848",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000809661700002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000809661700002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 24,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5436,7 +5437,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 359
+      "index": 363
     },
     {
       "uid": "WOS:000734064600001",
@@ -5451,7 +5452,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "115404",
       "doi": "10.1088/1361-6528/ac3949",
       "url": "https://doi.org/10.1088/1361-6528/ac3949",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000734064600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000734064600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 16,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5476,7 +5477,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 358
+      "index": 362
     },
     {
       "uid": "WOS:000794046700001",
@@ -5491,7 +5492,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "233-243",
       "doi": "10.2144/btn-2021-0101",
       "url": "https://doi.org/10.2144/btn-2021-0101",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000794046700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000794046700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 0,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5506,7 +5507,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 357
+      "index": 361
     },
     {
       "uid": "WOS:000736579100006",
@@ -5521,7 +5522,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "100689",
       "doi": "10.1016/j.mtchem.2021.100689",
       "url": "https://doi.org/10.1016/j.mtchem.2021.100689",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000736579100006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000736579100006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 39,
       "is_first_author": false,
       "is_corr_author": false,
@@ -5541,7 +5542,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 356
+      "index": 360
     },
     {
       "uid": "WOS:000772010800007",
@@ -5556,7 +5557,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "65-74",
       "doi": "10.1016/j.jcis.2021.11.143",
       "url": "https://doi.org/10.1016/j.jcis.2021.11.143",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000772010800007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000772010800007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 6,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5576,7 +5577,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 355
+      "index": 359
     },
     {
       "uid": "WOS:000819477500001",
@@ -5591,7 +5592,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "7833-7842",
       "doi": "10.1021/acscatal.2c01328",
       "url": "https://doi.org/10.1021/acscatal.2c01328",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000819477500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000819477500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 60,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5624,7 +5625,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 354
+      "index": 358
     },
     {
       "uid": "WOS:000779727800002",
@@ -5639,7 +5640,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "135410",
       "doi": "10.1016/j.cej.2022.135410",
       "url": "https://doi.org/10.1016/j.cej.2022.135410",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000779727800002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000779727800002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 55,
       "is_first_author": false,
       "is_corr_author": false,
@@ -5656,7 +5657,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 353
+      "index": 357
     },
     {
       "uid": "WOS:000784203400004",
@@ -5671,7 +5672,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "114144",
       "doi": "10.1016/j.bios.2022.114144",
       "url": "https://doi.org/10.1016/j.bios.2022.114144",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000784203400004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000784203400004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 87,
       "is_first_author": false,
       "is_corr_author": false,
@@ -5696,7 +5697,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 352
+      "index": 356
     },
     {
       "uid": "WOS:000768644900001",
@@ -5711,7 +5712,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2118-2128",
       "doi": "10.1007/s12598-022-01960-z",
       "url": "https://doi.org/10.1007/s12598-022-01960-z",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000768644900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000768644900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 107,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5736,7 +5737,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 351
+      "index": 355
     },
     {
       "uid": "WOS:000719496400001",
@@ -5751,7 +5752,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "103-110",
       "doi": "10.1039/d1qi01137e",
       "url": "https://doi.org/10.1039/d1qi01137e",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000719496400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000719496400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 32,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5776,7 +5777,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 350
+      "index": 354
     },
     {
       "uid": "WOS:000704395600011",
@@ -5791,7 +5792,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "793-799",
       "doi": "10.1016/j.jcis.2021.08.061",
       "url": "https://doi.org/10.1016/j.jcis.2021.08.061",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000704395600011&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000704395600011&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 25,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5811,7 +5812,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 349
+      "index": 353
     },
     {
       "uid": "WOS:000766525200003",
@@ -5826,7 +5827,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1-11",
       "doi": "10.1155/2022/9349432",
       "url": "https://doi.org/10.1155/2022/9349432",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000766525200003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000766525200003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 6,
       "is_first_author": false,
       "is_corr_author": false,
@@ -5841,7 +5842,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 348
+      "index": 352
     },
     {
       "uid": "WOS:001026433800001",
@@ -5856,7 +5857,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "825159",
       "doi": "10.3389/fenrg.2021.825159",
       "url": "https://doi.org/10.3389/fenrg.2021.825159",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001026433800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001026433800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 5,
       "is_first_author": false,
       "is_corr_author": false,
@@ -5871,7 +5872,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 347
+      "index": 351
     },
     {
       "uid": "WOS:000720135800004",
@@ -5886,7 +5887,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "162290",
       "doi": "10.1016/j.jallcom.2021.162290",
       "url": "https://doi.org/10.1016/j.jallcom.2021.162290",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000720135800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000720135800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 39,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5916,7 +5917,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 346
+      "index": 350
     },
     {
       "uid": "WOS:000749969500008",
@@ -5931,7 +5932,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "131156",
       "doi": "10.1016/j.snb.2021.131156",
       "url": "https://doi.org/10.1016/j.snb.2021.131156",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000749969500008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000749969500008&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 29,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5951,7 +5952,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 345
+      "index": 349
     },
     {
       "uid": "WOS:000741145400004",
@@ -5966,7 +5967,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "133100",
       "doi": "10.1016/j.cej.2021.133100",
       "url": "https://doi.org/10.1016/j.cej.2021.133100",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000741145400004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000741145400004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 128,
       "is_first_author": false,
       "is_corr_author": true,
@@ -5988,7 +5989,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 344
+      "index": 348
     },
     {
       "uid": "WOS:000728401100003",
@@ -6003,7 +6004,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "132204",
       "doi": "10.1016/j.cej.2021.132204",
       "url": "https://doi.org/10.1016/j.cej.2021.132204",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000728401100003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000728401100003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 141,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6030,7 +6031,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 343
+      "index": 347
     },
     {
       "uid": "WOS:000884761300002",
@@ -6045,7 +6046,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "166370",
       "doi": "10.1016/j.jallcom.2022.166370",
       "url": "https://doi.org/10.1016/j.jallcom.2022.166370",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000884761300002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000884761300002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 22,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6070,7 +6071,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 342
+      "index": 346
     },
     {
       "uid": "WOS:000870761800001",
@@ -6085,7 +6086,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "e202211396",
       "doi": "10.1002/anie.202211396",
       "url": "https://doi.org/10.1002/anie.202211396",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000870761800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000870761800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 269,
       "is_first_author": false,
       "is_corr_author": false,
@@ -6109,7 +6110,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Angew. Chem."
       ],
-      "index": 341
+      "index": 345
     },
     {
       "uid": "WOS:000894101700001",
@@ -6124,7 +6125,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "20666-20673",
       "doi": "10.1021/acs.inorgchem.2c03649",
       "url": "https://doi.org/10.1021/acs.inorgchem.2c03649",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000894101700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000894101700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 11,
       "is_first_author": false,
       "is_corr_author": false,
@@ -6139,7 +6140,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 340
+      "index": 344
     },
     {
       "uid": "WOS:000862898100004",
@@ -6154,7 +6155,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "154625",
       "doi": "10.1016/j.apsusc.2022.154625",
       "url": "https://doi.org/10.1016/j.apsusc.2022.154625",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000862898100004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000862898100004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 28,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6179,7 +6180,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 339
+      "index": 343
     },
     {
       "uid": "WOS:000892520100001",
@@ -6194,7 +6195,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "25661-25670",
       "doi": "10.1039/d2ta06939c",
       "url": "https://doi.org/10.1039/d2ta06939c",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000892520100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000892520100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 22,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6216,7 +6217,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 338
+      "index": 342
     },
     {
       "uid": "WOS:000900601900001",
@@ -6231,7 +6232,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1588",
       "doi": "10.3390/catal12121588",
       "url": "https://doi.org/10.3390/catal12121588",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000900601900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000900601900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6251,7 +6252,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 337
+      "index": 341
     },
     {
       "uid": "WOS:000933916500006",
@@ -6266,7 +6267,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "101078",
       "doi": "10.1016/j.mtchem.2022.101078",
       "url": "https://doi.org/10.1016/j.mtchem.2022.101078",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000933916500006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000933916500006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 28,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6286,7 +6287,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 336
+      "index": 340
     },
     {
       "uid": "WOS:000891322900001",
@@ -6301,7 +6302,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2200499",
       "doi": "10.1002/pssa.202200499",
       "url": "https://doi.org/10.1002/pssa.202200499",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000891322900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000891322900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6321,7 +6322,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 335
+      "index": 339
     },
     {
       "uid": "WOS:000855712400001",
@@ -6336,7 +6337,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2200278",
       "doi": "10.1002/adsu.202200278",
       "url": "https://doi.org/10.1002/adsu.202200278",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000855712400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000855712400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6361,7 +6362,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 334
+      "index": 338
     },
     {
       "uid": "WOS:000795774900001",
@@ -6376,7 +6377,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "13453-13462",
       "doi": "10.1002/er.8056",
       "url": "https://doi.org/10.1002/er.8056",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000795774900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000795774900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 7,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6396,7 +6397,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 333
+      "index": 337
     },
     {
       "uid": "WOS:000764249100001",
@@ -6411,7 +6412,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1701-1707",
       "doi": "10.1039/d1qi01592c",
       "url": "https://doi.org/10.1039/d1qi01592c",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000764249100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000764249100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 29,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6431,7 +6432,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 332
+      "index": 336
     },
     {
       "uid": "WOS:000768792400003",
@@ -6446,7 +6447,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "22-28",
       "doi": "10.1016/j.jcis.2021.12.026",
       "url": "https://doi.org/10.1016/j.jcis.2021.12.026",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000768792400003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000768792400003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 21,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6466,7 +6467,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 331
+      "index": 335
     },
     {
       "uid": "WOS:000681039600094",
@@ -6481,7 +6482,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "116461",
       "doi": "10.1016/j.molliq.2021.116461",
       "url": "https://doi.org/10.1016/j.molliq.2021.116461",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000681039600094&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000681039600094&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 22,
       "is_first_author": false,
       "is_corr_author": false,
@@ -6506,7 +6507,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 330
+      "index": 334
     },
     {
       "uid": "WOS:000672570400003",
@@ -6521,7 +6522,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "129888",
       "doi": "10.1016/j.cej.2021.129888",
       "url": "https://doi.org/10.1016/j.cej.2021.129888",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000672570400003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000672570400003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 210,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6544,7 +6545,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "CEJ"
       ],
-      "index": 329
+      "index": 333
     },
     {
       "uid": "WOS:000687113600001",
@@ -6559,7 +6560,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2103796",
       "doi": "10.1002/smll.202103796",
       "url": "https://doi.org/10.1002/smll.202103796",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000687113600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000687113600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 60,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6586,7 +6587,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Small"
       ],
-      "index": 328
+      "index": 332
     },
     {
       "uid": "WOS:000681597300001",
@@ -6601,7 +6602,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2100171",
       "doi": "10.1002/pssa.202100171",
       "url": "https://doi.org/10.1002/pssa.202100171",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000681597300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000681597300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 0,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6631,7 +6632,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 327
+      "index": 331
     },
     {
       "uid": "WOS:000717654200001",
@@ -6646,7 +6647,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "21701-21707",
       "doi": "10.1039/d1nj02690a",
       "url": "https://doi.org/10.1039/d1nj02690a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000717654200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000717654200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 10,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6666,7 +6667,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 326
+      "index": 330
     },
     {
       "uid": "WOS:000704132500007",
@@ -6681,7 +6682,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "127360",
       "doi": "10.1016/j.colsurfa.2021.127360",
       "url": "https://doi.org/10.1016/j.colsurfa.2021.127360",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000704132500007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000704132500007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 11,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6706,7 +6707,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 325
+      "index": 329
     },
     {
       "uid": "WOS:000727078700001",
@@ -6721,7 +6722,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "288",
       "doi": "10.3390/machines9110288",
       "url": "https://doi.org/10.3390/machines9110288",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000727078700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000727078700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 7,
       "is_first_author": false,
       "is_corr_author": false,
@@ -6736,7 +6737,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 324
+      "index": 328
     },
     {
       "uid": "WOS:000710443200001",
@@ -6751,7 +6752,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2101158",
       "doi": "10.1002/admi.202101158",
       "url": "https://doi.org/10.1002/admi.202101158",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000710443200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000710443200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 6,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6776,7 +6777,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 323
+      "index": 327
     },
     {
       "uid": "WOS:000655602500007",
@@ -6791,7 +6792,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "8585-8601",
       "doi": "10.1021/acs.energyfuels.1c00700",
       "url": "https://doi.org/10.1021/acs.energyfuels.1c00700",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000655602500007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000655602500007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 36,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6811,7 +6812,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 322
+      "index": 326
     },
     {
       "uid": "WOS:000636785500007",
@@ -6826,7 +6827,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "126151",
       "doi": "10.1016/j.colsurfa.2021.126151",
       "url": "https://doi.org/10.1016/j.colsurfa.2021.126151",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000636785500007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000636785500007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 19,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6846,7 +6847,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 321
+      "index": 325
     },
     {
       "uid": "WOS:000636588600001",
@@ -6861,7 +6862,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2100012",
       "doi": "10.1002/pssa.202100012",
       "url": "https://doi.org/10.1002/pssa.202100012",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000636588600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000636588600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 10,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6886,7 +6887,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 320
+      "index": 324
     },
     {
       "uid": "WOS:000626852100001",
@@ -6901,7 +6902,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2000671",
       "doi": "10.1002/pssa.202000671",
       "url": "https://doi.org/10.1002/pssa.202000671",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000626852100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000626852100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 4,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6921,7 +6922,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 319
+      "index": 323
     },
     {
       "uid": "WOS:000608923600003",
@@ -6936,7 +6937,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "148619",
       "doi": "10.1016/j.apsusc.2020.148619",
       "url": "https://doi.org/10.1016/j.apsusc.2020.148619",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000608923600003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000608923600003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 19,
       "is_first_author": false,
       "is_corr_author": true,
@@ -6961,7 +6962,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 318
+      "index": 322
     },
     {
       "uid": "WOS:000582726000009",
@@ -6976,7 +6977,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "450-459",
       "doi": "10.1016/s1872-2067(20)63674-9",
       "url": "https://doi.org/10.1016/s1872-2067(20)63674-9",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000582726000009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000582726000009&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 159,
       "is_first_author": false,
       "is_corr_author": false,
@@ -6998,7 +6999,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 317
+      "index": 321
     },
     {
       "uid": "WOS:000605249800006",
@@ -7013,7 +7014,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "403-413",
       "doi": "10.1016/j.jechem.2020.05.062",
       "url": "https://doi.org/10.1016/j.jechem.2020.05.062",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000605249800006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000605249800006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 27,
       "is_first_author": false,
       "is_corr_author": false,
@@ -7045,7 +7046,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "J. Energy Chem."
       ],
-      "index": 316
+      "index": 320
     },
     {
       "uid": "WOS:000657622200014",
@@ -7060,7 +7061,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "20516-20523",
       "doi": "10.1016/j.ijhydene.2021.03.182",
       "url": "https://doi.org/10.1016/j.ijhydene.2021.03.182",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000657622200014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000657622200014&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 14,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7085,7 +7086,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 315
+      "index": 319
     },
     {
       "uid": "WOS:000638222800004",
@@ -7100,7 +7101,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "127416",
       "doi": "10.1016/j.cej.2020.127416",
       "url": "https://doi.org/10.1016/j.cej.2020.127416",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000638222800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000638222800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 23,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7127,7 +7128,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 314
+      "index": 318
     },
     {
       "uid": "WOS:000649688600001",
@@ -7142,7 +7143,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "105869",
       "doi": "10.1016/j.nanoen.2021.105869",
       "url": "https://doi.org/10.1016/j.nanoen.2021.105869",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000649688600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000649688600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 74,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7165,7 +7166,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "Nano Energy"
       ],
-      "index": 313
+      "index": 317
     },
     {
       "uid": "WOS:000581684900040",
@@ -7180,7 +7181,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "123309",
       "doi": "10.1016/j.jhazmat.2020.123309",
       "url": "https://doi.org/10.1016/j.jhazmat.2020.123309",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000581684900040&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000581684900040&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 92,
       "is_first_author": false,
       "is_corr_author": false,
@@ -7210,7 +7211,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 312
+      "index": 316
     },
     {
       "uid": "WOS:000706435300001",
@@ -7225,7 +7226,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "161795",
       "doi": "10.1016/j.jallcom.2021.161795",
       "url": "https://doi.org/10.1016/j.jallcom.2021.161795",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000706435300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000706435300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 22,
       "is_first_author": false,
       "is_corr_author": false,
@@ -7245,7 +7246,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 311
+      "index": 315
     },
     {
       "uid": "WOS:000613637800028",
@@ -7260,7 +7261,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1993-2000",
       "doi": "10.1039/d0nj05082b",
       "url": "https://doi.org/10.1039/d0nj05082b",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000613637800028&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000613637800028&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 16,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7280,7 +7281,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 310
+      "index": 314
     },
     {
       "uid": "WOS:000580404400014",
@@ -7295,7 +7296,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "117546",
       "doi": "10.1016/j.seppur.2020.117546",
       "url": "https://doi.org/10.1016/j.seppur.2020.117546",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000580404400014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000580404400014&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 56,
       "is_first_author": false,
       "is_corr_author": false,
@@ -7315,7 +7316,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 309
+      "index": 313
     },
     {
       "uid": "WOS:001065074500012",
@@ -7330,7 +7331,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "itab005",
       "doi": "10.1093/oxfmat/itab005",
       "url": "https://doi.org/10.1093/oxfmat/itab005",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001065074500012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001065074500012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 0,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7360,7 +7361,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 308
+      "index": 312
     },
     {
       "uid": "WOS:000595156500018",
@@ -7375,7 +7376,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "147-154",
       "doi": "10.1016/j.jechem.2020.04.024",
       "url": "https://doi.org/10.1016/j.jechem.2020.04.024",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000595156500018&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000595156500018&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 29,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7412,7 +7413,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "J. Energy Chem."
       ],
-      "index": 307
+      "index": 311
     },
     {
       "uid": "WOS:000626629900001",
@@ -7426,8 +7427,8 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "2",
       "page": "836-844",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000626629900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000626629900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000626629900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000626629900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 0,
       "is_first_author": false,
       "is_corr_author": false,
@@ -7452,7 +7453,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 306
+      "index": 310
     },
     {
       "uid": "WOS:000605533000003",
@@ -7467,7 +7468,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "125648",
       "doi": "10.1016/j.colsurfa.2020.125648",
       "url": "https://doi.org/10.1016/j.colsurfa.2020.125648",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000605533000003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000605533000003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 8,
       "is_first_author": false,
       "is_corr_author": false,
@@ -7497,7 +7498,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 305
+      "index": 309
     },
     {
       "uid": "WOS:000594859200012",
@@ -7512,7 +7513,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "113-127",
       "doi": "10.1016/j.jcis.2020.08.124",
       "url": "https://doi.org/10.1016/j.jcis.2020.08.124",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000594859200012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000594859200012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 33,
       "is_first_author": false,
       "is_corr_author": false,
@@ -7537,7 +7538,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 304
+      "index": 308
     },
     {
       "uid": "WOS:000582725500011",
@@ -7552,7 +7553,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "347-355",
       "doi": "10.1016/s1872-2067(20)63668-3",
       "url": "https://doi.org/10.1016/s1872-2067(20)63668-3",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000582725500011&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000582725500011&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 50,
       "is_first_author": false,
       "is_corr_author": false,
@@ -7574,7 +7575,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 303
+      "index": 307
     },
     {
       "uid": "WOS:000591345400004",
@@ -7589,7 +7590,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "119475",
       "doi": "10.1016/j.apcatb.2020.119475",
       "url": "https://doi.org/10.1016/j.apcatb.2020.119475",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000591345400004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000591345400004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 110,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7621,7 +7622,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 302
+      "index": 306
     },
     {
       "uid": "WOS:000707126000216",
@@ -7636,7 +7637,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "131512",
       "doi": "10.1016/j.cej.2021.131512",
       "url": "https://doi.org/10.1016/j.cej.2021.131512",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000707126000216&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000707126000216&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 30,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7663,7 +7664,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 301
+      "index": 305
     },
     {
       "uid": "WOS:000707126000208",
@@ -7678,7 +7679,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "131500",
       "doi": "10.1016/j.cej.2021.131500",
       "url": "https://doi.org/10.1016/j.cej.2021.131500",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000707126000208&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000707126000208&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 21,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7715,7 +7716,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 300
+      "index": 304
     },
     {
       "uid": "WOS:000711394500003",
@@ -7730,7 +7731,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "101745",
       "doi": "10.1016/j.jcou.2021.101745",
       "url": "https://doi.org/10.1016/j.jcou.2021.101745",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000711394500003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000711394500003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 20,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7755,7 +7756,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 299
+      "index": 303
     },
     {
       "uid": "WOS:000696169200001",
@@ -7770,7 +7771,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2100256",
       "doi": "10.1002/adsu.202100256",
       "url": "https://doi.org/10.1002/adsu.202100256",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000696169200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000696169200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7790,7 +7791,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 298
+      "index": 302
     },
     {
       "uid": "WOS:000691785200056",
@@ -7805,7 +7806,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "39523-39532",
       "doi": "10.1021/acsami.1c12692",
       "url": "https://doi.org/10.1021/acsami.1c12692",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000691785200056&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000691785200056&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 65,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7830,7 +7831,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 297
+      "index": 301
     },
     {
       "uid": "WOS:000681089300009",
@@ -7845,7 +7846,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "538-545",
       "doi": "10.1016/j.gee.2020.05.011",
       "url": "https://doi.org/10.1016/j.gee.2020.05.011",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000681089300009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000681089300009&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 68,
       "is_first_author": false,
       "is_corr_author": true,
@@ -7865,7 +7866,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 296
+      "index": 300
     },
     {
       "uid": "WOS:000620361700003",
@@ -7880,8 +7881,148 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "149085",
       "doi": "10.1016/j.apsusc.2021.149085",
       "url": "https://doi.org/10.1016/j.apsusc.2021.149085",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000620361700003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000620361700003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 29,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 299
+    },
+    {
+      "uid": "WOS:000614726800005",
+      "title": "Construction of dual ion (Fe3+/Fe2+ and Nb5+/Nb4+) synergy and full spectrum 1D nanorod Fe2O3/NaNbO3 photo-Fenton catalyst for the degradation of antibiotic: Effects of H2O2, S2O82- and toxicity",
+      "authors": "Chun Tong, Liquan Jing, Minqiang He, Meng Xie, Wei Wei, Yuanguo Xu, <strong>Hui Xu</strong>, Huaming Li",
+      "journal": "Separation And Purification Technology",
+      "year": 2021,
+      "year_group": "2021",
+      "date": "2021-APR 15",
+      "volume": "261",
+      "issue": "",
+      "page": "118269",
+      "doi": "10.1016/j.seppur.2020.118269",
+      "url": "https://doi.org/10.1016/j.seppur.2020.118269",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000614726800005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 31,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 298
+    },
+    {
+      "uid": "WOS:000634800100016",
+      "title": "A critical introduction to language evolution: Current controversies and future prospects",
+      "authors": "Yong Zhou, <strong>Hui Xu</strong>",
+      "journal": "Folia Linguistica",
+      "year": 2021,
+      "year_group": "2021",
+      "date": "2021-APR",
+      "volume": "55",
+      "issue": "1",
+      "page": "307-312",
+      "doi": "10.1515/flin-2021-2077",
+      "url": "https://doi.org/10.1515/flin-2021-2077",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000634800100016&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 0,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "materials",
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 297
+    },
+    {
+      "uid": "WOS:000607727300024",
+      "title": "Recent advance in single-atom catalysis",
+      "authors": "Zeng-Xi Wei, Ya-Ting Zhu, Jin-Yuan Liu, Zhi-Cheng Zhang, Wen-Ping Hu, <strong>Hui Xu</strong>, Yue-Zhan Feng, Jian-Min Ma",
+      "journal": "Rare Metals",
+      "year": 2021,
+      "year_group": "2021",
+      "date": "2021-APR",
+      "volume": "40",
+      "issue": "4",
+      "page": "767-789",
+      "doi": "10.1007/s12598-020-01592-1",
+      "url": "https://doi.org/10.1007/s12598-020-01592-1",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000607727300024&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 152,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 296
+    },
+    {
+      "uid": "WOS:000541924000038",
+      "title": "Novel broad-spectrum-driven oxygen-linked band and porous defect co-modified orange carbon nitride for photodegradation of Bisphenol A and 2-Mercaptobenzothiazole",
+      "authors": "Liquan Jing, Yuanguo Xu, Minjing Zhou, Jiujun Deng, Wei Wei, Meng Xie, Yanhua Song, <strong>Hui Xu</strong>, Huaming Li",
+      "journal": "Journal Of Hazardous Materials",
+      "year": 2020,
+      "year_group": "2020",
+      "date": "2020-SEP 5",
+      "volume": "396",
+      "issue": "",
+      "page": "122659",
+      "doi": "10.1016/j.jhazmat.2020.122659",
+      "url": "https://doi.org/10.1016/j.jhazmat.2020.122659",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000541924000038&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 51,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -7908,146 +8049,6 @@ window.XH_PUBLICATIONS_DATA = {
       "index": 295
     },
     {
-      "uid": "WOS:000614726800005",
-      "title": "Construction of dual ion (Fe3+/Fe2+ and Nb5+/Nb4+) synergy and full spectrum 1D nanorod Fe2O3/NaNbO3 photo-Fenton catalyst for the degradation of antibiotic: Effects of H2O2, S2O82- and toxicity",
-      "authors": "Chun Tong, Liquan Jing, Minqiang He, Meng Xie, Wei Wei, Yuanguo Xu, <strong>Hui Xu</strong>, Huaming Li",
-      "journal": "Separation And Purification Technology",
-      "year": 2021,
-      "year_group": "2021",
-      "date": "2021-APR 15",
-      "volume": "261",
-      "issue": "",
-      "page": "118269",
-      "doi": "10.1016/j.seppur.2020.118269",
-      "url": "https://doi.org/10.1016/j.seppur.2020.118269",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000614726800005&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 31,
-      "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 294
-    },
-    {
-      "uid": "WOS:000634800100016",
-      "title": "A critical introduction to language evolution: Current controversies and future prospects",
-      "authors": "Yong Zhou, <strong>Hui Xu</strong>",
-      "journal": "Folia Linguistica",
-      "year": 2021,
-      "year_group": "2021",
-      "date": "2021-APR",
-      "volume": "55",
-      "issue": "1",
-      "page": "307-312",
-      "doi": "10.1515/flin-2021-2077",
-      "url": "https://doi.org/10.1515/flin-2021-2077",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000634800100016&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 0,
-      "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
-      "topics": [
-        {
-          "id": "materials",
-          "name_cn": "功能材料与基础研究",
-          "name_en": "Advanced Functional Materials"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 293
-    },
-    {
-      "uid": "WOS:000607727300024",
-      "title": "Recent advance in single-atom catalysis",
-      "authors": "Zeng-Xi Wei, Ya-Ting Zhu, Jin-Yuan Liu, Zhi-Cheng Zhang, Wen-Ping Hu, <strong>Hui Xu</strong>, Yue-Zhan Feng, Jian-Min Ma",
-      "journal": "Rare Metals",
-      "year": 2021,
-      "year_group": "2021",
-      "date": "2021-APR",
-      "volume": "40",
-      "issue": "4",
-      "page": "767-789",
-      "doi": "10.1007/s12598-020-01592-1",
-      "url": "https://doi.org/10.1007/s12598-020-01592-1",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000607727300024&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 152,
-      "is_first_author": false,
-      "is_corr_author": true,
-      "is_first_or_corr": true,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 292
-    },
-    {
-      "uid": "WOS:000541924000038",
-      "title": "Novel broad-spectrum-driven oxygen-linked band and porous defect co-modified orange carbon nitride for photodegradation of Bisphenol A and 2-Mercaptobenzothiazole",
-      "authors": "Liquan Jing, Yuanguo Xu, Minjing Zhou, Jiujun Deng, Wei Wei, Meng Xie, Yanhua Song, <strong>Hui Xu</strong>, Huaming Li",
-      "journal": "Journal Of Hazardous Materials",
-      "year": 2020,
-      "year_group": "2020",
-      "date": "2020-SEP 5",
-      "volume": "396",
-      "issue": "",
-      "page": "122659",
-      "doi": "10.1016/j.jhazmat.2020.122659",
-      "url": "https://doi.org/10.1016/j.jhazmat.2020.122659",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000541924000038&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 51,
-      "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "c3n4_2d",
-          "name_cn": "碳氮材料与二维半导体",
-          "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 291
-    },
-    {
       "uid": "WOS:000575557800030",
       "title": "Metal Nanoparticles Confined within an Inorganic-Organic Framework Enable Superior Substrate-Selective Catalysis",
       "authors": "Zhengliang Yin, Yingguan Xiao, Hongping Li, Gang Chen, Ningdong Feng, Jingjie Wu, Huaming Li, <strong>Hui Xu</strong>, Shunsheng Cao",
@@ -8060,7 +8061,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "42739-42748",
       "doi": "10.1021/acsami.0c10814",
       "url": "https://doi.org/10.1021/acsami.0c10814",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000575557800030&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000575557800030&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 14,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8075,7 +8076,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 290
+      "index": 294
     },
     {
       "uid": "WOS:000551969200072",
@@ -8090,7 +8091,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "125244",
       "doi": "10.1016/j.cej.2020.125244",
       "url": "https://doi.org/10.1016/j.cej.2020.125244",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000551969200072&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000551969200072&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 44,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8117,7 +8118,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 289
+      "index": 293
     },
     {
       "uid": "WOS:000540732600011",
@@ -8132,7 +8133,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "89-95",
       "doi": "10.1016/j.jechem.2020.01.020",
       "url": "https://doi.org/10.1016/j.jechem.2020.01.020",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000540732600011&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000540732600011&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 63,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8149,7 +8150,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "J. Energy Chem."
       ],
-      "index": 288
+      "index": 292
     },
     {
       "uid": "WOS:000572714000008",
@@ -8164,7 +8165,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "6906-6919",
       "doi": "10.1038/s41388-020-01475-w",
       "url": "https://doi.org/10.1038/s41388-020-01475-w",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000572714000008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000572714000008&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 235,
       "is_first_author": false,
       "is_corr_author": false,
@@ -8179,7 +8180,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 287
+      "index": 291
     },
     {
       "uid": "WOS:000589891400038",
@@ -8194,7 +8195,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "19314-19322",
       "doi": "10.1039/d0nj04653a",
       "url": "https://doi.org/10.1039/d0nj04653a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000589891400038&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000589891400038&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 3,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8214,7 +8215,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 286
+      "index": 290
     },
     {
       "uid": "WOS:000581780400076",
@@ -8229,7 +8230,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "814-821",
       "doi": "10.1016/j.jcis.2020.07.032",
       "url": "https://doi.org/10.1016/j.jcis.2020.07.032",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000581780400076&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000581780400076&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 44,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8249,7 +8250,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 285
+      "index": 289
     },
     {
       "uid": "WOS:000552015900069",
@@ -8264,7 +8265,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "119245",
       "doi": "10.1016/j.apcatb.2020.119245",
       "url": "https://doi.org/10.1016/j.apcatb.2020.119245",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000552015900069&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000552015900069&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 116,
       "is_first_author": false,
       "is_corr_author": false,
@@ -8291,7 +8292,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 284
+      "index": 288
     },
     {
       "uid": "WOS:000614552900042",
@@ -8306,7 +8307,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1998-2009",
       "doi": "10.1177/0020294020962127",
       "url": "https://doi.org/10.1177/0020294020962127",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000614552900042&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000614552900042&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 4,
       "is_first_author": true,
       "is_corr_author": false,
@@ -8321,7 +8322,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 283
+      "index": 287
     },
     {
       "uid": "WOS:000514857400084",
@@ -8336,7 +8337,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "153773",
       "doi": "10.1016/j.jallcom.2020.153773",
       "url": "https://doi.org/10.1016/j.jallcom.2020.153773",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000514857400084&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000514857400084&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 41,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8356,7 +8357,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 282
+      "index": 286
     },
     {
       "uid": "WOS:000527331600112",
@@ -8371,7 +8372,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "124130",
       "doi": "10.1016/j.cej.2020.124130",
       "url": "https://doi.org/10.1016/j.cej.2020.124130",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000527331600112&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000527331600112&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 35,
       "is_first_author": false,
       "is_corr_author": false,
@@ -8388,7 +8389,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 281
+      "index": 285
     },
     {
       "uid": "WOS:000530670200035",
@@ -8403,7 +8404,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "104604",
       "doi": "10.1016/j.nanoen.2020.104604",
       "url": "https://doi.org/10.1016/j.nanoen.2020.104604",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000530670200035&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000530670200035&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 66,
       "is_first_author": false,
       "is_corr_author": false,
@@ -8421,7 +8422,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "Nano Energy"
       ],
-      "index": 280
+      "index": 284
     },
     {
       "uid": "WOS:000520021200122",
@@ -8436,7 +8437,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "145145",
       "doi": "10.1016/j.apsusc.2019.145145",
       "url": "https://doi.org/10.1016/j.apsusc.2019.145145",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000520021200122&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000520021200122&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 28,
       "is_first_author": false,
       "is_corr_author": false,
@@ -8466,7 +8467,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 279
+      "index": 283
     },
     {
       "uid": "WOS:000520021200087",
@@ -8481,7 +8482,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "145085",
       "doi": "10.1016/j.apsusc.2019.145085",
       "url": "https://doi.org/10.1016/j.apsusc.2019.145085",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000520021200087&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000520021200087&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 21,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8506,7 +8507,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 278
+      "index": 282
     },
     {
       "uid": "WOS:000526311000036",
@@ -8521,7 +8522,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "975-993",
       "doi": "10.1021/acsenergylett.9b02757",
       "url": "https://doi.org/10.1021/acsenergylett.9b02757",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000526311000036&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000526311000036&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 71,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8546,7 +8547,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 277
+      "index": 281
     },
     {
       "uid": "WOS:000555518200021",
@@ -8561,7 +8562,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "6385-6393",
       "doi": "10.1021/acsanm.0c00826",
       "url": "https://doi.org/10.1021/acsanm.0c00826",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000555518200021&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000555518200021&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 40,
       "is_first_author": false,
       "is_corr_author": false,
@@ -8576,7 +8577,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 276
+      "index": 280
     },
     {
       "uid": "WOS:000532683200019",
@@ -8591,7 +8592,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "118760",
       "doi": "10.1016/j.apcatb.2020.118760",
       "url": "https://doi.org/10.1016/j.apcatb.2020.118760",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000532683200019&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000532683200019&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 222,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8624,7 +8625,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 275
+      "index": 279
     },
     {
       "uid": "WOS:000509432200018",
@@ -8639,7 +8640,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "884-892",
       "doi": "10.1021/acssuschemeng.9b05248",
       "url": "https://doi.org/10.1021/acssuschemeng.9b05248",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000509432200018&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000509432200018&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 36,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8664,7 +8665,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 274
+      "index": 278
     },
     {
       "uid": "WOS:000502046200022",
@@ -8679,8 +8680,165 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "124067",
       "doi": "10.1016/j.colsurfa.2019.124067",
       "url": "https://doi.org/10.1016/j.colsurfa.2019.124067",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000502046200022&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000502046200022&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 25,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 277
+    },
+    {
+      "uid": "WOS:000494815600141",
+      "title": "Spatially confined Fe2O3 in hierarchical SiO2@TiO2 hollow sphere exhibiting superior photocatalytic efficiency for degrading antibiotics",
+      "authors": "Sai Zhang, Jianjian Yi, Juanrong Chen, Zhengliang Yin, Tao Tang, Wenxian Wei, Shunsheng Cao, <strong>Hui Xu</strong>",
+      "journal": "Chemical Engineering Journal",
+      "year": 2020,
+      "year_group": "2020",
+      "date": "2020-JAN 15",
+      "volume": "380",
+      "issue": "",
+      "page": "122583",
+      "doi": "10.1016/j.cej.2019.122583",
+      "url": "https://doi.org/10.1016/j.cej.2019.122583",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000494815600141&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 141,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "CEJ"
+      ],
+      "index": 276
+    },
+    {
+      "uid": "WOS:000535839500010",
+      "title": "ENHANCED PHOTODEGRADATION ACTIVITY OF METHYLENE BLUE OVER Z-SCHEME TYPE mpg-C3N4/MoO3 COMPOSITE UNDER VISIBLE LIGHT IRRADIATION",
+      "authors": "Jinyuan Liu, Jihua Huang, Chengjuan Wang, Ting Fei, Jia Yan, Haiyan Ji, Yanhua Song, Cheng Ding, Chengbao Liu, <strong>Hui Xu</strong>, Huaming Li",
+      "journal": "Fresenius Environmental Bulletin",
+      "year": 2020,
+      "year_group": "2020",
+      "date": "2020-JAN",
+      "volume": "29",
+      "issue": "4",
+      "page": "2062-2072",
+      "doi": "",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000535839500010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000535839500010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 0,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 275
+    },
+    {
+      "uid": "WOS:000511447700002",
+      "title": "Plasma treated Bi2WO6 ultrathin nanosheets with oxygen vacancies for improved photocatalytic CO2 reduction",
+      "authors": "Qidi Li, Xingwang Zhu, Jinman Yang, Qing Yu, Xianglin Zhu, Jinyu Chu, Yansheng Du, Chongtai Wang, Yingjie Hua, Huaming Li, <strong>Hui Xu</strong>",
+      "journal": "Inorganic Chemistry Frontiers",
+      "year": 2020,
+      "year_group": "2020",
+      "date": "2020-FEB 7",
+      "volume": "7",
+      "issue": "3",
+      "page": "597-602",
+      "doi": "10.1039/c9qi01370a",
+      "url": "https://doi.org/10.1039/c9qi01370a",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000511447700002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 97,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 274
+    },
+    {
+      "uid": "WOS:000513861400010",
+      "title": "An all-organic TPA-3CN/2D-C3N4 heterostructure for high efficiency photocatalytic hydrogen evolution",
+      "authors": "Jiajun Fu, Zhao Mo, Ming Cheng, Fan Xu, Yanhua Song, Xingdong Ding, Zhigang Chen, Hanxiang Chen, Huaming Li, <strong>Hui Xu</strong>",
+      "journal": "Colloids And Surfaces A-Physicochemical And Engineering Aspects",
+      "year": 2020,
+      "year_group": "2020",
+      "date": "2020-FEB 20",
+      "volume": "589",
+      "issue": "",
+      "page": "124397",
+      "doi": "10.1016/j.colsurfa.2019.124397",
+      "url": "https://doi.org/10.1016/j.colsurfa.2019.124397",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000513861400010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 13,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -8707,163 +8865,6 @@ window.XH_PUBLICATIONS_DATA = {
       "index": 273
     },
     {
-      "uid": "WOS:000494815600141",
-      "title": "Spatially confined Fe2O3 in hierarchical SiO2@TiO2 hollow sphere exhibiting superior photocatalytic efficiency for degrading antibiotics",
-      "authors": "Sai Zhang, Jianjian Yi, Juanrong Chen, Zhengliang Yin, Tao Tang, Wenxian Wei, Shunsheng Cao, <strong>Hui Xu</strong>",
-      "journal": "Chemical Engineering Journal",
-      "year": 2020,
-      "year_group": "2020",
-      "date": "2020-JAN 15",
-      "volume": "380",
-      "issue": "",
-      "page": "122583",
-      "doi": "10.1016/j.cej.2019.122583",
-      "url": "https://doi.org/10.1016/j.cej.2019.122583",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000494815600141&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 141,
-      "is_first_author": false,
-      "is_corr_author": true,
-      "is_first_or_corr": true,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [
-        "CEJ"
-      ],
-      "index": 272
-    },
-    {
-      "uid": "WOS:000535839500010",
-      "title": "ENHANCED PHOTODEGRADATION ACTIVITY OF METHYLENE BLUE OVER Z-SCHEME TYPE mpg-C3N4/MoO3 COMPOSITE UNDER VISIBLE LIGHT IRRADIATION",
-      "authors": "Jinyuan Liu, Jihua Huang, Chengjuan Wang, Ting Fei, Jia Yan, Haiyan Ji, Yanhua Song, Cheng Ding, Chengbao Liu, <strong>Hui Xu</strong>, Huaming Li",
-      "journal": "Fresenius Environmental Bulletin",
-      "year": 2020,
-      "year_group": "2020",
-      "date": "2020-JAN",
-      "volume": "29",
-      "issue": "4",
-      "page": "2062-2072",
-      "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000535839500010&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000535839500010&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 0,
-      "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "c3n4_2d",
-          "name_cn": "碳氮材料与二维半导体",
-          "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 271
-    },
-    {
-      "uid": "WOS:000511447700002",
-      "title": "Plasma treated Bi2WO6 ultrathin nanosheets with oxygen vacancies for improved photocatalytic CO2 reduction",
-      "authors": "Qidi Li, Xingwang Zhu, Jinman Yang, Qing Yu, Xianglin Zhu, Jinyu Chu, Yansheng Du, Chongtai Wang, Yingjie Hua, Huaming Li, <strong>Hui Xu</strong>",
-      "journal": "Inorganic Chemistry Frontiers",
-      "year": 2020,
-      "year_group": "2020",
-      "date": "2020-FEB 7",
-      "volume": "7",
-      "issue": "3",
-      "page": "597-602",
-      "doi": "10.1039/c9qi01370a",
-      "url": "https://doi.org/10.1039/c9qi01370a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000511447700002&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 97,
-      "is_first_author": false,
-      "is_corr_author": true,
-      "is_first_or_corr": true,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "c3n4_2d",
-          "name_cn": "碳氮材料与二维半导体",
-          "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "co2",
-          "name_cn": "二氧化碳捕集与转化",
-          "name_en": "CO2 Reduction & Conversion"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 270
-    },
-    {
-      "uid": "WOS:000513861400010",
-      "title": "An all-organic TPA-3CN/2D-C3N4 heterostructure for high efficiency photocatalytic hydrogen evolution",
-      "authors": "Jiajun Fu, Zhao Mo, Ming Cheng, Fan Xu, Yanhua Song, Xingdong Ding, Zhigang Chen, Hanxiang Chen, Huaming Li, <strong>Hui Xu</strong>",
-      "journal": "Colloids And Surfaces A-Physicochemical And Engineering Aspects",
-      "year": 2020,
-      "year_group": "2020",
-      "date": "2020-FEB 20",
-      "volume": "589",
-      "issue": "",
-      "page": "124397",
-      "doi": "10.1016/j.colsurfa.2019.124397",
-      "url": "https://doi.org/10.1016/j.colsurfa.2019.124397",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000513861400010&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 13,
-      "is_first_author": false,
-      "is_corr_author": true,
-      "is_first_or_corr": true,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "c3n4_2d",
-          "name_cn": "碳氮材料与二维半导体",
-          "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 269
-    },
-    {
       "uid": "WOS:000508718500001",
       "title": "Short-time Thermal Oxidation of Ultrathin and Broadband Carbon Nitride for Efficient Photocatalytic H2 Generation",
       "authors": "Zhao Mo, Xiaojie She, Zhigang Chen, Fan Xu, Yanhua Song, Xingwang Zhu, Junchao Qian, Huaming Li, Yucheng Lei, <strong>Hui Xu</strong>",
@@ -8876,7 +8877,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1169-1176",
       "doi": "10.1002/cctc.201901533",
       "url": "https://doi.org/10.1002/cctc.201901533",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000508718500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000508718500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 11,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8901,7 +8902,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 268
+      "index": 272
     },
     {
       "uid": "WOS:000508742700101",
@@ -8916,7 +8917,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "121480",
       "doi": "10.1016/j.jhazmat.2019.121480",
       "url": "https://doi.org/10.1016/j.jhazmat.2019.121480",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000508742700101&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000508742700101&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 85,
       "is_first_author": false,
       "is_corr_author": false,
@@ -8936,7 +8937,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 267
+      "index": 271
     },
     {
       "uid": "WOS:000504130200058",
@@ -8951,7 +8952,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "555-564",
       "doi": "10.1016/j.jcis.2019.10.089",
       "url": "https://doi.org/10.1016/j.jcis.2019.10.089",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000504130200058&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000504130200058&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 88,
       "is_first_author": false,
       "is_corr_author": true,
@@ -8981,7 +8982,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 266
+      "index": 270
     },
     {
       "uid": "WOS:000503381200082",
@@ -8996,7 +8997,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "122812",
       "doi": "10.1016/j.cej.2019.122812",
       "url": "https://doi.org/10.1016/j.cej.2019.122812",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000503381200082&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000503381200082&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 191,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9024,7 +9025,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "CEJ"
       ],
-      "index": 265
+      "index": 269
     },
     {
       "uid": "WOS:000517270500022",
@@ -9039,7 +9040,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "676-687",
       "doi": "10.1039/c9en01325c",
       "url": "https://doi.org/10.1039/c9en01325c",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000517270500022&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000517270500022&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 133,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9069,7 +9070,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 264
+      "index": 268
     },
     {
       "uid": "WOS:000514749500023",
@@ -9084,7 +9085,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "122308",
       "doi": "10.1016/j.matchemphys.2019.122308",
       "url": "https://doi.org/10.1016/j.matchemphys.2019.122308",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000514749500023&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000514749500023&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 46,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9109,7 +9110,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 263
+      "index": 267
     },
     {
       "uid": "WOS:000587670300001",
@@ -9124,7 +9125,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2003914",
       "doi": "10.1002/smll.202003914",
       "url": "https://doi.org/10.1002/smll.202003914",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000587670300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000587670300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 110,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9146,7 +9147,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Small"
       ],
-      "index": 262
+      "index": 266
     },
     {
       "uid": "WOS:000561644200020",
@@ -9161,7 +9162,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "124869",
       "doi": "10.1016/j.colsurfa.2020.124869",
       "url": "https://doi.org/10.1016/j.colsurfa.2020.124869",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000561644200020&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000561644200020&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 41,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9186,7 +9187,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 261
+      "index": 265
     },
     {
       "uid": "WOS:000544626300006",
@@ -9201,7 +9202,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "146343",
       "doi": "10.1016/j.apsusc.2020.146343",
       "url": "https://doi.org/10.1016/j.apsusc.2020.146343",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000544626300006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000544626300006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 34,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9221,7 +9222,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 260
+      "index": 264
     },
     {
       "uid": "WOS:000522517700001",
@@ -9236,7 +9237,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1900538",
       "doi": "10.1002/solr.201900538",
       "url": "https://doi.org/10.1002/solr.201900538",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000522517700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000522517700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 34,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9261,7 +9262,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 259
+      "index": 263
     },
     {
       "uid": "WOS:000658740900009",
@@ -9276,7 +9277,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "100051",
       "doi": "10.1016/j.xcrp.2020.100051",
       "url": "https://doi.org/10.1016/j.xcrp.2020.100051",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000658740900009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000658740900009&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 120,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9293,7 +9294,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Selected"
       ],
-      "index": 258
+      "index": 262
     },
     {
       "uid": "WOS:000534090000017",
@@ -9308,7 +9309,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1134-1148",
       "doi": "10.1080/10807039.2018.1559033",
       "url": "https://doi.org/10.1080/10807039.2018.1559033",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000534090000017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000534090000017&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 33,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9323,7 +9324,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 257
+      "index": 261
     },
     {
       "uid": "WOS:000521653900017",
@@ -9338,7 +9339,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "171-182",
       "doi": "10.1016/j.jcis.2020.01.044",
       "url": "https://doi.org/10.1016/j.jcis.2020.01.044",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000521653900017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000521653900017&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 49,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9368,7 +9369,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 256
+      "index": 260
     },
     {
       "uid": "WOS:000484789100070",
@@ -9383,7 +9384,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2543-2549",
       "doi": "10.1166/jnn.2020.17378",
       "url": "https://doi.org/10.1166/jnn.2020.17378",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000484789100070&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000484789100070&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9403,7 +9404,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 255
+      "index": 259
     },
     {
       "uid": "WOS:000510526000014",
@@ -9418,7 +9419,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "118314",
       "doi": "10.1016/j.apcatb.2019.118314",
       "url": "https://doi.org/10.1016/j.apcatb.2019.118314",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000510526000014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000510526000014&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 276,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9451,7 +9452,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 254
+      "index": 258
     },
     {
       "uid": "WOS:000485039800049",
@@ -9466,7 +9467,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "418-427",
       "doi": "10.1016/j.jallcom.2019.07.137",
       "url": "https://doi.org/10.1016/j.jallcom.2019.07.137",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000485039800049&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000485039800049&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 40,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9481,7 +9482,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 253
+      "index": 257
     },
     {
       "uid": "WOS:000483341100043",
@@ -9496,7 +9497,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "134580",
       "doi": "10.1016/j.electacta.2019.134580",
       "url": "https://doi.org/10.1016/j.electacta.2019.134580",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000483341100043&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000483341100043&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 34,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9516,7 +9517,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 252
+      "index": 256
     },
     {
       "uid": "WOS:000472709100014",
@@ -9531,7 +9532,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "117-123",
       "doi": "10.1016/j.apsusc.2019.05.246",
       "url": "https://doi.org/10.1016/j.apsusc.2019.05.246",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000472709100014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000472709100014&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 37,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9561,7 +9562,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 251
+      "index": 255
     },
     {
       "uid": "WOS:000492801600039",
@@ -9576,7 +9577,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "11294-11302",
       "doi": "10.1021/acsnano.9b04443",
       "url": "https://doi.org/10.1021/acsnano.9b04443",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000492801600039&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000492801600039&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 152,
       "is_first_author": true,
       "is_corr_author": true,
@@ -9604,7 +9605,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Nano"
       ],
-      "index": 250
+      "index": 254
     },
     {
       "uid": "WOS:000475764300016",
@@ -9619,7 +9620,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "12463-12475",
       "doi": "10.1007/s10853-019-03780-6",
       "url": "https://doi.org/10.1007/s10853-019-03780-6",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000475764300016&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000475764300016&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 29,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9634,7 +9635,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 249
+      "index": 253
     },
     {
       "uid": "WOS:000483451200068",
@@ -9649,7 +9650,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "117867",
       "doi": "10.1016/j.apcatb.2019.117867",
       "url": "https://doi.org/10.1016/j.apcatb.2019.117867",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000483451200068&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000483451200068&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 195,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9681,7 +9682,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 248
+      "index": 252
     },
     {
       "uid": "WOS:000483451200072",
@@ -9696,7 +9697,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "117854",
       "doi": "10.1016/j.apcatb.2019.117854",
       "url": "https://doi.org/10.1016/j.apcatb.2019.117854",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000483451200072&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000483451200072&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 366,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9729,7 +9730,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 247
+      "index": 251
     },
     {
       "uid": "WOS:000487657000005",
@@ -9744,7 +9745,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "151915",
       "doi": "10.1016/j.jallcom.2019.151915",
       "url": "https://doi.org/10.1016/j.jallcom.2019.151915",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000487657000005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000487657000005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 72,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9764,7 +9765,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 246
+      "index": 250
     },
     {
       "uid": "WOS:000486177700070",
@@ -9779,7 +9780,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "143528",
       "doi": "10.1016/j.apsusc.2019.07.270",
       "url": "https://doi.org/10.1016/j.apsusc.2019.07.270",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000486177700070&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000486177700070&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 38,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9804,7 +9805,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 245
+      "index": 249
     },
     {
       "uid": "WOS:000501653500014",
@@ -9819,7 +9820,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "30935-30948",
       "doi": "10.1016/j.ijhydene.2019.10.020",
       "url": "https://doi.org/10.1016/j.ijhydene.2019.10.020",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000501653500014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000501653500014&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 31,
       "is_first_author": false,
       "is_corr_author": true,
@@ -9844,7 +9845,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 244
+      "index": 248
     },
     {
       "uid": "WOS:000506410000010",
@@ -9859,7 +9860,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "60-66",
       "doi": "10.1016/j.bbrc.2019.09.098",
       "url": "https://doi.org/10.1016/j.bbrc.2019.09.098",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000506410000010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000506410000010&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 74,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9874,7 +9875,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 243
+      "index": 247
     },
     {
       "uid": "WOS:000491301300033",
@@ -9889,7 +9890,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "324-334",
       "doi": "10.1016/j.jcis.2019.08.069",
       "url": "https://doi.org/10.1016/j.jcis.2019.08.069",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000491301300033&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000491301300033&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 25,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9914,7 +9915,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 242
+      "index": 246
     },
     {
       "uid": "WOS:000476961800011",
@@ -9929,7 +9930,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "95-108",
       "doi": "10.1016/j.seppur.2019.05.080",
       "url": "https://doi.org/10.1016/j.seppur.2019.05.080",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000476961800011&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000476961800011&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 27,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9949,7 +9950,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 241
+      "index": 245
     },
     {
       "uid": "WOS:000472455800012",
@@ -9964,7 +9965,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2563-2570",
       "doi": "10.1039/c8cy02449a",
       "url": "https://doi.org/10.1039/c8cy02449a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000472455800012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000472455800012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 35,
       "is_first_author": false,
       "is_corr_author": false,
@@ -9989,7 +9990,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 240
+      "index": 244
     },
     {
       "uid": "WOS:000467661700047",
@@ -10004,7 +10005,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "477-485",
       "doi": "10.1016/j.apcatb.2018.12.011",
       "url": "https://doi.org/10.1016/j.apcatb.2018.12.011",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000467661700047&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000467661700047&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 73,
       "is_first_author": false,
       "is_corr_author": true,
@@ -10036,7 +10037,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 239
+      "index": 243
     },
     {
       "uid": "WOS:000464744300013",
@@ -10051,7 +10052,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "765-775",
       "doi": "10.1007/s10904-018-1050-1",
       "url": "https://doi.org/10.1007/s10904-018-1050-1",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000464744300013&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000464744300013&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 18,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10076,7 +10077,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 238
+      "index": 242
     },
     {
       "uid": "WOS:000460687400012",
@@ -10091,7 +10092,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "4408-4414",
       "doi": "10.1039/c8ta12309h",
       "url": "https://doi.org/10.1039/c8ta12309h",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000460687400012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000460687400012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 93,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10113,7 +10114,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 237
+      "index": 241
     },
     {
       "uid": "WOS:000460964000156",
@@ -10128,7 +10129,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1601-1612",
       "doi": "10.1016/j.cej.2018.10.214",
       "url": "https://doi.org/10.1016/j.cej.2018.10.214",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000460964000156&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000460964000156&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 178,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10155,7 +10156,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 236
+      "index": 240
     },
     {
       "uid": "WOS:000463290700004",
@@ -10170,7 +10171,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1804613",
       "doi": "10.1002/smll.201804613",
       "url": "https://doi.org/10.1002/smll.201804613",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000463290700004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000463290700004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 66,
       "is_first_author": false,
       "is_corr_author": true,
@@ -10193,7 +10194,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "Small"
       ],
-      "index": 235
+      "index": 239
     },
     {
       "uid": "WOS:000463824300009",
@@ -10208,7 +10209,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "5209-5213",
       "doi": "10.1039/c8ta11497h",
       "url": "https://doi.org/10.1039/c8ta11497h",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000463824300009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000463824300009&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 96,
       "is_first_author": false,
       "is_corr_author": true,
@@ -10225,7 +10226,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 234
+      "index": 238
     },
     {
       "uid": "WOS:000456637900013",
@@ -10240,7 +10241,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "101-111",
       "doi": "10.1016/j.jcis.2018.10.109",
       "url": "https://doi.org/10.1016/j.jcis.2018.10.109",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000456637900013&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000456637900013&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 62,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10260,7 +10261,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 233
+      "index": 237
     },
     {
       "uid": "WOS:000454617200085",
@@ -10275,7 +10276,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "739-746",
       "doi": "10.1016/j.apsusc.2018.11.062",
       "url": "https://doi.org/10.1016/j.apsusc.2018.11.062",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000454617200085&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000454617200085&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 117,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10295,7 +10296,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 232
+      "index": 236
     },
     {
       "uid": "WOS:000454617200108",
@@ -10310,7 +10311,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "933-940",
       "doi": "10.1016/j.apsusc.2018.11.014",
       "url": "https://doi.org/10.1016/j.apsusc.2018.11.014",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000454617200108&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000454617200108&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 54,
       "is_first_author": false,
       "is_corr_author": true,
@@ -10330,7 +10331,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 231
+      "index": 235
     },
     {
       "uid": "WOS:000463972700007",
@@ -10345,7 +10346,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "439-453",
       "doi": "10.2217/epi-2018-0169",
       "url": "https://doi.org/10.2217/epi-2018-0169",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000463972700007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000463972700007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 40,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10360,7 +10361,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 230
+      "index": 234
     },
     {
       "uid": "WOS:000461415700008",
@@ -10375,7 +10376,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "74-84",
       "doi": "10.1016/j.solidstatesciences.2018.12.017",
       "url": "https://doi.org/10.1016/j.solidstatesciences.2018.12.017",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000461415700008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000461415700008&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 30,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10390,7 +10391,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 229
+      "index": 233
     },
     {
       "uid": "WOS:000473201200013",
@@ -10405,7 +10406,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "7123-7133",
       "doi": "10.1002/slct.201901472",
       "url": "https://doi.org/10.1002/slct.201901472",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000473201200013&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000473201200013&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 22,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10435,7 +10436,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 228
+      "index": 232
     },
     {
       "uid": "WOS:000472566400045",
@@ -10450,7 +10451,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "14291-14301",
       "doi": "10.1039/c9ta01234f",
       "url": "https://doi.org/10.1039/c9ta01234f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000472566400045&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000472566400045&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 42,
       "is_first_author": false,
       "is_corr_author": true,
@@ -10467,7 +10468,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 227
+      "index": 231
     },
     {
       "uid": "WOS:000461758800054",
@@ -10482,7 +10483,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "358-364",
       "doi": "10.1016/j.fuel.2019.03.018",
       "url": "https://doi.org/10.1016/j.fuel.2019.03.018",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000461758800054&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000461758800054&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 81,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10497,7 +10498,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 226
+      "index": 230
     },
     {
       "uid": "WOS:000472193200018",
@@ -10512,7 +10513,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1490-1500",
       "doi": "10.1039/c9qi00071b",
       "url": "https://doi.org/10.1039/c9qi00071b",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000472193200018&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000472193200018&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 21,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10532,7 +10533,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 225
+      "index": 229
     },
     {
       "uid": "WOS:000469400200007",
@@ -10547,7 +10548,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1821-1827",
       "doi": "10.1002/cjce.23438",
       "url": "https://doi.org/10.1002/cjce.23438",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000469400200007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000469400200007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10567,7 +10568,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 224
+      "index": 228
     },
     {
       "uid": "WOS:000463126200009",
@@ -10582,7 +10583,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "84-94",
       "doi": "10.1016/j.apcatb.2019.02.020",
       "url": "https://doi.org/10.1016/j.apcatb.2019.02.020",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000463126200009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000463126200009&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 375,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10615,7 +10616,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 223
+      "index": 227
     },
     {
       "uid": "WOS:000468903200048",
@@ -10630,7 +10631,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "426-435",
       "doi": "10.1016/j.jallcom.2019.04.297",
       "url": "https://doi.org/10.1016/j.jallcom.2019.04.297",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000468903200048&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000468903200048&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 54,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10650,7 +10651,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 222
+      "index": 226
     },
     {
       "uid": "WOS:000476684900033",
@@ -10665,7 +10666,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "25147-25154",
       "doi": "10.1021/acsami.9b05628",
       "url": "https://doi.org/10.1021/acsami.9b05628",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000476684900033&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000476684900033&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 184,
       "is_first_author": false,
       "is_corr_author": true,
@@ -10680,7 +10681,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 221
+      "index": 225
     },
     {
       "uid": "WOS:000462761700056",
@@ -10695,7 +10696,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "219-222",
       "doi": "10.1016/j.matlet.2019.03.042",
       "url": "https://doi.org/10.1016/j.matlet.2019.03.042",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000462761700056&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000462761700056&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 28,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10715,7 +10716,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 220
+      "index": 224
     },
     {
       "uid": "WOS:000447744200066",
@@ -10730,7 +10731,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "552-561",
       "doi": "10.1016/j.apsusc.2018.09.103",
       "url": "https://doi.org/10.1016/j.apsusc.2018.09.103",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000447744200066&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000447744200066&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 104,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10745,7 +10746,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 219
+      "index": 223
     },
     {
       "uid": "WOS:000449176700001",
@@ -10760,7 +10761,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "025401",
       "doi": "10.1088/1361-6528/aae999",
       "url": "https://doi.org/10.1088/1361-6528/aae999",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000449176700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000449176700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10775,7 +10776,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 218
+      "index": 222
     },
     {
       "uid": "WOS:000492801100005",
@@ -10789,8 +10790,8 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "11",
       "page": "7712-7723",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000492801100005&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000492801100005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000492801100005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000492801100005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 0,
       "is_first_author": false,
       "is_corr_author": true,
@@ -10815,7 +10816,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 217
+      "index": 221
     },
     {
       "uid": "WOS:000449132900032",
@@ -10830,7 +10831,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "281-291",
       "doi": "10.1016/j.seppur.2018.08.009",
       "url": "https://doi.org/10.1016/j.seppur.2018.08.009",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000449132900032&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000449132900032&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 45,
       "is_first_author": true,
       "is_corr_author": false,
@@ -10845,7 +10846,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 216
+      "index": 220
     },
     {
       "uid": "WOS:000458086100042",
@@ -10860,7 +10861,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "3234-3242",
       "doi": "10.1021/acssuschemeng.8b05173",
       "url": "https://doi.org/10.1021/acssuschemeng.8b05173",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000458086100042&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000458086100042&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 19,
       "is_first_author": false,
       "is_corr_author": true,
@@ -10880,7 +10881,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 215
+      "index": 219
     },
     {
       "uid": "WOS:000451023500008",
@@ -10895,7 +10896,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "56-64",
       "doi": "10.1016/j.apsusc.2018.10.118",
       "url": "https://doi.org/10.1016/j.apsusc.2018.10.118",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000451023500008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000451023500008&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 102,
       "is_first_author": false,
       "is_corr_author": true,
@@ -10915,7 +10916,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 214
+      "index": 218
     },
     {
       "uid": "WOS:000451023500020",
@@ -10930,7 +10931,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "151-157",
       "doi": "10.1016/j.apsusc.2018.10.115",
       "url": "https://doi.org/10.1016/j.apsusc.2018.10.115",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000451023500020&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000451023500020&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 93,
       "is_first_author": false,
       "is_corr_author": true,
@@ -10955,7 +10956,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 213
+      "index": 217
     },
     {
       "uid": "WOS:000458828000034",
@@ -10970,7 +10971,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2073-2077",
       "doi": "10.1002/anie.201813417",
       "url": "https://doi.org/10.1002/anie.201813417",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000458828000034&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000458828000034&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 514,
       "is_first_author": false,
       "is_corr_author": false,
@@ -10999,7 +11000,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Angew. Chem."
       ],
-      "index": 212
+      "index": 216
     },
     {
       "uid": "WOS:000448181000050",
@@ -11014,7 +11015,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "487-497",
       "doi": "10.1016/j.cej.2018.09.098",
       "url": "https://doi.org/10.1016/j.cej.2018.09.098",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000448181000050&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000448181000050&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 180,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11036,7 +11037,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 211
+      "index": 215
     },
     {
       "uid": "WOS:000452842500009",
@@ -11051,7 +11052,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "70-77",
       "doi": "10.1016/j.apsusc.2018.09.234",
       "url": "https://doi.org/10.1016/j.apsusc.2018.09.234",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000452842500009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000452842500009&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 105,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11081,7 +11082,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 210
+      "index": 214
     },
     {
       "uid": "WOS:000451732100010",
@@ -11096,7 +11097,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "65-71",
       "doi": "10.1016/j.jechem.2018.01.014",
       "url": "https://doi.org/10.1016/j.jechem.2018.01.014",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000451732100010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000451732100010&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 60,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11123,7 +11124,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "J. Energy Chem."
       ],
-      "index": 209
+      "index": 213
     },
     {
       "uid": "WOS:000449444000047",
@@ -11138,7 +11139,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "452-460",
       "doi": "10.1016/j.apcatb.2018.08.073",
       "url": "https://doi.org/10.1016/j.apcatb.2018.08.073",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000449444000047&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000449444000047&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 307,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11171,7 +11172,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 208
+      "index": 212
     },
     {
       "uid": "WOS:000494056200049",
@@ -11186,7 +11187,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "498-505",
       "doi": "10.1016/j.jcis.2019.09.011",
       "url": "https://doi.org/10.1016/j.jcis.2019.09.011",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000494056200049&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000494056200049&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 98,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11206,7 +11207,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 207
+      "index": 211
     },
     {
       "uid": "WOS:000506722300015",
@@ -11221,7 +11222,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2065-2088",
       "doi": "10.1016/j.cclet.2019.11.001",
       "url": "https://doi.org/10.1016/j.cclet.2019.11.001",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000506722300015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000506722300015&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 105,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11241,7 +11242,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 206
+      "index": 210
     },
     {
       "uid": "WOS:000491431300017",
@@ -11256,7 +11257,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2743-2754",
       "doi": "10.1007/s13738-019-01737-9",
       "url": "https://doi.org/10.1007/s13738-019-01737-9",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000491431300017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000491431300017&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11271,7 +11272,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 205
+      "index": 209
     },
     {
       "uid": "WOS:000496275400005",
@@ -11286,7 +11287,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "21219-21228",
       "doi": "10.1007/s10854-019-02495-3",
       "url": "https://doi.org/10.1007/s10854-019-02495-3",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000496275400005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000496275400005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 17,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11301,7 +11302,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 204
+      "index": 208
     },
     {
       "uid": "WOS:000481578000016",
@@ -11316,7 +11317,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "18906-18914",
       "doi": "10.1039/c9ta05399a",
       "url": "https://doi.org/10.1039/c9ta05399a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000481578000016&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000481578000016&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 49,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11343,7 +11344,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 203
+      "index": 207
     },
     {
       "uid": "WOS:000467387200137",
@@ -11358,7 +11359,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "944-951",
       "doi": "10.1016/j.cej.2019.03.182",
       "url": "https://doi.org/10.1016/j.cej.2019.03.182",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000467387200137&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000467387200137&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 61,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11385,7 +11386,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 202
+      "index": 206
     },
     {
       "uid": "WOS:000462639100061",
@@ -11400,7 +11401,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2999-3008",
       "doi": "10.3892/mmr.2019.9984",
       "url": "https://doi.org/10.3892/mmr.2019.9984",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000462639100061&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000462639100061&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11415,7 +11416,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 201
+      "index": 205
     },
     {
       "uid": "WOS:000465486100035",
@@ -11430,7 +11431,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "3028-3033",
       "doi": "10.1021/acs.energyfuels.8b04487",
       "url": "https://doi.org/10.1021/acs.energyfuels.8b04487",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000465486100035&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000465486100035&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 31,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11445,7 +11446,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 200
+      "index": 204
     },
     {
       "uid": "WOS:000458710300031",
@@ -11460,7 +11461,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "226-235",
       "doi": "10.1016/j.materresbull.2018.12.017",
       "url": "https://doi.org/10.1016/j.materresbull.2018.12.017",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000458710300031&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000458710300031&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 45,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11485,7 +11486,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 199
+      "index": 203
     },
     {
       "uid": "WOS:000453616800035",
@@ -11500,7 +11501,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "330-336",
       "doi": "10.1016/j.apcatb.2018.10.054",
       "url": "https://doi.org/10.1016/j.apcatb.2018.10.054",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000453616800035&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000453616800035&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 130,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11527,7 +11528,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 198
+      "index": 202
     },
     {
       "uid": "WOS:000453616800016",
@@ -11542,7 +11543,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "151-160",
       "doi": "10.1016/j.apcatb.2018.10.013",
       "url": "https://doi.org/10.1016/j.apcatb.2018.10.013",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000453616800016&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000453616800016&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 73,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11564,7 +11565,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 197
+      "index": 201
     },
     {
       "uid": "WOS:000455544800012",
@@ -11579,7 +11580,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "5343-5358",
       "doi": "10.1007/s10853-018-03227-4",
       "url": "https://doi.org/10.1007/s10853-018-03227-4",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000455544800012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000455544800012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 44,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11599,7 +11600,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 196
+      "index": 200
     },
     {
       "uid": "WOS:000436459800015",
@@ -11614,7 +11615,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "114-124",
       "doi": "10.1016/j.colsurfa.2018.05.019",
       "url": "https://doi.org/10.1016/j.colsurfa.2018.05.019",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000436459800015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000436459800015&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 45,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11634,7 +11635,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 195
+      "index": 199
     },
     {
       "uid": "WOS:000445439900043",
@@ -11649,7 +11650,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "31330-31339",
       "doi": "10.1021/acsami.8b09361",
       "url": "https://doi.org/10.1021/acsami.8b09361",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000445439900043&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000445439900043&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 109,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11669,7 +11670,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 194
+      "index": 198
     },
     {
       "uid": "WOS:000443924100095",
@@ -11684,7 +11685,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "11968-11978",
       "doi": "10.1021/acssuschemeng.8b02279",
       "url": "https://doi.org/10.1021/acssuschemeng.8b02279",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000443924100095&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000443924100095&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 48,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11704,7 +11705,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 193
+      "index": 197
     },
     {
       "uid": "WOS:000440127000009",
@@ -11719,7 +11720,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "70-81",
       "doi": "10.1016/j.jcis.2018.05.066",
       "url": "https://doi.org/10.1016/j.jcis.2018.05.066",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000440127000009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000440127000009&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 79,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11739,7 +11740,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 192
+      "index": 196
     },
     {
       "uid": "WOS:000454842000040",
@@ -11754,7 +11755,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "14706-14712",
       "doi": "10.1039/c8dt03161d",
       "url": "https://doi.org/10.1039/c8dt03161d",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000454842000040&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000454842000040&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 47,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11779,7 +11780,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 191
+      "index": 195
     },
     {
       "uid": "WOS:000449941800004",
@@ -11794,7 +11795,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1800520",
       "doi": "10.1002/pssa.201800520",
       "url": "https://doi.org/10.1002/pssa.201800520",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000449941800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000449941800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 34,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11819,7 +11820,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 190
+      "index": 194
     },
     {
       "uid": "WOS:000444600300105",
@@ -11834,7 +11835,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "845-852",
       "doi": "10.1016/j.apsusc.2018.07.154",
       "url": "https://doi.org/10.1016/j.apsusc.2018.07.154",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000444600300105&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000444600300105&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 39,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11859,7 +11860,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 189
+      "index": 193
     },
     {
       "uid": "WOS:000441872300134",
@@ -11874,7 +11875,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1142-1150",
       "doi": "10.1016/j.apsusc.2018.06.134",
       "url": "https://doi.org/10.1016/j.apsusc.2018.06.134",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000441872300134&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000441872300134&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 44,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11904,7 +11905,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 188
+      "index": 192
     },
     {
       "uid": "WOS:000453914100013",
@@ -11919,7 +11920,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2818-2828",
       "doi": "10.1039/c8qi00864g",
       "url": "https://doi.org/10.1039/c8qi00864g",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000453914100013&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000453914100013&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 40,
       "is_first_author": false,
       "is_corr_author": false,
@@ -11944,7 +11945,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 187
+      "index": 191
     },
     {
       "uid": "WOS:000430690200007",
@@ -11959,7 +11960,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "60-67",
       "doi": "10.1016/j.electacta.2018.03.149",
       "url": "https://doi.org/10.1016/j.electacta.2018.03.149",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000430690200007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000430690200007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 53,
       "is_first_author": false,
       "is_corr_author": true,
@@ -11979,7 +11980,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 186
+      "index": 190
     },
     {
       "uid": "WOS:000426298900041",
@@ -11994,7 +11995,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "7621-7636",
       "doi": "10.1007/s10853-018-2052-7",
       "url": "https://doi.org/10.1007/s10853-018-2052-7",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000426298900041&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000426298900041&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 130,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12009,7 +12010,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 185
+      "index": 189
     },
     {
       "uid": "WOS:000431624300008",
@@ -12024,7 +12025,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1288-1296",
       "doi": "10.1002/celc.201800096",
       "url": "https://doi.org/10.1002/celc.201800096",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000431624300008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000431624300008&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 8,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12044,7 +12045,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 184
+      "index": 188
     },
     {
       "uid": "WOS:000425549300021",
@@ -12059,7 +12060,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "188-194",
       "doi": "10.1016/j.colsurfa.2018.01.023",
       "url": "https://doi.org/10.1016/j.colsurfa.2018.01.023",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000425549300021&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000425549300021&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 66,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12084,7 +12085,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 183
+      "index": 187
     },
     {
       "uid": "WOS:000430700500031",
@@ -12099,7 +12100,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "282-289",
       "doi": "10.1016/j.cej.2017.10.125",
       "url": "https://doi.org/10.1016/j.cej.2017.10.125",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000430700500031&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000430700500031&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 199,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12126,7 +12127,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 182
+      "index": 186
     },
     {
       "uid": "WOS:000423643800026",
@@ -12141,7 +12142,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "230-238",
       "doi": "10.1016/j.solmat.2017.12.005",
       "url": "https://doi.org/10.1016/j.solmat.2017.12.005",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000423643800026&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000423643800026&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 57,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12156,7 +12157,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 181
+      "index": 185
     },
     {
       "uid": "WOS:000425289200008",
@@ -12171,7 +12172,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "639-647",
       "doi": "10.1007/s00705-017-3659-8",
       "url": "https://doi.org/10.1007/s00705-017-3659-8",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000425289200008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000425289200008&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 17,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12186,7 +12187,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 180
+      "index": 184
     },
     {
       "uid": "WOS:000424719300005",
@@ -12201,7 +12202,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "40-50",
       "doi": "10.1016/j.apcatb.2017.11.045",
       "url": "https://doi.org/10.1016/j.apcatb.2017.11.045",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000424719300005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000424719300005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 198,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12228,7 +12229,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 179
+      "index": 183
     },
     {
       "uid": "WOS:000424719300016",
@@ -12243,7 +12244,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "154-161",
       "doi": "10.1016/j.apcatb.2017.11.041",
       "url": "https://doi.org/10.1016/j.apcatb.2017.11.041",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000424719300016&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000424719300016&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 379,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12266,7 +12267,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 178
+      "index": 182
     },
     {
       "uid": "WOS:000430762200046",
@@ -12281,7 +12282,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "342-352",
       "doi": "10.1016/j.materresbull.2018.02.047",
       "url": "https://doi.org/10.1016/j.materresbull.2018.02.047",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000430762200046&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000430762200046&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 49,
       "is_first_author": true,
       "is_corr_author": false,
@@ -12296,7 +12297,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 177
+      "index": 181
     },
     {
       "uid": "WOS:000437667800009",
@@ -12311,7 +12312,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1703487",
       "doi": "10.1002/aenm.201703487",
       "url": "https://doi.org/10.1002/aenm.201703487",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000437667800009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000437667800009&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 491,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12340,7 +12341,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Adv. Energy Mater."
       ],
-      "index": 176
+      "index": 180
     },
     {
       "uid": "WOS:000432795500090",
@@ -12355,7 +12356,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "732-739",
       "doi": "10.1016/j.apsusc.2018.03.226",
       "url": "https://doi.org/10.1016/j.apsusc.2018.03.226",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000432795500090&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000432795500090&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 81,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12380,7 +12381,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 175
+      "index": 179
     },
     {
       "uid": "WOS:000439009400005",
@@ -12395,7 +12396,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "8863-8870",
       "doi": "10.1021/acs.iecr.8b01268",
       "url": "https://doi.org/10.1021/acs.iecr.8b01268",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000439009400005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000439009400005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 37,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12425,7 +12426,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 174
+      "index": 178
     },
     {
       "uid": "WOS:000493332100003",
@@ -12440,7 +12441,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "229-238",
       "doi": "10.1016/j.gee.2017.11.001",
       "url": "https://doi.org/10.1016/j.gee.2017.11.001",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000493332100003&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000493332100003&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 29,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12460,7 +12461,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 173
+      "index": 177
     },
     {
       "uid": "WOS:000435588600086",
@@ -12475,7 +12476,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "11498-11508",
       "doi": "10.1007/s10854-018-9245-3",
       "url": "https://doi.org/10.1007/s10854-018-9245-3",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000435588600086&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000435588600086&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 26,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12490,7 +12491,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 172
+      "index": 176
     },
     {
       "uid": "WOS:000419675700010",
@@ -12505,7 +12506,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1700895",
       "doi": "10.1002/admi.201700895",
       "url": "https://doi.org/10.1002/admi.201700895",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000419675700010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000419675700010&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 33,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12530,7 +12531,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 171
+      "index": 175
     },
     {
       "uid": "WOS:000423483200015",
@@ -12545,7 +12546,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "551-561",
       "doi": "10.1039/c7cy01915g",
       "url": "https://doi.org/10.1039/c7cy01915g",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000423483200015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000423483200015&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 20,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12570,7 +12571,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 170
+      "index": 174
     },
     {
       "uid": "WOS:000417068300060",
@@ -12585,7 +12586,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "516-523",
       "doi": "10.1016/j.colsurfa.2017.09.051",
       "url": "https://doi.org/10.1016/j.colsurfa.2017.09.051",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000417068300060&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000417068300060&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 69,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12610,7 +12611,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 169
+      "index": 173
     },
     {
       "uid": "WOS:000419831600049",
@@ -12625,7 +12626,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "439-448",
       "doi": "10.1016/j.electacta.2017.12.053",
       "url": "https://doi.org/10.1016/j.electacta.2017.12.053",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000419831600049&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000419831600049&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 32,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12645,7 +12646,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 168
+      "index": 172
     },
     {
       "uid": "WOS:000423968600045",
@@ -12660,7 +12661,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "402-409",
       "doi": "10.1016/j.electacta.2017.10.143",
       "url": "https://doi.org/10.1016/j.electacta.2017.10.143",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000423968600045&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000423968600045&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12675,7 +12676,42 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 167
+      "index": 171
+    },
+    {
+      "uid": "WOS:000468045100157",
+      "title": "Co3O4 nanoparticles decorated Ag3PO4 as heterostructure for improving solar-light-driven photocatalysis",
+      "authors": "Hanxiang Chen, Zhenzhen Zhao, Zhigang Chen, Jianjian Yi, Kaixiang Xia, <strong>Hui Xu</strong>, Mindong Chen, Huaming Li",
+      "journal": "2018 First International Conference On Environment Prevention And Pollution Control Technology (Eppct 2018)",
+      "year": 2018,
+      "year_group": "2015-2019",
+      "date": "2018-JAN",
+      "volume": "199",
+      "issue": "",
+      "page": "032087",
+      "doi": "10.1088/1755-1315/199/3/032087",
+      "url": "https://doi.org/10.1088/1755-1315/199/3/032087",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000468045100157&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 2,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 170
     },
     {
       "uid": "WOS:000422862800005",
@@ -12690,7 +12726,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "63-72",
       "doi": "10.1039/c7qi00513j",
       "url": "https://doi.org/10.1039/c7qi00513j",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000422862800005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000422862800005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 44,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12710,7 +12746,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 166
+      "index": 169
     },
     {
       "uid": "WOS:000412957200037",
@@ -12725,7 +12761,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "379-385",
       "doi": "10.1016/j.apcatb.2017.08.035",
       "url": "https://doi.org/10.1016/j.apcatb.2017.08.035",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000412957200037&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000412957200037&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 245,
       "is_first_author": true,
       "is_corr_author": true,
@@ -12757,7 +12793,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 165
+      "index": 168
     },
     {
       "uid": "WOS:000451862900144",
@@ -12771,8 +12807,8 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "11",
       "page": "12611-12620",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000451862900144&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000451862900144&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000451862900144&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000451862900144&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12787,7 +12823,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 164
+      "index": 167
     },
     {
       "uid": "WOS:000418729500062",
@@ -12802,7 +12838,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "555-566",
       "doi": "10.1016/j.jcis.2017.10.077",
       "url": "https://doi.org/10.1016/j.jcis.2017.10.077",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000418729500062&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000418729500062&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 88,
       "is_first_author": false,
       "is_corr_author": false,
@@ -12822,7 +12858,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 163
+      "index": 166
     },
     {
       "uid": "WOS:000454751200008",
@@ -12837,7 +12873,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "17394-17400",
       "doi": "10.1021/acs.iecr.8b04123",
       "url": "https://doi.org/10.1021/acs.iecr.8b04123",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000454751200008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000454751200008&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 90,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12862,7 +12898,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 162
+      "index": 165
     },
     {
       "uid": "WOS:000453488900064",
@@ -12877,7 +12913,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "42427-42435",
       "doi": "10.1021/acsami.8b15905",
       "url": "https://doi.org/10.1021/acsami.8b15905",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000453488900064&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000453488900064&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 73,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12902,7 +12938,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 161
+      "index": 164
     },
     {
       "uid": "WOS:000452114200021",
@@ -12917,7 +12953,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "3163-3169",
       "doi": "10.1039/c8qi00924d",
       "url": "https://doi.org/10.1039/c8qi00924d",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000452114200021&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000452114200021&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 77,
       "is_first_author": false,
       "is_corr_author": true,
@@ -12937,7 +12973,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 160
+      "index": 163
     },
     {
       "uid": "WOS:000427808900055",
@@ -12952,7 +12988,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "511-521",
       "doi": "10.1016/j.jcis.2018.01.071",
       "url": "https://doi.org/10.1016/j.jcis.2018.01.071",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000427808900055&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000427808900055&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 97,
       "is_first_author": true,
       "is_corr_author": false,
@@ -12967,7 +13003,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 159
+      "index": 162
     },
     {
       "uid": "WOS:000429285800078",
@@ -12982,7 +13018,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "5132-5141",
       "doi": "10.1021/acssuschemeng.7b04792",
       "url": "https://doi.org/10.1021/acssuschemeng.7b04792",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000429285800078&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000429285800078&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 156,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13007,7 +13043,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 158
+      "index": 161
     },
     {
       "uid": "WOS:000430989300022",
@@ -13022,7 +13058,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "760-770",
       "doi": "10.1016/s1872-2067(17)62978-4",
       "url": "https://doi.org/10.1016/s1872-2067(17)62978-4",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000430989300022&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000430989300022&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 41,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13049,7 +13085,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 157
+      "index": 160
     },
     {
       "uid": "WOS:000428290700012",
@@ -13064,7 +13100,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "95-106",
       "doi": "10.1016/j.solidstatesciences.2018.02.013",
       "url": "https://doi.org/10.1016/j.solidstatesciences.2018.02.013",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000428290700012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000428290700012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 47,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13084,7 +13120,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 156
+      "index": 159
     },
     {
       "uid": "WOS:000409410000010",
@@ -13099,7 +13135,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1700025",
       "doi": "10.1002/aenm.201700025",
       "url": "https://doi.org/10.1002/aenm.201700025",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000409410000010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000409410000010&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 772,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13128,7 +13164,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Adv. Energy Mater."
       ],
-      "index": 155
+      "index": 158
     },
     {
       "uid": "WOS:000411998800004",
@@ -13143,7 +13179,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "12365",
       "doi": "10.1038/s41598-017-12625-8",
       "url": "https://doi.org/10.1038/s41598-017-12625-8",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000411998800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000411998800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 50,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13158,7 +13194,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 154
+      "index": 157
     },
     {
       "uid": "WOS:000408697300017",
@@ -13173,7 +13209,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "11250-11258",
       "doi": "10.1039/c7dt02092a",
       "url": "https://doi.org/10.1039/c7dt02092a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000408697300017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000408697300017&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 63,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13193,7 +13229,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 153
+      "index": 156
     },
     {
       "uid": "WOS:000406565200012",
@@ -13208,7 +13244,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "103-112",
       "doi": "10.1016/j.mcat.2017.05.023",
       "url": "https://doi.org/10.1016/j.mcat.2017.05.023",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000406565200012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000406565200012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 18,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13233,7 +13269,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 152
+      "index": 155
     },
     {
       "uid": "WOS:000404310800035",
@@ -13248,7 +13284,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "256-263",
       "doi": "10.1016/j.materresbull.2017.05.018",
       "url": "https://doi.org/10.1016/j.materresbull.2017.05.018",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000404310800035&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000404310800035&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 40,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13263,7 +13299,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 151
+      "index": 154
     },
     {
       "uid": "WOS:000427008300015",
@@ -13278,7 +13314,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1844-1851",
       "doi": "10.1002/ente.201700437",
       "url": "https://doi.org/10.1002/ente.201700437",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000427008300015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000427008300015&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 14,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13293,7 +13329,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 150
+      "index": 153
     },
     {
       "uid": "WOS:000412378500080",
@@ -13308,7 +13344,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "607-615",
       "doi": "10.1016/j.materresbull.2017.06.003",
       "url": "https://doi.org/10.1016/j.materresbull.2017.06.003",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000412378500080&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000412378500080&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 59,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13328,7 +13364,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 149
+      "index": 152
     },
     {
       "uid": "WOS:000413145500007",
@@ -13343,7 +13379,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1674-1682",
       "doi": "10.1007/s10904-017-0629-2",
       "url": "https://doi.org/10.1007/s10904-017-0629-2",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000413145500007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000413145500007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13368,7 +13404,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 148
+      "index": 151
     },
     {
       "uid": "WOS:000395496900006",
@@ -13383,7 +13419,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "38-46",
       "doi": "10.1016/j.jcis.2017.01.010",
       "url": "https://doi.org/10.1016/j.jcis.2017.01.010",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000395496900006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000395496900006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 86,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13403,7 +13439,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 147
+      "index": 150
     },
     {
       "uid": "WOS:000402913400013",
@@ -13418,7 +13454,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1600704",
       "doi": "10.1002/pssa.201600704",
       "url": "https://doi.org/10.1002/pssa.201600704",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000402913400013&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000402913400013&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 20,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13443,7 +13479,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 146
+      "index": 149
     },
     {
       "uid": "WOS:000399510900025",
@@ -13458,7 +13494,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "296-304",
       "doi": "10.1016/j.energy.2017.02.018",
       "url": "https://doi.org/10.1016/j.energy.2017.02.018",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000399510900025&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000399510900025&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 222,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13473,7 +13509,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 145
+      "index": 148
     },
     {
       "uid": "WOS:000388052100012",
@@ -13488,7 +13524,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "112-117",
       "doi": "10.1016/j.apcatb.2016.09.013",
       "url": "https://doi.org/10.1016/j.apcatb.2016.09.013",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000388052100012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000388052100012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 73,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13515,7 +13551,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 144
+      "index": 147
     },
     {
       "uid": "WOS:000396946800043",
@@ -13530,7 +13566,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "429-437",
       "doi": "10.1016/j.apcatb.2017.01.071",
       "url": "https://doi.org/10.1016/j.apcatb.2017.01.071",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000396946800043&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000396946800043&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 267,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13557,7 +13593,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 143
+      "index": 146
     },
     {
       "uid": "WOS:000402972900014",
@@ -13572,7 +13608,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1700653",
       "doi": "10.1002/adfm.201700653",
       "url": "https://doi.org/10.1002/adfm.201700653",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000402972900014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000402972900014&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 113,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13600,7 +13636,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "AFM"
       ],
-      "index": 142
+      "index": 145
     },
     {
       "uid": "WOS:000403339900021",
@@ -13615,7 +13651,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1600946",
       "doi": "10.1002/pssa.201600946",
       "url": "https://doi.org/10.1002/pssa.201600946",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000403339900021&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000403339900021&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 19,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13635,7 +13671,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 141
+      "index": 144
     },
     {
       "uid": "WOS:000401201400064",
@@ -13650,7 +13686,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "510-518",
       "doi": "10.1016/j.jallcom.2017.03.144",
       "url": "https://doi.org/10.1016/j.jallcom.2017.03.144",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000401201400064&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000401201400064&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 81,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13675,7 +13711,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 140
+      "index": 143
     },
     {
       "uid": "WOS:000418378100042",
@@ -13690,7 +13726,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "55269-55275",
       "doi": "10.1039/c7ra10826e",
       "url": "https://doi.org/10.1039/c7ra10826e",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000418378100042&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000418378100042&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 13,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13710,7 +13746,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 139
+      "index": 142
     },
     {
       "uid": "WOS:000407442000066",
@@ -13725,7 +13761,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "38682-38690",
       "doi": "10.1039/c7ra06681c",
       "url": "https://doi.org/10.1039/c7ra06681c",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000407442000066&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000407442000066&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 77,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13745,7 +13781,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 138
+      "index": 141
     },
     {
       "uid": "WOS:000406104300064",
@@ -13760,7 +13796,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "36101-36111",
       "doi": "10.1039/c7ra05830f",
       "url": "https://doi.org/10.1039/c7ra05830f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000406104300064&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000406104300064&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 70,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13780,7 +13816,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 137
+      "index": 140
     },
     {
       "uid": "WOS:000403668900038",
@@ -13795,7 +13831,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "30845-30854",
       "doi": "10.1039/c7ra03936k",
       "url": "https://doi.org/10.1039/c7ra03936k",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000403668900038&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000403668900038&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 44,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13815,7 +13851,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 136
+      "index": 139
     },
     {
       "uid": "WOS:000401525700072",
@@ -13830,7 +13866,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "25160-25170",
       "doi": "10.1039/c7ra02929b",
       "url": "https://doi.org/10.1039/c7ra02929b",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000401525700072&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000401525700072&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 36,
       "is_first_author": false,
       "is_corr_author": true,
@@ -13845,7 +13881,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 135
+      "index": 138
     },
     {
       "uid": "WOS:000395862400031",
@@ -13860,7 +13896,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "251-259",
       "doi": "10.1021/acsomega.6b00296",
       "url": "https://doi.org/10.1021/acsomega.6b00296",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000395862400031&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000395862400031&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 74,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13875,7 +13911,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 134
+      "index": 137
     },
     {
       "uid": "WOS:000412606000075",
@@ -13890,7 +13926,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "608-617",
       "doi": "10.1016/j.jallcom.2017.07.327",
       "url": "https://doi.org/10.1016/j.jallcom.2017.07.327",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000412606000075&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000412606000075&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 112,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13905,7 +13941,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 133
+      "index": 136
     },
     {
       "uid": "WOS:000407983000017",
@@ -13920,7 +13956,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "174-185",
       "doi": "10.1016/j.apcatb.2017.06.030",
       "url": "https://doi.org/10.1016/j.apcatb.2017.06.030",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000407983000017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000407983000017&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 104,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13952,7 +13988,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 132
+      "index": 135
     },
     {
       "uid": "WOS:000418003100014",
@@ -13967,7 +14003,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "e1701500",
       "doi": "10.1126/sciadv.1701500",
       "url": "https://doi.org/10.1126/sciadv.1701500",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000418003100014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000418003100014&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 103,
       "is_first_author": false,
       "is_corr_author": false,
@@ -13982,7 +14018,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 131
+      "index": 134
     },
     {
       "uid": "WOS:000407781200015",
@@ -13997,7 +14033,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1701714",
       "doi": "10.1002/adfm.201701714",
       "url": "https://doi.org/10.1002/adfm.201701714",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000407781200015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000407781200015&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 152,
       "is_first_author": false,
       "is_corr_author": false,
@@ -14015,7 +14051,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "AFM"
       ],
-      "index": 130
+      "index": 133
     },
     {
       "uid": "WOS:000401677300020",
@@ -14030,7 +14066,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "131-139",
       "doi": "10.1016/j.jpcs.2017.03.023",
       "url": "https://doi.org/10.1016/j.jpcs.2017.03.023",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000401677300020&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000401677300020&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 22,
       "is_first_author": false,
       "is_corr_author": false,
@@ -14045,7 +14081,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 129
+      "index": 132
     },
     {
       "uid": "WOS:000393267700094",
@@ -14060,7 +14096,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "769-776",
       "doi": "10.1016/j.snb.2016.11.081",
       "url": "https://doi.org/10.1016/j.snb.2016.11.081",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000393267700094&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000393267700094&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 55,
       "is_first_author": false,
       "is_corr_author": false,
@@ -14075,7 +14111,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 128
+      "index": 131
     },
     {
       "uid": "WOS:000384910500017",
@@ -14090,7 +14126,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "138-146",
       "doi": "10.1016/j.nanoen.2016.06.042",
       "url": "https://doi.org/10.1016/j.nanoen.2016.06.042",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000384910500017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000384910500017&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 434,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14119,7 +14155,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Nano Energy"
       ],
-      "index": 127
+      "index": 130
     },
     {
       "uid": "WOS:000388318600013",
@@ -14134,7 +14170,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2356-2363",
       "doi": "10.1002/pssa.201533041",
       "url": "https://doi.org/10.1002/pssa.201533041",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000388318600013&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000388318600013&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 29,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14154,7 +14190,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 126
+      "index": 129
     },
     {
       "uid": "WOS:000380803600001",
@@ -14169,7 +14205,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1-10",
       "doi": "10.1016/j.carbon.2016.05.028",
       "url": "https://doi.org/10.1016/j.carbon.2016.05.028",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000380803600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000380803600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 197,
       "is_first_author": false,
       "is_corr_author": false,
@@ -14189,7 +14225,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 125
+      "index": 128
     },
     {
       "uid": "WOS:000395427600014",
@@ -14204,7 +14240,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "5679-5685",
       "doi": "10.1002/slct.201600861",
       "url": "https://doi.org/10.1002/slct.201600861",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000395427600014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000395427600014&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 73,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14229,7 +14265,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 124
+      "index": 127
     },
     {
       "uid": "WOS:000371916800011",
@@ -14244,7 +14280,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "59-68",
       "doi": "10.1016/j.mssp.2015.11.013",
       "url": "https://doi.org/10.1016/j.mssp.2015.11.013",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000371916800011&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000371916800011&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 54,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14264,7 +14300,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 123
+      "index": 126
     },
     {
       "uid": "WOS:000372573000006",
@@ -14279,7 +14315,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "4769-4777",
       "doi": "10.1007/s10853-016-9746-5",
       "url": "https://doi.org/10.1007/s10853-016-9746-5",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000372573000006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000372573000006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 76,
       "is_first_author": false,
       "is_corr_author": false,
@@ -14304,7 +14340,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 122
+      "index": 125
     },
     {
       "uid": "WOS:000366944300008",
@@ -14319,7 +14355,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "48-54",
       "doi": "10.1016/j.jallcom.2015.11.042",
       "url": "https://doi.org/10.1016/j.jallcom.2015.11.042",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000366944300008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000366944300008&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 68,
       "is_first_author": true,
       "is_corr_author": true,
@@ -14339,7 +14375,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 121
+      "index": 124
     },
     {
       "uid": "WOS:000373224200006",
@@ -14354,7 +14390,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "369",
       "doi": "10.1186/s40064-016-1805-5",
       "url": "https://doi.org/10.1186/s40064-016-1805-5",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000373224200006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000373224200006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 42,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14379,7 +14415,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 120
+      "index": 123
     },
     {
       "uid": "WOS:000373163100018",
@@ -14394,7 +14430,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "4764-4773",
       "doi": "10.1002/chem.201503660",
       "url": "https://doi.org/10.1002/chem.201503660",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000373163100018&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000373163100018&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 161,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14419,7 +14455,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 119
+      "index": 122
     },
     {
       "uid": "WOS:000371371600018",
@@ -14434,7 +14470,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2075-2084",
       "doi": "10.1021/acs.langmuir.5b04308",
       "url": "https://doi.org/10.1021/acs.langmuir.5b04308",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000371371600018&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000371371600018&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 137,
       "is_first_author": false,
       "is_corr_author": false,
@@ -14454,7 +14490,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 118
+      "index": 121
     },
     {
       "uid": "WOS:000371939500017",
@@ -14469,7 +14505,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "144-153",
       "doi": "10.1016/j.apcatb.2015.12.046",
       "url": "https://doi.org/10.1016/j.apcatb.2015.12.046",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000371939500017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000371939500017&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 476,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14502,7 +14538,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 117
+      "index": 120
     },
     {
       "uid": "WOS:000379942400005",
@@ -14517,7 +14553,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "781-787",
       "doi": "10.1002/clen.201500418",
       "url": "https://doi.org/10.1002/clen.201500418",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000379942400005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000379942400005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 21,
       "is_first_author": false,
       "is_corr_author": false,
@@ -14537,7 +14573,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 116
+      "index": 119
     },
     {
       "uid": "WOS:000366941900014",
@@ -14552,7 +14588,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "110-117",
       "doi": "10.1016/j.colsurfa.2015.09.061",
       "url": "https://doi.org/10.1016/j.colsurfa.2015.09.061",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000366941900014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000366941900014&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 31,
       "is_first_author": false,
       "is_corr_author": false,
@@ -14572,7 +14608,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 115
+      "index": 118
     },
     {
       "uid": "WOS:000366943200040",
@@ -14587,7 +14623,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "343-350",
       "doi": "10.1016/j.colsurfa.2015.10.037",
       "url": "https://doi.org/10.1016/j.colsurfa.2015.10.037",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000366943200040&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000366943200040&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 36,
       "is_first_author": false,
       "is_corr_author": false,
@@ -14617,7 +14653,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 114
+      "index": 117
     },
     {
       "uid": "WOS:000382189800006",
@@ -14632,7 +14668,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "463-470",
       "doi": "10.1080/10667857.2015.1105579",
       "url": "https://doi.org/10.1080/10667857.2015.1105579",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000382189800006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000382189800006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 8,
       "is_first_author": false,
       "is_corr_author": false,
@@ -14657,7 +14693,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 113
+      "index": 116
     },
     {
       "uid": "WOS:000389708700089",
@@ -14672,7 +14708,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "112420-112428",
       "doi": "10.1039/c6ra23964a",
       "url": "https://doi.org/10.1039/c6ra23964a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000389708700089&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000389708700089&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 27,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14697,7 +14733,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 112
+      "index": 115
     },
     {
       "uid": "WOS:000382539600106",
@@ -14712,7 +14748,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "80193-80200",
       "doi": "10.1039/c6ra12861k",
       "url": "https://doi.org/10.1039/c6ra12861k",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000382539600106&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000382539600106&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 25,
       "is_first_author": true,
       "is_corr_author": true,
@@ -14732,7 +14768,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 111
+      "index": 114
     },
     {
       "uid": "WOS:000375270600075",
@@ -14747,7 +14783,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "41204-41213",
       "doi": "10.1039/c6ra05565f",
       "url": "https://doi.org/10.1039/c6ra05565f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000375270600075&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000375270600075&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 67,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14767,7 +14803,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 110
+      "index": 113
     },
     {
       "uid": "WOS:000369515500006",
@@ -14782,7 +14818,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "6905-6914",
       "doi": "10.1039/c5ra24620b",
       "url": "https://doi.org/10.1039/c5ra24620b",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000369515500006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000369515500006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 25,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14802,7 +14838,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 109
+      "index": 112
     },
     {
       "uid": "WOS:000369508800024",
@@ -14817,7 +14853,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "3600-3607",
       "doi": "10.1039/c5ra22912j",
       "url": "https://doi.org/10.1039/c5ra22912j",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000369508800024&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000369508800024&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 28,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14837,7 +14873,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 108
+      "index": 111
     },
     {
       "uid": "WOS:000373993600055",
@@ -14852,7 +14888,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "3413-3422",
       "doi": "10.1039/c5nj02898a",
       "url": "https://doi.org/10.1039/c5nj02898a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000373993600055&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000373993600055&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 34,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14872,7 +14908,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 107
+      "index": 110
     },
     {
       "uid": "WOS:000372425600037",
@@ -14887,7 +14923,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2168-2177",
       "doi": "10.1039/c5nj02094h",
       "url": "https://doi.org/10.1039/c5nj02094h",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000372425600037&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000372425600037&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 40,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14907,7 +14943,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 106
+      "index": 109
     },
     {
       "uid": "WOS:000365367000049",
@@ -14922,7 +14958,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1392-1398",
       "doi": "10.1016/j.ceramint.2015.09.081",
       "url": "https://doi.org/10.1016/j.ceramint.2015.09.081",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000365367000049&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000365367000049&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 27,
       "is_first_author": true,
       "is_corr_author": true,
@@ -14942,7 +14978,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 105
+      "index": 108
     },
     {
       "uid": "WOS:000386746100015",
@@ -14956,8 +14992,8 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "10",
       "page": "3971-3980",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000386746100015&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000386746100015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000386746100015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000386746100015&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": true,
@@ -14982,7 +15018,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 104
+      "index": 107
     },
     {
       "uid": "WOS:000384033100045",
@@ -14996,8 +15032,8 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "8",
       "page": "3083-3091",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000384033100045&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000384033100045&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000384033100045&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000384033100045&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 8,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15022,7 +15058,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 103
+      "index": 106
     },
     {
       "uid": "WOS:000364256000024",
@@ -15037,7 +15073,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "260-269",
       "doi": "10.1016/j.apcatb.2015.07.035",
       "url": "https://doi.org/10.1016/j.apcatb.2015.07.035",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000364256000024&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000364256000024&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 420,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15070,7 +15106,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 102
+      "index": 105
     },
     {
       "uid": "WOS:000382343500002",
@@ -15085,7 +15121,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "11-22",
       "doi": "10.1016/j.apcatb.2016.05.049",
       "url": "https://doi.org/10.1016/j.apcatb.2016.05.049",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000382343500002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000382343500002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 249,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15107,7 +15143,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 101
+      "index": 104
     },
     {
       "uid": "WOS:000359873700077",
@@ -15122,7 +15158,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "500-505",
       "doi": "10.1016/j.materresbull.2015.05.013",
       "url": "https://doi.org/10.1016/j.materresbull.2015.05.013",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000359873700077&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000359873700077&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 65,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15142,7 +15178,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 100
+      "index": 103
     },
     {
       "uid": "WOS:000361774100100",
@@ -15157,7 +15193,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "726-734",
       "doi": "10.1016/j.mssp.2015.04.013",
       "url": "https://doi.org/10.1016/j.mssp.2015.04.013",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000361774100100&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000361774100100&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 62,
       "is_first_author": true,
       "is_corr_author": true,
@@ -15182,7 +15218,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 99
+      "index": 102
     },
     {
       "uid": "WOS:000353097900015",
@@ -15197,7 +15233,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "134-139",
       "doi": "10.1016/j.jhazmat.2015.02.009",
       "url": "https://doi.org/10.1016/j.jhazmat.2015.02.009",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000353097900015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000353097900015&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 64,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15212,7 +15248,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 98
+      "index": 101
     },
     {
       "uid": "WOS:000368536100007",
@@ -15227,7 +15263,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "152",
       "doi": "10.1007/s11270-015-2414-6",
       "url": "https://doi.org/10.1007/s11270-015-2414-6",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000368536100007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000368536100007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 2,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15242,7 +15278,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 97
+      "index": 100
     },
     {
       "uid": "WOS:000350145700023",
@@ -15257,7 +15293,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "170-178",
       "doi": "10.1016/j.apsusc.2014.12.141",
       "url": "https://doi.org/10.1016/j.apsusc.2014.12.141",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000350145700023&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000350145700023&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 61,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15287,7 +15323,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 96
+      "index": 99
     },
     {
       "uid": "WOS:000351126300009",
@@ -15302,7 +15338,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "113-121",
       "doi": "10.1179/1753555714y.0000000226",
       "url": "https://doi.org/10.1179/1753555714y.0000000226",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000351126300009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000351126300009&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 20,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15327,7 +15363,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 95
+      "index": 98
     },
     {
       "uid": "WOS:000352747200007",
@@ -15342,7 +15378,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "51-61",
       "doi": "10.1016/j.apcatb.2014.11.057",
       "url": "https://doi.org/10.1016/j.apcatb.2014.11.057",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000352747200007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000352747200007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 557,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15369,7 +15405,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 94
+      "index": 97
     },
     {
       "uid": "WOS:000353851900011",
@@ -15384,7 +15420,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "96-105",
       "doi": "10.1016/j.cej.2015.02.018",
       "url": "https://doi.org/10.1016/j.cej.2015.02.018",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000353851900011&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000353851900011&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 175,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15406,7 +15442,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 93
+      "index": 96
     },
     {
       "uid": "WOS:000358129400023",
@@ -15421,7 +15457,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "15108-15118",
       "doi": "10.1039/c5ta02388b",
       "url": "https://doi.org/10.1039/c5ta02388b",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000358129400023&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000358129400023&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 224,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15448,7 +15484,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 92
+      "index": 95
     },
     {
       "uid": "WOS:000358786400035",
@@ -15463,7 +15499,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "64299-64299",
       "doi": "10.1039/c5ra90071a",
       "url": "https://doi.org/10.1039/c5ra90071a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000358786400035&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000358786400035&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 8,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15483,7 +15519,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 91
+      "index": 94
     },
     {
       "uid": "WOS:000365952200040",
@@ -15498,7 +15534,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "101552-101562",
       "doi": "10.1039/c5ra19586a",
       "url": "https://doi.org/10.1039/c5ra19586a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000365952200040&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000365952200040&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 262,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15523,7 +15559,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 90
+      "index": 93
     },
     {
       "uid": "WOS:000364907300040",
@@ -15538,7 +15574,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "95727-95735",
       "doi": "10.1039/c5ra18009k",
       "url": "https://doi.org/10.1039/c5ra18009k",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000364907300040&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000364907300040&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 59,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15558,7 +15594,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 89
+      "index": 92
     },
     {
       "uid": "WOS:000363417900035",
@@ -15573,7 +15609,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "88832-88840",
       "doi": "10.1039/c5ra15417k",
       "url": "https://doi.org/10.1039/c5ra15417k",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000363417900035&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000363417900035&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 50,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15593,7 +15629,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 88
+      "index": 91
     },
     {
       "uid": "WOS:000360445500040",
@@ -15608,7 +15644,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "71035-71045",
       "doi": "10.1039/c5ra13403j",
       "url": "https://doi.org/10.1039/c5ra13403j",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000360445500040&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000360445500040&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 44,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15628,7 +15664,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 87
+      "index": 90
     },
     {
       "uid": "WOS:000357805500085",
@@ -15643,7 +15679,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "57960-57967",
       "doi": "10.1039/c5ra07148h",
       "url": "https://doi.org/10.1039/c5ra07148h",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000357805500085&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000357805500085&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 142,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15663,7 +15699,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 86
+      "index": 89
     },
     {
       "uid": "WOS:000354445900020",
@@ -15678,7 +15714,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "41475-41483",
       "doi": "10.1039/c5ra04410c",
       "url": "https://doi.org/10.1039/c5ra04410c",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000354445900020&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000354445900020&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 36,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15698,7 +15734,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 85
+      "index": 88
     },
     {
       "uid": "WOS:000351494800081",
@@ -15713,7 +15749,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "26281-26290",
       "doi": "10.1039/c5ra01206f",
       "url": "https://doi.org/10.1039/c5ra01206f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000351494800081&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000351494800081&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 55,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15733,7 +15769,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 84
+      "index": 87
     },
     {
       "uid": "WOS:000356862900024",
@@ -15748,7 +15784,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "11433-11443",
       "doi": "10.1039/c5nr01350j",
       "url": "https://doi.org/10.1039/c5nr01350j",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000356862900024&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000356862900024&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 326,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15768,7 +15804,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 83
+      "index": 86
     },
     {
       "uid": "WOS:000357106400066",
@@ -15783,7 +15819,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "5540-5547",
       "doi": "10.1039/c5nj00489f",
       "url": "https://doi.org/10.1039/c5nj00489f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000357106400066&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000357106400066&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 18,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15798,7 +15834,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 82
+      "index": 85
     },
     {
       "uid": "WOS:000352271900034",
@@ -15813,7 +15849,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "7021-7031",
       "doi": "10.1039/c4dt03793f",
       "url": "https://doi.org/10.1039/c4dt03793f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000352271900034&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000352271900034&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 136,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15828,7 +15864,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 81
+      "index": 84
     },
     {
       "uid": "WOS:000349403100018",
@@ -15843,7 +15879,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "3057-3066",
       "doi": "10.1039/c4dt03242j",
       "url": "https://doi.org/10.1039/c4dt03242j",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000349403100018&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000349403100018&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 78,
       "is_first_author": false,
       "is_corr_author": true,
@@ -15863,7 +15899,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 80
+      "index": 83
     },
     {
       "uid": "WOS:000345183700017",
@@ -15878,7 +15914,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "112-119",
       "doi": "10.1016/j.jpcs.2014.08.012",
       "url": "https://doi.org/10.1016/j.jpcs.2014.08.012",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000345183700017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000345183700017&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 118,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15898,7 +15934,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 79
+      "index": 82
     },
     {
       "uid": "WOS:000366880400002",
@@ -15912,8 +15948,8 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "10",
       "page": "3079-3086",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000366880400002&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000366880400002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000366880400002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000366880400002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": false,
@@ -15938,7 +15974,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 78
+      "index": 81
     },
     {
       "uid": "WOS:000345749500054",
@@ -15953,7 +15989,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "347-357",
       "doi": "10.1016/j.jallcom.2014.09.148",
       "url": "https://doi.org/10.1016/j.jallcom.2014.09.148",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000345749500054&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000345749500054&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 48,
       "is_first_author": true,
       "is_corr_author": true,
@@ -15968,7 +16004,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 77
+      "index": 80
     },
     {
       "uid": "WOS:000354028700010",
@@ -15983,8 +16019,118 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "71-80",
       "doi": "10.1016/j.colsurfa.2015.03.035",
       "url": "https://doi.org/10.1016/j.colsurfa.2015.03.035",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000354028700010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000354028700010&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 301,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 79
+    },
+    {
+      "uid": "WOS:000350930300016",
+      "title": "Significant improvement of photocatalytic activity of porous graphitic-carbon nitride/bismuth oxybromide microspheres synthesized in an ionic liquid by microwave-assisted processing",
+      "authors": "Minqiang He, Dexiang Zhao, Jiexiang Xia, Li Xu, Jun Di, <strong>Hui Xu</strong>, Sheng Yin, Huaming Li",
+      "journal": "Materials Science In Semiconductor Processing",
+      "year": 2015,
+      "year_group": "2015-2019",
+      "date": "2015-APR",
+      "volume": "32",
+      "issue": "",
+      "page": "117-124",
+      "doi": "10.1016/j.mssp.2014.12.032",
+      "url": "https://doi.org/10.1016/j.mssp.2014.12.032",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000350930300016&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 21,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 78
+    },
+    {
+      "uid": "WOS:000340689000001",
+      "title": "Improving the photocatalytic activity and stability of graphene-like BN/AgBr composites",
+      "authors": "Jiajia Chen, Jiaxiang Zhu, Zulin Da, <strong>Hui Xu</strong>, Jia Yan, Haiyan Ji, Huoming Shu, Huaming Li",
+      "journal": "Applied Surface Science",
+      "year": 2014,
+      "year_group": "2014及以前",
+      "date": "2014-SEP 15",
+      "volume": "313",
+      "issue": "",
+      "page": "1-9",
+      "doi": "10.1016/j.apsusc.2014.04.109",
+      "url": "https://doi.org/10.1016/j.apsusc.2014.04.109",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000340689000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 71,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 77
+    },
+    {
+      "uid": "WOS:000335873900044",
+      "title": "Synthesis, Characterization and Photocatalytic Activity of Ag/AgCl/Graphite-Like C3N4 Under Visible Light Irradiation",
+      "authors": "Jia Yan, <strong>Hui Xu</strong>, Yuanguo Xu, Cheng Wang, Yanhua Song, Jiexiang Xia, Huaming Li",
+      "journal": "Journal Of Nanoscience And Nanotechnology",
+      "year": 2014,
+      "year_group": "2014及以前",
+      "date": "2014-SEP",
+      "volume": "14",
+      "issue": "9",
+      "page": "6809-6815",
+      "doi": "10.1166/jnn.2014.8975",
+      "url": "https://doi.org/10.1166/jnn.2014.8975",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000335873900044&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 16,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -16006,20 +16152,20 @@ window.XH_PUBLICATIONS_DATA = {
       "index": 76
     },
     {
-      "uid": "WOS:000350930300016",
-      "title": "Significant improvement of photocatalytic activity of porous graphitic-carbon nitride/bismuth oxybromide microspheres synthesized in an ionic liquid by microwave-assisted processing",
-      "authors": "Minqiang He, Dexiang Zhao, Jiexiang Xia, Li Xu, Jun Di, <strong>Hui Xu</strong>, Sheng Yin, Huaming Li",
-      "journal": "Materials Science In Semiconductor Processing",
-      "year": 2015,
-      "year_group": "2015-2019",
-      "date": "2015-APR",
-      "volume": "32",
-      "issue": "",
-      "page": "117-124",
-      "doi": "10.1016/j.mssp.2014.12.032",
-      "url": "https://doi.org/10.1016/j.mssp.2014.12.032",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000350930300016&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 21,
+      "uid": "WOS:000340328600020",
+      "title": "Preparation of TiO2/g-C3N4 composites and their application in photocatalytic oxidative desulfurization",
+      "authors": "Chao Wang, Wenshuai Zhu, Yehai Xu, <strong>Hui Xu</strong>, Ming Zhang, Yanhong Chao, Sheng Yin, Huaming Li, Jianguo Wang",
+      "journal": "Ceramics International",
+      "year": 2014,
+      "year_group": "2014及以前",
+      "date": "2014-SEP",
+      "volume": "40",
+      "issue": "8",
+      "page": "11627-11635",
+      "doi": "10.1016/j.ceramint.2014.03.156",
+      "url": "https://doi.org/10.1016/j.ceramint.2014.03.156",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000340328600020&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 168,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -16046,116 +16192,6 @@ window.XH_PUBLICATIONS_DATA = {
       "index": 75
     },
     {
-      "uid": "WOS:000340689000001",
-      "title": "Improving the photocatalytic activity and stability of graphene-like BN/AgBr composites",
-      "authors": "Jiajia Chen, Jiaxiang Zhu, Zulin Da, <strong>Hui Xu</strong>, Jia Yan, Haiyan Ji, Huoming Shu, Huaming Li",
-      "journal": "Applied Surface Science",
-      "year": 2014,
-      "year_group": "2014及以前",
-      "date": "2014-SEP 15",
-      "volume": "313",
-      "issue": "",
-      "page": "1-9",
-      "doi": "10.1016/j.apsusc.2014.04.109",
-      "url": "https://doi.org/10.1016/j.apsusc.2014.04.109",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000340689000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 71,
-      "is_first_author": false,
-      "is_corr_author": true,
-      "is_first_or_corr": true,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "c3n4_2d",
-          "name_cn": "碳氮材料与二维半导体",
-          "name_en": "Carbon Nitride & 2D Materials"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 74
-    },
-    {
-      "uid": "WOS:000335873900044",
-      "title": "Synthesis, Characterization and Photocatalytic Activity of Ag/AgCl/Graphite-Like C3N4 Under Visible Light Irradiation",
-      "authors": "Jia Yan, <strong>Hui Xu</strong>, Yuanguo Xu, Cheng Wang, Yanhua Song, Jiexiang Xia, Huaming Li",
-      "journal": "Journal Of Nanoscience And Nanotechnology",
-      "year": 2014,
-      "year_group": "2014及以前",
-      "date": "2014-SEP",
-      "volume": "14",
-      "issue": "9",
-      "page": "6809-6815",
-      "doi": "10.1166/jnn.2014.8975",
-      "url": "https://doi.org/10.1166/jnn.2014.8975",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000335873900044&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 16,
-      "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "c3n4_2d",
-          "name_cn": "碳氮材料与二维半导体",
-          "name_en": "Carbon Nitride & 2D Materials"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 73
-    },
-    {
-      "uid": "WOS:000340328600020",
-      "title": "Preparation of TiO2/g-C3N4 composites and their application in photocatalytic oxidative desulfurization",
-      "authors": "Chao Wang, Wenshuai Zhu, Yehai Xu, <strong>Hui Xu</strong>, Ming Zhang, Yanhong Chao, Sheng Yin, Huaming Li, Jianguo Wang",
-      "journal": "Ceramics International",
-      "year": 2014,
-      "year_group": "2014及以前",
-      "date": "2014-SEP",
-      "volume": "40",
-      "issue": "8",
-      "page": "11627-11635",
-      "doi": "10.1016/j.ceramint.2014.03.156",
-      "url": "https://doi.org/10.1016/j.ceramint.2014.03.156",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000340328600020&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 168,
-      "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "c3n4_2d",
-          "name_cn": "碳氮材料与二维半导体",
-          "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "ionic",
-          "name_cn": "绿色化学与离子液体",
-          "name_en": "Ionic Liquids & Green Chemistry"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 72
-    },
-    {
       "uid": "WOS:000333795100008",
       "title": "Application of graphene-like layered molybdenum disulfide and its excellent adsorption behavior for doxycycline antibiotic",
       "authors": "Yanhong Chao, Wenshuai Zhu, Xiangyang Wu, Fangfang Hou, Suhang Xun, Peiwen Wu, Haiyan Ji, <strong>Hui Xu</strong>, Huaming Li",
@@ -16168,7 +16204,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "60-67",
       "doi": "10.1016/j.cej.2013.12.048",
       "url": "https://doi.org/10.1016/j.cej.2013.12.048",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000333795100008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000333795100008&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 229,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16190,7 +16226,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 71
+      "index": 74
     },
     {
       "uid": "WOS:000335201800051",
@@ -16205,7 +16241,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "8061-8070",
       "doi": "10.1016/j.ceramint.2013.12.159",
       "url": "https://doi.org/10.1016/j.ceramint.2013.12.159",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000335201800051&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000335201800051&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 56,
       "is_first_author": false,
       "is_corr_author": true,
@@ -16235,7 +16271,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 70
+      "index": 73
     },
     {
       "uid": "WOS:000325234500111",
@@ -16250,7 +16286,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "866-874",
       "doi": "10.1016/j.jpowsour.2013.07.014",
       "url": "https://doi.org/10.1016/j.jpowsour.2013.07.014",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000325234500111&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000325234500111&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 172,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16275,7 +16311,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 69
+      "index": 72
     },
     {
       "uid": "WOS:000327493400086",
@@ -16290,7 +16326,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "633-640",
       "doi": "10.1016/j.apsusc.2013.10.086",
       "url": "https://doi.org/10.1016/j.apsusc.2013.10.086",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000327493400086&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000327493400086&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 73,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16310,7 +16346,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 68
+      "index": 71
     },
     {
       "uid": "WOS:000342079200026",
@@ -16325,7 +16361,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "15864-15874",
       "doi": "10.1039/c4ta02400a",
       "url": "https://doi.org/10.1039/c4ta02400a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000342079200026&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000342079200026&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 204,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16347,7 +16383,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 67
+      "index": 70
     },
     {
       "uid": "WOS:000350868800004",
@@ -16362,7 +16398,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "56853-56862",
       "doi": "10.1039/c4ra08780a",
       "url": "https://doi.org/10.1039/c4ra08780a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000350868800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000350868800004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 37,
       "is_first_author": false,
       "is_corr_author": true,
@@ -16382,7 +16418,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 66
+      "index": 69
     },
     {
       "uid": "WOS:000341287500042",
@@ -16397,7 +16433,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "34539-34547",
       "doi": "10.1039/c4ra03443k",
       "url": "https://doi.org/10.1039/c4ra03443k",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000341287500042&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000341287500042&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 82,
       "is_first_author": true,
       "is_corr_author": true,
@@ -16422,7 +16458,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 65
+      "index": 68
     },
     {
       "uid": "WOS:000342757600026",
@@ -16437,7 +16473,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "15429-15438",
       "doi": "10.1039/c4dt01652a",
       "url": "https://doi.org/10.1039/c4dt01652a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000342757600026&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000342757600026&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 142,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16457,7 +16493,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 64
+      "index": 67
     },
     {
       "uid": "WOS:000333101600022",
@@ -16472,7 +16508,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "5340-5351",
       "doi": "10.1039/c3ta14617k",
       "url": "https://doi.org/10.1039/c3ta14617k",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000333101600022&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000333101600022&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 469,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16504,7 +16540,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 63
+      "index": 66
     },
     {
       "uid": "WOS:000331247500016",
@@ -16519,7 +16555,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "2563-2570",
       "doi": "10.1039/c3ta13768f",
       "url": "https://doi.org/10.1039/c3ta13768f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000331247500016&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000331247500016&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 365,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16541,7 +16577,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 62
+      "index": 65
     },
     {
       "uid": "WOS:000332470000042",
@@ -16556,7 +16592,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "11831-11839",
       "doi": "10.1039/c3ra46818f",
       "url": "https://doi.org/10.1039/c3ra46818f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000332470000042&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000332470000042&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 89,
       "is_first_author": false,
       "is_corr_author": true,
@@ -16576,7 +16612,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 61
+      "index": 64
     },
     {
       "uid": "WOS:000330800700031",
@@ -16591,7 +16627,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "9139-9147",
       "doi": "10.1039/c3ra46111d",
       "url": "https://doi.org/10.1039/c3ra46111d",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000330800700031&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000330800700031&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 47,
       "is_first_author": true,
       "is_corr_author": true,
@@ -16606,7 +16642,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 60
+      "index": 63
     },
     {
       "uid": "WOS:000333205200066",
@@ -16621,7 +16657,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "14281-14290",
       "doi": "10.1039/c3ra45670f",
       "url": "https://doi.org/10.1039/c3ra45670f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000333205200066&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000333205200066&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 123,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16641,7 +16677,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 59
+      "index": 62
     },
     {
       "uid": "WOS:000327547000012",
@@ -16656,7 +16692,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "82-90",
       "doi": "10.1039/c3ra44191a",
       "url": "https://doi.org/10.1039/c3ra44191a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000327547000012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000327547000012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 181,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16676,7 +16712,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 58
+      "index": 61
     },
     {
       "uid": "WOS:000330041400025",
@@ -16691,7 +16727,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1406-1415",
       "doi": "10.1039/c3nr04759h",
       "url": "https://doi.org/10.1039/c3nr04759h",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000330041400025&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000330041400025&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 372,
       "is_first_author": true,
       "is_corr_author": false,
@@ -16716,7 +16752,37 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 57
+      "index": 60
+    },
+    {
+      "uid": "WOS:000345507300062",
+      "title": "A Self-adaptive Reliable Packet Transmission Scheme for Wireless Mesh Networks",
+      "authors": "Wenze Shi, Takeshi Ikenaga, Daiki Nobayashi, Xinchun Yin, <strong>Hui Xu</strong>",
+      "journal": "Algorithms And Architectures For Parallel Processing, Ica3Pp 2014, Pt I",
+      "year": 2014,
+      "year_group": "2014及以前",
+      "date": "2014-JAN",
+      "volume": "8630",
+      "issue": "",
+      "page": "781-793",
+      "doi": "",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000345507300062&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000345507300062&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 0,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "materials",
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 59
     },
     {
       "uid": "WOS:000330974800005",
@@ -16731,7 +16797,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "211-217",
       "doi": "10.1007/s11814-013-0224-3",
       "url": "https://doi.org/10.1007/s11814-013-0224-3",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000330974800005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000330974800005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 68,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16751,7 +16817,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 56
+      "index": 58
     },
     {
       "uid": "WOS:000345469700075",
@@ -16766,7 +16832,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "281-284",
       "doi": "10.1016/j.matlet.2014.08.142",
       "url": "https://doi.org/10.1016/j.matlet.2014.08.142",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000345469700075&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000345469700075&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 118,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16786,7 +16852,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 55
+      "index": 57
     },
     {
       "uid": "WOS:000337876000090",
@@ -16801,7 +16867,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "349-353",
       "doi": "10.1016/j.matlet.2014.04.110",
       "url": "https://doi.org/10.1016/j.matlet.2014.04.110",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000337876000090&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000337876000090&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 46,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16821,7 +16887,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 54
+      "index": 56
     },
     {
       "uid": "WOS:000337553800016",
@@ -16836,7 +16902,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "96-103",
       "doi": "10.1016/j.mssp.2014.02.036",
       "url": "https://doi.org/10.1016/j.mssp.2014.02.036",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000337553800016&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000337553800016&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 75,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16866,7 +16932,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 53
+      "index": 55
     },
     {
       "uid": "WOS:000337015200045",
@@ -16881,7 +16947,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "9293-9301",
       "doi": "10.1016/j.ceramint.2014.01.152",
       "url": "https://doi.org/10.1016/j.ceramint.2014.01.152",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000337015200045&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000337015200045&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 110,
       "is_first_author": false,
       "is_corr_author": true,
@@ -16901,7 +16967,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 52
+      "index": 54
     },
     {
       "uid": "WOS:000340564700006",
@@ -16916,7 +16982,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "3665-3673",
       "doi": "10.1002/ejic.201402051",
       "url": "https://doi.org/10.1002/ejic.201402051",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000340564700006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000340564700006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 52,
       "is_first_author": false,
       "is_corr_author": false,
@@ -16941,7 +17007,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 51
+      "index": 53
     },
     {
       "uid": "WOS:000331069300042",
@@ -16956,7 +17022,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "258-265",
       "doi": "10.1016/j.jallcom.2013.12.228",
       "url": "https://doi.org/10.1016/j.jallcom.2013.12.228",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000331069300042&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000331069300042&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 61,
       "is_first_author": false,
       "is_corr_author": true,
@@ -16976,7 +17042,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 50
+      "index": 52
     },
     {
       "uid": "WOS:000334003400015",
@@ -16991,7 +17057,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "103-108",
       "doi": "10.1016/j.fluid.2014.01.034",
       "url": "https://doi.org/10.1016/j.fluid.2014.01.034",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000334003400015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000334003400015&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 11,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17006,7 +17072,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 49
+      "index": 51
     },
     {
       "uid": "WOS:000333720000005",
@@ -17021,7 +17087,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "35-42",
       "doi": "10.1016/j.cej.2013.11.065",
       "url": "https://doi.org/10.1016/j.cej.2013.11.065",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000333720000005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000333720000005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 121,
       "is_first_author": true,
       "is_corr_author": false,
@@ -17043,7 +17109,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 48
+      "index": 50
     },
     {
       "uid": "WOS:000326416900061",
@@ -17058,7 +17124,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "474-483",
       "doi": "10.1016/j.colsurfa.2013.06.005",
       "url": "https://doi.org/10.1016/j.colsurfa.2013.06.005",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000326416900061&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000326416900061&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 98,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17083,7 +17149,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 47
+      "index": 49
     },
     {
       "uid": "WOS:000323601700005",
@@ -17098,7 +17164,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "25-32",
       "doi": "10.1016/j.apsusc.2013.05.106",
       "url": "https://doi.org/10.1016/j.apsusc.2013.05.106",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000323601700005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000323601700005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 262,
       "is_first_author": false,
       "is_corr_author": true,
@@ -17118,7 +17184,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 46
+      "index": 48
     },
     {
       "uid": "WOS:000325601000012",
@@ -17133,7 +17199,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1876-1882",
       "doi": "10.1016/s1872-2067(12)60677-9",
       "url": "https://doi.org/10.1016/s1872-2067(12)60677-9",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000325601000012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000325601000012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 54,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17160,7 +17226,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 45
+      "index": 47
     },
     {
       "uid": "WOS:000327004300039",
@@ -17175,7 +17241,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "319-325",
       "doi": "10.1016/j.fluid.2013.08.032",
       "url": "https://doi.org/10.1016/j.fluid.2013.08.032",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000327004300039&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000327004300039&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17190,7 +17256,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 44
+      "index": 46
     },
     {
       "uid": "WOS:000317581700024",
@@ -17205,7 +17271,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "159-166",
       "doi": "10.1016/j.apsusc.2013.02.004",
       "url": "https://doi.org/10.1016/j.apsusc.2013.02.004",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000317581700024&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000317581700024&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 73,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17225,7 +17291,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 43
+      "index": 45
     },
     {
       "uid": "WOS:000315251000012",
@@ -17240,7 +17306,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "89-95",
       "doi": "10.1016/j.colsurfa.2012.11.054",
       "url": "https://doi.org/10.1016/j.colsurfa.2012.11.054",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000315251000012&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000315251000012&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 145,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17265,7 +17331,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 42
+      "index": 44
     },
     {
       "uid": "WOS:000313383300011",
@@ -17280,7 +17346,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "80-85",
       "doi": "10.1016/j.colsurfa.2012.07.014",
       "url": "https://doi.org/10.1016/j.colsurfa.2012.07.014",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000313383300011&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000313383300011&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 34,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17305,7 +17371,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 41
+      "index": 43
     },
     {
       "uid": "WOS:000312689500021",
@@ -17320,7 +17386,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "182-193",
       "doi": "10.1016/j.apcatb.2012.08.015",
       "url": "https://doi.org/10.1016/j.apcatb.2012.08.015",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000312689500021&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000312689500021&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 640,
       "is_first_author": true,
       "is_corr_author": false,
@@ -17347,7 +17413,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 40
+      "index": 42
     },
     {
       "uid": "WOS:000326056600158",
@@ -17362,7 +17428,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "22269-22279",
       "doi": "10.1039/c3ra42712a",
       "url": "https://doi.org/10.1039/c3ra42712a",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000326056600158&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000326056600158&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 196,
       "is_first_author": false,
       "is_corr_author": true,
@@ -17382,7 +17448,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 39
+      "index": 41
     },
     {
       "uid": "WOS:000325554400053",
@@ -17397,7 +17463,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "19624-19631",
       "doi": "10.1039/c3ra42269k",
       "url": "https://doi.org/10.1039/c3ra42269k",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000325554400053&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000325554400053&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 181,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17422,7 +17488,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 38
+      "index": 40
     },
     {
       "uid": "WOS:000317583000028",
@@ -17437,7 +17503,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "6468-6477",
       "doi": "10.1039/c3dt50137j",
       "url": "https://doi.org/10.1039/c3dt50137j",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000317583000028&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000317583000028&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 74,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17457,7 +17523,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 37
+      "index": 39
     },
     {
       "uid": "WOS:000318792400015",
@@ -17472,7 +17538,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "7604-7613",
       "doi": "10.1039/c3dt32871f",
       "url": "https://doi.org/10.1039/c3dt32871f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000318792400015&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000318792400015&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 240,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17492,7 +17558,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 36
+      "index": 38
     },
     {
       "uid": "WOS:000319555400013",
@@ -17507,7 +17573,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "8606-8616",
       "doi": "10.1039/c3dt00115f",
       "url": "https://doi.org/10.1039/c3dt00115f",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000319555400013&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000319555400013&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 496,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17527,7 +17593,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 35
+      "index": 37
     },
     {
       "uid": "WOS:000316803500011",
@@ -17542,7 +17608,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "5821-5830",
       "doi": "10.1039/c3cp44104k",
       "url": "https://doi.org/10.1039/c3cp44104k",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000316803500011&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000316803500011&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 98,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17557,7 +17623,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 34
+      "index": 36
     },
     {
       "uid": "WOS:000326746000042",
@@ -17572,7 +17638,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "10132-10141",
       "doi": "10.1039/c3ce41555d",
       "url": "https://doi.org/10.1039/c3ce41555d",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000326746000042&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000326746000042&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 93,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17592,7 +17658,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 33
+      "index": 35
     },
     {
       "uid": "WOS:000325819300002",
@@ -17607,7 +17673,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "6721-6726",
       "doi": "10.1039/c3an01355c",
       "url": "https://doi.org/10.1039/c3an01355c",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000325819300002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000325819300002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 55,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17632,7 +17698,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 32
+      "index": 34
     },
     {
       "uid": "WOS:000312763800020",
@@ -17647,7 +17713,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "298-304",
       "doi": "10.1016/j.jpcs.2012.10.002",
       "url": "https://doi.org/10.1016/j.jpcs.2012.10.002",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000312763800020&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000312763800020&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 53,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17667,7 +17733,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 31
+      "index": 33
     },
     {
       "uid": "WOS:000327184100024",
@@ -17682,7 +17748,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "178-186",
       "doi": "10.1016/j.apsusc.2013.09.113",
       "url": "https://doi.org/10.1016/j.apsusc.2013.09.113",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000327184100024&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000327184100024&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 90,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17702,7 +17768,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 30
+      "index": 32
     },
     {
       "uid": "WOS:000326458700014",
@@ -17717,7 +17783,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "450-454",
       "doi": "10.1049/mnl.2013.0263",
       "url": "https://doi.org/10.1049/mnl.2013.0263",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000326458700014&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000326458700014&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 15,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17752,7 +17818,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 29
+      "index": 31
     },
     {
       "uid": "WOS:000307797900004",
@@ -17767,7 +17833,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "23-30",
       "doi": "10.1016/j.colsurfa.2012.06.009",
       "url": "https://doi.org/10.1016/j.colsurfa.2012.06.009",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000307797900004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000307797900004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 60,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17787,7 +17853,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 28
+      "index": 30
     },
     {
       "uid": "WOS:000313919300008",
@@ -17802,7 +17868,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "87-98",
       "doi": "10.5277/epe120408",
       "url": "https://doi.org/10.5277/epe120408",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000313919300008&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000313919300008&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17817,7 +17883,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 27
+      "index": 29
     },
     {
       "uid": "WOS:000301057900006",
@@ -17832,7 +17898,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "3387-3394",
       "doi": "10.1039/c2dt11969b",
       "url": "https://doi.org/10.1039/c2dt11969b",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000301057900006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000301057900006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 218,
       "is_first_author": true,
       "is_corr_author": false,
@@ -17847,7 +17913,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 26
+      "index": 28
     },
     {
       "uid": "WOS:000301083800024",
@@ -17862,7 +17928,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "387-394",
       "doi": "10.1016/j.matchemphys.2011.11.041",
       "url": "https://doi.org/10.1016/j.matchemphys.2011.11.041",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000301083800024&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000301083800024&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 39,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17877,7 +17943,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 25
+      "index": 27
     },
     {
       "uid": "WOS:000311243600002",
@@ -17892,7 +17958,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1626-1633",
       "doi": "10.1002/jctb.3841",
       "url": "https://doi.org/10.1002/jctb.3841",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000311243600002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000311243600002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 18,
       "is_first_author": true,
       "is_corr_author": false,
@@ -17912,7 +17978,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 24
+      "index": 26
     },
     {
       "uid": "WOS:000313859000020",
@@ -17926,8 +17992,8 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "12",
       "page": "2157-2162",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000313859000020&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000313859000020&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000313859000020&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000313859000020&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": true,
       "is_corr_author": true,
@@ -17947,7 +18013,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 23
+      "index": 25
     },
     {
       "uid": "WOS:000308562200028",
@@ -17962,7 +18028,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "806-809",
       "doi": "10.1049/mnl.2012.0474",
       "url": "https://doi.org/10.1049/mnl.2012.0474",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000308562200028&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000308562200028&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 2,
       "is_first_author": false,
       "is_corr_author": false,
@@ -17982,7 +18048,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 22
+      "index": 24
     },
     {
       "uid": "WOS:000301032100002",
@@ -17997,7 +18063,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "523-529",
       "doi": "10.1016/j.jpcs.2011.11.034",
       "url": "https://doi.org/10.1016/j.jpcs.2011.11.034",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000301032100002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000301032100002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 30,
       "is_first_author": false,
       "is_corr_author": false,
@@ -18017,7 +18083,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 21
+      "index": 23
     },
     {
       "uid": "WOS:000306533600023",
@@ -18031,8 +18097,8 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "2",
       "page": "371-375",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000306533600023&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000306533600023&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000306533600023&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000306533600023&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 2,
       "is_first_author": true,
       "is_corr_author": false,
@@ -18052,7 +18118,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 20
+      "index": 22
     },
     {
       "uid": "WOS:000293826800035",
@@ -18067,7 +18133,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "9157-9163",
       "doi": "10.1016/j.jallcom.2011.06.100",
       "url": "https://doi.org/10.1016/j.jallcom.2011.06.100",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000293826800035&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000293826800035&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 41,
       "is_first_author": true,
       "is_corr_author": false,
@@ -18087,7 +18153,45 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 19
+      "index": 21
+    },
+    {
+      "uid": "WOS:000303423600276",
+      "title": "Photocatalytic degradation of methylene blue over Co-Ag3VO4 under visible light irradiation",
+      "authors": "Shuowiei Zhao, <strong>Hui Xu</strong>, Huaming Li, Yuanguo Xu",
+      "journal": "Advanced Materials And Structures, Pts 1 And 2",
+      "year": 2011,
+      "year_group": "2014及以前",
+      "date": "2011-JAN",
+      "volume": "335-336",
+      "issue": "",
+      "page": "1385-+",
+      "doi": "10.4028/www.scientific.net/amr.335-336.1385",
+      "url": "https://doi.org/10.4028/www.scientific.net/amr.335-336.1385",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000303423600276&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 4,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "Adv. Mater."
+      ],
+      "index": 20
     },
     {
       "uid": "WOS:000289895300016",
@@ -18102,7 +18206,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "5249-5258",
       "doi": "10.1039/c0dt01511c",
       "url": "https://doi.org/10.1039/c0dt01511c",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000289895300016&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000289895300016&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 255,
       "is_first_author": false,
       "is_corr_author": true,
@@ -18127,7 +18231,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 18
+      "index": 19
     },
     {
       "uid": "WOS:000286499700005",
@@ -18142,7 +18246,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "22-29",
       "doi": "10.1021/am100781n",
       "url": "https://doi.org/10.1021/am100781n",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000286499700005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000286499700005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 226,
       "is_first_author": true,
       "is_corr_author": false,
@@ -18162,7 +18266,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 17
+      "index": 18
     },
     {
       "uid": "WOS:000292627200006",
@@ -18176,8 +18280,8 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "7",
       "page": "1624-1628",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000292627200006&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000292627200006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000292627200006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000292627200006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 0,
       "is_first_author": true,
       "is_corr_author": false,
@@ -18197,7 +18301,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 16
+      "index": 17
     },
     {
       "uid": "WOS:000287570100017",
@@ -18212,7 +18316,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "3286-3292",
       "doi": "10.1016/j.jallcom.2010.11.193",
       "url": "https://doi.org/10.1016/j.jallcom.2010.11.193",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000287570100017&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000287570100017&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 160,
       "is_first_author": false,
       "is_corr_author": false,
@@ -18227,7 +18331,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 15
+      "index": 16
     },
     {
       "uid": "WOS:000286485600049",
@@ -18242,8 +18346,43 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1200-1206",
       "doi": "10.1021/la104054r",
       "url": "https://doi.org/10.1021/la104054r",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000286485600049&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000286485600049&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 240,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 15
+    },
+    {
+      "uid": "WOS:000295351500004",
+      "title": "Enhanced photocatalytic activity of bismuth oxyiodine (BiOI) porous microspheres synthesized via reactable ionic liquid-assisted solvothermal method",
+      "authors": "Jiexiang Xia, Sheng Yin, Huaming Li, <strong>Hui Xu</strong>, Li Xu, Qi Zhang",
+      "journal": "Colloids And Surfaces A-Physicochemical And Engineering Aspects",
+      "year": 2011,
+      "year_group": "2014及以前",
+      "date": "2011-AUG 20",
+      "volume": "387",
+      "issue": "1-3",
+      "page": "23-28",
+      "doi": "10.1016/j.colsurfa.2011.07.023",
+      "url": "https://doi.org/10.1016/j.colsurfa.2011.07.023",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000295351500004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 61,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -18265,41 +18404,6 @@ window.XH_PUBLICATIONS_DATA = {
       "index": 14
     },
     {
-      "uid": "WOS:000295351500004",
-      "title": "Enhanced photocatalytic activity of bismuth oxyiodine (BiOI) porous microspheres synthesized via reactable ionic liquid-assisted solvothermal method",
-      "authors": "Jiexiang Xia, Sheng Yin, Huaming Li, <strong>Hui Xu</strong>, Li Xu, Qi Zhang",
-      "journal": "Colloids And Surfaces A-Physicochemical And Engineering Aspects",
-      "year": 2011,
-      "year_group": "2014及以前",
-      "date": "2011-AUG 20",
-      "volume": "387",
-      "issue": "1-3",
-      "page": "23-28",
-      "doi": "10.1016/j.colsurfa.2011.07.023",
-      "url": "https://doi.org/10.1016/j.colsurfa.2011.07.023",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000295351500004&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 61,
-      "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
-      "topics": [
-        {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
-        },
-        {
-          "id": "ionic",
-          "name_cn": "绿色化学与离子液体",
-          "name_en": "Ionic Liquids & Green Chemistry"
-        }
-      ],
-      "is_selected": false,
-      "is_esi": false,
-      "badges": [],
-      "index": 13
-    },
-    {
       "uid": "WOS:000289217000022",
       "title": "Efficient degradation of methylene blue dye by catalytic oxidation using the Na8Nb6O19•13H2O/H2O2 system",
       "authors": "Chengtang Liu, <strong>Hui Xu</strong>, Huaming Li, Ling Liu, Li Xu, Zhixiang Ye",
@@ -18312,7 +18416,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "1126-1132",
       "doi": "10.1007/s11814-010-0471-5",
       "url": "https://doi.org/10.1007/s11814-010-0471-5",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000289217000022&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000289217000022&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 16,
       "is_first_author": false,
       "is_corr_author": false,
@@ -18327,7 +18431,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 12
+      "index": 13
     },
     {
       "uid": "WOS:000282866000007",
@@ -18342,7 +18446,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "935-941",
       "doi": "10.3724/sp.j.1077.2010.00935",
       "url": "https://doi.org/10.3724/sp.j.1077.2010.00935",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000282866000007&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000282866000007&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 7,
       "is_first_author": false,
       "is_corr_author": false,
@@ -18362,7 +18466,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 11
+      "index": 12
     },
     {
       "uid": "WOS:000276938100002",
@@ -18377,7 +18481,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "6-9",
       "doi": "10.1016/j.matchemphys.2010.01.046",
       "url": "https://doi.org/10.1016/j.matchemphys.2010.01.046",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000276938100002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000276938100002&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 42,
       "is_first_author": false,
       "is_corr_author": false,
@@ -18397,7 +18501,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 10
+      "index": 11
     },
     {
       "uid": "WOS:000278171000006",
@@ -18412,7 +18516,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "33-41",
       "doi": "10.1016/j.cej.2010.02.054",
       "url": "https://doi.org/10.1016/j.cej.2010.02.054",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000278171000006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000278171000006&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 101,
       "is_first_author": true,
       "is_corr_author": false,
@@ -18439,7 +18543,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 9
+      "index": 10
     },
     {
       "uid": "WOS:000285076900005",
@@ -18453,8 +18557,8 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "11A",
       "page": "2644-2650",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000285076900005&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000285076900005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000285076900005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000285076900005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
       "is_corr_author": false,
@@ -18474,7 +18578,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 8
+      "index": 9
     },
     {
       "uid": "WOS:000278744500123",
@@ -18489,7 +18593,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "633-637",
       "doi": "10.1016/j.jallcom.2010.02.148",
       "url": "https://doi.org/10.1016/j.jallcom.2010.02.148",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000278744500123&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000278744500123&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 59,
       "is_first_author": false,
       "is_corr_author": false,
@@ -18509,7 +18613,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 7
+      "index": 8
     },
     {
       "uid": "WOS:000277581700022",
@@ -18524,7 +18628,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "471-484",
       "doi": "10.1007/s11144-010-0152-8",
       "url": "https://doi.org/10.1007/s11144-010-0152-8",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000277581700022&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000277581700022&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 23,
       "is_first_author": false,
       "is_corr_author": false,
@@ -18539,7 +18643,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 6
+      "index": 7
     },
     {
       "uid": "WOS:000271757300004",
@@ -18554,7 +18658,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "597-602",
       "doi": "10.1016/j.apsusc.2009.05.102",
       "url": "https://doi.org/10.1016/j.apsusc.2009.05.102",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000271757300004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000271757300004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 111,
       "is_first_author": true,
       "is_corr_author": false,
@@ -18579,7 +18683,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 5
+      "index": 6
     },
     {
       "uid": "WOS:000272396300004",
@@ -18594,7 +18698,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "10771-10778",
       "doi": "10.1021/ie900835g",
       "url": "https://doi.org/10.1021/ie900835g",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000272396300004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000272396300004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 89,
       "is_first_author": true,
       "is_corr_author": false,
@@ -18609,7 +18713,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 4
+      "index": 5
     },
     {
       "uid": "WOS:000253664600009",
@@ -18624,7 +18728,7 @@ window.XH_PUBLICATIONS_DATA = {
       "page": "52-56",
       "doi": "10.1016/j.mseb.2007.11.011",
       "url": "https://doi.org/10.1016/j.mseb.2007.11.011",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000253664600009&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000253664600009&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 115,
       "is_first_author": true,
       "is_corr_author": false,
@@ -18649,7 +18753,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 3
+      "index": 4
     },
     {
       "uid": "WOS:000245364300005",
@@ -18663,9 +18767,49 @@ window.XH_PUBLICATIONS_DATA = {
       "issue": "3",
       "page": "242-246",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000245364300005&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000245364300005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000245364300005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000245364300005&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 9,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 3
+    },
+    {
+      "uid": "WOS:000207781604676",
+      "title": "Photocatalytic degradation of methylene blue using Ag-loaded BiVO4 catalyst under visible light irradiation",
+      "authors": "Huaming Li, <strong>Hui Xu</strong>, Chundu Wu, Jinyu Chu, Yongsheng Yan",
+      "journal": "Abstracts Of Papers Of The American Chemical Society",
+      "year": 2006,
+      "year_group": "2014及以前",
+      "date": "2006-SEP 10",
+      "volume": "232",
+      "issue": "",
+      "page": "745-745",
+      "doi": "",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000207781604676&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000207781604676&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 0,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -18692,19 +18836,19 @@ window.XH_PUBLICATIONS_DATA = {
       "index": 2
     },
     {
-      "uid": "WOS:000207781604676",
-      "title": "Photocatalytic degradation of methylene blue using Ag-loaded BiVO4 catalyst under visible light irradiation",
-      "authors": "Huaming Li, <strong>Hui Xu</strong>, Chundu Wu, Jinyu Chu, Yongsheng Yan",
-      "journal": "Abstracts Of Papers Of The American Chemical Society",
+      "uid": "WOS:000243039600010",
+      "title": "Photodegradation of methylene blue over Ag-deposited BiVO4 under VU irradiation",
+      "authors": "Chundu Wu, <strong>Hui Xu</strong>, Huaming Li, Jinyu Chu, Ning Li, Yongsheng Yan, Changsheng Li",
+      "journal": "Progress Of Green Oxidation/Reduction Technologies",
       "year": 2006,
       "year_group": "2014及以前",
-      "date": "2006-SEP 10",
-      "volume": "232",
+      "date": "2006-JAN",
+      "volume": "",
       "issue": "",
-      "page": "745-745",
+      "page": "41-44",
       "doi": "",
-      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000207781604676&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=xuhui-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000207781604676&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "url": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000243039600010&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000243039600010&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 0,
       "is_first_author": false,
       "is_corr_author": false,

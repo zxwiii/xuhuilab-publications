@@ -25,15 +25,18 @@ if sys.platform.startswith('win'):
     except Exception:
         pass
 
-# ==================== 核心配置 ====================
-API_KEY = os.environ.get("WOS_API_KEY") or "a5650a3cf00489bdd8d41011a3eca36de7c668de"
-RESEARCHER_ID = "ADN-0578-2022"
+# ==================== 核心配置与安全凭证管理 ====================
+RESEARCHER_ID = os.environ.get("RESEARCHER_ID") or "ADN-0578-2022"
 BASE_URL = "https://api.clarivate.com/apis/wos-starter/v1/documents"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+KEYS_FILE = os.path.join(SCRIPT_DIR, "wos_keys.json")
+ENV_FILE = os.path.join(SCRIPT_DIR, ".env")
 SELECTED_FILE = os.path.join(SCRIPT_DIR, "selected_doi.txt")
 ESI_FILE = os.path.join(SCRIPT_DIR, "esi_top_1_percent.txt")
-CORR_FILE = os.path.join(SCRIPT_DIR, "xh.txt")
+CORR_FILE = os.path.join(SCRIPT_DIR, "corresponding_titles.txt")
+if not os.path.exists(CORR_FILE) and os.path.exists(os.path.join(SCRIPT_DIR, "xh.txt")):
+    CORR_FILE = os.path.join(SCRIPT_DIR, "xh.txt")
 CROSSREF_CACHE_FILE = os.path.join(SCRIPT_DIR, "crossref_cache.json")
 FIXED_CACHE_FILE = os.path.join(SCRIPT_DIR, "wos_fixed_metadata.json")
 
@@ -42,6 +45,46 @@ IMPACT_JSON_FILE = os.path.join(SCRIPT_DIR, "impact_metrics.json")
 IMPACT_JS_FILE = os.path.join(SCRIPT_DIR, "impact_data.js")
 PUBS_JSON_FILE = os.path.join(SCRIPT_DIR, "publications.json")
 PUBS_JS_FILE = os.path.join(SCRIPT_DIR, "publications_data.js")
+
+def load_api_keys():
+    """安全读取 API Keys (严格禁止明文硬编码提交到远程仓库)"""
+    keys = []
+    # 1. 优先读取环境变量 (供 GitHub Actions 安全 Secrets 使用)
+    env_key = os.environ.get("WOS_API_KEY")
+    if env_key:
+        for k in env_key.split(","):
+            k = k.strip()
+            if k and k not in keys:
+                keys.append(k)
+
+    # 2. 读取本地受 .gitignore 保护的凭证文件 wos_keys.json
+    if os.path.exists(KEYS_FILE):
+        try:
+            with open(KEYS_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                file_keys = data.get("keys", []) if isinstance(data, dict) else data
+                for k in file_keys:
+                    k = str(k).strip()
+                    if k and k not in keys:
+                        keys.append(k)
+        except Exception:
+            pass
+
+    # 3. 读取本地 .env 文件
+    if os.path.exists(ENV_FILE):
+        try:
+            with open(ENV_FILE, "r", encoding="utf-8") as f:
+                for line in f:
+                    if line.startswith("WOS_API_KEY="):
+                        val = line.split("=", 1)[1].strip().strip('"').strip("'")
+                        for k in val.split(","):
+                            k = k.strip()
+                            if k and k not in keys:
+                                keys.append(k)
+        except Exception:
+            pass
+
+    return keys
 
 # 学者顶级荣誉官方认证
 HONORS_CONFIG = [
@@ -286,14 +329,23 @@ def format_journal_name(raw_name):
             return mapped
     return name.title()
 
-def fetch_all_wos_documents():
-    """通过 Web of Science Starter API 全量拉取许晖老师收录论文"""
+def fetch_all_wos_documents(api_keys):
+    """通过 Web of Science Starter API 全量拉取论文 (支持多 Key 自动故障转移与配额轮换)"""
+    if not api_keys:
+        print("[Error] 未找到任何有效的 WoS API Key！请检查环境变量 WOS_API_KEY 或本地 wos_keys.json 凭证文件。")
+        return []
+
     print(f"[WoS API] 开始向 Web of Science 查询 ResearcherID: {RESEARCHER_ID} ...")
+    print(f"[WoS API] 成功加载 {len(api_keys)} 个安全 API Key 轮换池。")
+
     all_hits = []
     page = 1
     limit = 50
+    current_key_idx = 0
 
     while True:
+        current_key = api_keys[current_key_idx]
+        masked_key = current_key[:6] + "..." + current_key[-4:]
         params = {
             'db': 'WOS',
             'q': f'AI={RESEARCHER_ID}',
@@ -302,7 +354,7 @@ def fetch_all_wos_documents():
         }
         url = BASE_URL + '?' + urllib.parse.urlencode(params)
         req = urllib.request.Request(url, headers={
-            'X-ApiKey': API_KEY,
+            'X-ApiKey': current_key,
             'Accept': 'application/json'
         })
         try:
@@ -313,11 +365,22 @@ def fetch_all_wos_documents():
                     break
                 all_hits.extend(hits)
                 total_avail = data.get('metadata', {}).get('total', 0)
-                print(f"  -> 已成功拉取第 {page} 页 (本页 {len(hits)} 篇，累计 {len(all_hits)}/{total_avail} 篇)")
+                print(f"  -> 已成功拉取第 {page} 页 (本页 {len(hits)} 篇，累计 {len(all_hits)}/{total_avail} 篇 | Key: {masked_key})")
                 if len(all_hits) >= total_avail:
                     break
                 page += 1
                 time.sleep(0.2)
+        except urllib.error.HTTPError as he:
+            # 遇到 429 配额耗尽或 403 权限受阻，自动无缝切换到备用 Key
+            if he.code in [429, 403] and len(api_keys) > 1:
+                next_key_idx = (current_key_idx + 1) % len(api_keys)
+                if next_key_idx != current_key_idx:
+                    print(f"[WoS API] 当前 Key ({masked_key}) 触发限额/异常 (HTTP {he.code})，自动无缝切换至备用 Key 继续执行...")
+                    current_key_idx = next_key_idx
+                    time.sleep(1.0)
+                    continue
+            print(f"[Error] 请求 WoS API 异常 (Page {page}, HTTP {he.code}): {he.reason}")
+            break
         except Exception as e:
             print(f"[Error] 请求 WoS API 异常 (Page {page}): {e}")
             break
@@ -360,8 +423,9 @@ def run_sync():
     corr_titles_norm = load_corresponding_titles(CORR_FILE)
     print(f"[Config] 已读取官方认证通讯作者标题特征库: {len(corr_titles_norm)} 个")
 
-    # 5. 全量获取 WoS 论文数据
-    wos_hits = fetch_all_wos_documents()
+    # 5. 全量获取 WoS 论文数据 (安全双 Key 故障转移轮换池)
+    api_keys = load_api_keys()
+    wos_hits = fetch_all_wos_documents(api_keys)
     if not wos_hits:
         print("[Error] 未获取到有效 WoS 数据，终止同步。")
         return

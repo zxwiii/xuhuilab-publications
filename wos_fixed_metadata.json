@@ -11338,5 +11338,89 @@
     "page": "e7758933",
     "is_first_author": false,
     "is_corr_author": true
+  },
+  "WOS:000243039600010": {
+    "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
+        "id": "c3n4_2d",
+        "name_cn": "碳氮材料与二维半导体",
+        "name_en": "Carbon Nitride & 2D Materials"
+      },
+      {
+        "id": "env",
+        "name_cn": "环境催化",
+        "name_en": "Environmental Catalysis"
+      }
+    ],
+    "title": "Photodegradation of methylene blue over Ag-deposited BiVO4 under VU irradiation",
+    "journal": "Progress Of Green Oxidation/Reduction Technologies",
+    "volume": "",
+    "issue": "",
+    "page": "41-44",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.4028/www.scientific.net/amr.335-336.1385": {
+    "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
+        "id": "env",
+        "name_cn": "环境催化",
+        "name_en": "Environmental Catalysis"
+      }
+    ],
+    "title": "Photocatalytic degradation of methylene blue over Co-Ag3VO4 under visible light irradiation",
+    "journal": "Advanced Materials And Structures, Pts 1 And 2",
+    "volume": "335-336",
+    "issue": "",
+    "page": "1385-+",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "WOS:000345507300062": {
+    "topics": [
+      {
+        "id": "materials",
+        "name_cn": "功能材料与基础研究",
+        "name_en": "Advanced Functional Materials"
+      }
+    ],
+    "title": "A Self-adaptive Reliable Packet Transmission Scheme for Wireless Mesh Networks",
+    "journal": "Algorithms And Architectures For Parallel Processing, Ica3Pp 2014, Pt I",
+    "volume": "8630",
+    "issue": "",
+    "page": "781-793",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1088/1755-1315/199/3/032087": {
+    "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
+        "id": "c3n4_2d",
+        "name_cn": "碳氮材料与二维半导体",
+        "name_en": "Carbon Nitride & 2D Materials"
+      }
+    ],
+    "title": "Co3O4 nanoparticles decorated Ag3PO4 as heterostructure for improving solar-light-driven photocatalysis",
+    "journal": "2018 First International Conference On Environment Prevention And Pollution Control Technology (Eppct 2018)",
+    "volume": "199",
+    "issue": "",
+    "page": "032087",
+    "is_first_author": false,
+    "is_corr_author": false
   }
 }
