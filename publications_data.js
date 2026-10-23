@@ -28,14 +28,79 @@ window.XH_PUBLICATIONS_DATA = {
       "Small": 6
     },
     "topic_stats": {
-      "electrocat": 60,
-      "photocat": 352,
-      "env": 117,
-      "energy": 95,
-      "materials": 70,
-      "battery": 14,
-      "biomass": 12
-    }
+      "co2": 74,
+      "electrocat": 65,
+      "photocat": 369,
+      "c3n4_2d": 284,
+      "env": 168,
+      "energy": 105,
+      "materials": 27,
+      "ionic": 40,
+      "biomass": 19,
+      "battery": 17
+    },
+    "topics_sorted": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis",
+        "count": 369
+      },
+      {
+        "id": "c3n4_2d",
+        "name_cn": "碳氮材料与二维半导体",
+        "name_en": "Carbon Nitride & 2D Materials",
+        "count": 284
+      },
+      {
+        "id": "env",
+        "name_cn": "环境催化",
+        "name_en": "Environmental Catalysis",
+        "count": 168
+      },
+      {
+        "id": "energy",
+        "name_cn": "太阳能转化与绿氢",
+        "name_en": "Solar Energy & Hydrogen",
+        "count": 105
+      },
+      {
+        "id": "co2",
+        "name_cn": "二氧化碳捕集与转化",
+        "name_en": "CO2 Reduction & Conversion",
+        "count": 74
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis",
+        "count": 65
+      },
+      {
+        "id": "ionic",
+        "name_cn": "绿色化学与离子液体",
+        "name_en": "Ionic Liquids & Green Chemistry",
+        "count": 40
+      },
+      {
+        "id": "materials",
+        "name_cn": "功能材料与基础研究",
+        "name_en": "Advanced Functional Materials",
+        "count": 27
+      },
+      {
+        "id": "biomass",
+        "name_cn": "生物质转化与有机合成",
+        "name_en": "Biomass & Organic Synthesis",
+        "count": 19
+      },
+      {
+        "id": "battery",
+        "name_cn": "电池与储能",
+        "name_en": "Batteries & Energy Storage",
+        "count": 17
+      }
+    ]
   },
   "publications": [
     {
@@ -57,6 +122,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -94,6 +164,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -120,6 +200,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -153,6 +238,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -192,9 +282,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -260,6 +360,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -292,9 +397,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -327,6 +442,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -356,14 +476,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -391,14 +516,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
-        },
-        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -429,8 +559,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -488,9 +618,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -519,6 +649,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -550,14 +685,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -584,6 +724,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": false,
       "is_first_or_corr": false,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -618,14 +763,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -658,9 +808,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -691,6 +841,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
         }
       ],
       "is_selected": false,
@@ -718,19 +878,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": true,
@@ -762,6 +922,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "battery",
           "name_cn": "电池与储能",
           "name_en": "Batteries & Energy Storage"
@@ -791,6 +956,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -822,19 +992,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -862,14 +1027,24 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
         },
         {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": true,
@@ -906,9 +1081,24 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -939,19 +1129,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -979,9 +1169,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -1014,6 +1204,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -1044,14 +1239,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -1084,6 +1284,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -1113,6 +1318,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -1144,9 +1354,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -1174,9 +1384,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -1203,6 +1413,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -1237,14 +1452,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -1277,6 +1492,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Solar Energy & Hydrogen"
         },
         {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        },
+        {
           "id": "biomass",
           "name_cn": "生物质转化与有机合成",
           "name_en": "Biomass & Organic Synthesis"
@@ -1306,6 +1526,16 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -1380,6 +1610,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -1412,6 +1647,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -1439,14 +1679,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -1475,6 +1715,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": false,
       "is_first_or_corr": false,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -1506,14 +1751,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -1546,14 +1796,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -1594,9 +1844,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -1629,6 +1889,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -1655,6 +1925,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -1692,6 +1967,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -1722,6 +2002,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -1754,9 +2039,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
         }
       ],
       "is_selected": false,
@@ -1783,6 +2078,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": false,
       "is_first_or_corr": false,
       "topics": [
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
         {
           "id": "biomass",
           "name_cn": "生物质转化与有机合成",
@@ -1814,6 +2114,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
           "id": "electrocat",
           "name_cn": "电催化",
           "name_en": "Electrocatalysis"
@@ -1844,14 +2149,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -1913,6 +2223,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -1983,8 +2298,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -2012,14 +2327,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -2086,6 +2401,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
@@ -2119,6 +2439,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -2154,6 +2479,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -2184,8 +2514,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -2216,6 +2546,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -2243,14 +2578,24 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
         },
         {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -2283,9 +2628,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -2346,8 +2701,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -2375,9 +2730,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -2408,6 +2763,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -2434,6 +2794,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -2474,9 +2839,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -2503,6 +2878,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -2599,19 +2979,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -2642,6 +3022,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -2671,9 +3056,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -2704,6 +3094,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -2734,6 +3129,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -2761,14 +3166,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -2796,14 +3201,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "electrocat",
@@ -2836,14 +3241,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -2870,6 +3280,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -2938,9 +3353,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -2968,14 +3383,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -3006,6 +3426,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -3033,14 +3458,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -3105,14 +3530,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -3143,6 +3573,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -3173,6 +3613,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": true,
@@ -3207,6 +3657,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -3239,6 +3699,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -3296,9 +3766,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": true,
@@ -3330,9 +3800,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -3360,14 +3835,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -3405,9 +3885,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -3442,6 +3932,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -3472,14 +3967,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -3507,9 +4007,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -3540,6 +4040,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -3608,6 +4118,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -3645,6 +4160,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -3674,6 +4194,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -3708,6 +4233,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -3738,6 +4273,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -3766,8 +4306,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -3830,14 +4370,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -3865,14 +4410,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -3900,9 +4450,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -3930,14 +4480,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -3968,6 +4518,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -4000,6 +4555,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -4027,14 +4587,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -4065,6 +4625,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -4094,9 +4664,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": true,
@@ -4130,6 +4705,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -4163,6 +4748,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -4190,14 +4785,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -4265,14 +4865,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -4301,8 +4906,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -4333,6 +4938,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -4363,6 +4978,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": true,
@@ -4428,6 +5053,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
@@ -4463,14 +5093,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -4501,6 +5136,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         },
         {
           "id": "biomass",
@@ -4534,8 +5179,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -4593,14 +5238,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -4666,6 +5316,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -4698,6 +5353,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -4725,9 +5385,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": true,
@@ -4761,6 +5421,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -4791,6 +5461,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -4819,8 +5499,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -4851,6 +5531,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -4877,6 +5562,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -4908,9 +5598,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         },
         {
           "id": "battery",
@@ -4946,9 +5646,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -4981,6 +5681,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "electrocat",
@@ -5016,6 +5721,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -5043,14 +5758,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -5077,6 +5797,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -5109,8 +5834,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -5139,8 +5864,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -5168,14 +5893,24 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
         },
         {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -5203,9 +5938,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -5233,9 +5973,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -5268,6 +6013,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -5300,6 +6055,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -5326,6 +6091,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": false,
       "is_first_or_corr": false,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -5361,9 +6131,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -5394,6 +6164,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -5424,6 +6204,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -5456,6 +6241,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -5486,6 +6276,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -5516,6 +6311,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -5546,6 +6346,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -5576,6 +6386,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -5603,19 +6418,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -5642,6 +6452,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -5672,6 +6487,16 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": false,
       "is_first_or_corr": false,
       "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "env",
           "name_cn": "环境催化",
@@ -5706,6 +6531,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -5736,9 +6566,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -5771,6 +6611,21 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
         }
       ],
       "is_selected": false,
@@ -5836,6 +6691,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -5864,8 +6729,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -5893,19 +6758,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -5932,6 +6797,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -5966,6 +6836,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -5993,14 +6868,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -6028,9 +6908,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -6061,6 +6946,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -6091,6 +6986,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -6120,14 +7020,24 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
         },
         {
-          "id": "photocat",
-          "name_cn": "光催化",
-          "name_en": "Photocatalysis"
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -6157,14 +7067,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -6192,9 +7107,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -6227,6 +7152,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": true,
@@ -6260,6 +7190,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -6335,6 +7270,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -6400,6 +7340,21 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -6427,14 +7382,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "electrocat",
@@ -6479,6 +7439,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -6509,9 +7474,24 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -6542,6 +7522,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -6577,6 +7562,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -6606,14 +7596,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -6648,14 +7643,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -6685,9 +7685,24 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         },
         {
           "id": "battery",
@@ -6725,6 +7740,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -6751,6 +7776,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
         {
           "id": "electrocat",
           "name_cn": "电催化",
@@ -6785,6 +7815,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -6815,6 +7855,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -6845,6 +7890,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -6908,8 +7963,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -6937,9 +7992,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -6970,6 +8030,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -7003,8 +8068,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -7031,6 +8096,16 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
@@ -7064,9 +8139,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -7097,8 +8172,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -7125,6 +8200,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
@@ -7156,9 +8236,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -7189,6 +8274,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -7224,8 +8314,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -7288,9 +8378,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -7320,9 +8410,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": true,
@@ -7356,6 +8446,21 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -7383,14 +8488,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -7418,14 +8528,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "electrocat",
@@ -7458,9 +8568,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -7493,9 +8603,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -7526,14 +8646,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -7561,14 +8686,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -7638,6 +8768,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -7671,6 +8806,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -7698,14 +8843,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -7733,14 +8883,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -7803,14 +8958,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -7843,14 +9003,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
-        },
-        {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -7886,9 +9051,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -7921,6 +9096,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -7951,19 +9131,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -7993,14 +9168,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -8063,14 +9243,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -8098,9 +9283,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": true,
@@ -8131,8 +9316,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -8160,19 +9345,24 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -8240,9 +9430,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -8303,6 +9503,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "battery",
           "name_cn": "电池与储能",
           "name_en": "Batteries & Energy Storage"
@@ -8333,14 +9538,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -8373,14 +9583,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": true,
@@ -8441,14 +9656,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -8488,9 +9708,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -8520,6 +9750,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "battery",
           "name_cn": "电池与储能",
@@ -8551,6 +9786,16 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
@@ -8581,14 +9826,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -8617,8 +9867,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -8646,14 +9896,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -8721,6 +9976,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -8751,14 +10011,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -8796,6 +10061,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -8826,6 +10101,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -8855,14 +10135,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -8897,9 +10177,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": true,
@@ -8930,9 +10215,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -9000,6 +10285,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -9030,6 +10320,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -9058,8 +10353,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -9122,9 +10417,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
         }
       ],
       "is_selected": false,
@@ -9152,9 +10457,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -9252,6 +10557,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -9279,14 +10589,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -9325,6 +10640,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -9385,6 +10705,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -9442,9 +10767,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "battery",
+          "name_cn": "电池与储能",
+          "name_en": "Batteries & Energy Storage"
         }
       ],
       "is_selected": false,
@@ -9475,6 +10800,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -9537,6 +10867,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -9570,6 +10905,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -9597,14 +10937,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -9635,6 +10980,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": true,
@@ -9708,6 +11063,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -9748,6 +11108,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -9780,19 +11145,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -9831,6 +11196,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -9857,6 +11227,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "env",
           "name_cn": "环境催化",
@@ -9948,14 +11323,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -9988,6 +11368,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -10023,8 +11408,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -10087,6 +11472,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -10117,14 +11507,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -10159,14 +11549,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
-        },
-        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -10199,6 +11589,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -10299,6 +11694,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -10361,14 +11761,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -10401,6 +11806,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -10431,14 +11841,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -10469,6 +11884,21 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
         }
       ],
       "is_selected": false,
@@ -10501,6 +11931,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -10530,6 +11965,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "battery",
           "name_cn": "电池与储能",
@@ -10594,6 +12034,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "electrocat",
           "name_cn": "电催化",
           "name_en": "Electrocatalysis"
+        },
+        {
+          "id": "battery",
+          "name_cn": "电池与储能",
+          "name_en": "Batteries & Energy Storage"
         }
       ],
       "is_selected": false,
@@ -10624,6 +12069,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -10651,14 +12106,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -10719,8 +12179,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -10751,6 +12211,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -10784,6 +12249,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "env",
           "name_cn": "环境催化",
@@ -10848,6 +12318,16 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
           "id": "electrocat",
           "name_cn": "电催化",
           "name_en": "Electrocatalysis"
@@ -10882,6 +12362,16 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
@@ -10912,14 +12402,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -10955,6 +12450,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -10983,8 +12483,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -11011,6 +12511,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": false,
       "is_first_or_corr": false,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
@@ -11052,6 +12557,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -11087,6 +12597,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -11116,6 +12631,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": false,
       "is_first_or_corr": false,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "battery",
           "name_cn": "电池与储能",
@@ -11147,9 +12667,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -11212,14 +12732,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -11255,8 +12780,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -11322,6 +12847,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -11352,6 +12887,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -11387,6 +12927,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
         }
       ],
       "is_selected": false,
@@ -11444,14 +12989,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -11479,14 +13029,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -11519,6 +13074,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -11546,19 +13106,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
         },
         {
-          "id": "electrocat",
-          "name_cn": "电催化",
-          "name_en": "Electrocatalysis"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": true,
@@ -11623,6 +13183,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -11653,6 +13218,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -11681,8 +13256,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -11710,9 +13285,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -11743,6 +13318,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -11773,6 +13353,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -11808,6 +13393,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -11838,6 +13428,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -11900,6 +13500,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -11937,6 +13542,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -11969,9 +13579,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": true,
@@ -12005,6 +13625,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12035,6 +13660,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -12070,6 +13700,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12100,6 +13735,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12130,6 +13770,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12287,9 +13932,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -12319,9 +13974,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12349,9 +14004,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": true,
@@ -12382,9 +14037,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12413,8 +14068,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -12442,14 +14097,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": true,
@@ -12484,6 +14144,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12514,6 +14179,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12544,6 +14214,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -12579,6 +14254,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12609,6 +14289,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -12639,6 +14329,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12669,6 +14364,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -12706,6 +14406,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "electrocat",
           "name_cn": "电催化",
           "name_en": "Electrocatalysis"
@@ -12739,6 +14444,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12766,14 +14476,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         },
         {
           "id": "env",
@@ -12812,6 +14527,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -12842,6 +14562,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -12872,6 +14597,21 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -12902,6 +14642,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -12929,14 +14679,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "energy",
-          "name_cn": "太阳能转化与绿氢",
-          "name_en": "Solar Energy & Hydrogen"
-        },
-        {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
         }
       ],
       "is_selected": false,
@@ -12967,6 +14722,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -12997,6 +14757,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13097,6 +14862,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -13127,6 +14897,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13157,6 +14932,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13187,6 +14967,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -13224,6 +15009,11 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
@@ -13259,9 +15049,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -13332,6 +15132,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13362,6 +15167,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -13420,8 +15235,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -13452,6 +15267,21 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -13482,6 +15312,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -13512,6 +15352,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -13549,6 +15394,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13581,6 +15431,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -13613,6 +15473,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13643,6 +15508,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "electrocat",
@@ -13678,6 +15548,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13708,6 +15583,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13773,6 +15653,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13803,6 +15688,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -13833,6 +15723,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13863,6 +15758,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13920,9 +15820,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": true,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13953,6 +15853,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -13983,6 +15888,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14013,6 +15923,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -14078,6 +15993,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14108,6 +16028,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -14138,6 +16068,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14168,6 +16103,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14198,6 +16138,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -14224,6 +16174,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": false,
       "is_first_or_corr": false,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "env",
           "name_cn": "环境催化",
@@ -14262,9 +16217,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
         }
       ],
       "is_selected": false,
@@ -14292,9 +16257,19 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
+        },
+        {
+          "id": "battery",
+          "name_cn": "电池与储能",
+          "name_en": "Batteries & Energy Storage"
         }
       ],
       "is_selected": false,
@@ -14321,6 +16296,11 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": false,
       "is_first_or_corr": false,
       "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
         {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
@@ -14355,6 +16335,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -14387,6 +16372,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14417,6 +16407,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -14452,6 +16447,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14484,9 +16484,19 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Photocatalysis"
         },
         {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -14519,6 +16529,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14551,6 +16566,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14611,6 +16631,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -14641,6 +16666,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14671,6 +16701,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "electrocat",
@@ -14706,6 +16741,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -14736,6 +16776,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14763,9 +16808,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -14796,6 +16846,21 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -14826,6 +16891,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14856,6 +16926,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "electrocat",
@@ -14891,6 +16966,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14919,8 +16999,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -14951,6 +17031,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -14983,6 +17068,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -15013,6 +17108,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -15043,6 +17143,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -15078,8 +17183,8 @@ window.XH_PUBLICATIONS_DATA = {
       "topics": [
         {
           "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
         }
       ],
       "is_selected": false,
@@ -15110,6 +17215,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -15140,6 +17250,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -15170,6 +17290,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -15200,6 +17330,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -15237,6 +17372,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -15267,6 +17407,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -15297,6 +17447,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -15327,6 +17482,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -15357,6 +17517,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -15417,6 +17582,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -15447,6 +17617,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "electrocat",
@@ -15482,6 +17657,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -15512,6 +17692,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         }
       ],
       "is_selected": false,
@@ -15542,6 +17727,26 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
         }
       ],
       "is_selected": false,
@@ -15572,6 +17777,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -15599,9 +17809,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -15659,9 +17869,9 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
         }
       ],
       "is_selected": false,
@@ -15692,6 +17902,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -15722,6 +17937,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -15752,6 +17972,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -15852,6 +18077,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -15882,6 +18112,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -15912,6 +18152,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -16007,6 +18252,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -16037,6 +18287,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -16097,6 +18352,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -16124,9 +18384,14 @@ window.XH_PUBLICATIONS_DATA = {
       "is_first_or_corr": false,
       "topics": [
         {
-          "id": "materials",
-          "name_cn": "功能材料与催化",
-          "name_en": "Advanced Catalytic Materials"
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -16199,6 +18464,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "env",
           "name_cn": "环境催化",
           "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
         }
       ],
       "is_selected": false,
@@ -16229,6 +18499,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -16289,6 +18564,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -16349,6 +18634,16 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -16379,6 +18674,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",
@@ -16414,6 +18714,11 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
         },
         {
           "id": "env",

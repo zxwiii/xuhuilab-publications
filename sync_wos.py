@@ -86,18 +86,8 @@ TOP_JOURNALS_STRICT = [
     {"abbr": "Small", "pattern": r"\bsmall\b", "is_top": False}
 ]
 
-# 课题组学术主题严格关键词匹配规则
+# 课题组学术主题严格关键词匹配规则 (涵盖 9 大前沿方向，支持多主题归属)
 TOPIC_RULES = [
-    {
-        "id": "energy",
-        "name_cn": "太阳能转化与绿氢",
-        "name_en": "Solar Energy & Hydrogen",
-        "keywords": [
-            r"hydrogen", r"\bh2\b", r"water splitting", r"hydrogen evolution",
-            r"water oxidation", r"overall water splitting", r"h2-evolution", r"h2 generation",
-            r"photoelectrochemical water oxidation", r"water electrolysis", r"piezo-photocatalytic water splitting"
-        ]
-    },
     {
         "id": "photocat",
         "name_cn": "光催化",
@@ -107,7 +97,52 @@ TOPIC_RULES = [
             r"photo-oxidat", r"photooxidat", r"solar-driven", r"solar-to-", r"visible-light",
             r"visible light", r"heterojunction", r"photothermal", r"photoactivity", r"photoactive",
             r"photolysis", r"photoelectrochemical", r"\bpec\b", r"light irradiation", r"near-infrared",
-            r"photofenton", r"photo-fenton", r"z-scheme", r"s-scheme", r"plasmonic"
+            r"photofenton", r"photo-fenton", r"z-scheme", r"s-scheme", r"plasmonic",
+            r"charge separation", r"carrier separation", r"cocatalyst", r"co-catalyst", r"schottky"
+        ]
+    },
+    {
+        "id": "c3n4_2d",
+        "name_cn": "碳氮材料与二维半导体",
+        "name_en": "Carbon Nitride & 2D Materials",
+        "keywords": [
+            r"carbon nitride", r"g-c3n4", r"2d g-c3n4", r"2d-c3n4", r"graphitic carbon nitride",
+            r"mesoporous carbon nitride", r"\bc3n4\b", r"ultrathin", r"2d materials", r"two-dimensional",
+            r"black phosphorus", r"mxene", r"graphene", r"boron nitride", r"nanosheet", r"nanosheets",
+            r"layered", r"biobr", r"bi2wo6", r"bi2moo6", r"bivo4", r"ag3po4", r"perovskite"
+        ]
+    },
+    {
+        "id": "energy",
+        "name_cn": "太阳能转化与绿氢",
+        "name_en": "Solar Energy & Hydrogen",
+        "keywords": [
+            r"hydrogen", r"\bh2\b", r"water splitting", r"hydrogen evolution", r"water oxidation",
+            r"overall water splitting", r"h2-evolution", r"h2 generation", r"h-2 evolution",
+            r"h2 production", r"hydrogen production", r"water electrolysis",
+            r"photoelectrochemical water oxidation", r"piezo-photocatalytic water splitting"
+        ]
+    },
+    {
+        "id": "env",
+        "name_cn": "环境催化",
+        "name_en": "Environmental Catalysis",
+        "keywords": [
+            r"degradation", r"pollutant", r"wastewater", r"peroxymonosulfate", r"persulfate",
+            r"fenton", r"no removal", r"dye degradation", r"antibiotic", r"environmental",
+            r"organic pollutant", r"cr\(vi\)", r"heavy metal", r"tetracycline", r"ciprofloxacin",
+            r"bisphenol", r"methylene blue", r"rhodamine", r"4-chlorophenol", r"antibacterial",
+            r"disinfection", r"adsorption", r"ozone", r"thiourea removal"
+        ]
+    },
+    {
+        "id": "co2",
+        "name_cn": "二氧化碳捕集与转化",
+        "name_en": "CO2 Reduction & Conversion",
+        "keywords": [
+            r"\bco2\b", r"carbon dioxide", r"co2 reduction", r"co2 photoreduction", r"co2 conversion",
+            r"co2 capture", r"\bco2rr\b", r"carbon neutrality", r"artificial photosynthesis",
+            r"solar fuel", r"solar fuels", r"methane", r"co evolution", r"formic acid", r"co2 hydrogenation"
         ]
     },
     {
@@ -117,19 +152,17 @@ TOPIC_RULES = [
         "keywords": [
             r"electrocataly", r"electro-cataly", r"electroreduct", r"electro-reduct", r"electro-oxidat",
             r"electrooxidat", r"\boer\b", r"\bher\b", r"\borr\b", r"\bco2rr\b", r"\bnrr\b",
-            r"electrochemical", r"electrosynthesis", r"faradaic efficiency", r"helmholtz",
-            r"water electrolysis", r"membrane electrode", r"zero-gap", r"overpotential",
-            r"gas diffusion electrode", r"flow cell", r"water splitting"
+            r"oxygen evolution reaction", r"oxygen reduction reaction", r"hydrogen evolution reaction",
+            r"bifunctional electrocatalyst", r"electrochemical", r"electrosynthesis", r"faradaic efficiency"
         ]
     },
     {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis",
+        "id": "ionic",
+        "name_cn": "绿色化学与离子液体",
+        "name_en": "Ionic Liquids & Green Chemistry",
         "keywords": [
-            r"degradation", r"pollutant", r"wastewater", r"peroxymonosulfate",
-            r"persulfate", r"fenton", r"no removal", r"dye degradation",
-            r"antibiotic", r"environmental", r"organic pollutant", r"cr\(vi\)", r"heavy metal"
+            r"ionic liquid", r"ionic liquids", r"desulfurization", r"oxidative desulfurization",
+            r"deep eutectic", r"green solvent", r"extractive desulfurization", r"diesel", r"fuel oil"
         ]
     },
     {
@@ -137,9 +170,9 @@ TOPIC_RULES = [
         "name_cn": "生物质转化与有机合成",
         "name_en": "Biomass & Organic Synthesis",
         "keywords": [
-            r"biomass", r"organic synthesis", r"coupling reaction", r"furfural",
-            r"lignin", r"oxidation of alcohol", r"amine", r"selective oxidation",
-            r"selective hydrogenation", r"5-hydroxymethylfurfural", r"\bhmf\b"
+            r"biomass", r"organic synthesis", r"coupling reaction", r"furfural", r"lignin",
+            r"oxidation of alcohol", r"amine", r"selective oxidation", r"selective hydrogenation",
+            r"5-hydroxymethylfurfural", r"\bhmf\b"
         ]
     },
     {
@@ -147,8 +180,9 @@ TOPIC_RULES = [
         "name_cn": "电池与储能",
         "name_en": "Batteries & Energy Storage",
         "keywords": [
-            r"battery", r"batteries", r"supercapacitor", r"storage", r"lithium",
-            r"sodium-ion", r"zinc-ion", r"anode", r"cathode", r"solid-state electrolyte"
+            r"battery", r"batteries", r"supercapacitor", r"supercapacitors", r"energy storage",
+            r"lithium", r"sodium-ion", r"zinc-ion", r"potassium-ion", r"anode", r"cathode",
+            r"solid-state electrolyte"
         ]
     }
 ]
@@ -403,38 +437,45 @@ def run_sync():
         record_key = doi if doi else uid
         cached_item = fixed_metadata.get(record_key, {})
 
-        # 主题分类固化：若已有固化缓存，直接复用，绝不重算
-        if cached_item.get("topics"):
-            matched_topics = cached_item["topics"]
-        else:
-            full_text = f"{title_raw} {journal}".lower()
-            matched_topics = []
-            for rule in TOPIC_RULES:
-                for kw in rule["keywords"]:
-                    if re.search(kw, full_text, re.IGNORECASE):
-                        matched_topics.append({
-                            "id": rule["id"],
-                            "name_cn": rule["name_cn"],
-                            "name_en": rule["name_en"]
-                        })
-                        break
-            if not matched_topics:
-                matched_topics.append({
-                    "id": "materials",
-                    "name_cn": "功能材料与催化",
-                    "name_en": "Advanced Catalytic Materials"
-                })
-            # 存入固化缓存
-            fixed_metadata[record_key] = {
-                "topics": matched_topics,
-                "title": title_raw,
-                "journal": journal,
-                "volume": vol,
-                "issue": iss,
-                "page": page_range,
-                "is_first_author": is_first_author,
-                "is_corr_author": is_corr_author
-            }
+        # 主题分类提取 (融合标题、WoS作者官方关键词与期刊名，支持复合多标签)
+        clean_title_text = re.sub(r'<[^>]+>', '', title_raw)
+        kw_node = hit.get('keywords', {})
+        author_keywords = kw_node.get('authorKeywords', [])
+        clean_kws = [re.sub(r'<[^>]+>', '', kw) for kw in author_keywords if kw]
+        kws_str = " ".join(clean_kws)
+        match_corpus = f"{clean_title_text} {kws_str} {journal}".lower()
+
+        matched_topics = []
+        for rule in TOPIC_RULES:
+            for kw in rule["keywords"]:
+                if re.search(kw, match_corpus, re.IGNORECASE):
+                    matched_topics.append({
+                        "id": rule["id"],
+                        "name_cn": rule["name_cn"],
+                        "name_en": rule["name_en"]
+                    })
+                    break
+
+        if not matched_topics:
+            matched_topics.append({
+                "id": "materials",
+                "name_cn": "功能材料与基础研究",
+                "name_en": "Advanced Functional Materials"
+            })
+
+        # 存入固化缓存
+        if record_key not in fixed_metadata:
+            fixed_metadata[record_key] = {}
+        fixed_metadata[record_key].update({
+            "topics": matched_topics,
+            "title": title_raw,
+            "journal": journal,
+            "volume": vol,
+            "issue": iss,
+            "page": page_range,
+            "is_first_author": is_first_author,
+            "is_corr_author": is_corr_author
+        })
 
         # 重点期刊匹配
         journal_lower = journal.lower()
@@ -573,6 +614,23 @@ def run_sync():
             tid = t["id"]
             topic_stats[tid] = topic_stats.get(tid, 0) + 1
 
+    # 按主题所含文章数量从多到少降序排序
+    topics_all_defs = list(TOPIC_RULES) + [{
+        "id": "materials",
+        "name_cn": "功能材料与基础研究",
+        "name_en": "Advanced Functional Materials"
+    }]
+    topics_sorted = []
+    for t_def in sorted(topics_all_defs, key=lambda x: topic_stats.get(x["id"], 0), reverse=True):
+        cnt = topic_stats.get(t_def["id"], 0)
+        if cnt > 0:
+            topics_sorted.append({
+                "id": t_def["id"],
+                "name_cn": t_def["name_cn"],
+                "name_en": t_def["name_en"],
+                "count": cnt
+            })
+
     pubs_payload = {
         "meta": {
             "total": len(processed_publications),
@@ -582,7 +640,8 @@ def run_sync():
             "esi_count": esi_count,
             "first_or_corr_count": first_or_corr_cnt,
             "journal_stats": journal_stats,
-            "topic_stats": topic_stats
+            "topic_stats": topic_stats,
+            "topics_sorted": topics_sorted
         },
         "publications": processed_publications
     }
