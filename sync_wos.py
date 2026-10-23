@@ -108,18 +108,18 @@ HONORS_CONFIG = [
     }
 ]
 
-# 重点期刊严格排序规则（包含 29 篇代表作严格 10 本顶刊判定）
+# 重点期刊严格排序规则（严格按照官方指定优先级：Nat. Energy 居首，确保严格锁定 29 篇代表作）
 TOP_JOURNALS_STRICT = [
     {"abbr": "Nat. Energy", "pattern": r"nature\s+energy", "is_top": True},
-    {"abbr": "Nat. Commun.", "pattern": r"nature\s+communications", "is_top": True},
-    {"abbr": "Adv. Mater.", "pattern": r"advanced\s+materials(?!\s+(interfaces|research|technologies))", "is_top": True},
-    {"abbr": "Adv. Energy Mater.", "pattern": r"advanced\s+energy\s+materials", "is_top": True},
     {"abbr": "Angew. Chem.", "pattern": r"angewandte\s+chemie", "is_top": True},
-    {"abbr": "ACS Nano", "pattern": r"acs\s+nano", "is_top": True},
-    {"abbr": "CES", "pattern": r"chemical\s+engineering\s+science", "is_top": True},
     {"abbr": "AIChE J.", "pattern": r"aiche\s+journal", "is_top": True},
+    {"abbr": "CES", "pattern": r"chemical\s+engineering\s+science", "is_top": True},
     {"abbr": "ACS Catal.", "pattern": r"acs\s+catalysis", "is_top": True},
+    {"abbr": "ACS Nano", "pattern": r"acs\s+nano", "is_top": True},
     {"abbr": "AFM", "pattern": r"advanced\s+functional\s+materials", "is_top": True},
+    {"abbr": "Adv. Energy Mater.", "pattern": r"advanced\s+energy\s+materials", "is_top": True},
+    {"abbr": "Adv. Mater.", "pattern": r"^advanced\s+materials(?!\s+(interfaces|research|technologies|and|structures|applied))", "is_top": True},
+    {"abbr": "Nat. Commun.", "pattern": r"nature\s+communications", "is_top": True},
     {"abbr": "Appl. Catal. B", "pattern": r"applied\s+catalysis\s+b", "is_top": False},
     {"abbr": "Nano Energy", "pattern": r"nano\s+energy", "is_top": False},
     {"abbr": "CEJ", "pattern": r"chemical\s+engineering\s+journal", "is_top": False},

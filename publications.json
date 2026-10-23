@@ -3,19 +3,18 @@
     "total": 504,
     "updated_at": "2026年10月23日",
     "source": "Clarivate Web of Science (核心合集)",
-    "selected_count": 30,
+    "selected_count": 29,
     "esi_count": 27,
     "first_or_corr_count": 275,
     "journal_stats": {
       "Nat. Energy": 1,
-      "Adv. Mater.": 1,
-      "Adv. Energy Mater.": 2,
       "Angew. Chem.": 5,
-      "ACS Nano": 2,
-      "CES": 2,
       "AIChE J.": 2,
+      "CES": 2,
       "ACS Catal.": 6,
+      "ACS Nano": 2,
       "AFM": 3,
+      "Adv. Energy Mater.": 2,
       "Appl. Catal. B": 33,
       "Nano Energy": 4,
       "CEJ": 28,
@@ -18181,12 +18180,9 @@
           "name_en": "Environmental Catalysis"
         }
       ],
-      "is_selected": true,
+      "is_selected": false,
       "is_esi": false,
-      "badges": [
-        "Selected",
-        "Adv. Mater."
-      ],
+      "badges": [],
       "index": 20
     },
     {
