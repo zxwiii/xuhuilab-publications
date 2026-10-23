@@ -1,0 +1,55 @@
+name: Auto Sync Publications from Web of Science & Mirror to Gitee
+
+on:
+  schedule:
+    # 每半月自动同步一次：每月 1 号和 15 号凌晨 02:00 UTC (北京时间 10:00)
+    - cron: '0 2 1,15 * *'
+  workflow_dispatch: # 支持随时在 GitHub 网页上手动点击按钮一键立即同步
+
+jobs:
+  sync-and-mirror:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout GitHub Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Web of Science Official Precision Sync
+        env:
+          WOS_API_KEY: ${{ secrets.WOS_API_KEY }}
+        run: |
+          python sync_wos.py
+
+      - name: Commit and Push Changes to GitHub
+        id: git-push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add publications.json publications_data.js impact_data.js impact_metrics.json wos_fixed_metadata.json crossref_cache.json xh.txt selected_doi.txt esi_top_1_percent.txt
+          if git diff --staged --quiet; then
+            echo "No changes detected. Everything is up to date."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "Auto sync publications & impact metrics from Web of Science [skip ci]"
+            git push
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Mirror to Gitee (Domestic High-speed Node)
+        if: env.GITEE_USER != '' && env.GITEE_TOKEN != ''
+        env:
+          GITEE_USER: ${{ secrets.GITEE_USER }}
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          echo "Mirroring repository to Gitee..."
+          git remote add gitee https://${GITEE_USER}:${GITEE_TOKEN}@gitee.com/${GITEE_USER}/xuhuilab-publications.git || true
+          git push -f gitee main:master || git push -f gitee main:main || echo "Gitee push completed"
