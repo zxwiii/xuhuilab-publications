@@ -4,105 +4,1263 @@
  */
 window.XH_PUBLICATIONS_DATA = {
   "meta": {
-    "total": 450,
+    "total": 504,
     "updated_at": "2026年10月24日",
     "source": "Clarivate Web of Science (核心合集)",
-    "selected_count": 20,
-    "esi_count": 23,
-    "first_or_corr_count": 240,
+    "selected_count": 29,
+    "esi_count": 27,
+    "first_or_corr_count": 275,
     "journal_stats": {
       "Nat. Energy": 1,
-      "Angew. Chem.": 3,
-      "AIChE J.": 1,
-      "CES": 1,
-      "ACS Catal.": 2,
+      "Angew. Chem.": 5,
+      "AIChE J.": 2,
+      "CES": 2,
+      "ACS Catal.": 6,
       "ACS Nano": 2,
-      "AFM": 2,
+      "AFM": 3,
       "Adv. Energy Mater.": 2,
-      "Appl. Catal. B": 27,
+      "Appl. Catal. B": 33,
       "Nano Energy": 4,
-      "CEJ": 23,
+      "CEJ": 28,
       "JMCA": 9,
       "J. Energy Chem.": 5,
-      "Chin. J. Catal.": 6,
-      "Small": 5
+      "Chin. J. Catal.": 7,
+      "Small": 6
     },
     "topic_stats": {
-      "photocat": 343,
-      "co2": 54,
-      "ionic": 39,
-      "env": 156,
-      "c3n4_2d": 264,
-      "biomass": 16,
-      "electrocat": 47,
-      "energy": 87,
-      "materials": 26,
-      "battery": 16
+      "co2": 74,
+      "electrocat": 65,
+      "photocat": 372,
+      "c3n4_2d": 286,
+      "env": 170,
+      "energy": 105,
+      "materials": 28,
+      "ionic": 40,
+      "biomass": 19,
+      "battery": 17
     },
     "topics_sorted": [
       {
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis",
-        "count": 343
+        "count": 372
       },
       {
         "id": "c3n4_2d",
         "name_cn": "碳氮材料与二维半导体",
         "name_en": "Carbon Nitride & 2D Materials",
-        "count": 264
+        "count": 286
       },
       {
         "id": "env",
         "name_cn": "环境催化",
         "name_en": "Environmental Catalysis",
-        "count": 156
+        "count": 170
       },
       {
         "id": "energy",
         "name_cn": "太阳能转化与绿氢",
         "name_en": "Solar Energy & Hydrogen",
-        "count": 87
+        "count": 105
       },
       {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion",
-        "count": 54
+        "count": 74
       },
       {
         "id": "electrocat",
         "name_cn": "电催化",
         "name_en": "Electrocatalysis",
-        "count": 47
+        "count": 65
       },
       {
         "id": "ionic",
         "name_cn": "绿色化学与离子液体",
         "name_en": "Ionic Liquids & Green Chemistry",
-        "count": 39
+        "count": 40
       },
       {
         "id": "materials",
         "name_cn": "功能材料与基础研究",
         "name_en": "Advanced Functional Materials",
-        "count": 26
+        "count": 28
       },
       {
         "id": "biomass",
         "name_cn": "生物质转化与有机合成",
         "name_en": "Biomass & Organic Synthesis",
-        "count": 16
+        "count": 19
       },
       {
         "id": "battery",
         "name_cn": "电池与储能",
         "name_en": "Batteries & Energy Storage",
-        "count": 16
+        "count": 17
       }
     ]
   },
   "publications": [
+    {
+      "uid": "WOS:001842817000001",
+      "title": "External-Field-Enhanced Helmholtz-Layer Local Charge Density Enables C―C Coupling in Pure-H2O-Fed CO2 Electroreduction To C2+Products",
+      "authors": "Yuan Zhang, Zhaolong Wang, Zhihang Xu, Lyuchao Zhuang, Siyu Yi, Xiaojie She, Hongping Li, Yiqun Fan, <strong>Hui Xu</strong>, Weihong Xing",
+      "journal": "Angewandte Chemie International Edition",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-OCT 5",
+      "volume": "65",
+      "issue": "41",
+      "page": "e7758933",
+      "doi": "10.1002/anie.7758933",
+      "url": "https://doi.org/10.1002/anie.7758933",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001842817000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 1,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "Angew. Chem."
+      ],
+      "index": 504
+    },
+    {
+      "uid": "WOS:001668263100001",
+      "title": "Enhanced photocatalytic disinfection with surface plasmon resonance effect in S-scheme heterojunction",
+      "authors": "Bo Zhang, Xuanhui Lin, Jiale Li, Xiaohong Xu, Jiawei Xie, Qiuheng Wang, Ruya Ma, Zhao Mo, Xiuquan Xu, <strong>Hui Xu</strong>",
+      "journal": "Solar Energy",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-MAR 1",
+      "volume": "306",
+      "issue": "",
+      "page": "114321",
+      "doi": "10.1016/j.solener.2026.114321",
+      "url": "https://doi.org/10.1016/j.solener.2026.114321",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001668263100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 2,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 503
+    },
+    {
+      "uid": "WOS:001708313100001",
+      "title": "Stable CO2 electroreduction to CH4 at an engineering-relevant scale enabled by confined Cu nanoclusters",
+      "authors": "Zhaolong Wang, Tao Wang, Siyu Yi, Jianjian Yi, Zhao Mo, Xingwang Zhu, Mengxia Ji, Jinman Yang, <strong>Hui Xu</strong>, Xiaojie She",
+      "journal": "AIChE Journal",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-JUN",
+      "volume": "72",
+      "issue": "6",
+      "page": "e70330",
+      "doi": "10.1002/aic.70330",
+      "url": "https://doi.org/10.1002/aic.70330",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001708313100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 0,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "AIChE J."
+      ],
+      "index": 502
+    },
+    {
+      "uid": "WOS:001795486900001",
+      "title": "Organic-Molecular Modification Strategy on the Local Microenvironment and Catalysts for CO2 Electroreduction to C2+",
+      "authors": "Yuan Zhang, Xiaojie She, Zhaolong Wang, <strong>Hui Xu</strong>, Weihong Xing",
+      "journal": "ACS Catalysis",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-JUL 3",
+      "volume": "16",
+      "issue": "13",
+      "page": "11845-11883",
+      "doi": "10.1021/acscatal.6c03039",
+      "url": "https://doi.org/10.1021/acscatal.6c03039",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001795486900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 1,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "ACS Catal."
+      ],
+      "index": 501
+    },
+    {
+      "uid": "WOS:001702248400001",
+      "title": "Oxygen vacancy regulation in S-scheme heterojunction of half-metallic carbon nitride and Bi2WO6: Accelerated charge transfer for efficient CO2 photoreduction",
+      "authors": "Kang Zhong, Chentao Zhu, Bingbing Zhu, Jinman Yang, Peipei Sun, Quan Zhang, Junjie Yuan, Xingwang Zhu, Huaming Li, <strong>Hui Xu</strong>",
+      "journal": "Applied Catalysis B: Environmental",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-JUL 15",
+      "volume": "389",
+      "issue": "",
+      "page": "126579",
+      "doi": "10.1016/j.apcatb.2026.126579",
+      "url": "https://doi.org/10.1016/j.apcatb.2026.126579",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001702248400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 29,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "Appl. Catal. B"
+      ],
+      "index": 500
+    },
+    {
+      "uid": "WOS:001643696100001",
+      "title": "Ultrafast Carbothermal Shock Strategy for Engineering Lattice Hydroxyl-Enriched Co-Based Catalysts toward Nitrate Electroreduction",
+      "authors": "Xuemei Hu, Wei Zhang, Kun Feng, Cheng Lu, Xiaoxin Lv, Yilin Deng, Jun Zhong, <strong>Hui Xu</strong>, Jiujun Deng",
+      "journal": "ACS Catalysis",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-JAN 2",
+      "volume": "16",
+      "issue": "1",
+      "page": "831-841",
+      "doi": "10.1021/acscatal.5c08597",
+      "url": "https://doi.org/10.1021/acscatal.5c08597",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001643696100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 6,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "ACS Catal."
+      ],
+      "index": 499
+    },
+    {
+      "uid": "WOS:001576844100002",
+      "title": "Facet-selective synthesis of cadmium sulfide photocatalysts for high-efficiency CO2 conversion",
+      "authors": "Xingwang Zhu, Xiang Liu, Xiang Shi, Fujiang Huang, Hangmin Xu, Ganghua Zhou, Xiaozhi Wang, Xu Dong, Penghui Ding, Jianning Ding, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Colloid And Interface Science",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-JAN",
+      "volume": "701",
+      "issue": "",
+      "page": "138723",
+      "doi": "10.1016/j.jcis.2025.138723",
+      "url": "https://doi.org/10.1016/j.jcis.2025.138723",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001576844100002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 9,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 498
+    },
+    {
+      "uid": "WOS:001602888400001",
+      "title": "Synergistic Cl and O co-doping in self-assembled red carbon nitride nanorods for enhanced photocatalytic H2O2 production",
+      "authors": "Kang Zhong, Guanyu Wu, Peipei Sun, Si Chen, Xiaomei Dai, Jinman Yang, Huaming Li, Zhao Mo, <strong>Hui Xu</strong>",
+      "journal": "Applied Catalysis B: Environmental",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-JAN",
+      "volume": "380",
+      "issue": "",
+      "page": "125804",
+      "doi": "10.1016/j.apcatb.2025.125804",
+      "url": "https://doi.org/10.1016/j.apcatb.2025.125804",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001602888400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 25,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "Appl. Catal. B"
+      ],
+      "index": 497
+    },
+    {
+      "uid": "WOS:001684176600001",
+      "title": "Atomic-level Mn incorporation into Co3O4 for selective CO2 photoreduction in pure water under dilute CO2 atmosphere",
+      "authors": "Ganghua Zhou, Jie Liu, Longyun Zhang, Chuanzhou Bi, Hangmin Xu, Weiyi Jiang, Xingwang Zhu, Xin Ning, <strong>Hui Xu</strong>, Xiaozhi Wang",
+      "journal": "Chinese Journal of Catalysis",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-FEB",
+      "volume": "81",
+      "issue": "",
+      "page": "216-226",
+      "doi": "10.1016/s1872-2067(25)64861-3",
+      "url": "https://doi.org/10.1016/s1872-2067(25)64861-3",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001684176600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 8,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "Chin. J. Catal."
+      ],
+      "index": 496
+    },
+    {
+      "uid": "WOS:001679862900005",
+      "title": "Rational design of donor-acceptor structured tubular carbon nitride modulates charge distribution for photocatalytic hydrogen evolution",
+      "authors": "Qiuheng Wang, Guanyu Wu, Pengfei Zheng, Luye Pan, Zhao Mo, Peipei Sun, Xianglin Zhu, Yaqi Han, Songmei Wang, <strong>Hui Xu</strong>",
+      "journal": "Nano Materials Science",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-FEB",
+      "volume": "8",
+      "issue": "1",
+      "page": "234-243",
+      "doi": "10.1016/j.nanoms.2025.03.007",
+      "url": "https://doi.org/10.1016/j.nanoms.2025.03.007",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001679862900005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 34,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 495
+    },
+    {
+      "uid": "WOS:001706065800001",
+      "title": "Buffering the local pH via alkaline-earth metals-modified Cu@C electrocatalyst to boost CO2 methanation",
+      "authors": "Zhongqiu Wu, Yi Liang, Zhaolong Wang, Shuai Xia, Xingwang Zhu, Wanzhen Zheng, Xiaojie She, Yang Hou, <strong>Hui Xu</strong>",
+      "journal": "Applied Catalysis B: Environmental",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-AUG 5",
+      "volume": "390",
+      "issue": "",
+      "page": "126500",
+      "doi": "10.1016/j.apcatb.2026.126500",
+      "url": "https://doi.org/10.1016/j.apcatb.2026.126500",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001706065800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 3,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "Appl. Catal. B"
+      ],
+      "index": 494
+    },
+    {
+      "uid": "WOS:001565595700001",
+      "title": "Wearable H2S Sensors with Enhanced Humidity Tolerance: Microcrumpled SnO2 Quantum-Wire Films for Real-Time Room-Temperature Gas Monitoring",
+      "authors": "Bingchen Zhu, Weihao Fang, Jia Yan, Yue Kang, Yi Tian, Kunmei Yang, Jiazhen Zhang, Yingping Zhang, <strong>Hui Xu</strong>, Zhilong Song",
+      "journal": "Acs Applied Materials & Interfaces",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-SEP 10",
+      "volume": "17",
+      "issue": "36",
+      "page": "50856-50864",
+      "doi": "10.1021/acsami.5c10408",
+      "url": "https://doi.org/10.1021/acsami.5c10408",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001565595700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 5,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "materials",
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 493
+    },
+    {
+      "uid": "WOS:001602535100001",
+      "title": "Degradation of Tetracycline by Laccase-Mediator System Using Tea Polyphenols as Mediator",
+      "authors": "Ling Xu, Shuang Zhang, <strong>Hui Xu</strong>, Anzhou Ma, Guoqiang Zhuang, Shuhao Huo, Bin Zou, Jingya Qian, Guoqiang Guan, Feng Wang",
+      "journal": "Catalysts",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-OCT 4",
+      "volume": "15",
+      "issue": "10",
+      "page": "952",
+      "doi": "10.3390/catal15100952",
+      "url": "https://doi.org/10.3390/catal15100952",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001602535100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 4,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 492
+    },
+    {
+      "uid": "WOS:001589640700023",
+      "title": "Proton exchange membranes enhanced by MOF arrays for promoting acidic CO2 electrolysis",
+      "authors": "Jingyi Li, Peng Zhu, Yuqing Jiang, Yulong Ying, Wei Zhang, Long Zhang, Yuqiao Zhang, Weiqiang Zhou, <strong>Hui Xu</strong>, Qing Yu, Yi Guo",
+      "journal": "Chemical Engineering Journal",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-NOV 15",
+      "volume": "524",
+      "issue": "",
+      "page": "169012",
+      "doi": "10.1016/j.cej.2025.169012",
+      "url": "https://doi.org/10.1016/j.cej.2025.169012",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001589640700023&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 5,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "CEJ"
+      ],
+      "index": 491
+    },
+    {
+      "uid": "WOS:001599333800001",
+      "title": "Hierarchical Bi/Bi2O3 heterostructures with robust oxygen vacancies for efficient electrochemical CO2 reduction to formate",
+      "authors": "Yi Wang, Zhaolong Wang, Siyu Yi, Qiankang Zhang, Mengxia Ji, Jinman Yang, Pengcheng Yan, Xingwang Zhu, <strong>Hui Xu</strong>, Xiaojie She",
+      "journal": "Chemical Communications",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-NOV 13",
+      "volume": "61",
+      "issue": "92",
+      "page": "18140-18143",
+      "doi": "10.1039/d5cc05453b",
+      "url": "https://doi.org/10.1039/d5cc05453b",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001599333800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 5,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 490
+    },
+    {
+      "uid": "WOS:001606055100005",
+      "title": "Research progress of graphitic carbon nitride in photocatalytic hydrogen evolution",
+      "authors": "Xixiang Ding, Qiuheng Wang, Huanzhi Liu, Junjie Wang, Pengcheng Yan, Hanxiang Chen, Peipei Sun, Xianglin Zhu, Zhao Mo, <strong>Hui Xu</strong>",
+      "journal": "International Journal Of Hydrogen Energy",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-NOV 11",
+      "volume": "187",
+      "issue": "",
+      "page": "152004",
+      "doi": "10.1016/j.ijhydene.2025.152004",
+      "url": "https://doi.org/10.1016/j.ijhydene.2025.152004",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001606055100005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 11,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 489
+    },
+    {
+      "uid": "WOS:001508808500001",
+      "title": "Improving Electrocatalytic Activity and Durability of Cobalt-Free Bismuth Ferrite-Based Perovskite Oxygen Electrode for Reversible Solid Oxide Cells",
+      "authors": "Ning Sun, Guangjun Zhang, Jiancheng Wang, Guozhu Zheng, <strong>Hui Xu</strong>, Yating Zhang, Lang Xu, Fangjun Jin, Ting Chen, Shaorong Wang",
+      "journal": "Advanced Functional Materials",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-NOV",
+      "volume": "35",
+      "issue": "48",
+      "page": "2509535",
+      "doi": "10.1002/adfm.202509535",
+      "url": "https://doi.org/10.1002/adfm.202509535",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001508808500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 14,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "AFM"
+      ],
+      "index": 488
+    },
+    {
+      "uid": "WOS:001423333600001",
+      "title": "P-doped and cyano-modified carbon nitride nanotubes for photocatalytic hydrogen evolution coupled with bisphenol A degradation",
+      "authors": "Zhihuan Miao, Fan Xu, Baohui Zhao, Yanhua Song, Peipei Sun, Guanyu Wu, Keqiang Xu, Pengcheng Yan, Zhao Mo, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Colloid And Interface Science",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-MAY 15",
+      "volume": "686",
+      "issue": "",
+      "page": "525-534",
+      "doi": "10.1016/j.jcis.2025.01.258",
+      "url": "https://doi.org/10.1016/j.jcis.2025.01.258",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001423333600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 23,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 487
+    },
+    {
+      "uid": "WOS:001422207900001",
+      "title": "Polymer-induced self-assembly strategy toward 3D printable porous MoO3/ Al2O3 catalyst for efficient oxidative desulfurization",
+      "authors": "Yingcheng Wu, Jing He, Haiyan Huang, Hongping Li, Rui Wang, Huaming Li, Wei Jiang, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Colloid And Interface Science",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-MAY 15",
+      "volume": "686",
+      "issue": "",
+      "page": "14-26",
+      "doi": "10.1016/j.jcis.2025.01.140",
+      "url": "https://doi.org/10.1016/j.jcis.2025.01.140",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001422207900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 11,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "ionic",
+          "name_cn": "绿色化学与离子液体",
+          "name_en": "Ionic Liquids & Green Chemistry"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 486
+    },
+    {
+      "uid": "WOS:001421567000001",
+      "title": "Recent research advances in adsorption removal of gaseous hydrogen sulfide by biochar",
+      "authors": "Xinyu Gao, Zihan Xiao, Pengju Wu, Yangxian Liu, <strong>Hui Xu</strong>, Yan Wang",
+      "journal": "Fuel",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-MAY 15",
+      "volume": "388",
+      "issue": "",
+      "page": "134390",
+      "doi": "10.1016/j.fuel.2025.134390",
+      "url": "https://doi.org/10.1016/j.fuel.2025.134390",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001421567000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 12,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 485
+    },
+    {
+      "uid": "WOS:001485359300001",
+      "title": "S-Scheme Homojunction Carbon Nitride for Photocatalytic Overall Water Splitting",
+      "authors": "Guanyu Wu, Wei Zhang, Zhao Mo, Xinyu Zhao, Peipei Sun, Qiuheng Wang, Pengcheng Yan, Xiaojie She, <strong>Hui Xu</strong>",
+      "journal": "ACS Catalysis",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-MAY 10",
+      "volume": "15",
+      "issue": "11",
+      "page": "8822-8832",
+      "doi": "10.1021/acscatal.5c01086",
+      "url": "https://doi.org/10.1021/acscatal.5c01086",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001485359300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 106,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": true,
+      "badges": [
+        "Selected",
+        "ESI Top 1%",
+        "ACS Catal."
+      ],
+      "index": 484
+    },
+    {
+      "uid": "WOS:001473145300001",
+      "title": "Three dimensional topological porous carbon/carbon nanotube/graphene matrix decorated with CoFe alloy for lithium sulfur batteries",
+      "authors": "Xuan Liu, Zhao Kong, Minmin Yuan, Guanghui Xu, Ruicheng Cao, Ana Xu, Peng Wan, Yifeng Xia, Hong Jin, <strong>Hui Xu</strong>",
+      "journal": "Carbon",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-MAY 10",
+      "volume": "239",
+      "issue": "",
+      "page": "120322",
+      "doi": "10.1016/j.carbon.2025.120322",
+      "url": "https://doi.org/10.1016/j.carbon.2025.120322",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001473145300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 16,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "battery",
+          "name_cn": "电池与储能",
+          "name_en": "Batteries & Energy Storage"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 483
+    },
+    {
+      "uid": "WOS:001462055300001",
+      "title": "F and B co-modification activated Cu/NC catalyst for enhanced electrocatalytic CO2 reduction to CH4",
+      "authors": "Tao Wang, Siyu Yi, Qiankang Zhang, Zhongqiu Wu, Jingman Yang, Mengxia Ji, Zhaolong Wang, <strong>Hui Xu</strong>, Xiaojie She",
+      "journal": "Chemical Communications",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-MAY 1",
+      "volume": "61",
+      "issue": "37",
+      "page": "6779-6782",
+      "doi": "10.1039/d5cc00280j",
+      "url": "https://doi.org/10.1039/d5cc00280j",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001462055300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 3,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 482
+    },
+    {
+      "uid": "WOS:001427367200001",
+      "title": "Enhanced hydrogen production via piezo-photocatalytic water splitting using BaTiO3 crystal phase engineering",
+      "authors": "Jiafeng Fan, Zhilong Song, Baoting Tan, Haibo Wang, Zhigang Chen, <strong>Hui Xu</strong>, Jia Yan",
+      "journal": "Journal Of Solid State Chemistry",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-MAY",
+      "volume": "345",
+      "issue": "",
+      "page": "125251",
+      "doi": "10.1016/j.jssc.2025.125251",
+      "url": "https://doi.org/10.1016/j.jssc.2025.125251",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001427367200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 6,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 481
+    },
+    {
+      "uid": "WOS:001456378700042",
+      "title": "g-C3N4 S-Scheme Homojunction through Van der Waals Interface Regulation by Intrinsic Polymerization Tailoring for Enhanced Photocatalytic H2 Evolution and CO2 Reduction",
+      "authors": "Xianglin Zhu, Enlong Zhou, Xishi Tai, Huibin Zong, Jianjian Yi, Zhimin Yuan, Xingling Zhao, Peng Huang, <strong>Hui Xu</strong>, Zaiyong Jiang",
+      "journal": "Angewandte Chemie International Edition",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-MAR 24",
+      "volume": "64",
+      "issue": "13",
+      "page": "e202425439",
+      "doi": "10.1002/anie.202425439",
+      "url": "https://doi.org/10.1002/anie.202425439",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001456378700042&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 290,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": true,
+      "badges": [
+        "Selected",
+        "ESI Top 1%",
+        "Angew. Chem."
+      ],
+      "index": 480
+    },
+    {
+      "uid": "WOS:001416574300001",
+      "title": "Synergistic utilization of photogenerated electrons and holes in carbon nitride nanosheet assembly for enhanced photocatalytic H2O2 production",
+      "authors": "Peipei Sun, Kang Zhong, Xunhuai Huang, Guanyu Wu, Zhihuan Miao, Zhigang Chen, Zhao Mo, Jinman Yang, <strong>Hui Xu</strong>",
+      "journal": "Applied Catalysis B: Environmental",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-JUN 5",
+      "volume": "366",
+      "issue": "",
+      "page": "124998",
+      "doi": "10.1016/j.apcatb.2024.124998",
+      "url": "https://doi.org/10.1016/j.apcatb.2024.124998",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001416574300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 63,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": true,
+      "badges": [
+        "ESI Top 1%",
+        "Appl. Catal. B"
+      ],
+      "index": 479
+    },
+    {
+      "uid": "WOS:001436962200001",
+      "title": "Cobalt-modified crystalline carbon nitride homojunction with enhanced interfacial charge separation for photocatalytic pure water splitting",
+      "authors": "Jiajun Fu, Guanyu Wu, Zhigang Chen, Shuang Tong, Jia Yan, Zhilong Song, Zhao Mo, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Colloid And Interface Science",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-JUN 15",
+      "volume": "688",
+      "issue": "",
+      "page": "375-385",
+      "doi": "10.1016/j.jcis.2025.02.144",
+      "url": "https://doi.org/10.1016/j.jcis.2025.02.144",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001436962200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 20,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 478
+    },
+    {
+      "uid": "WOS:001412670400001",
+      "title": "Functionalized sulfonic acid groups enhance solubility and stability of graphene quantum dots for efficient photosynthesis of lettuce",
+      "authors": "Junjie Yuan, Zongli Yang, Jiayi Zou, Zhongqiu Wu, Zhaolong Wang, Liang Wang, Wenlong Shen, Quan Zhang, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Photochemistry And Photobiology A-Chemistry",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-JUN 1",
+      "volume": "463",
+      "issue": "",
+      "page": "116280",
+      "doi": "10.1016/j.jphotochem.2025.116280",
+      "url": "https://doi.org/10.1016/j.jphotochem.2025.116280",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001412670400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 5,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 477
+    },
+    {
+      "uid": "WOS:001469827000001",
+      "title": "Sulfonamide-linked π-conjugated carbon nitride with enhanced intramolecular carrier generation and transfer for efficient photocatalysis",
+      "authors": "Jiajun Fu, Si Chen, Xuanhui Lin, Zongrui Li, Zhao Mo, Mingyue Dong, Zhigang Chen, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Environmental Chemical Engineering",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-JUN",
+      "volume": "13",
+      "issue": "3",
+      "page": "116585",
+      "doi": "10.1016/j.jece.2025.116585",
+      "url": "https://doi.org/10.1016/j.jece.2025.116585",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001469827000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 1,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 476
+    },
+    {
+      "uid": "WOS:001525720200001",
+      "title": "Molecular Structure Engineering of Graphitic Carbon Nitride for Photocatalytic Hydrogen Evolution: Recent Advances and Perspectives",
+      "authors": "Guanyu Wu, Qiuheng Wang, Qinyao Ren, Zhao Mo, <strong>Hui Xu</strong>",
+      "journal": "Small",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-JUL 11",
+      "volume": "",
+      "issue": "",
+      "page": "2503954",
+      "doi": "10.1002/smll.202503954",
+      "url": "https://doi.org/10.1002/smll.202503954",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001525720200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 21,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "Small"
+      ],
+      "index": 475
+    },
     {
       "uid": "WOS:001209721500001",
       "title": "Advances in Defect Engineering of Metal Oxides for Photocatalytic CO2 Reduction",
@@ -139,7 +1297,72 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Small"
       ],
-      "index": 450
+      "index": 474
+    },
+    {
+      "uid": "WOS:001389967400001",
+      "title": "Regulation of Active Site Accessibility Enables Efficient Electrocatalytic CO2 Methanation",
+      "authors": "Xiaofan Yang, Siyu Yi, Zhaolong Wang, Zhongqiu Wu, Ying Zhang, Junjie Yuan, Haibo Wang, Xiaojie She, <strong>Hui Xu</strong>",
+      "journal": "Industrial & Engineering Chemistry Research",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-JAN 4",
+      "volume": "64",
+      "issue": "2",
+      "page": "1164-1172",
+      "doi": "10.1021/acs.iecr.4c03428",
+      "url": "https://doi.org/10.1021/acs.iecr.4c03428",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001389967400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 1,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 473
+    },
+    {
+      "uid": "WOS:001403565600001",
+      "title": "Fluorene-Terminated π-Conjugated Spiro-Type Hole Transport Materials for Perovskite Solar Cells",
+      "authors": "Mengde Zhai, Kaihuai Du, Chengyang Liu, Cheng Chen, Guixiang Li, Haoxin Wang, Ziyang Xia, Jinman Yang, <strong>Hui Xu</strong>, Aili Wang, Toshinori Matsushima, Zhanglin Guo, Meng Li, Antonio Abate, Paul J. Dyson, Mohammad Khaja Nazeeruddin, Ming Cheng",
+      "journal": "Acs Energy Letters",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-JAN 23",
+      "volume": "10",
+      "issue": "2",
+      "page": "915-924",
+      "doi": "10.1021/acsenergylett.4c03233",
+      "url": "https://doi.org/10.1021/acsenergylett.4c03233",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001403565600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 33,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 472
     },
     {
       "uid": "WOS:001272109500001",
@@ -169,7 +1392,195 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 449
+      "index": 471
+    },
+    {
+      "uid": "WOS:001407945500001",
+      "title": "Crystal facet engineering of CeO2-supported Cu sites and efficient anodic coupling for enhanced electrocatalytic CO2 reduction to CH4",
+      "authors": "Zhaolong Wang, Jinman Yang, Siyu Yi, Zhongqiu Wu, Xiaofan Yang, Ying Zhang, Haibo Wang, Xiaojie She, <strong>Hui Xu</strong>",
+      "journal": "Chemical Engineering Science",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-FEB 15",
+      "volume": "305",
+      "issue": "",
+      "page": "121095",
+      "doi": "10.1016/j.ces.2024.121095",
+      "url": "https://doi.org/10.1016/j.ces.2024.121095",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001407945500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 13,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "CES"
+      ],
+      "index": 470
+    },
+    {
+      "uid": "WOS:001401915600001",
+      "title": "In situ construction of metal phosphide-anchored Zn0.5Cd0.5S Schottky junction photocatalysts for efficient hydrogen evolution via photocatalytic reforming of plastics",
+      "authors": "Honghai Miao, Guixin Zeng, Jiangbo Wu, Haotian Qi, Zhimin Yuan, Haibo Wang, Xianglin Zhu, Zhao Mo, Zhigang Chen, <strong>Hui Xu</strong>",
+      "journal": "International Journal Of Hydrogen Energy",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-FEB 10",
+      "volume": "102",
+      "issue": "",
+      "page": "963-971",
+      "doi": "10.1016/j.ijhydene.2025.01.145",
+      "url": "https://doi.org/10.1016/j.ijhydene.2025.01.145",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001401915600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 26,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 469
+    },
+    {
+      "uid": "WOS:001398424300001",
+      "title": "Bipolar hydrogen generation via furfural-water co-electrolysis over bifunctional CuPt catalysts",
+      "authors": "Haiyan Ji, Zhaowen Wu, Tong Li, Guidong Ju, Huaming Li, Yong Wang, <strong>Hui Xu</strong>, Junfeng Liu",
+      "journal": "International Journal Of Hydrogen Energy",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-FEB 10",
+      "volume": "102",
+      "issue": "",
+      "page": "856-865",
+      "doi": "10.1016/j.ijhydene.2025.01.096",
+      "url": "https://doi.org/10.1016/j.ijhydene.2025.01.096",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001398424300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 9,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 468
+    },
+    {
+      "uid": "WOS:001344447900001",
+      "title": "Monodispersed Cu sites assembled on ultrathin 2D C3N4 for efficient electrocatalytic CO2 methanation",
+      "authors": "Siyu Yi, Zhaolong Wang, Zhongqiu Wu, Xiaofan Yang, Haibo Wang, Jingman Yang, Xiaojie She, <strong>Hui Xu</strong>",
+      "journal": "Applied Surface Science",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-FEB 1",
+      "volume": "681",
+      "issue": "",
+      "page": "161492",
+      "doi": "10.1016/j.apsusc.2024.161492",
+      "url": "https://doi.org/10.1016/j.apsusc.2024.161492",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001344447900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 12,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 467
+    },
+    {
+      "uid": "WOS:001492321700005",
+      "title": "Engineering Multiple Optimization Strategy on Bismuth Oxyhalide Photoactive Materials for Efficient Photoelectrochemical Applications",
+      "authors": "Pengcheng Yan, Peng Wang, Jing Huang, Zhao Mo, Li Xu, Yun Chen, Yu Zhang, Zhichong Qi, <strong>Hui Xu</strong>, Henan Li",
+      "journal": "Acta Physico-Chimica Sinica",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-FEB",
+      "volume": "41",
+      "issue": "2",
+      "page": "100014",
+      "doi": "10.3866/pku.whxb202309047",
+      "url": "https://doi.org/10.3866/pku.whxb202309047",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001492321700005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 39,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 466
     },
     {
       "uid": "WOS:001324365500001",
@@ -211,7 +1622,362 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 448
+      "index": 465
+    },
+    {
+      "uid": "WOS:001529858400004",
+      "title": "Constructing an oasis-desert type water chestnut-shaped Sb2WO6/mesoporous carbon nitride Z-scheme heterojunction for enhancing photocatalytic performance",
+      "authors": "Huimin Han, Bin Wang, Chongtai Wang, Gaopeng Liu, Leiyun Han, Jinman Yang, Shihao Jia, Zheng Xie, Daoxiong Wu, <strong>Hui Xu</strong>, Jinyuan Liu, Yingjie Hua",
+      "journal": "Separation And Purification Technology",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-DEC 19",
+      "volume": "377",
+      "issue": "",
+      "page": "134104",
+      "doi": "10.1016/j.seppur.2025.134104",
+      "url": "https://doi.org/10.1016/j.seppur.2025.134104",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001529858400004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 1,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 464
+    },
+    {
+      "uid": "WOS:001625431700021",
+      "title": "Electron relay between S-Scheme heterojunction and variable-valence metals promotes photocatalytic hydrogen production over CeO2@MnXCd1-XS",
+      "authors": "Lei Yin, Qiuheng Wang, Jinyuan Zhang, Guanyu Wu, Jongkeun Lee, Peipei Sun, Zhao Mo, Hanxiang Chen, Xianglin Zhu, <strong>Hui Xu</strong>",
+      "journal": "Chemical Engineering Journal",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-DEC 15",
+      "volume": "526",
+      "issue": "",
+      "page": "170911",
+      "doi": "10.1016/j.cej.2025.170911",
+      "url": "https://doi.org/10.1016/j.cej.2025.170911",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001625431700021&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 15,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "CEJ"
+      ],
+      "index": 463
+    },
+    {
+      "uid": "WOS:001599451500001",
+      "title": "Electrocatalytic CO2 Reduction into Value-Added Chemicals: Selectivity Tuning, Efficiency Improvement, and Scalability Challenge",
+      "authors": "Xingqun Li, Junjie Yuan, Zhongqiu Wu, Han Zhang, Yong Li, Quan Zhang, <strong>Hui Xu</strong>",
+      "journal": "Chemsuschem",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-DEC 13",
+      "volume": "18",
+      "issue": "24",
+      "page": "e202501842",
+      "doi": "10.1002/cssc.202501842",
+      "url": "https://doi.org/10.1002/cssc.202501842",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001599451500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 8,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 462
+    },
+    {
+      "uid": "WOS:001600363000002",
+      "title": "Boosting H2 evolution via dual-functional interfacial design in Pt/Co0.85Se/ g-C3N4 antenna photocatalyst",
+      "authors": "Xianglin Zhu, Jiangbo Wu, Xi Luo, Honghai Miao, Jinyuan Liu, Zhao Mo, <strong>Hui Xu</strong>, Shukui Shi, Xusheng Wang, Zhimin Yuan",
+      "journal": "Journal Of Environmental Chemical Engineering",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-DEC",
+      "volume": "13",
+      "issue": "6",
+      "page": "119807",
+      "doi": "10.1016/j.jece.2025.119807",
+      "url": "https://doi.org/10.1016/j.jece.2025.119807",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001600363000002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 5,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 461
+    },
+    {
+      "uid": "WOS:001456594400001",
+      "title": "High-intensity interfacial electric fields between co-catalysts and semiconductor: A determinant factor in enhancing photocatalytic hydrogen production",
+      "authors": "Guanyu Wu, Xue Gao, Peipei Sun, Zhao Mo, Qiuheng Wang, Hanxiang Chen, Henghui Liao, Pengcheng Yan, Xiaojie She, <strong>Hui Xu</strong>",
+      "journal": "Applied Catalysis B: Environmental",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-AUG 15",
+      "volume": "371",
+      "issue": "",
+      "page": "125265",
+      "doi": "10.1016/j.apcatb.2025.125265",
+      "url": "https://doi.org/10.1016/j.apcatb.2025.125265",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001456594400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 57,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": true,
+      "badges": [
+        "ESI Top 1%",
+        "Appl. Catal. B"
+      ],
+      "index": 460
+    },
+    {
+      "uid": "WOS:001441436100001",
+      "title": "Engineering the S-scheme heterojunction modulating the charge density of the central carbon atom of half-metallic carbon nitride for boosting CO2 photoreduction",
+      "authors": "Chentao Zhu, Kang Zhong, Bingbing Zhu, Shuting Li, Huaming Li, Jinman Yang, <strong>Hui Xu</strong>",
+      "journal": "Applied Catalysis B: Environmental",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-AUG 15",
+      "volume": "371",
+      "issue": "",
+      "page": "125200",
+      "doi": "10.1016/j.apcatb.2025.125200",
+      "url": "https://doi.org/10.1016/j.apcatb.2025.125200",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001441436100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 48,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "Appl. Catal. B"
+      ],
+      "index": 459
+    },
+    {
+      "uid": "WOS:001428197900001",
+      "title": "Enhancement of photocatalytic activity of 2D/2D Sb2WO6/g-C3N4 Z-scheme heterojunction via effective interfacial charge transfer",
+      "authors": "Jinxin Liu, Jinyuan Liu, Qichang Peng, Bin Wang, Xingwang Zhu, Xue Gao, Huaming Li, <strong>Hui Xu</strong>, Paul K. Chu",
+      "journal": "Colloids And Surfaces A-Physicochemical And Engineering Aspects",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-APR 20",
+      "volume": "711",
+      "issue": "",
+      "page": "136342",
+      "doi": "10.1016/j.colsurfa.2025.136342",
+      "url": "https://doi.org/10.1016/j.colsurfa.2025.136342",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001428197900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 2,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 458
+    },
+    {
+      "uid": "WOS:001471386600001",
+      "title": "Boosting the C-C Coupling Efficiency for Diluted CO2 Electroreduction to Dual Carbon Products",
+      "authors": "Ying Zhang, Qing Yu, Zhaolong Wang, Wei Zhang, Xiaojie She, Qiankang Zhang, Yunliang Liu, Haitao Li, <strong>Hui Xu</strong>",
+      "journal": "ACS Catalysis",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-APR 18",
+      "volume": "15",
+      "issue": "9",
+      "page": "7352-7360",
+      "doi": "10.1021/acscatal.5c00090",
+      "url": "https://doi.org/10.1021/acscatal.5c00090",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001471386600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 17,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "ACS Catal."
+      ],
+      "index": 457
+    },
+    {
+      "uid": "WOS:001397250600001",
+      "title": "C-S bonds mediated rapid charge transfer in hm-C4N3/CdS heterostructure for efficient photocatalytic CO2 reduction",
+      "authors": "Shuting Li, Kang Zhong, Jinman Yang, Chentao Zhu, Hangmin Xu, Jian Xu, Xingwang Zhu, Jia Yan, Huaming Li, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Colloid And Interface Science",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-APR 15",
+      "volume": "684",
+      "issue": "",
+      "page": "300-308",
+      "doi": "10.1016/j.jcis.2024.12.247",
+      "url": "https://doi.org/10.1016/j.jcis.2024.12.247",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001397250600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 25,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 456
     },
     {
       "uid": "WOS:001265010500001",
@@ -246,7 +2012,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 447
+      "index": 455
     },
     {
       "uid": "WOS:001284046700001",
@@ -291,7 +2057,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 446
+      "index": 454
     },
     {
       "uid": "WOS:001232046600001",
@@ -326,7 +2092,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 445
+      "index": 453
     },
     {
       "uid": "WOS:001263857700001",
@@ -361,7 +2127,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 444
+      "index": 452
     },
     {
       "uid": "WOS:001217436100001",
@@ -401,7 +2167,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 443
+      "index": 451
     },
     {
       "uid": "WOS:001271734300001",
@@ -436,7 +2202,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 442
+      "index": 450
     },
     {
       "uid": "WOS:001272580700001",
@@ -474,7 +2240,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "CES"
       ],
-      "index": 441
+      "index": 449
     },
     {
       "uid": "WOS:001318849100001",
@@ -509,7 +2275,146 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 440
+      "index": 448
+    },
+    {
+      "uid": "WOS:001327423200001",
+      "title": "Optimizing the separation process for improved zirconia molding through liquid crystal display 3D printing",
+      "authors": "Yingcheng Wu, Jing He, Kang Zhong, Caifeng Chen, Sibo Wang, Xianglin Zhu, Xiaojie She, Yanhua Song, <strong>Hui Xu</strong>",
+      "journal": "Ceramics International",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-NOV 1",
+      "volume": "50",
+      "issue": "21",
+      "page": "43350-43361",
+      "doi": "10.1016/j.ceramint.2024.08.110",
+      "url": "https://doi.org/10.1016/j.ceramint.2024.08.110",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001327423200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 4,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "materials",
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 447
+    },
+    {
+      "uid": "WOS:001332741100001",
+      "title": "Ingenious regulation and activation of sites in the 2H-MoS2 basal planes by oxygen incorporation for enhanced photocatalytic hydrogen evolution of CdS",
+      "authors": "Guixin Zeng, Honghai Miao, Jiangbo Wu, Xianglin Zhu, Jianjian Yi, Xingwang Zhu, Haotian Qi, Zaiyong Jiang, Zhao Mo, Jinyuan Liu, <strong>Hui Xu</strong>",
+      "journal": "Chemical Engineering Journal",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-NOV 1",
+      "volume": "499",
+      "issue": "",
+      "page": "156367",
+      "doi": "10.1016/j.cej.2024.156367",
+      "url": "https://doi.org/10.1016/j.cej.2024.156367",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001332741100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 45,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "CEJ"
+      ],
+      "index": 446
+    },
+    {
+      "uid": "WOS:001332615500001",
+      "title": "Structural design of hierarchical porous biomass carbon with a built-in electric field for efficient peroxymonosulfate activation",
+      "authors": "Xue Gao, Bin Wang, Jinyuan Liu, Xingwang Zhu, Xianglin Zhu, Shumin Zhu, Chao Huang, Qingdong Ruan, Dan Li, Liangliang Liu, Huaming Li, <strong>Hui Xu</strong>, Paul K. Chu",
+      "journal": "Chemical Engineering Journal",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-NOV 1",
+      "volume": "499",
+      "issue": "",
+      "page": "156075",
+      "doi": "10.1016/j.cej.2024.156075",
+      "url": "https://doi.org/10.1016/j.cej.2024.156075",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001332615500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 26,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "env",
+          "name_cn": "环境催化",
+          "name_en": "Environmental Catalysis"
+        },
+        {
+          "id": "biomass",
+          "name_cn": "生物质转化与有机合成",
+          "name_en": "Biomass & Organic Synthesis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "CEJ"
+      ],
+      "index": 445
+    },
+    {
+      "uid": "WOS:001341133400006",
+      "title": "Built-in Electric Fields Enhancing Photocarrier Separation and H2 Evolution",
+      "authors": "Peipei Sun, Jinyuan Zhang, Yanhua Song, Zhao Mo, Zhigang Chen, <strong>Hui Xu</strong>",
+      "journal": "Acta Physico-Chimica Sinica",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-NOV",
+      "volume": "40",
+      "issue": "11",
+      "page": "2311001",
+      "doi": "10.3866/pku.whxb202311001",
+      "url": "https://doi.org/10.3866/pku.whxb202311001",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001341133400006&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 27,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 444
     },
     {
       "uid": "WOS:001200527500001",
@@ -544,7 +2449,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 439
+      "index": 443
     },
     {
       "uid": "WOS:001144545600001",
@@ -586,7 +2491,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 438
+      "index": 442
     },
     {
       "uid": "WOS:001154776900001",
@@ -616,7 +2521,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 437
+      "index": 441
     },
     {
       "uid": "WOS:001147353700001",
@@ -651,7 +2556,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 436
+      "index": 440
     },
     {
       "uid": "WOS:001141059300001",
@@ -696,7 +2601,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 435
+      "index": 439
     },
     {
       "uid": "WOS:001091757600001",
@@ -743,7 +2648,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 434
+      "index": 438
     },
     {
       "uid": "WOS:001223772200001",
@@ -773,7 +2678,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 433
+      "index": 437
     },
     {
       "uid": "WOS:001227027500001",
@@ -803,7 +2708,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 432
+      "index": 436
     },
     {
       "uid": "WOS:001270087500001",
@@ -833,7 +2738,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 431
+      "index": 435
     },
     {
       "uid": "WOS:001127126200001",
@@ -868,7 +2773,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 430
+      "index": 434
     },
     {
       "uid": "WOS:001137088500002",
@@ -907,7 +2812,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Nat. Energy"
       ],
-      "index": 429
+      "index": 433
     },
     {
       "uid": "WOS:001164703900001",
@@ -952,7 +2857,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 428
+      "index": 432
     },
     {
       "uid": "WOS:001124694200001",
@@ -987,7 +2892,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 427
+      "index": 431
     },
     {
       "uid": "WOS:001303908500001",
@@ -1022,7 +2927,114 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 426
+      "index": 430
+    },
+    {
+      "uid": "WOS:001383197500001",
+      "title": "Integration of Phosphorus in PdCr Metallene for Enhanced CO-Tolerant Alcohol Electrooxidation",
+      "authors": "Haiting Liu, Tong Li, Zhaowen Wu, <strong>Hui Xu</strong>, Huaming Li, Ruijuan Jing, Yong Wang, Junfeng Liu",
+      "journal": "Inorganic Chemistry",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-DEC 24",
+      "volume": "64",
+      "issue": "1",
+      "page": "123-132",
+      "doi": "10.1021/acs.inorgchem.4c04334",
+      "url": "https://doi.org/10.1021/acs.inorgchem.4c04334",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001383197500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 12,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 429
+    },
+    {
+      "uid": "WOS:001366146200001",
+      "title": "In situ construction of donor-acceptor structured g-C3N4 nanotubes incorporated with pyridine heterocyclic rings for efficient photocatalytic water splitting",
+      "authors": "Bo Zhang, Wenjing Luo, Luye Pan, Chenhuan Tian, Peipei Sun, Pengcheng Yan, Xianglin Zhu, Haibo Wang, Zhao Mo, <strong>Hui Xu</strong>",
+      "journal": "Inorganic Chemistry Frontiers",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-DEC 18",
+      "volume": "12",
+      "issue": "1",
+      "page": "161-170",
+      "doi": "10.1039/d4qi02452d",
+      "url": "https://doi.org/10.1039/d4qi02452d",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001366146200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 12,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "energy",
+          "name_cn": "太阳能转化与绿氢",
+          "name_en": "Solar Energy & Hydrogen"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 428
+    },
+    {
+      "uid": "WOS:001358437600001",
+      "title": "Lattice energy transfer from homo-crystalline substitution for enhanced piezo-photocatalytic CO2 conversion",
+      "authors": "Chuanzhou Bi, Hangmin Xu, Ganghua Zhou, Hao Song, Jian Xu, Qijun Li, Bin Wang, Penghui Ding, Lvzhou Li, Paul K. Chu, <strong>Hui Xu</strong>, Xingwang Zhu, Jianning Ding",
+      "journal": "Chemical Engineering Journal",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-DEC 1",
+      "volume": "501",
+      "issue": "",
+      "page": "157345",
+      "doi": "10.1016/j.cej.2024.157345",
+      "url": "https://doi.org/10.1016/j.cej.2024.157345",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001358437600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 25,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "CEJ"
+      ],
+      "index": 427
     },
     {
       "uid": "WOS:001267867300001",
@@ -1039,6 +3051,41 @@ window.XH_PUBLICATIONS_DATA = {
       "url": "https://doi.org/10.1016/j.jcis.2024.06.210",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001267867300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 10,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 426
+    },
+    {
+      "uid": "WOS:001325446800001",
+      "title": "Facilitating charge separation by constructing CuInS2/PCN S-scheme heterojunction with the intimate contact interface for enhanced photocatalytic CO2 reduction",
+      "authors": "Kefen Yang, Jinman Yang, Yusupu Yesire, Kang Zhong, Pengcheng Yan, Huanzhi Liu, Huaming Li, Yanhua Song, Minqiang He, <strong>Hui Xu</strong>",
+      "journal": "Separation And Purification Technology",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-AUG 9",
+      "volume": "341",
+      "issue": "",
+      "page": "126808",
+      "doi": "10.1016/j.seppur.2024.126808",
+      "url": "https://doi.org/10.1016/j.seppur.2024.126808",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001325446800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 33,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
