@@ -34,6 +34,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git rm --cached --ignore-unmatch wos_keys.json || true
           git add publications.json publications_data.js impact_data.js impact_metrics.json wos_fixed_metadata.json crossref_cache.json xh.txt selected_doi.txt esi_top_1_percent.txt
           if git diff --staged --quiet; then
             echo "No changes detected. Everything is up to date."
@@ -52,4 +53,5 @@ jobs:
         run: |
           echo "Mirroring repository to Gitee..."
           git remote add gitee https://${GITEE_USER}:${GITEE_TOKEN}@gitee.com/${GITEE_USER}/xuhuilab-publications.git || true
-          git push -f gitee main:master || git push -f gitee main:main || echo "Gitee push completed"
+          git push -f gitee main:master || true
+          git push -f gitee main:main || echo "Gitee push completed"
