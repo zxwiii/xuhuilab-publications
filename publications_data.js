@@ -1,11 +1,11 @@
 /**
  * 许晖课题组 (xuhuilab.com) 论文成果与多维筛选数据包
- * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年10月24日
+ * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年10月23日
  */
 window.XH_PUBLICATIONS_DATA = {
   "meta": {
     "total": 504,
-    "updated_at": "2026年10月24日",
+    "updated_at": "2026年10月23日",
     "source": "Clarivate Web of Science (核心合集)",
     "selected_count": 29,
     "esi_count": 27,
@@ -2218,7 +2218,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.ces.2024.120415",
       "url": "https://doi.org/10.1016/j.ces.2024.120415",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001272580700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 10,
+      "citations": 9,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -4109,7 +4109,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/s1872-2067(22)64152-4",
       "url": "https://doi.org/10.1016/s1872-2067(22)64152-4",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000910944500005&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 91,
+      "citations": 90,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -8165,7 +8165,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1038/s41388-020-01475-w",
       "url": "https://doi.org/10.1038/s41388-020-01475-w",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000572714000008&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 236,
+      "citations": 235,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -14390,7 +14390,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1186/s40064-016-1805-5",
       "url": "https://doi.org/10.1186/s40064-016-1805-5",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000373224200006&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 43,
+      "citations": 42,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
