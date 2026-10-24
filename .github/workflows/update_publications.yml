@@ -55,3 +55,8 @@ jobs:
           git remote add gitee https://${GITEE_USER}:${GITEE_TOKEN}@gitee.com/${GITEE_USER}/xuhuilab-publications.git || true
           git push -f gitee main:master || true
           git push -f gitee main:main || echo "Gitee push completed"
+
+      - name: Purge Global CDN Cache (Real-time Instant Refresh)
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/impact_data.js" || true
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/publications_data.js" || true
