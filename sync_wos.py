@@ -342,6 +342,8 @@ def fetch_all_wos_documents(api_keys):
     page = 1
     limit = 50
     current_key_idx = 0
+    total_avail = 0
+    retries_on_page = 0
 
     while True:
         current_key = api_keys[current_key_idx]
@@ -366,26 +368,33 @@ def fetch_all_wos_documents(api_keys):
                 all_hits.extend(hits)
                 total_avail = data.get('metadata', {}).get('total', 0)
                 print(f"  -> 已成功拉取第 {page} 页 (本页 {len(hits)} 篇，累计 {len(all_hits)}/{total_avail} 篇 | Key: {masked_key})")
+                retries_on_page = 0
                 if len(all_hits) >= total_avail:
                     break
                 page += 1
-                time.sleep(0.2)
+                time.sleep(0.5)
         except urllib.error.HTTPError as he:
-            # 遇到 429 配额耗尽或 403 权限受阻，自动无缝切换到备用 Key
-            if he.code in [429, 403] and len(api_keys) > 1:
-                next_key_idx = (current_key_idx + 1) % len(api_keys)
-                if next_key_idx != current_key_idx:
-                    print(f"[WoS API] 当前 Key ({masked_key}) 触发限额/异常 (HTTP {he.code})，自动无缝切换至备用 Key 继续执行...")
-                    current_key_idx = next_key_idx
-                    time.sleep(1.0)
-                    continue
+            retries_on_page += 1
+            # 遇到 429 配额耗尽/并发限流或 403 权限受阻，自动轮换 Key 或延时重试
+            if he.code in [429, 403] and retries_on_page <= max(3, len(api_keys) * 2):
+                if len(api_keys) > 1:
+                    current_key_idx = (current_key_idx + 1) % len(api_keys)
+                    print(f"[WoS API] 当前 Key ({masked_key}) 触发限额/限流 (HTTP {he.code})，自动无缝切换至备用 Key 重试第 {page} 页...")
+                else:
+                    print(f"[WoS API] 触发瞬时限流 (HTTP {he.code})，等待 2.5 秒后重试第 {page} 页 ({retries_on_page}/3)...")
+                time.sleep(2.5)
+                continue
             print(f"[Error] 请求 WoS API 异常 (Page {page}, HTTP {he.code}): {he.reason}")
             break
         except Exception as e:
             print(f"[Error] 请求 WoS API 异常 (Page {page}): {e}")
             break
 
-    print(f"[WoS API] 拉取完毕，共获取 {len(all_hits)} 篇官方文献记录！")
+    if total_avail > 0 and len(all_hits) < total_avail:
+        print(f"[Warning] ⚠️ 本次仅获取到 {len(all_hits)}/{total_avail} 篇文献（API 每日配额可能已耗尽）。为严防覆盖线上完整数据，本次放弃写入！")
+        return []
+
+    print(f"[WoS API] 拉取完毕，共完整获取 {len(all_hits)} 篇官方文献记录！")
     return all_hits
 
 def run_sync():
