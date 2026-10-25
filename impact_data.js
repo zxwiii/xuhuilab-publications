@@ -8,7 +8,7 @@ window.XH_IMPACT_DATA = {
   "institution": "江苏大学",
   "researcher_id": "ADN-0578-2022",
   "total_publications": 504,
-  "total_citations": 35468,
+  "total_citations": 35475,
   "h_index": 101,
   "source": "Clarivate Web of Science (核心合集)",
   "updated_at": "2026年10月25日",
