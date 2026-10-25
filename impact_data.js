@@ -1,6 +1,6 @@
 /**
  * 许晖课题组 (xuhuilab.com) 学术影响力与学者头衔独立数据包
- * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年10月24日
+ * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年10月25日
  */
 window.XH_IMPACT_DATA = {
   "scholar_name": "许晖",
@@ -11,7 +11,7 @@ window.XH_IMPACT_DATA = {
   "total_citations": 35468,
   "h_index": 101,
   "source": "Clarivate Web of Science (核心合集)",
-  "updated_at": "2026年10月24日",
+  "updated_at": "2026年10月25日",
   "honors": [
     {
       "title": "科睿唯安全球高被引科学家",
