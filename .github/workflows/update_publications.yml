@@ -2,8 +2,8 @@ name: Auto Sync Publications from Web of Science & Mirror to Gitee
 
 on:
   schedule:
-    # 每半月自动同步一次：每月 1 号和 15 号凌晨 02:00 UTC (北京时间 10:00)
-    - cron: '0 2 1,15 * *'
+    # 每日自动同步一次：每日凌晨 02:00 UTC (北京时间 01:00)
+    - cron: '0 17 * * *'
   workflow_dispatch: # 支持随时在 GitHub 网页上手动点击按钮一键立即同步
 
 jobs:
