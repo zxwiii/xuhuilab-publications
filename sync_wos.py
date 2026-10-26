@@ -17,7 +17,7 @@ import json
 import time
 import urllib.request
 import urllib.parse
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 if sys.platform.startswith('win'):
     try:
@@ -441,7 +441,8 @@ def run_sync():
 
     citation_counts = []
     processed_publications = []
-    now_str = datetime.now().strftime("%Y年%m月%d日")
+    beijing_tz = timezone(timedelta(hours=8))
+    now_str = datetime.now(beijing_tz).strftime("%Y年%m月%d日")
 
     for hit in wos_hits:
         uid = hit.get('uid', '')
