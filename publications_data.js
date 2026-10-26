@@ -1,10 +1,11 @@
 /**
- * 许晖课题组 (xuhuilab.com) Web of Science 官方收录全量论文成果数据
+ * 许晖课题组 (xuhuilab.com) 论文成果与多维筛选数据包
+ * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年10月27日
  */
 window.XH_PUBLICATIONS_DATA = {
   "meta": {
     "total": 504,
-    "updated_at": "2026年10月23日",
+    "updated_at": "2026年10月27日",
     "source": "Clarivate Web of Science (核心合集)",
     "selected_count": 29,
     "esi_count": 27,
@@ -31,7 +32,7 @@ window.XH_PUBLICATIONS_DATA = {
       "electrocat": 65,
       "photocat": 372,
       "c3n4_2d": 286,
-      "env": 170,
+      "env": 153,
       "energy": 105,
       "materials": 28,
       "ionic": 40,
@@ -55,7 +56,7 @@ window.XH_PUBLICATIONS_DATA = {
         "id": "env",
         "name_cn": "环境催化",
         "name_en": "Environmental Catalysis",
-        "count": 170
+        "count": 153
       },
       {
         "id": "energy",
@@ -270,7 +271,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2026.126579",
       "url": "https://doi.org/10.1016/j.apcatb.2026.126579",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001702248400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 29,
+      "citations": 31,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -284,11 +285,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "c3n4_2d",
           "name_cn": "碳氮材料与二维半导体",
           "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         },
         {
           "id": "co2",
@@ -401,11 +397,6 @@ window.XH_PUBLICATIONS_DATA = {
           "name_en": "Carbon Nitride & 2D Materials"
         },
         {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
-        },
-        {
           "id": "electrocat",
           "name_cn": "电催化",
           "name_en": "Electrocatalysis"
@@ -514,11 +505,6 @@ window.XH_PUBLICATIONS_DATA = {
       "is_corr_author": true,
       "is_first_or_corr": true,
       "topics": [
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
-        },
         {
           "id": "co2",
           "name_cn": "二氧化碳捕集与转化",
@@ -1020,7 +1006,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1002/anie.202425439",
       "url": "https://doi.org/10.1002/anie.202425439",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001456378700042&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 290,
+      "citations": 292,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -1088,11 +1074,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         },
         {
           "id": "electrocat",
@@ -1274,7 +1255,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1002/smll.202310677",
       "url": "https://doi.org/10.1002/smll.202310677",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001209721500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 180,
+      "citations": 182,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -1347,7 +1328,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1021/acsenergylett.4c03233",
       "url": "https://doi.org/10.1021/acsenergylett.4c03233",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001403565600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 33,
+      "citations": 34,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -1595,7 +1576,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2024.124617",
       "url": "https://doi.org/10.1016/j.apcatb.2024.124617",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001324365500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 34,
+      "citations": 35,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -1604,11 +1585,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         },
         {
           "id": "co2",
@@ -1672,7 +1648,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.cej.2025.170911",
       "url": "https://doi.org/10.1016/j.cej.2025.170911",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001625431700021&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 15,
+      "citations": 17,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -1803,11 +1779,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -1846,11 +1817,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "c3n4_2d",
           "name_cn": "碳氮材料与二维半导体",
           "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         },
         {
           "id": "co2",
@@ -1957,7 +1923,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.jcis.2024.12.247",
       "url": "https://doi.org/10.1016/j.jcis.2024.12.247",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001397250600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 25,
+      "citations": 27,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -2217,7 +2183,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.ces.2024.120415",
       "url": "https://doi.org/10.1016/j.ces.2024.120415",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001272580700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 9,
+      "citations": 10,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -2454,7 +2420,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:001144545600001",
       "title": "Localized surface plasmon resonance effect of bismuth nanoparticles in Bi/ TiO2 catalysts for boosting visible light-driven CO2 reduction to CH4",
       "authors": "Wenjie He, Jing Xiong, Zhiling Tang, Yingli Wang, Xiong Wang, <strong>Hui Xu</strong>, Zhen Zhao, Jian Liu, Yuechang Wei",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2024,
       "year_group": "2024",
       "date": "2024-MAY 5",
@@ -2464,7 +2430,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2023.123651",
       "url": "https://doi.org/10.1016/j.apcatb.2023.123651",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001144545600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 89,
+      "citations": 91,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -2473,11 +2439,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         },
         {
           "id": "co2",
@@ -2606,7 +2567,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:001091757600001",
       "title": "Simultaneously tuning electronic reaction pathway and photoactivity of P, O modified cyano-rich carbon nitride enhances the photosynthesis of H2O2",
       "authors": "Peipei Sun, Zhigang Chen, Jinyuan Zhang, Guanyu Wu, Yanhua Song, Zhihuan Miao, Kang Zhong, Lin Huang, Zhao Mo, <strong>Hui Xu</strong>",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2024,
       "year_group": "2024",
       "date": "2024-MAR",
@@ -2630,11 +2591,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "c3n4_2d",
           "name_cn": "碳氮材料与二维半导体",
           "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         },
         {
           "id": "electrocat",
@@ -3793,7 +3749,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.molliq.2023.121650",
       "url": "https://doi.org/10.1016/j.molliq.2023.121650",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000964040000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 23,
+      "citations": 24,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -3863,7 +3819,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:001053512700001",
       "title": "Construction atomic-level N-P charge transfer channel for boosted CO2 photoreduction",
       "authors": "Zheyang Liu, Jianli Liang, Qianqian Song, Yang Li, Zhiquan Zhang, Min Zhou, Wei Wei, <strong>Hui Xu</strong>, Chun-Sing Lee, Huaming Li, Zhifeng Jiang",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2023,
       "year_group": "2023",
       "date": "2023-JUL 5",
@@ -3887,11 +3843,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "c3n4_2d",
           "name_cn": "碳氮材料与二维半导体",
           "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         },
         {
           "id": "co2",
@@ -4073,7 +4024,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apsusc.2022.154803",
       "url": "https://doi.org/10.1016/j.apsusc.2022.154803",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000876181700004&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 33,
+      "citations": 34,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -4108,7 +4059,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/s1872-2067(22)64152-4",
       "url": "https://doi.org/10.1016/s1872-2067(22)64152-4",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000910944500005&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 90,
+      "citations": 92,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -4135,7 +4086,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:000867133600002",
       "title": "Modulating electronic structure of lattice O-modified orange polymeric carbon nitrogen to promote photocatalytic CO2 conversion",
       "authors": "Jinman Yang, Liquan Jing, Xingwang Zhu, Wei Zhang, Jiujun Deng, Yuanbin She, Kaiqi Nie, Yuechang Wei, Huaming Li, <strong>Hui Xu</strong>",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2023,
       "year_group": "2023",
       "date": "2023-JAN",
@@ -4154,11 +4105,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "photocat",
           "name_cn": "光催化",
           "name_en": "Photocatalysis"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         },
         {
           "id": "co2",
@@ -5011,7 +4957,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1021/acs.inorgchem.2c02888",
       "url": "https://doi.org/10.1021/acs.inorgchem.2c02888",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000861487200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 15,
+      "citations": 16,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -5711,7 +5657,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1007/s12598-022-01960-z",
       "url": "https://doi.org/10.1007/s12598-022-01960-z",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000768644900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 107,
+      "citations": 108,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -6003,7 +5949,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.cej.2021.132204",
       "url": "https://doi.org/10.1016/j.cej.2021.132204",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000728401100003&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 141,
+      "citations": 142,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -7579,7 +7525,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:000591345400004",
       "title": "Large-scale production of ultrathin carbon nitride-based photocatalysts for high-yield hydrogen evolution",
       "authors": "Jianjian Yi, Ting Fei, Li Li, Qing Yu, Sai Zhang, Yanhua Song, Jiabiao Lian, Xianglin Zhu, Jiujun Deng, <strong>Hui Xu</strong>, Huaming Li",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2021,
       "year_group": "2021",
       "date": "2021-FEB",
@@ -7608,11 +7554,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -8164,7 +8105,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1038/s41388-020-01475-w",
       "url": "https://doi.org/10.1038/s41388-020-01475-w",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000572714000008&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 235,
+      "citations": 236,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -8254,7 +8195,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:000552015900069",
       "title": "Direct Z-scheme red carbon nitride/rod-like lanthanum vanadate composites with enhanced photodegradation of antibiotic contaminants",
       "authors": "Liquan Jing, Yuanguo Xu, Jie Liu, Minjing Zhou, <strong>Hui Xu</strong>, Meng Xie, Huaming Li, Jimin Xie",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2020,
       "year_group": "2020",
       "date": "2020-NOV 15",
@@ -8371,7 +8312,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.cej.2020.124130",
       "url": "https://doi.org/10.1016/j.cej.2020.124130",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000527331600112&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 35,
+      "citations": 36,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -8581,7 +8522,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:000532683200019",
       "title": "In-situ hydroxyl modification of monolayer black phosphorus for stable photocatalytic carbon dioxide conversion",
       "authors": "Xingwang Zhu, Shuquan Huang, Qing Yu, Yuanbin She, Jinman Yang, Guli Zhou, Qidi Li, Xiaojie She, Jiujun Deng, Huaming Li, <strong>Hui Xu</strong>",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2020,
       "year_group": "2020",
       "date": "2020-JUL 15",
@@ -8605,11 +8546,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "c3n4_2d",
           "name_cn": "碳氮材料与二维半导体",
           "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         },
         {
           "id": "co2",
@@ -8996,7 +8932,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.cej.2019.122812",
       "url": "https://doi.org/10.1016/j.cej.2019.122812",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000503381200082&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 191,
+      "citations": 192,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -9408,7 +9344,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:000510526000014",
       "title": "Efficient Z-scheme photocatalysts of ultrathin g-C3N4-wrapped Au/TiO2-nanocrystals for enhanced visible-light-driven conversion of CO2 with H2O",
       "authors": "Chujun Wang, Yilong Zhao, <strong>Hui Xu</strong>, Yifei Li, Yuechang Wei, Jian Liu, Zhen Zhao",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2020,
       "year_group": "2020",
       "date": "2020-APR",
@@ -9432,11 +9368,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "c3n4_2d",
           "name_cn": "碳氮材料与二维半导体",
           "name_en": "Carbon Nitride & 2D Materials"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         },
         {
           "id": "co2",
@@ -9994,7 +9925,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:000467661700047",
       "title": "Steering charge transfer for boosting photocatalytic H2 evolution: Integration of two-dimensional semiconductor superiorities and noble metal-free Schottky junction effect",
       "authors": "Xiaojie She, <strong>Hui Xu</strong>, Li Li, Zhao Mo, Xingwang Zhu, Yahui Yu, Yanhua Song, Jingjie Wu, Junchao Qian, Shouqi Yuan, Huaming Li",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2019,
       "year_group": "2015-2019",
       "date": "2019-MAY 15",
@@ -10023,11 +9954,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -10572,7 +10498,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:000463126200009",
       "title": "Unveiling the origin of boosted photocatalytic hydrogen evolution in simultaneously (S, P, O)-Codoped and exfoliated ultrathin g-C3N4 nanosheets",
       "authors": "Qinqin Liu, Jiyou Shen, Xiaohui Yu, Xiaofei Yang, Wei Liu, Juan Yang, Hua Tang, <strong>Hui Xu</strong>, Huaming Li, Youyong Li, Jingsan Xu",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2019,
       "year_group": "2015-2019",
       "date": "2019-JUL 5",
@@ -10601,11 +10527,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -10665,7 +10586,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1021/acsami.9b05628",
       "url": "https://doi.org/10.1021/acsami.9b05628",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000476684900033&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 184,
+      "citations": 185,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -10830,7 +10751,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.seppur.2018.08.009",
       "url": "https://doi.org/10.1016/j.seppur.2018.08.009",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000449132900032&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 45,
+      "citations": 46,
       "is_first_author": true,
       "is_corr_author": false,
       "is_first_or_corr": true,
@@ -11460,7 +11381,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.materresbull.2018.12.017",
       "url": "https://doi.org/10.1016/j.materresbull.2018.12.017",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000458710300031&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 45,
+      "citations": 46,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -11490,7 +11411,7 @@ window.XH_PUBLICATIONS_DATA = {
       "uid": "WOS:000453616800035",
       "title": "Phase and interlayer effect of transition metal dichalcogenide cocatalyst toward photocatalytic hydrogen evolution: The case of MoSe2",
       "authors": "Jianjian Yi, Hongping Li, Yongji Gong, Xiaojie She, Yanhua Song, Yuanguo Xu, Jiujun Deng, Shouqi Yuan, <strong>Hui Xu</strong>, Huaming Li",
-      "journal": "Applied Catalysis B: Environmental",
+      "journal": "Applied Catalysis B: Environment and Energy",
       "year": 2019,
       "year_group": "2015-2019",
       "date": "2019-APR",
@@ -11514,11 +11435,6 @@ window.XH_PUBLICATIONS_DATA = {
           "id": "energy",
           "name_cn": "太阳能转化与绿氢",
           "name_en": "Solar Energy & Hydrogen"
-        },
-        {
-          "id": "env",
-          "name_cn": "环境催化",
-          "name_en": "Environmental Catalysis"
         }
       ],
       "is_selected": false,
@@ -11919,7 +11835,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1039/c8qi00864g",
       "url": "https://doi.org/10.1039/c8qi00864g",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000453914100013&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 40,
+      "citations": 41,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -12311,7 +12227,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1002/aenm.201703487",
       "url": "https://doi.org/10.1002/aenm.201703487",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000437667800009&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 491,
+      "citations": 493,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -12912,7 +12828,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1021/acsami.8b15905",
       "url": "https://doi.org/10.1021/acsami.8b15905",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000453488900064&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 73,
+      "citations": 74,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -13418,7 +13334,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.jcis.2017.01.010",
       "url": "https://doi.org/10.1016/j.jcis.2017.01.010",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000395496900006&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 86,
+      "citations": 87,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -14389,7 +14305,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1186/s40064-016-1805-5",
       "url": "https://doi.org/10.1186/s40064-016-1805-5",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000373224200006&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 42,
+      "citations": 43,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -15377,7 +15293,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2014.11.057",
       "url": "https://doi.org/10.1016/j.apcatb.2014.11.057",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000352747200007&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 557,
+      "citations": 558,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -15419,7 +15335,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.cej.2015.02.018",
       "url": "https://doi.org/10.1016/j.cej.2015.02.018",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000353851900011&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 175,
+      "citations": 176,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -15533,7 +15449,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1039/c5ra19586a",
       "url": "https://doi.org/10.1039/c5ra19586a",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000365952200040&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 262,
+      "citations": 263,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -16507,7 +16423,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1039/c3ta14617k",
       "url": "https://doi.org/10.1039/c3ta14617k",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000333101600022&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 469,
+      "citations": 470,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -16831,7 +16747,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.matlet.2014.08.142",
       "url": "https://doi.org/10.1016/j.matlet.2014.08.142",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000345469700075&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 118,
+      "citations": 119,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -17572,7 +17488,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1039/c3dt00115f",
       "url": "https://doi.org/10.1039/c3dt00115f",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000319555400013&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 496,
+      "citations": 497,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,

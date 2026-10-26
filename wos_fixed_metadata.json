@@ -4382,15 +4382,10 @@
         "id": "energy",
         "name_cn": "太阳能转化与绿氢",
         "name_en": "Solar Energy & Hydrogen"
-      },
-      {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
       }
     ],
     "title": "Phase and interlayer effect of transition metal dichalcogenide cocatalyst toward photocatalytic hydrogen evolution: The case of MoSe2",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "243",
     "issue": "",
     "page": "330-336",
@@ -4895,15 +4890,10 @@
         "id": "energy",
         "name_cn": "太阳能转化与绿氢",
         "name_en": "Solar Energy & Hydrogen"
-      },
-      {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
       }
     ],
     "title": "Unveiling the origin of boosted photocatalytic hydrogen evolution in simultaneously (S, P, O)-Codoped and exfoliated ultrathin g-C3N4 nanosheets",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "248",
     "issue": "",
     "page": "84-94",
@@ -5026,15 +5016,10 @@
         "id": "energy",
         "name_cn": "太阳能转化与绿氢",
         "name_en": "Solar Energy & Hydrogen"
-      },
-      {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
       }
     ],
     "title": "Steering charge transfer for boosting photocatalytic H2 evolution: Integration of two-dimensional semiconductor superiorities and noble metal-free Schottky junction effect",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "245",
     "issue": "",
     "page": "477-485",
@@ -5817,18 +5802,13 @@
         "name_en": "Carbon Nitride & 2D Materials"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion"
       }
     ],
     "title": "Efficient Z-scheme photocatalysts of ultrathin g-C3N4-wrapped Au/TiO2-nanocrystals for enhanced visible-light-driven conversion of CO2 with H2O",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "263",
     "issue": "",
     "page": "118314",
@@ -6187,18 +6167,13 @@
         "name_en": "Carbon Nitride & 2D Materials"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion"
       }
     ],
     "title": "In-situ hydroxyl modification of monolayer black phosphorus for stable photocatalytic carbon dioxide conversion",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "269",
     "issue": "",
     "page": "118760",
@@ -6371,7 +6346,7 @@
       }
     ],
     "title": "Direct Z-scheme red carbon nitride/rod-like lanthanum vanadate composites with enhanced photodegradation of antibiotic contaminants",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "277",
     "issue": "",
     "page": "119245",
@@ -6578,15 +6553,10 @@
         "id": "energy",
         "name_cn": "太阳能转化与绿氢",
         "name_en": "Solar Energy & Hydrogen"
-      },
-      {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
       }
     ],
     "title": "Large-scale production of ultrathin carbon nitride-based photocatalysts for high-yield hydrogen evolution",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "281",
     "issue": "",
     "page": "119475",
@@ -8360,18 +8330,13 @@
         "name_en": "Photocatalysis"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion"
       }
     ],
     "title": "Modulating electronic structure of lattice O-modified orange polymeric carbon nitrogen to promote photocatalytic CO2 conversion",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "320",
     "issue": "",
     "page": "122005",
@@ -9134,18 +9099,13 @@
         "name_en": "Carbon Nitride & 2D Materials"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion"
       }
     ],
     "title": "Construction atomic-level N-P charge transfer channel for boosted CO2 photoreduction",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "328",
     "issue": "",
     "page": "122472",
@@ -9265,18 +9225,13 @@
         "name_en": "Carbon Nitride & 2D Materials"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "electrocat",
         "name_cn": "电催化",
         "name_en": "Electrocatalysis"
       }
     ],
     "title": "Simultaneously tuning electronic reaction pathway and photoactivity of P, O modified cyano-rich carbon nitride enhances the photosynthesis of H2O2",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "342",
     "issue": "",
     "page": "123337",
@@ -9448,18 +9403,13 @@
         "name_en": "Photocatalysis"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion"
       }
     ],
     "title": "Localized surface plasmon resonance effect of bismuth nanoparticles in Bi/ TiO2 catalysts for boosting visible light-driven CO2 reduction to CH4",
-    "journal": "Applied Catalysis B: Environmental",
+    "journal": "Applied Catalysis B: Environment and Energy",
     "volume": "344",
     "issue": "",
     "page": "123651",
@@ -10087,11 +10037,6 @@
         "name_en": "Photocatalysis"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion"
@@ -10454,11 +10399,6 @@
         "name_en": "Solar Energy & Hydrogen"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "electrocat",
         "name_cn": "电催化",
         "name_en": "Electrocatalysis"
@@ -10631,11 +10571,6 @@
         "name_en": "Carbon Nitride & 2D Materials"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion"
@@ -10660,11 +10595,6 @@
         "id": "energy",
         "name_cn": "太阳能转化与绿氢",
         "name_en": "Solar Energy & Hydrogen"
-      },
-      {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
       }
     ],
     "title": "High-intensity interfacial electric fields between co-catalysts and semiconductor: A determinant factor in enhancing photocatalytic hydrogen production",
@@ -11049,11 +10979,6 @@
         "name_en": "Carbon Nitride & 2D Materials"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "electrocat",
         "name_cn": "电催化",
         "name_en": "Electrocatalysis"
@@ -11232,11 +11157,6 @@
         "name_en": "Carbon Nitride & 2D Materials"
       },
       {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
-      {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion"
@@ -11252,11 +11172,6 @@
   },
   "10.1016/j.apcatb.2026.126500": {
     "topics": [
-      {
-        "id": "env",
-        "name_cn": "环境催化",
-        "name_en": "Environmental Catalysis"
-      },
       {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
