@@ -300,13 +300,27 @@ def load_corresponding_titles(filepath):
             continue
     return titles
 
-def format_journal_name(raw_name):
+def format_journal_name(raw_name, publish_year=None, volume=None):
     if not raw_name:
         return "Research Article"
     name = raw_name.strip()
+
+    # 特殊处理 Applied Catalysis B: 2024 年第 345 卷起正式更名为 Environment and Energy
+    if re.search(r"applied\s+catalysis\s+b", name, re.IGNORECASE):
+        if re.search(r"energy", name, re.IGNORECASE):
+            return "Applied Catalysis B: Environment and Energy"
+        v_match = re.search(r"\d+", str(volume)) if volume else None
+        v_num = int(v_match.group()) if v_match else 0
+        try:
+            y_num = int(publish_year) if publish_year else 0
+        except Exception:
+            y_num = 0
+        if v_num >= 345 or y_num >= 2025:
+            return "Applied Catalysis B: Environment and Energy"
+        else:
+            return "Applied Catalysis B: Environmental"
+
     mappings = {
-        r"^applied catalysis b-environment.*": "Applied Catalysis B: Environmental",
-        r"^applied catalysis b: environmental": "Applied Catalysis B: Environmental",
         r"^acs catalysis": "ACS Catalysis",
         r"^angewandte chemie.*": "Angewandte Chemie International Edition",
         r"^chemical engineering science": "Chemical Engineering Science",
@@ -461,7 +475,6 @@ def run_sync():
         # 来源期刊与发表时间
         source = hit.get('source', {})
         journal_raw = source.get('sourceTitle', 'Research Article')
-        journal = format_journal_name(journal_raw)
         publish_year = source.get('publishYear', 2024)
         publish_month = source.get('publishMonth', 'JAN')
 
@@ -483,6 +496,8 @@ def run_sync():
                 iss = str(cr_info.get('issue'))
             if not page_range and cr_info.get('page'):
                 page_range = str(cr_info.get('page'))
+
+        journal = format_journal_name(journal_raw, publish_year=publish_year, volume=vol)
 
         # 作者列表解析
         author_objs = hit.get('names', {}).get('authors', [])
