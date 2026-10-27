@@ -17,6 +17,7 @@ import json
 import time
 import urllib.request
 import urllib.parse
+import socket
 from datetime import datetime, timezone, timedelta
 
 if sys.platform.startswith('win'):
@@ -374,7 +375,7 @@ def fetch_all_wos_documents(api_keys):
             'Accept': 'application/json'
         })
         try:
-            with urllib.request.urlopen(req, timeout=15) as resp:
+            with urllib.request.urlopen(req, timeout=30) as resp:
                 data = json.loads(resp.read().decode('utf-8'))
                 hits = data.get('hits', [])
                 if not hits:
@@ -400,7 +401,17 @@ def fetch_all_wos_documents(api_keys):
                 continue
             print(f"[Error] 请求 WoS API 异常 (Page {page}, HTTP {he.code}): {he.reason}")
             break
-        except Exception as e:
+        except (socket.timeout, TimeoutError, urllib.error.URLError, Exception) as e:
+            retries_on_page += 1
+            # 遇到跨国网络读取超时 (read operation timed out) 或连接抖动，自动重试并切换 Key 探活
+            if retries_on_page <= max(3, len(api_keys) * 2):
+                wait_sec = 2.0 * retries_on_page
+                print(f"[WoS API] 网络读取超时或链路抖动 (Page {page}): {e}，将在 {wait_sec} 秒后自动发起重试 ({retries_on_page}/3)...")
+                if len(api_keys) > 1:
+                    current_key_idx = (current_key_idx + 1) % len(api_keys)
+                    print(f"[WoS API] 自动切换备用 Key 重新探活拉取第 {page} 页...")
+                time.sleep(wait_sec)
+                continue
             print(f"[Error] 请求 WoS API 异常 (Page {page}): {e}")
             break
 

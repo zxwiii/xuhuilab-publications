@@ -4,18 +4,18 @@
  */
 window.XH_PUBLICATIONS_DATA = {
   "meta": {
-    "total": 504,
+    "total": 513,
     "updated_at": "2026年10月27日",
     "source": "Clarivate Web of Science (核心合集)",
-    "selected_count": 29,
+    "selected_count": 30,
     "esi_count": 27,
-    "first_or_corr_count": 275,
+    "first_or_corr_count": 276,
     "journal_stats": {
       "Nat. Energy": 1,
       "Angew. Chem.": 5,
       "AIChE J.": 2,
       "CES": 2,
-      "ACS Catal.": 6,
+      "ACS Catal.": 7,
       "ACS Nano": 2,
       "AFM": 3,
       "Adv. Energy Mater.": 2,
@@ -23,34 +23,34 @@ window.XH_PUBLICATIONS_DATA = {
       "Nano Energy": 4,
       "CEJ": 28,
       "JMCA": 9,
-      "J. Energy Chem.": 5,
+      "J. Energy Chem.": 6,
       "Chin. J. Catal.": 7,
-      "Small": 6
+      "Small": 7
     },
     "topic_stats": {
-      "co2": 74,
-      "electrocat": 65,
-      "photocat": 372,
-      "c3n4_2d": 286,
+      "co2": 76,
+      "electrocat": 67,
+      "photocat": 374,
+      "c3n4_2d": 288,
       "env": 153,
       "energy": 105,
-      "materials": 28,
+      "materials": 30,
       "ionic": 40,
       "biomass": 19,
-      "battery": 17
+      "battery": 19
     },
     "topics_sorted": [
       {
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis",
-        "count": 372
+        "count": 374
       },
       {
         "id": "c3n4_2d",
         "name_cn": "碳氮材料与二维半导体",
         "name_en": "Carbon Nitride & 2D Materials",
-        "count": 286
+        "count": 288
       },
       {
         "id": "env",
@@ -68,13 +68,13 @@ window.XH_PUBLICATIONS_DATA = {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion",
-        "count": 74
+        "count": 76
       },
       {
         "id": "electrocat",
         "name_cn": "电催化",
         "name_en": "Electrocatalysis",
-        "count": 65
+        "count": 67
       },
       {
         "id": "ionic",
@@ -86,7 +86,7 @@ window.XH_PUBLICATIONS_DATA = {
         "id": "materials",
         "name_cn": "功能材料与基础研究",
         "name_en": "Advanced Functional Materials",
-        "count": 28
+        "count": 30
       },
       {
         "id": "biomass",
@@ -98,7 +98,7 @@ window.XH_PUBLICATIONS_DATA = {
         "id": "battery",
         "name_cn": "电池与储能",
         "name_en": "Batteries & Energy Storage",
-        "count": 17
+        "count": 19
       }
     ]
   },
@@ -139,7 +139,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "Angew. Chem."
       ],
-      "index": 504
+      "index": 513
     },
     {
       "uid": "WOS:001668263100001",
@@ -179,7 +179,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 503
+      "index": 512
     },
     {
       "uid": "WOS:001708313100001",
@@ -217,7 +217,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "AIChE J."
       ],
-      "index": 502
+      "index": 511
     },
     {
       "uid": "WOS:001795486900001",
@@ -255,7 +255,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 501
+      "index": 510
     },
     {
       "uid": "WOS:001702248400001",
@@ -297,7 +297,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 500
+      "index": 509
     },
     {
       "uid": "WOS:001643696100001",
@@ -330,7 +330,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 499
+      "index": 508
     },
     {
       "uid": "WOS:001576844100002",
@@ -365,7 +365,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 498
+      "index": 507
     },
     {
       "uid": "WOS:001602888400001",
@@ -407,7 +407,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 497
+      "index": 506
     },
     {
       "uid": "WOS:001684176600001",
@@ -444,7 +444,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 496
+      "index": 505
     },
     {
       "uid": "WOS:001679862900005",
@@ -460,7 +460,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.nanoms.2025.03.007",
       "url": "https://doi.org/10.1016/j.nanoms.2025.03.007",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001679862900005&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 34,
+      "citations": 35,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -484,7 +484,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 495
+      "index": 504
     },
     {
       "uid": "WOS:001706065800001",
@@ -521,7 +521,42 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 494
+      "index": 503
+    },
+    {
+      "uid": "WOS:001486305700001",
+      "title": "Enhancing photocatalytic CO2 reduction by fabricating intimate contact interfacial of SnIn4S8/Co3O4 2D-2D heterojunction photocatalyst",
+      "authors": "Junhao Tang, Minqiang He, Biyang Zhang, Kang Zhong, Zhengrui Yang, Zhaolong Wang, Xingwang Zhu, Huaming Li, Jinman Yang, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Colloid And Interface Science",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-SEP 15",
+      "volume": "694",
+      "issue": "",
+      "page": "",
+      "doi": "10.1016/j.jcis.2025.137711",
+      "url": "https://doi.org/10.1016/j.jcis.2025.137711",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001486305700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 30,
+      "is_first_author": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 502
     },
     {
       "uid": "WOS:001565595700001",
@@ -551,7 +586,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 493
+      "index": 501
     },
     {
       "uid": "WOS:001602535100001",
@@ -581,7 +616,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 492
+      "index": 500
     },
     {
       "uid": "WOS:001589640700023",
@@ -613,7 +648,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 491
+      "index": 499
     },
     {
       "uid": "WOS:001599333800001",
@@ -629,7 +664,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1039/d5cc05453b",
       "url": "https://doi.org/10.1039/d5cc05453b",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001599333800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 5,
+      "citations": 6,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -648,7 +683,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 490
+      "index": 498
     },
     {
       "uid": "WOS:001606055100005",
@@ -688,7 +723,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 489
+      "index": 497
     },
     {
       "uid": "WOS:001508808500001",
@@ -726,7 +761,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "AFM"
       ],
-      "index": 488
+      "index": 496
     },
     {
       "uid": "WOS:001423333600001",
@@ -771,7 +806,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 487
+      "index": 495
     },
     {
       "uid": "WOS:001422207900001",
@@ -801,7 +836,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 486
+      "index": 494
     },
     {
       "uid": "WOS:001421567000001",
@@ -841,7 +876,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 485
+      "index": 493
     },
     {
       "uid": "WOS:001485359300001",
@@ -885,7 +920,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "ACS Catal."
       ],
-      "index": 484
+      "index": 492
     },
     {
       "uid": "WOS:001473145300001",
@@ -920,7 +955,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 483
+      "index": 491
     },
     {
       "uid": "WOS:001462055300001",
@@ -955,7 +990,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 482
+      "index": 490
     },
     {
       "uid": "WOS:001427367200001",
@@ -990,7 +1025,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 481
+      "index": 489
     },
     {
       "uid": "WOS:001456378700042",
@@ -1006,7 +1041,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1002/anie.202425439",
       "url": "https://doi.org/10.1002/anie.202425439",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001456378700042&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 292,
+      "citations": 293,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -1039,7 +1074,39 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Angew. Chem."
       ],
-      "index": 480
+      "index": 488
+    },
+    {
+      "uid": "WOS:001368213200001",
+      "title": "A New TiO2-Based Cathode Material with Interface-Dominated Storage Mechanism for Aqueous Zinc-Ion Batteries",
+      "authors": "Daijie Zhang, Weijuan Wang, Jianwei Lu, Sheng Ji, <strong>Hui Xu</strong>",
+      "journal": "Small",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-MAR",
+      "volume": "21",
+      "issue": "10",
+      "page": "",
+      "doi": "10.1002/smll.202409304",
+      "url": "https://doi.org/10.1002/smll.202409304",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001368213200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 16,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "battery",
+          "name_cn": "电池与储能",
+          "name_en": "Batteries & Energy Storage"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "Small"
+      ],
+      "index": 487
     },
     {
       "uid": "WOS:001416574300001",
@@ -1087,7 +1154,47 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 479
+      "index": 486
+    },
+    {
+      "uid": "WOS:001505454200001",
+      "title": "Ultrathin polymeric carbon nitride loaded AuCu alloy cocatalysts for efficient photocatalytic CO2 reduction to syngas",
+      "authors": "Sibo Wang, Shuting Li, Kang Zhong, Minqiang He, Pengcheng Yan, Jinman Yang, Yingcheng Wu, Yanhua Song, Huaming Li, <strong>Hui Xu</strong>",
+      "journal": "New Journal Of Chemistry",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-JUN 23",
+      "volume": "49",
+      "issue": "25",
+      "page": "11022-11031",
+      "doi": "10.1039/d4nj05406g",
+      "url": "https://doi.org/10.1039/d4nj05406g",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001505454200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 4,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 485
     },
     {
       "uid": "WOS:001436962200001",
@@ -1127,7 +1234,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 478
+      "index": 484
     },
     {
       "uid": "WOS:001412670400001",
@@ -1157,7 +1264,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 477
+      "index": 483
     },
     {
       "uid": "WOS:001469827000001",
@@ -1197,7 +1304,37 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 476
+      "index": 482
+    },
+    {
+      "uid": "WOS:001504633600004",
+      "title": "A novel biochar supported dual-flame-retardant composite phase change material (PCM) for building energy saving",
+      "authors": "Chaoen Li, Zhiwei Sun, JingJing Shao, <strong>Hui Xu</strong>, Chengzhi Guo, Jiahang Zhu, Xiaodong Wen, Jiayu Wu, Yin Tang, Jiang Wu, Dongjing Liu, Yang He",
+      "journal": "Construction And Building Materials",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-JUL 25",
+      "volume": "485",
+      "issue": "",
+      "page": "",
+      "doi": "10.1016/j.conbuildmat.2025.141953",
+      "url": "https://doi.org/10.1016/j.conbuildmat.2025.141953",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001504633600004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 29,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "materials",
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 481
     },
     {
       "uid": "WOS:001525720200001",
@@ -1213,7 +1350,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1002/smll.202503954",
       "url": "https://doi.org/10.1002/smll.202503954",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001525720200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 21,
+      "citations": 22,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -1239,7 +1376,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Small"
       ],
-      "index": 475
+      "index": 480
     },
     {
       "uid": "WOS:001209721500001",
@@ -1255,7 +1392,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1002/smll.202310677",
       "url": "https://doi.org/10.1002/smll.202310677",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001209721500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 182,
+      "citations": 183,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -1277,7 +1414,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Small"
       ],
-      "index": 474
+      "index": 479
     },
     {
       "uid": "WOS:001389967400001",
@@ -1312,7 +1449,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 473
+      "index": 478
     },
     {
       "uid": "WOS:001403565600001",
@@ -1342,7 +1479,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 472
+      "index": 477
     },
     {
       "uid": "WOS:001272109500001",
@@ -1372,7 +1509,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 471
+      "index": 476
     },
     {
       "uid": "WOS:001407945500001",
@@ -1410,7 +1547,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "CES"
       ],
-      "index": 470
+      "index": 475
     },
     {
       "uid": "WOS:001401915600001",
@@ -1445,7 +1582,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 469
+      "index": 474
     },
     {
       "uid": "WOS:001398424300001",
@@ -1485,7 +1622,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 468
+      "index": 473
     },
     {
       "uid": "WOS:001344447900001",
@@ -1525,7 +1662,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 467
+      "index": 472
     },
     {
       "uid": "WOS:001492321700005",
@@ -1541,7 +1678,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.3866/pku.whxb202309047",
       "url": "https://doi.org/10.3866/pku.whxb202309047",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001492321700005&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 39,
+      "citations": 40,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -1560,7 +1697,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 466
+      "index": 471
     },
     {
       "uid": "WOS:001324365500001",
@@ -1597,7 +1734,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 465
+      "index": 470
     },
     {
       "uid": "WOS:001529858400004",
@@ -1632,7 +1769,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 464
+      "index": 469
     },
     {
       "uid": "WOS:001625431700021",
@@ -1669,7 +1806,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 463
+      "index": 468
     },
     {
       "uid": "WOS:001599451500001",
@@ -1704,7 +1841,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 462
+      "index": 467
     },
     {
       "uid": "WOS:001600363000002",
@@ -1749,7 +1886,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 461
+      "index": 466
     },
     {
       "uid": "WOS:001456594400001",
@@ -1787,7 +1924,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 460
+      "index": 465
     },
     {
       "uid": "WOS:001441436100001",
@@ -1829,7 +1966,39 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 459
+      "index": 464
+    },
+    {
+      "uid": "WOS:001485544000001",
+      "title": "Interface regulation with D-A-D type small molecule for efficient and durable perovskite solar cells",
+      "authors": "Mengde Zhai, Zhanglin Guo, Jinman Yang, Cheng Chen, Ziyang Xia, <strong>Hui Xu</strong>, Tianhao Wu, Pangpang Wang, Sunao Yamada, Kaoru Tamada, Toshinori Matsushima, Ming Cheng",
+      "journal": "Journal of Energy Chemistry",
+      "year": 2025,
+      "year_group": "2025",
+      "date": "2025-AUG",
+      "volume": "107",
+      "issue": "",
+      "page": "832-840",
+      "doi": "10.1016/j.jechem.2025.04.010",
+      "url": "https://doi.org/10.1016/j.jechem.2025.04.010",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001485544000001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 14,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "J. Energy Chem."
+      ],
+      "index": 463
     },
     {
       "uid": "WOS:001428197900001",
@@ -1869,7 +2038,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 458
+      "index": 462
     },
     {
       "uid": "WOS:001471386600001",
@@ -1885,7 +2054,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1021/acscatal.5c00090",
       "url": "https://doi.org/10.1021/acscatal.5c00090",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001471386600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 17,
+      "citations": 18,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -1907,7 +2076,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 457
+      "index": 461
     },
     {
       "uid": "WOS:001397250600001",
@@ -1942,7 +2111,37 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 456
+      "index": 460
+    },
+    {
+      "uid": "WOS:001264976800001",
+      "title": "Organic-inorganic hybrid interfaces with π-d electron coupling for preventing metal and sulfur leaching toward enhanced oxygen evolution reaction",
+      "authors": "Yang Liu, Kun Wang, Lei Jin, Yahan Li, Guanyu Chen, <strong>Hui Xu</strong>, Jie Chen, Guangyu He",
+      "journal": "Journal Of Colloid And Interface Science",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-SEP 15",
+      "volume": "670",
+      "issue": "",
+      "page": "288-296",
+      "doi": "10.1016/j.jcis.2024.05.099",
+      "url": "https://doi.org/10.1016/j.jcis.2024.05.099",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001264976800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 12,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 459
     },
     {
       "uid": "WOS:001265010500001",
@@ -1977,7 +2176,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 455
+      "index": 458
     },
     {
       "uid": "WOS:001284046700001",
@@ -2022,7 +2221,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 454
+      "index": 457
     },
     {
       "uid": "WOS:001232046600001",
@@ -2057,7 +2256,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 453
+      "index": 456
     },
     {
       "uid": "WOS:001263857700001",
@@ -2092,7 +2291,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 452
+      "index": 455
     },
     {
       "uid": "WOS:001217436100001",
@@ -2132,7 +2331,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 451
+      "index": 454
     },
     {
       "uid": "WOS:001271734300001",
@@ -2167,7 +2366,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 450
+      "index": 453
     },
     {
       "uid": "WOS:001272580700001",
@@ -2205,7 +2404,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "CES"
       ],
-      "index": 449
+      "index": 452
     },
     {
       "uid": "WOS:001318849100001",
@@ -2240,7 +2439,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 448
+      "index": 451
     },
     {
       "uid": "WOS:001327423200001",
@@ -2270,7 +2469,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 447
+      "index": 450
     },
     {
       "uid": "WOS:001332741100001",
@@ -2307,7 +2506,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 446
+      "index": 449
     },
     {
       "uid": "WOS:001332615500001",
@@ -2344,7 +2543,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 445
+      "index": 448
     },
     {
       "uid": "WOS:001341133400006",
@@ -2379,7 +2578,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 444
+      "index": 447
     },
     {
       "uid": "WOS:001200527500001",
@@ -2414,7 +2613,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 443
+      "index": 446
     },
     {
       "uid": "WOS:001144545600001",
@@ -2451,7 +2650,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 442
+      "index": 445
     },
     {
       "uid": "WOS:001154776900001",
@@ -2481,7 +2680,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 441
+      "index": 444
     },
     {
       "uid": "WOS:001147353700001",
@@ -2516,7 +2715,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 440
+      "index": 443
     },
     {
       "uid": "WOS:001141059300001",
@@ -2561,7 +2760,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 439
+      "index": 442
     },
     {
       "uid": "WOS:001091757600001",
@@ -2577,7 +2776,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2023.123337",
       "url": "https://doi.org/10.1016/j.apcatb.2023.123337",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001091757600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 102,
+      "citations": 103,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -2603,7 +2802,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 438
+      "index": 441
     },
     {
       "uid": "WOS:001223772200001",
@@ -2633,7 +2832,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 437
+      "index": 440
     },
     {
       "uid": "WOS:001227027500001",
@@ -2663,7 +2862,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 436
+      "index": 439
     },
     {
       "uid": "WOS:001270087500001",
@@ -2693,7 +2892,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 435
+      "index": 438
     },
     {
       "uid": "WOS:001127126200001",
@@ -2728,7 +2927,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 434
+      "index": 437
     },
     {
       "uid": "WOS:001137088500002",
@@ -2767,7 +2966,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Nat. Energy"
       ],
-      "index": 433
+      "index": 436
     },
     {
       "uid": "WOS:001164703900001",
@@ -2812,7 +3011,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 432
+      "index": 435
     },
     {
       "uid": "WOS:001124694200001",
@@ -2847,7 +3046,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 431
+      "index": 434
     },
     {
       "uid": "WOS:001303908500001",
@@ -2882,7 +3081,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 430
+      "index": 433
     },
     {
       "uid": "WOS:001383197500001",
@@ -2912,7 +3111,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 429
+      "index": 432
     },
     {
       "uid": "WOS:001366146200001",
@@ -2952,7 +3151,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 428
+      "index": 431
     },
     {
       "uid": "WOS:001358437600001",
@@ -2989,7 +3188,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 427
+      "index": 430
     },
     {
       "uid": "WOS:001267867300001",
@@ -3024,7 +3223,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 426
+      "index": 429
     },
     {
       "uid": "WOS:001325446800001",
@@ -3059,7 +3258,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 425
+      "index": 428
     },
     {
       "uid": "WOS:001243163600001",
@@ -3099,7 +3298,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 424
+      "index": 427
     },
     {
       "uid": "WOS:001238133000001",
@@ -3134,7 +3333,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 423
+      "index": 426
     },
     {
       "uid": "WOS:001231804700001",
@@ -3174,7 +3373,37 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 422
+      "index": 425
+    },
+    {
+      "uid": "WOS:001238948800001",
+      "title": "Surface chemical microenvironment engineering of catalysts by organic molecules for boosting electrocatalytic reaction",
+      "authors": "Xianxu Chu, Lu Wang, Junru Li, <strong>Hui Xu</strong>",
+      "journal": "Chinese Chemical Letters",
+      "year": 2024,
+      "year_group": "2024",
+      "date": "2024-AUG",
+      "volume": "35",
+      "issue": "8",
+      "page": "",
+      "doi": "10.1016/j.cclet.2023.109105",
+      "url": "https://doi.org/10.1016/j.cclet.2023.109105",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001238948800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 17,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 424
     },
     {
       "uid": "WOS:001184167500001",
@@ -3214,7 +3443,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 421
+      "index": 423
     },
     {
       "uid": "WOS:001158323100001",
@@ -3254,7 +3483,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 420
+      "index": 422
     },
     {
       "uid": "WOS:001217483300001",
@@ -3286,7 +3515,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 419
+      "index": 421
     },
     {
       "uid": "WOS:001197543400001",
@@ -3316,7 +3545,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 418
+      "index": 420
     },
     {
       "uid": "WOS:000996416000001",
@@ -3356,7 +3585,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 417
+      "index": 419
     },
     {
       "uid": "WOS:000972815900001",
@@ -3391,7 +3620,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 416
+      "index": 418
     },
     {
       "uid": "WOS:001059781800001",
@@ -3426,7 +3655,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 415
+      "index": 417
     },
     {
       "uid": "WOS:001002401100001",
@@ -3463,7 +3692,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Small"
       ],
-      "index": 414
+      "index": 416
     },
     {
       "uid": "WOS:001235118200001",
@@ -3503,7 +3732,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 413
+      "index": 415
     },
     {
       "uid": "WOS:000996712100001",
@@ -3543,7 +3772,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 412
+      "index": 414
     },
     {
       "uid": "WOS:000972334900001",
@@ -3587,7 +3816,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Angew. Chem."
       ],
-      "index": 411
+      "index": 413
     },
     {
       "uid": "WOS:000950416700001",
@@ -3629,7 +3858,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "J. Energy Chem."
       ],
-      "index": 410
+      "index": 412
     },
     {
       "uid": "WOS:000924178900001",
@@ -3669,7 +3898,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 409
+      "index": 411
     },
     {
       "uid": "WOS:000999059800001",
@@ -3699,7 +3928,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 408
+      "index": 410
     },
     {
       "uid": "WOS:000971162900001",
@@ -3733,7 +3962,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Nano Energy"
       ],
-      "index": 407
+      "index": 409
     },
     {
       "uid": "WOS:000964040000001",
@@ -3768,7 +3997,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 406
+      "index": 408
     },
     {
       "uid": "WOS:001042725800001",
@@ -3813,7 +4042,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 405
+      "index": 407
     },
     {
       "uid": "WOS:001053512700001",
@@ -3855,7 +4084,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 404
+      "index": 406
     },
     {
       "uid": "WOS:000882026700002",
@@ -3895,7 +4124,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 403
+      "index": 405
     },
     {
       "uid": "WOS:000915478600001",
@@ -3935,7 +4164,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 402
+      "index": 404
     },
     {
       "uid": "WOS:000885888200002",
@@ -3965,7 +4194,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 401
+      "index": 403
     },
     {
       "uid": "WOS:000862854800002",
@@ -4008,7 +4237,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "CEJ"
       ],
-      "index": 400
+      "index": 402
     },
     {
       "uid": "WOS:000876181700004",
@@ -4043,7 +4272,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 399
+      "index": 401
     },
     {
       "uid": "WOS:000910944500005",
@@ -4080,7 +4309,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 398
+      "index": 400
     },
     {
       "uid": "WOS:000867133600002",
@@ -4118,7 +4347,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 397
+      "index": 399
     },
     {
       "uid": "WOS:000891624200001",
@@ -4153,7 +4382,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 396
+      "index": 398
     },
     {
       "uid": "WOS:000890482200002",
@@ -4193,7 +4422,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 395
+      "index": 397
     },
     {
       "uid": "WOS:000897679200001",
@@ -4228,7 +4457,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 394
+      "index": 396
     },
     {
       "uid": "WOS:000940580400001",
@@ -4258,7 +4487,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 393
+      "index": 395
     },
     {
       "uid": "WOS:000908345000003",
@@ -4293,7 +4522,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 392
+      "index": 394
     },
     {
       "uid": "WOS:000909634800001",
@@ -4333,7 +4562,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 391
+      "index": 393
     },
     {
       "uid": "WOS:001107114100001",
@@ -4373,7 +4602,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 390
+      "index": 392
     },
     {
       "uid": "WOS:001069752900001",
@@ -4403,7 +4632,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 389
+      "index": 391
     },
     {
       "uid": "WOS:001064961300001",
@@ -4438,7 +4667,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 388
+      "index": 390
     },
     {
       "uid": "WOS:001119696000001",
@@ -4475,7 +4704,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 387
+      "index": 389
     },
     {
       "uid": "WOS:001104701800001",
@@ -4510,7 +4739,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 386
+      "index": 388
     },
     {
       "uid": "WOS:001057852900001",
@@ -4545,7 +4774,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 385
+      "index": 387
     },
     {
       "uid": "WOS:001120836200001",
@@ -4587,7 +4816,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "ESI Top 1%"
       ],
-      "index": 384
+      "index": 386
     },
     {
       "uid": "WOS:001074868300001",
@@ -4625,7 +4854,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "AIChE J."
       ],
-      "index": 383
+      "index": 385
     },
     {
       "uid": "WOS:000965661900001",
@@ -4668,7 +4897,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "CEJ"
       ],
-      "index": 382
+      "index": 384
     },
     {
       "uid": "WOS:000928317600001",
@@ -4708,7 +4937,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 381
+      "index": 383
     },
     {
       "uid": "WOS:000998467800001",
@@ -4753,7 +4982,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 380
+      "index": 382
     },
     {
       "uid": "WOS:000848125000001",
@@ -4788,7 +5017,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 379
+      "index": 381
     },
     {
       "uid": "WOS:000855187600011",
@@ -4828,7 +5057,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 378
+      "index": 380
     },
     {
       "uid": "WOS:000858847700001",
@@ -4858,7 +5087,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 377
+      "index": 379
     },
     {
       "uid": "WOS:000810431400007",
@@ -4898,7 +5127,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 376
+      "index": 378
     },
     {
       "uid": "WOS:000862366800001",
@@ -4941,7 +5170,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 375
+      "index": 377
     },
     {
       "uid": "WOS:000861487200001",
@@ -4976,7 +5205,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 374
+      "index": 376
     },
     {
       "uid": "WOS:000861383200003",
@@ -5016,7 +5245,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 373
+      "index": 375
     },
     {
       "uid": "WOS:000860344100002",
@@ -5056,7 +5285,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 372
+      "index": 374
     },
     {
       "uid": "WOS:000813345200003",
@@ -5101,7 +5330,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 371
+      "index": 373
     },
     {
       "uid": "WOS:000870707800002",
@@ -5131,7 +5360,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 370
+      "index": 372
     },
     {
       "uid": "WOS:000749775800002",
@@ -5161,7 +5390,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 369
+      "index": 371
     },
     {
       "uid": "WOS:000779903900003",
@@ -5201,7 +5430,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 368
+      "index": 370
     },
     {
       "uid": "WOS:000779008100001",
@@ -5236,7 +5465,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 367
+      "index": 369
     },
     {
       "uid": "WOS:000778498500011",
@@ -5273,7 +5502,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 366
+      "index": 368
     },
     {
       "uid": "WOS:000755242300001",
@@ -5308,7 +5537,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 365
+      "index": 367
     },
     {
       "uid": "WOS:000780214300062",
@@ -5341,7 +5570,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Nano"
       ],
-      "index": 364
+      "index": 366
     },
     {
       "uid": "WOS:000809661700002",
@@ -5381,7 +5610,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 363
+      "index": 365
     },
     {
       "uid": "WOS:000734064600001",
@@ -5421,7 +5650,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 362
+      "index": 364
     },
     {
       "uid": "WOS:000794046700001",
@@ -5451,7 +5680,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 361
+      "index": 363
     },
     {
       "uid": "WOS:000736579100006",
@@ -5486,7 +5715,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 360
+      "index": 362
     },
     {
       "uid": "WOS:000772010800007",
@@ -5521,7 +5750,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 359
+      "index": 361
     },
     {
       "uid": "WOS:000819477500001",
@@ -5569,7 +5798,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 358
+      "index": 360
     },
     {
       "uid": "WOS:000779727800002",
@@ -5601,7 +5830,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 357
+      "index": 359
     },
     {
       "uid": "WOS:000784203400004",
@@ -5641,7 +5870,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 356
+      "index": 358
     },
     {
       "uid": "WOS:000768644900001",
@@ -5681,7 +5910,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 355
+      "index": 357
     },
     {
       "uid": "WOS:000719496400001",
@@ -5721,7 +5950,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 354
+      "index": 356
     },
     {
       "uid": "WOS:000704395600011",
@@ -5756,7 +5985,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 353
+      "index": 355
     },
     {
       "uid": "WOS:000766525200003",
@@ -5786,7 +6015,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 352
+      "index": 354
     },
     {
       "uid": "WOS:001026433800001",
@@ -5816,7 +6045,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 351
+      "index": 353
     },
     {
       "uid": "WOS:000720135800004",
@@ -5861,7 +6090,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 350
+      "index": 352
     },
     {
       "uid": "WOS:000749969500008",
@@ -5896,7 +6125,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 349
+      "index": 351
     },
     {
       "uid": "WOS:000741145400004",
@@ -5933,7 +6162,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 348
+      "index": 350
     },
     {
       "uid": "WOS:000728401100003",
@@ -5975,7 +6204,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 347
+      "index": 349
     },
     {
       "uid": "WOS:000884761300002",
@@ -6015,7 +6244,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 346
+      "index": 348
     },
     {
       "uid": "WOS:000870761800001",
@@ -6054,7 +6283,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Angew. Chem."
       ],
-      "index": 345
+      "index": 347
     },
     {
       "uid": "WOS:000894101700001",
@@ -6084,7 +6313,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 344
+      "index": 346
     },
     {
       "uid": "WOS:000862898100004",
@@ -6124,7 +6353,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 343
+      "index": 345
     },
     {
       "uid": "WOS:000892520100001",
@@ -6161,7 +6390,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 342
+      "index": 344
     },
     {
       "uid": "WOS:000900601900001",
@@ -6196,7 +6425,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 341
+      "index": 343
     },
     {
       "uid": "WOS:000933916500006",
@@ -6231,7 +6460,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 340
+      "index": 342
     },
     {
       "uid": "WOS:000891322900001",
@@ -6266,7 +6495,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 339
+      "index": 341
     },
     {
       "uid": "WOS:000855712400001",
@@ -6306,7 +6535,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 338
+      "index": 340
     },
     {
       "uid": "WOS:000795774900001",
@@ -6341,7 +6570,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 337
+      "index": 339
     },
     {
       "uid": "WOS:000764249100001",
@@ -6376,7 +6605,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 336
+      "index": 338
     },
     {
       "uid": "WOS:000768792400003",
@@ -6411,7 +6640,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 335
+      "index": 337
     },
     {
       "uid": "WOS:000681039600094",
@@ -6451,7 +6680,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 334
+      "index": 336
     },
     {
       "uid": "WOS:000672570400003",
@@ -6489,7 +6718,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "CEJ"
       ],
-      "index": 333
+      "index": 335
     },
     {
       "uid": "WOS:000687113600001",
@@ -6531,7 +6760,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Small"
       ],
-      "index": 332
+      "index": 334
     },
     {
       "uid": "WOS:000681597300001",
@@ -6576,7 +6805,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 331
+      "index": 333
     },
     {
       "uid": "WOS:000717654200001",
@@ -6611,7 +6840,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 330
+      "index": 332
     },
     {
       "uid": "WOS:000704132500007",
@@ -6651,7 +6880,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 329
+      "index": 331
     },
     {
       "uid": "WOS:000727078700001",
@@ -6681,7 +6910,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 328
+      "index": 330
     },
     {
       "uid": "WOS:000710443200001",
@@ -6721,7 +6950,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 327
+      "index": 329
     },
     {
       "uid": "WOS:000655602500007",
@@ -6756,7 +6985,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 326
+      "index": 328
     },
     {
       "uid": "WOS:000636785500007",
@@ -6791,7 +7020,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 325
+      "index": 327
     },
     {
       "uid": "WOS:000636588600001",
@@ -6831,7 +7060,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 324
+      "index": 326
     },
     {
       "uid": "WOS:000626852100001",
@@ -6866,7 +7095,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 323
+      "index": 325
     },
     {
       "uid": "WOS:000608923600003",
@@ -6906,7 +7135,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 322
+      "index": 324
     },
     {
       "uid": "WOS:000582726000009",
@@ -6943,7 +7172,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 321
+      "index": 323
     },
     {
       "uid": "WOS:000605249800006",
@@ -6990,7 +7219,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "J. Energy Chem."
       ],
-      "index": 320
+      "index": 322
     },
     {
       "uid": "WOS:000657622200014",
@@ -7030,7 +7259,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 319
+      "index": 321
     },
     {
       "uid": "WOS:000638222800004",
@@ -7072,7 +7301,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 318
+      "index": 320
     },
     {
       "uid": "WOS:000649688600001",
@@ -7110,7 +7339,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "Nano Energy"
       ],
-      "index": 317
+      "index": 319
     },
     {
       "uid": "WOS:000581684900040",
@@ -7155,7 +7384,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 316
+      "index": 318
     },
     {
       "uid": "WOS:000706435300001",
@@ -7190,7 +7419,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 315
+      "index": 317
     },
     {
       "uid": "WOS:000613637800028",
@@ -7225,7 +7454,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 314
+      "index": 316
     },
     {
       "uid": "WOS:000580404400014",
@@ -7260,7 +7489,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 313
+      "index": 315
     },
     {
       "uid": "WOS:001065074500012",
@@ -7305,7 +7534,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 312
+      "index": 314
     },
     {
       "uid": "WOS:000595156500018",
@@ -7357,7 +7586,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "J. Energy Chem."
       ],
-      "index": 311
+      "index": 313
     },
     {
       "uid": "WOS:000626629900001",
@@ -7397,7 +7626,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 310
+      "index": 312
     },
     {
       "uid": "WOS:000605533000003",
@@ -7442,7 +7671,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 309
+      "index": 311
     },
     {
       "uid": "WOS:000594859200012",
@@ -7482,7 +7711,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 308
+      "index": 310
     },
     {
       "uid": "WOS:000582725500011",
@@ -7519,7 +7748,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 307
+      "index": 309
     },
     {
       "uid": "WOS:000591345400004",
@@ -7561,7 +7790,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 306
+      "index": 308
     },
     {
       "uid": "WOS:000707126000216",
@@ -7603,7 +7832,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 305
+      "index": 307
     },
     {
       "uid": "WOS:000707126000208",
@@ -7655,7 +7884,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 304
+      "index": 306
     },
     {
       "uid": "WOS:000711394500003",
@@ -7695,7 +7924,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 303
+      "index": 305
     },
     {
       "uid": "WOS:000696169200001",
@@ -7730,7 +7959,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 302
+      "index": 304
     },
     {
       "uid": "WOS:000691785200056",
@@ -7770,7 +7999,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 301
+      "index": 303
     },
     {
       "uid": "WOS:000681089300009",
@@ -7805,7 +8034,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 300
+      "index": 302
     },
     {
       "uid": "WOS:000620361700003",
@@ -7845,7 +8074,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 299
+      "index": 301
     },
     {
       "uid": "WOS:000614726800005",
@@ -7880,7 +8109,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 298
+      "index": 300
     },
     {
       "uid": "WOS:000634800100016",
@@ -7910,7 +8139,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 297
+      "index": 299
     },
     {
       "uid": "WOS:000607727300024",
@@ -7945,7 +8174,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 296
+      "index": 298
     },
     {
       "uid": "WOS:000541924000038",
@@ -7985,7 +8214,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 295
+      "index": 297
     },
     {
       "uid": "WOS:000575557800030",
@@ -8015,7 +8244,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 294
+      "index": 296
     },
     {
       "uid": "WOS:000551969200072",
@@ -8057,7 +8286,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 293
+      "index": 295
     },
     {
       "uid": "WOS:000540732600011",
@@ -8089,7 +8318,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "J. Energy Chem."
       ],
-      "index": 292
+      "index": 294
     },
     {
       "uid": "WOS:000572714000008",
@@ -8119,7 +8348,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 291
+      "index": 293
     },
     {
       "uid": "WOS:000589891400038",
@@ -8154,7 +8383,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 290
+      "index": 292
     },
     {
       "uid": "WOS:000581780400076",
@@ -8189,7 +8418,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 289
+      "index": 291
     },
     {
       "uid": "WOS:000552015900069",
@@ -8231,7 +8460,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 288
+      "index": 290
     },
     {
       "uid": "WOS:000614552900042",
@@ -8261,7 +8490,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 287
+      "index": 289
     },
     {
       "uid": "WOS:000514857400084",
@@ -8296,7 +8525,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 286
+      "index": 288
     },
     {
       "uid": "WOS:000527331600112",
@@ -8328,7 +8557,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 285
+      "index": 287
     },
     {
       "uid": "WOS:000530670200035",
@@ -8361,7 +8590,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "Nano Energy"
       ],
-      "index": 284
+      "index": 286
     },
     {
       "uid": "WOS:000520021200122",
@@ -8406,7 +8635,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 283
+      "index": 285
     },
     {
       "uid": "WOS:000520021200087",
@@ -8446,7 +8675,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 282
+      "index": 284
     },
     {
       "uid": "WOS:000526311000036",
@@ -8486,7 +8715,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 281
+      "index": 283
     },
     {
       "uid": "WOS:000555518200021",
@@ -8516,7 +8745,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 280
+      "index": 282
     },
     {
       "uid": "WOS:000532683200019",
@@ -8559,7 +8788,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 279
+      "index": 281
     },
     {
       "uid": "WOS:000509432200018",
@@ -8599,7 +8828,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 278
+      "index": 280
     },
     {
       "uid": "WOS:000502046200022",
@@ -8639,7 +8868,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 277
+      "index": 279
     },
     {
       "uid": "WOS:000494815600141",
@@ -8676,7 +8905,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 276
+      "index": 278
     },
     {
       "uid": "WOS:000535839500010",
@@ -8716,7 +8945,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 275
+      "index": 277
     },
     {
       "uid": "WOS:000511447700002",
@@ -8756,7 +8985,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 274
+      "index": 276
     },
     {
       "uid": "WOS:000513861400010",
@@ -8796,7 +9025,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 273
+      "index": 275
     },
     {
       "uid": "WOS:000508718500001",
@@ -8836,7 +9065,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 272
+      "index": 274
     },
     {
       "uid": "WOS:000508742700101",
@@ -8871,7 +9100,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 271
+      "index": 273
     },
     {
       "uid": "WOS:000504130200058",
@@ -8916,7 +9145,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 270
+      "index": 272
     },
     {
       "uid": "WOS:000503381200082",
@@ -8959,7 +9188,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "CEJ"
       ],
-      "index": 269
+      "index": 271
     },
     {
       "uid": "WOS:000517270500022",
@@ -9004,7 +9233,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 268
+      "index": 270
     },
     {
       "uid": "WOS:000514749500023",
@@ -9044,7 +9273,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 267
+      "index": 269
     },
     {
       "uid": "WOS:000587670300001",
@@ -9081,7 +9310,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Small"
       ],
-      "index": 266
+      "index": 268
     },
     {
       "uid": "WOS:000561644200020",
@@ -9121,7 +9350,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 265
+      "index": 267
     },
     {
       "uid": "WOS:000544626300006",
@@ -9156,7 +9385,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 264
+      "index": 266
     },
     {
       "uid": "WOS:000522517700001",
@@ -9196,7 +9425,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 263
+      "index": 265
     },
     {
       "uid": "WOS:000658740900009",
@@ -9228,7 +9457,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Selected"
       ],
-      "index": 262
+      "index": 264
     },
     {
       "uid": "WOS:000534090000017",
@@ -9258,7 +9487,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 261
+      "index": 263
     },
     {
       "uid": "WOS:000521653900017",
@@ -9303,7 +9532,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 260
+      "index": 262
     },
     {
       "uid": "WOS:000484789100070",
@@ -9338,7 +9567,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 259
+      "index": 261
     },
     {
       "uid": "WOS:000510526000014",
@@ -9381,7 +9610,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 258
+      "index": 260
     },
     {
       "uid": "WOS:000485039800049",
@@ -9411,7 +9640,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 257
+      "index": 259
     },
     {
       "uid": "WOS:000483341100043",
@@ -9446,7 +9675,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 256
+      "index": 258
     },
     {
       "uid": "WOS:000472709100014",
@@ -9491,7 +9720,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 255
+      "index": 257
     },
     {
       "uid": "WOS:000492801600039",
@@ -9534,7 +9763,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Nano"
       ],
-      "index": 254
+      "index": 256
     },
     {
       "uid": "WOS:000475764300016",
@@ -9564,7 +9793,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 253
+      "index": 255
     },
     {
       "uid": "WOS:000483451200068",
@@ -9611,7 +9840,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 252
+      "index": 254
     },
     {
       "uid": "WOS:000483451200072",
@@ -9659,7 +9888,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 251
+      "index": 253
     },
     {
       "uid": "WOS:000487657000005",
@@ -9694,7 +9923,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 250
+      "index": 252
     },
     {
       "uid": "WOS:000486177700070",
@@ -9734,7 +9963,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 249
+      "index": 251
     },
     {
       "uid": "WOS:000501653500014",
@@ -9774,7 +10003,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 248
+      "index": 250
     },
     {
       "uid": "WOS:000506410000010",
@@ -9804,7 +10033,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 247
+      "index": 249
     },
     {
       "uid": "WOS:000491301300033",
@@ -9844,7 +10073,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 246
+      "index": 248
     },
     {
       "uid": "WOS:000476961800011",
@@ -9879,7 +10108,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 245
+      "index": 247
     },
     {
       "uid": "WOS:000472455800012",
@@ -9919,7 +10148,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 244
+      "index": 246
     },
     {
       "uid": "WOS:000467661700047",
@@ -9961,7 +10190,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 243
+      "index": 245
     },
     {
       "uid": "WOS:000464744300013",
@@ -10001,7 +10230,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 242
+      "index": 244
     },
     {
       "uid": "WOS:000460687400012",
@@ -10038,7 +10267,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 241
+      "index": 243
     },
     {
       "uid": "WOS:000460964000156",
@@ -10080,7 +10309,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 240
+      "index": 242
     },
     {
       "uid": "WOS:000463290700004",
@@ -10118,7 +10347,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "Small"
       ],
-      "index": 239
+      "index": 241
     },
     {
       "uid": "WOS:000463824300009",
@@ -10150,7 +10379,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 238
+      "index": 240
     },
     {
       "uid": "WOS:000456637900013",
@@ -10185,7 +10414,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 237
+      "index": 239
     },
     {
       "uid": "WOS:000454617200085",
@@ -10220,7 +10449,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 236
+      "index": 238
     },
     {
       "uid": "WOS:000454617200108",
@@ -10255,7 +10484,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 235
+      "index": 237
     },
     {
       "uid": "WOS:000463972700007",
@@ -10285,7 +10514,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 234
+      "index": 236
     },
     {
       "uid": "WOS:000461415700008",
@@ -10315,7 +10544,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 233
+      "index": 235
     },
     {
       "uid": "WOS:000473201200013",
@@ -10360,7 +10589,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 232
+      "index": 234
     },
     {
       "uid": "WOS:000472566400045",
@@ -10392,7 +10621,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 231
+      "index": 233
     },
     {
       "uid": "WOS:000461758800054",
@@ -10422,7 +10651,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 230
+      "index": 232
     },
     {
       "uid": "WOS:000472193200018",
@@ -10457,7 +10686,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 229
+      "index": 231
     },
     {
       "uid": "WOS:000469400200007",
@@ -10492,7 +10721,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 228
+      "index": 230
     },
     {
       "uid": "WOS:000463126200009",
@@ -10535,7 +10764,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 227
+      "index": 229
     },
     {
       "uid": "WOS:000468903200048",
@@ -10570,7 +10799,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 226
+      "index": 228
     },
     {
       "uid": "WOS:000476684900033",
@@ -10600,7 +10829,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 225
+      "index": 227
     },
     {
       "uid": "WOS:000462761700056",
@@ -10635,7 +10864,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 224
+      "index": 226
     },
     {
       "uid": "WOS:000447744200066",
@@ -10665,7 +10894,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 223
+      "index": 225
     },
     {
       "uid": "WOS:000449176700001",
@@ -10695,7 +10924,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 222
+      "index": 224
     },
     {
       "uid": "WOS:000492801100005",
@@ -10735,7 +10964,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 221
+      "index": 223
     },
     {
       "uid": "WOS:000449132900032",
@@ -10765,7 +10994,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 220
+      "index": 222
     },
     {
       "uid": "WOS:000458086100042",
@@ -10800,7 +11029,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 219
+      "index": 221
     },
     {
       "uid": "WOS:000451023500008",
@@ -10835,7 +11064,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 218
+      "index": 220
     },
     {
       "uid": "WOS:000451023500020",
@@ -10875,7 +11104,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 217
+      "index": 219
     },
     {
       "uid": "WOS:000458828000034",
@@ -10919,7 +11148,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Angew. Chem."
       ],
-      "index": 216
+      "index": 218
     },
     {
       "uid": "WOS:000448181000050",
@@ -10956,7 +11185,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 215
+      "index": 217
     },
     {
       "uid": "WOS:000452842500009",
@@ -11001,7 +11230,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 214
+      "index": 216
     },
     {
       "uid": "WOS:000451732100010",
@@ -11043,7 +11272,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "J. Energy Chem."
       ],
-      "index": 213
+      "index": 215
     },
     {
       "uid": "WOS:000449444000047",
@@ -11091,7 +11320,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 212
+      "index": 214
     },
     {
       "uid": "WOS:000494056200049",
@@ -11126,7 +11355,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 211
+      "index": 213
     },
     {
       "uid": "WOS:000506722300015",
@@ -11161,7 +11390,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 210
+      "index": 212
     },
     {
       "uid": "WOS:000491431300017",
@@ -11191,7 +11420,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 209
+      "index": 211
     },
     {
       "uid": "WOS:000496275400005",
@@ -11221,7 +11450,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 208
+      "index": 210
     },
     {
       "uid": "WOS:000481578000016",
@@ -11263,7 +11492,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "JMCA"
       ],
-      "index": 207
+      "index": 209
     },
     {
       "uid": "WOS:000467387200137",
@@ -11305,7 +11534,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 206
+      "index": 208
     },
     {
       "uid": "WOS:000462639100061",
@@ -11335,7 +11564,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 205
+      "index": 207
     },
     {
       "uid": "WOS:000465486100035",
@@ -11365,7 +11594,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 204
+      "index": 206
     },
     {
       "uid": "WOS:000458710300031",
@@ -11405,7 +11634,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 203
+      "index": 205
     },
     {
       "uid": "WOS:000453616800035",
@@ -11442,7 +11671,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 202
+      "index": 204
     },
     {
       "uid": "WOS:000453616800016",
@@ -11479,7 +11708,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 201
+      "index": 203
     },
     {
       "uid": "WOS:000455544800012",
@@ -11514,7 +11743,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 200
+      "index": 202
     },
     {
       "uid": "WOS:000436459800015",
@@ -11549,7 +11778,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 199
+      "index": 201
     },
     {
       "uid": "WOS:000445439900043",
@@ -11584,7 +11813,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 198
+      "index": 200
     },
     {
       "uid": "WOS:000443924100095",
@@ -11619,7 +11848,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 197
+      "index": 199
     },
     {
       "uid": "WOS:000440127000009",
@@ -11654,7 +11883,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 196
+      "index": 198
     },
     {
       "uid": "WOS:000454842000040",
@@ -11694,7 +11923,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 195
+      "index": 197
     },
     {
       "uid": "WOS:000449941800004",
@@ -11734,7 +11963,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 194
+      "index": 196
     },
     {
       "uid": "WOS:000444600300105",
@@ -11774,7 +12003,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 193
+      "index": 195
     },
     {
       "uid": "WOS:000441872300134",
@@ -11819,7 +12048,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 192
+      "index": 194
     },
     {
       "uid": "WOS:000453914100013",
@@ -11859,7 +12088,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 191
+      "index": 193
     },
     {
       "uid": "WOS:000430690200007",
@@ -11894,7 +12123,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 190
+      "index": 192
     },
     {
       "uid": "WOS:000426298900041",
@@ -11924,7 +12153,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 189
+      "index": 191
     },
     {
       "uid": "WOS:000431624300008",
@@ -11959,7 +12188,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 188
+      "index": 190
     },
     {
       "uid": "WOS:000425549300021",
@@ -11999,7 +12228,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 187
+      "index": 189
     },
     {
       "uid": "WOS:000430700500031",
@@ -12041,7 +12270,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "CEJ"
       ],
-      "index": 186
+      "index": 188
     },
     {
       "uid": "WOS:000423643800026",
@@ -12071,7 +12300,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 185
+      "index": 187
     },
     {
       "uid": "WOS:000425289200008",
@@ -12101,7 +12330,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 184
+      "index": 186
     },
     {
       "uid": "WOS:000424719300005",
@@ -12143,7 +12372,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 183
+      "index": 185
     },
     {
       "uid": "WOS:000424719300016",
@@ -12181,7 +12410,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Appl. Catal. B"
       ],
-      "index": 182
+      "index": 184
     },
     {
       "uid": "WOS:000430762200046",
@@ -12211,7 +12440,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 181
+      "index": 183
     },
     {
       "uid": "WOS:000437667800009",
@@ -12255,7 +12484,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Adv. Energy Mater."
       ],
-      "index": 180
+      "index": 182
     },
     {
       "uid": "WOS:000432795500090",
@@ -12295,7 +12524,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 179
+      "index": 181
     },
     {
       "uid": "WOS:000439009400005",
@@ -12340,7 +12569,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 178
+      "index": 180
     },
     {
       "uid": "WOS:000493332100003",
@@ -12375,7 +12604,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 177
+      "index": 179
     },
     {
       "uid": "WOS:000435588600086",
@@ -12405,7 +12634,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 176
+      "index": 178
     },
     {
       "uid": "WOS:000419675700010",
@@ -12445,7 +12674,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 175
+      "index": 177
     },
     {
       "uid": "WOS:000423483200015",
@@ -12485,7 +12714,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 174
+      "index": 176
     },
     {
       "uid": "WOS:000417068300060",
@@ -12525,7 +12754,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 173
+      "index": 175
     },
     {
       "uid": "WOS:000419831600049",
@@ -12560,7 +12789,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 172
+      "index": 174
     },
     {
       "uid": "WOS:000423968600045",
@@ -12590,7 +12819,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 171
+      "index": 173
     },
     {
       "uid": "WOS:000468045100157",
@@ -12625,7 +12854,37 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 170
+      "index": 172
+    },
+    {
+      "uid": "WOS:000442616800052",
+      "title": "Facile hydrothermal synthesis of ternary Ni-Co-Se/carbon nanotube nanocomposites as advanced electrodes for lithium storage",
+      "authors": "Jingguo Ding, <strong>Hui Xu</strong>, Xiaobo Chen",
+      "journal": "Rsc Advances",
+      "year": 2018,
+      "year_group": "2015-2019",
+      "date": "2018-JAN",
+      "volume": "8",
+      "issue": "50",
+      "page": "28710-28715",
+      "doi": "10.1039/c8ra05142a",
+      "url": "https://doi.org/10.1039/c8ra05142a",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000442616800052&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 18,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "battery",
+          "name_cn": "电池与储能",
+          "name_en": "Batteries & Energy Storage"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 171
     },
     {
       "uid": "WOS:000422862800005",
@@ -12660,7 +12919,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 169
+      "index": 170
     },
     {
       "uid": "WOS:000412957200037",
@@ -12707,7 +12966,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 168
+      "index": 169
     },
     {
       "uid": "WOS:000451862900144",
@@ -12737,7 +12996,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 167
+      "index": 168
     },
     {
       "uid": "WOS:000418729500062",
@@ -12772,7 +13031,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 166
+      "index": 167
     },
     {
       "uid": "WOS:000454751200008",
@@ -12812,7 +13071,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 165
+      "index": 166
     },
     {
       "uid": "WOS:000453488900064",
@@ -12852,7 +13111,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 164
+      "index": 165
     },
     {
       "uid": "WOS:000452114200021",
@@ -12887,7 +13146,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 163
+      "index": 164
     },
     {
       "uid": "WOS:000427808900055",
@@ -12917,7 +13176,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 162
+      "index": 163
     },
     {
       "uid": "WOS:000429285800078",
@@ -12957,7 +13216,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 161
+      "index": 162
     },
     {
       "uid": "WOS:000430989300022",
@@ -12999,7 +13258,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 160
+      "index": 161
     },
     {
       "uid": "WOS:000428290700012",
@@ -13034,7 +13293,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 159
+      "index": 160
     },
     {
       "uid": "WOS:000409410000010",
@@ -13078,7 +13337,7 @@ window.XH_PUBLICATIONS_DATA = {
         "ESI Top 1%",
         "Adv. Energy Mater."
       ],
-      "index": 158
+      "index": 159
     },
     {
       "uid": "WOS:000411998800004",
@@ -13108,7 +13367,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 157
+      "index": 158
     },
     {
       "uid": "WOS:000408697300017",
@@ -13143,7 +13402,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 156
+      "index": 157
     },
     {
       "uid": "WOS:000406565200012",
@@ -13183,7 +13442,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 155
+      "index": 156
     },
     {
       "uid": "WOS:000404310800035",
@@ -13213,7 +13472,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 154
+      "index": 155
     },
     {
       "uid": "WOS:000427008300015",
@@ -13243,7 +13502,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 153
+      "index": 154
     },
     {
       "uid": "WOS:000412378500080",
@@ -13278,7 +13537,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 152
+      "index": 153
     },
     {
       "uid": "WOS:000413145500007",
@@ -13318,7 +13577,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 151
+      "index": 152
     },
     {
       "uid": "WOS:000395496900006",
@@ -13353,7 +13612,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 150
+      "index": 151
     },
     {
       "uid": "WOS:000402913400013",
@@ -13393,7 +13652,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 149
+      "index": 150
     },
     {
       "uid": "WOS:000399510900025",
@@ -13423,6 +13682,39 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
+      "index": 149
+    },
+    {
+      "uid": "WOS:000395726500083",
+      "title": "Nature of Catalytically Active Sites in the Supported WO3/ZrO2 Solid Acid System: A Current Perspective",
+      "authors": "Wu Zhou, Nikolaos Soultanidis, <strong>Hui Xu</strong>, Michael S. Wong, Matthew Neurock, Christopher J. Kiely, Israel E. Wachs",
+      "journal": "ACS Catalysis",
+      "year": 2017,
+      "year_group": "2015-2019",
+      "date": "2017-MAR",
+      "volume": "7",
+      "issue": "3",
+      "page": "2181-2198",
+      "doi": "10.1021/acscatal.6b03697",
+      "url": "https://doi.org/10.1021/acscatal.6b03697",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000395726500083&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 102,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "materials",
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "ACS Catal."
+      ],
       "index": 148
     },
     {
@@ -13746,7 +14038,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1039/c7ra03936k",
       "url": "https://doi.org/10.1039/c7ra03936k",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000403668900038&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 44,
+      "citations": 45,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -15934,7 +16226,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.colsurfa.2015.03.035",
       "url": "https://doi.org/10.1016/j.colsurfa.2015.03.035",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000354028700010&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 301,
+      "citations": 303,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,

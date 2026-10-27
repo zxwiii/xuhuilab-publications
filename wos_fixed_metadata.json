@@ -11337,5 +11337,164 @@
     "page": "032087",
     "is_first_author": false,
     "is_corr_author": false
+  },
+  "10.1021/acscatal.6b03697": {
+    "topics": [
+      {
+        "id": "materials",
+        "name_cn": "功能材料与基础研究",
+        "name_en": "Advanced Functional Materials"
+      }
+    ],
+    "title": "Nature of Catalytically Active Sites in the Supported WO3/ZrO2 Solid Acid System: A Current Perspective",
+    "journal": "ACS Catalysis",
+    "volume": "7",
+    "issue": "3",
+    "page": "2181-2198",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1039/c8ra05142a": {
+    "topics": [
+      {
+        "id": "battery",
+        "name_cn": "电池与储能",
+        "name_en": "Batteries & Energy Storage"
+      }
+    ],
+    "title": "Facile hydrothermal synthesis of ternary Ni-Co-Se/carbon nanotube nanocomposites as advanced electrodes for lithium storage",
+    "journal": "Rsc Advances",
+    "volume": "8",
+    "issue": "50",
+    "page": "28710-28715",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1016/j.cclet.2023.109105": {
+    "topics": [
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
+      }
+    ],
+    "title": "Surface chemical microenvironment engineering of catalysts by organic molecules for boosting electrocatalytic reaction",
+    "journal": "Chinese Chemical Letters",
+    "volume": "35",
+    "issue": "8",
+    "page": "",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1016/j.jcis.2024.05.099": {
+    "topics": [
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
+      }
+    ],
+    "title": "Organic-inorganic hybrid interfaces with π-d electron coupling for preventing metal and sulfur leaching toward enhanced oxygen evolution reaction",
+    "journal": "Journal Of Colloid And Interface Science",
+    "volume": "670",
+    "issue": "",
+    "page": "288-296",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1002/smll.202409304": {
+    "topics": [
+      {
+        "id": "battery",
+        "name_cn": "电池与储能",
+        "name_en": "Batteries & Energy Storage"
+      }
+    ],
+    "title": "A New TiO2-Based Cathode Material with Interface-Dominated Storage Mechanism for Aqueous Zinc-Ion Batteries",
+    "journal": "Small",
+    "volume": "21",
+    "issue": "10",
+    "page": "",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1016/j.jechem.2025.04.010": {
+    "topics": [
+      {
+        "id": "c3n4_2d",
+        "name_cn": "碳氮材料与二维半导体",
+        "name_en": "Carbon Nitride & 2D Materials"
+      }
+    ],
+    "title": "Interface regulation with D-A-D type small molecule for efficient and durable perovskite solar cells",
+    "journal": "Journal of Energy Chemistry",
+    "volume": "107",
+    "issue": "",
+    "page": "832-840",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1016/j.jcis.2025.137711": {
+    "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
+        "id": "co2",
+        "name_cn": "二氧化碳捕集与转化",
+        "name_en": "CO2 Reduction & Conversion"
+      }
+    ],
+    "title": "Enhancing photocatalytic CO2 reduction by fabricating intimate contact interfacial of SnIn4S8/Co3O4 2D-2D heterojunction photocatalyst",
+    "journal": "Journal Of Colloid And Interface Science",
+    "volume": "694",
+    "issue": "",
+    "page": "",
+    "is_first_author": false,
+    "is_corr_author": true
+  },
+  "10.1016/j.conbuildmat.2025.141953": {
+    "topics": [
+      {
+        "id": "materials",
+        "name_cn": "功能材料与基础研究",
+        "name_en": "Advanced Functional Materials"
+      }
+    ],
+    "title": "A novel biochar supported dual-flame-retardant composite phase change material (PCM) for building energy saving",
+    "journal": "Construction And Building Materials",
+    "volume": "485",
+    "issue": "",
+    "page": "",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1039/d4nj05406g": {
+    "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
+        "id": "c3n4_2d",
+        "name_cn": "碳氮材料与二维半导体",
+        "name_en": "Carbon Nitride & 2D Materials"
+      },
+      {
+        "id": "co2",
+        "name_cn": "二氧化碳捕集与转化",
+        "name_en": "CO2 Reduction & Conversion"
+      }
+    ],
+    "title": "Ultrathin polymeric carbon nitride loaded AuCu alloy cocatalysts for efficient photocatalytic CO2 reduction to syngas",
+    "journal": "New Journal Of Chemistry",
+    "volume": "49",
+    "issue": "25",
+    "page": "11022-11031",
+    "is_first_author": false,
+    "is_corr_author": false
   }
 }
