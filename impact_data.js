@@ -1,17 +1,17 @@
 /**
  * 许晖课题组 (xuhuilab.com) 学术影响力与学者头衔独立数据包
- * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年10月28日
+ * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年10月29日
  */
 window.XH_IMPACT_DATA = {
   "scholar_name": "许晖",
   "scholar_title": "教授 / 博导",
   "institution": "江苏大学",
   "researcher_id": "ADN-0578-2022",
-  "total_publications": 513,
-  "total_citations": 35763,
+  "total_publications": 521,
+  "total_citations": 35791,
   "h_index": 101,
   "source": "Clarivate Web of Science (核心合集)",
-  "updated_at": "2026年10月28日",
+  "updated_at": "2026年10月29日",
   "honors": [
     {
       "title": "科睿唯安全球高被引科学家",

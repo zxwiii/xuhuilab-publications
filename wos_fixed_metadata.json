@@ -11496,5 +11496,163 @@
     "page": "11022-11031",
     "is_first_author": false,
     "is_corr_author": false
+  },
+  "10.1016/j.apcata.2026.120894": {
+    "topics": [
+      {
+        "id": "co2",
+        "name_cn": "二氧化碳捕集与转化",
+        "name_en": "CO2 Reduction & Conversion"
+      },
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
+      }
+    ],
+    "title": "Atomic engineering of Cu-N coordination sites for high-performance CO2-to-CH4 electroreduction",
+    "journal": "Applied Catalysis A-General",
+    "volume": "717",
+    "issue": "",
+    "page": "",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1038/s41467-026-69175-9": {
+    "topics": [
+      {
+        "id": "co2",
+        "name_cn": "二氧化碳捕集与转化",
+        "name_en": "CO2 Reduction & Conversion"
+      }
+    ],
+    "title": "Kilowatt-scale alkali-cation-free CO2 electrolysis via accelerating mass transfer",
+    "journal": "Nature Communications",
+    "volume": "17",
+    "issue": "1",
+    "page": "",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1021/acs.inorgchem.6c00604": {
+    "topics": [
+      {
+        "id": "electrocat",
+        "name_cn": "电催化",
+        "name_en": "Electrocatalysis"
+      }
+    ],
+    "title": "Size-Engineered PdCd Nanocubes Enable Intermediate Desorption for Enhanced Durability in Ethylene Glycol Electrooxidation",
+    "journal": "Inorganic Chemistry",
+    "volume": "65",
+    "issue": "15",
+    "page": "8647-8657",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1007/s11664-026-12875-1": {
+    "topics": [
+      {
+        "id": "materials",
+        "name_cn": "功能材料与基础研究",
+        "name_en": "Advanced Functional Materials"
+      }
+    ],
+    "title": "The Effect of Phosphorus Gettering Process on the Electrical Properties of Monocrystalline Silicon Wafers",
+    "journal": "Journal Of Electronic Materials",
+    "volume": "55",
+    "issue": "7",
+    "page": "6131-6141",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1016/j.ces.2026.124312": {
+    "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
+        "id": "c3n4_2d",
+        "name_cn": "碳氮材料与二维半导体",
+        "name_en": "Carbon Nitride & 2D Materials"
+      },
+      {
+        "id": "co2",
+        "name_cn": "二氧化碳捕集与转化",
+        "name_en": "CO2 Reduction & Conversion"
+      }
+    ],
+    "title": "Rational construction of half-metallic carbon nitride and TiO2 S-scheme heterojunction for efficient photocatalytic CO2 reduction",
+    "journal": "Chemical Engineering Science",
+    "volume": "334",
+    "issue": "",
+    "page": "",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1016/j.jallcom.2026.188921": {
+    "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
+        "id": "co2",
+        "name_cn": "二氧化碳捕集与转化",
+        "name_en": "CO2 Reduction & Conversion"
+      }
+    ],
+    "title": "Stereolithography 3D printed structural nickel-based catalyst by one step in-situ method for photocatalytic CO2 reduction",
+    "journal": "Journal Of Alloys And Compounds",
+    "volume": "1074",
+    "issue": "",
+    "page": "",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1016/j.ccr.2026.218559": {
+    "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
+        "id": "co2",
+        "name_cn": "二氧化碳捕集与转化",
+        "name_en": "CO2 Reduction & Conversion"
+      }
+    ],
+    "title": "Multi-element co-doping strategies for photocatalytic CO2 reduction: synergistic effects and mechanistic insights",
+    "journal": "Coordination Chemistry Reviews",
+    "volume": "570",
+    "issue": "",
+    "page": "",
+    "is_first_author": false,
+    "is_corr_author": false
+  },
+  "10.1016/j.cej.2026.181804": {
+    "topics": [
+      {
+        "id": "photocat",
+        "name_cn": "光催化",
+        "name_en": "Photocatalysis"
+      },
+      {
+        "id": "co2",
+        "name_cn": "二氧化碳捕集与转化",
+        "name_en": "CO2 Reduction & Conversion"
+      }
+    ],
+    "title": "Recent research advances in element-doped photocatalysts for photocatalytic conversion of CO2",
+    "journal": "Chemical Engineering Journal",
+    "volume": "548",
+    "issue": "",
+    "page": "",
+    "is_first_author": false,
+    "is_corr_author": false
   }
 }

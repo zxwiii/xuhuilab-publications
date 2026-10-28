@@ -1,40 +1,41 @@
 /**
  * 许晖课题组 (xuhuilab.com) 论文成果与多维筛选数据包
- * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年10月28日
+ * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年10月29日
  */
 window.XH_PUBLICATIONS_DATA = {
   "meta": {
-    "total": 513,
-    "updated_at": "2026年10月28日",
+    "total": 521,
+    "updated_at": "2026年10月29日",
     "source": "Clarivate Web of Science (核心合集)",
-    "selected_count": 30,
+    "selected_count": 32,
     "esi_count": 27,
     "first_or_corr_count": 276,
     "journal_stats": {
       "Nat. Energy": 1,
       "Angew. Chem.": 5,
       "AIChE J.": 2,
-      "CES": 2,
+      "CES": 3,
       "ACS Catal.": 7,
       "ACS Nano": 2,
       "AFM": 3,
       "Adv. Energy Mater.": 2,
+      "Nat. Commun.": 1,
       "Appl. Catal. B": 33,
       "Nano Energy": 4,
-      "CEJ": 28,
+      "CEJ": 29,
       "JMCA": 9,
       "J. Energy Chem.": 6,
       "Chin. J. Catal.": 7,
       "Small": 7
     },
     "topic_stats": {
-      "co2": 76,
-      "electrocat": 67,
-      "photocat": 374,
-      "c3n4_2d": 288,
+      "photocat": 378,
+      "co2": 82,
+      "electrocat": 69,
+      "c3n4_2d": 289,
       "env": 153,
+      "materials": 31,
       "energy": 105,
-      "materials": 30,
       "ionic": 40,
       "biomass": 19,
       "battery": 19
@@ -44,13 +45,13 @@ window.XH_PUBLICATIONS_DATA = {
         "id": "photocat",
         "name_cn": "光催化",
         "name_en": "Photocatalysis",
-        "count": 374
+        "count": 378
       },
       {
         "id": "c3n4_2d",
         "name_cn": "碳氮材料与二维半导体",
         "name_en": "Carbon Nitride & 2D Materials",
-        "count": 288
+        "count": 289
       },
       {
         "id": "env",
@@ -68,13 +69,13 @@ window.XH_PUBLICATIONS_DATA = {
         "id": "co2",
         "name_cn": "二氧化碳捕集与转化",
         "name_en": "CO2 Reduction & Conversion",
-        "count": 76
+        "count": 82
       },
       {
         "id": "electrocat",
         "name_cn": "电催化",
         "name_en": "Electrocatalysis",
-        "count": 67
+        "count": 69
       },
       {
         "id": "ionic",
@@ -86,7 +87,7 @@ window.XH_PUBLICATIONS_DATA = {
         "id": "materials",
         "name_cn": "功能材料与基础研究",
         "name_en": "Advanced Functional Materials",
-        "count": 30
+        "count": 31
       },
       {
         "id": "biomass",
@@ -103,6 +104,41 @@ window.XH_PUBLICATIONS_DATA = {
     ]
   },
   "publications": [
+    {
+      "uid": "WOS:001884655500001",
+      "title": "Multi-element co-doping strategies for photocatalytic CO2 reduction: synergistic effects and mechanistic insights",
+      "authors": "Sibo Wang, Yangxian Liu, <strong>Hui Xu</strong>, Yan Wang",
+      "journal": "Coordination Chemistry Reviews",
+      "year": 2027,
+      "year_group": "2027",
+      "date": "2027-JAN 1",
+      "volume": "570",
+      "issue": "",
+      "page": "",
+      "doi": "10.1016/j.ccr.2026.218559",
+      "url": "https://doi.org/10.1016/j.ccr.2026.218559",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001884655500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 0,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 521
+    },
     {
       "uid": "WOS:001842817000001",
       "title": "External-Field-Enhanced Helmholtz-Layer Local Charge Density Enables C―C Coupling in Pure-H2O-Fed CO2 Electroreduction To C2+Products",
@@ -139,7 +175,122 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "Angew. Chem."
       ],
-      "index": 513
+      "index": 520
+    },
+    {
+      "uid": "WOS:001794516400001",
+      "title": "Rational construction of half-metallic carbon nitride and TiO2 S-scheme heterojunction for efficient photocatalytic CO2 reduction",
+      "authors": "Kang Zhong, Shuting Li, Jinman Yang, Chentao Zhu, Quan Zhang, Yanhua Song, Peipei Sun, Xingwang Zhu, Huaming Li, <strong>Hui Xu</strong>",
+      "journal": "Chemical Engineering Science",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-OCT 1",
+      "volume": "334",
+      "issue": "",
+      "page": "",
+      "doi": "10.1016/j.ces.2026.124312",
+      "url": "https://doi.org/10.1016/j.ces.2026.124312",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001794516400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 2,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "c3n4_2d",
+          "name_cn": "碳氮材料与二维半导体",
+          "name_en": "Carbon Nitride & 2D Materials"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "CES"
+      ],
+      "index": 519
+    },
+    {
+      "uid": "WOS:001884655400001",
+      "title": "Recent research advances in element-doped photocatalysts for photocatalytic conversion of CO2",
+      "authors": "Sibo Wang, Weinan Fan, Pengju Wu, Yan Wang, <strong>Hui Xu</strong>, Jaroslaw Serafin, Beata Michalkiewicz, Yangxian Liu",
+      "journal": "Chemical Engineering Journal",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-NOV 15",
+      "volume": "548",
+      "issue": "",
+      "page": "",
+      "doi": "10.1016/j.cej.2026.181804",
+      "url": "https://doi.org/10.1016/j.cej.2026.181804",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001884655400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 0,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [
+        "CEJ"
+      ],
+      "index": 518
+    },
+    {
+      "uid": "WOS:001718265400001",
+      "title": "Atomic engineering of Cu-N coordination sites for high-performance CO2-to-CH4 electroreduction",
+      "authors": "Siyu Yi, Guobin Zhou, Yi Wang, Mengxia Ji, Jinman Yang, Yi Zhang, Pengcheng Yan, Zhao Mo, Zhaolong Wang, Junjie Yuan, <strong>Hui Xu</strong>, Xiaojie She",
+      "journal": "Applied Catalysis A-General",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-MAY 5",
+      "volume": "717",
+      "issue": "",
+      "page": "",
+      "doi": "10.1016/j.apcata.2026.120894",
+      "url": "https://doi.org/10.1016/j.apcata.2026.120894",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001718265400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 1,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        },
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 517
     },
     {
       "uid": "WOS:001668263100001",
@@ -179,7 +330,42 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 512
+      "index": 516
+    },
+    {
+      "uid": "WOS:001799203100001",
+      "title": "Stereolithography 3D printed structural nickel-based catalyst by one step in-situ method for photocatalytic CO2 reduction",
+      "authors": "Sibo Wang, Yingcheng Wu, Kang Zhong, Haoyuan Yin, Suhang Xun, Jinman Yang, Jia Yan, Jing He, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Alloys And Compounds",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-JUN 30",
+      "volume": "1074",
+      "issue": "",
+      "page": "",
+      "doi": "10.1016/j.jallcom.2026.188921",
+      "url": "https://doi.org/10.1016/j.jallcom.2026.188921",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001799203100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 1,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "photocat",
+          "name_cn": "光催化",
+          "name_en": "Photocatalysis"
+        },
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 515
     },
     {
       "uid": "WOS:001708313100001",
@@ -217,7 +403,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "AIChE J."
       ],
-      "index": 511
+      "index": 514
     },
     {
       "uid": "WOS:001795486900001",
@@ -255,7 +441,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 510
+      "index": 513
     },
     {
       "uid": "WOS:001702248400001",
@@ -297,7 +483,37 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 509
+      "index": 512
+    },
+    {
+      "uid": "WOS:001754298800001",
+      "title": "The Effect of Phosphorus Gettering Process on the Electrical Properties of Monocrystalline Silicon Wafers",
+      "authors": "Si Chen, Qiuheng Wang, Yang Yang, Juan Liu, Rulong Chen, Zhao Mo, <strong>Hui Xu</strong>",
+      "journal": "Journal Of Electronic Materials",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-JUL",
+      "volume": "55",
+      "issue": "7",
+      "page": "6131-6141",
+      "doi": "10.1007/s11664-026-12875-1",
+      "url": "https://doi.org/10.1007/s11664-026-12875-1",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001754298800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 0,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "materials",
+          "name_cn": "功能材料与基础研究",
+          "name_en": "Advanced Functional Materials"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
+      "index": 511
     },
     {
       "uid": "WOS:001643696100001",
@@ -330,7 +546,7 @@ window.XH_PUBLICATIONS_DATA = {
         "Selected",
         "ACS Catal."
       ],
-      "index": 508
+      "index": 510
     },
     {
       "uid": "WOS:001576844100002",
@@ -365,7 +581,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 507
+      "index": 509
     },
     {
       "uid": "WOS:001602888400001",
@@ -381,7 +597,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2025.125804",
       "url": "https://doi.org/10.1016/j.apcatb.2025.125804",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001602888400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 25,
+      "citations": 26,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -407,7 +623,40 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
-      "index": 506
+      "index": 508
+    },
+    {
+      "uid": "WOS:001719785600004",
+      "title": "Kilowatt-scale alkali-cation-free CO2 electrolysis via accelerating mass transfer",
+      "authors": "Xiaojie She, Zhihang Xu, Qiang Ma, Qiming Qian, Hui Shi, Molly Meng-Jung Li, Pei Xiong, Ye Zhu, Mengxia Ji, Huaming Li, <strong>Hui Xu</strong>, Junlin Zheng, Tongwen Xu, Weimin Yang, Jingzheng Ren, Shu Ping Lau",
+      "journal": "Nature Communications",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-FEB 12",
+      "volume": "17",
+      "issue": "1",
+      "page": "",
+      "doi": "10.1038/s41467-026-69175-9",
+      "url": "https://doi.org/10.1038/s41467-026-69175-9",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001719785600004&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 12,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "co2",
+          "name_cn": "二氧化碳捕集与转化",
+          "name_en": "CO2 Reduction & Conversion"
+        }
+      ],
+      "is_selected": true,
+      "is_esi": false,
+      "badges": [
+        "Selected",
+        "Nat. Commun."
+      ],
+      "index": 507
     },
     {
       "uid": "WOS:001684176600001",
@@ -444,7 +693,7 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Chin. J. Catal."
       ],
-      "index": 505
+      "index": 506
     },
     {
       "uid": "WOS:001679862900005",
@@ -484,7 +733,7 @@ window.XH_PUBLICATIONS_DATA = {
       "is_selected": false,
       "is_esi": false,
       "badges": [],
-      "index": 504
+      "index": 505
     },
     {
       "uid": "WOS:001706065800001",
@@ -521,6 +770,36 @@ window.XH_PUBLICATIONS_DATA = {
       "badges": [
         "Appl. Catal. B"
       ],
+      "index": 504
+    },
+    {
+      "uid": "WOS:001736549700001",
+      "title": "Size-Engineered PdCd Nanocubes Enable Intermediate Desorption for Enhanced Durability in Ethylene Glycol Electrooxidation",
+      "authors": "Junfeng Liu, Yingxuan Guo, Tong Li, Guidong Ju, Ruijuan Jing, Yilin Deng, <strong>Hui Xu</strong>, Huaming Li, Yong Wang",
+      "journal": "Inorganic Chemistry",
+      "year": 2026,
+      "year_group": "2026",
+      "date": "2026-APR 20",
+      "volume": "65",
+      "issue": "15",
+      "page": "8647-8657",
+      "doi": "10.1021/acs.inorgchem.6c00604",
+      "url": "https://doi.org/10.1021/acs.inorgchem.6c00604",
+      "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001736549700001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+      "citations": 2,
+      "is_first_author": false,
+      "is_corr_author": false,
+      "is_first_or_corr": false,
+      "topics": [
+        {
+          "id": "electrocat",
+          "name_cn": "电催化",
+          "name_en": "Electrocatalysis"
+        }
+      ],
+      "is_selected": false,
+      "is_esi": false,
+      "badges": [],
       "index": 503
     },
     {
@@ -777,7 +1056,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.jcis.2025.01.258",
       "url": "https://doi.org/10.1016/j.jcis.2025.01.258",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001423333600001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 23,
+      "citations": 24,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -2420,7 +2699,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.colsurfa.2024.135050",
       "url": "https://doi.org/10.1016/j.colsurfa.2024.135050",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001318849100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 8,
+      "citations": 9,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -4013,7 +4292,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.jece.2023.109801",
       "url": "https://doi.org/10.1016/j.jece.2023.109801",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001042725800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 39,
+      "citations": 40,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -6220,7 +6499,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.jallcom.2022.166370",
       "url": "https://doi.org/10.1016/j.jallcom.2022.166370",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000884761300002&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 22,
+      "citations": 23,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -6260,7 +6539,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1002/anie.202211396",
       "url": "https://doi.org/10.1002/anie.202211396",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000870761800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 269,
+      "citations": 270,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -9441,7 +9720,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.xcrp.2020.100051",
       "url": "https://doi.org/10.1016/j.xcrp.2020.100051",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000658740900009&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 121,
+      "citations": 122,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -9856,7 +10135,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2019.117854",
       "url": "https://doi.org/10.1016/j.apcatb.2019.117854",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000483451200072&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 366,
+      "citations": 367,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -11164,7 +11443,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.cej.2018.09.098",
       "url": "https://doi.org/10.1016/j.cej.2018.09.098",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000448181000050&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 180,
+      "citations": 181,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -17371,7 +17650,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apsusc.2013.05.106",
       "url": "https://doi.org/10.1016/j.apsusc.2013.05.106",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000323601700005&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 262,
+      "citations": 263,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
