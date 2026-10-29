@@ -9,7 +9,7 @@ window.XH_PUBLICATIONS_DATA = {
     "source": "Clarivate Web of Science (核心合集)",
     "selected_count": 32,
     "esi_count": 27,
-    "first_or_corr_count": 276,
+    "first_or_corr_count": 281,
     "journal_stats": {
       "Nat. Energy": 1,
       "Nat. Commun.": 1,
@@ -120,8 +120,8 @@ window.XH_PUBLICATIONS_DATA = {
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001884655500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 0,
       "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
       "topics": [
         {
           "id": "photocat",
@@ -194,8 +194,8 @@ window.XH_PUBLICATIONS_DATA = {
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001794516400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 2,
       "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
       "topics": [
         {
           "id": "photocat",
@@ -238,8 +238,8 @@ window.XH_PUBLICATIONS_DATA = {
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001884655400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 0,
       "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
       "topics": [
         {
           "id": "photocat",
@@ -275,8 +275,8 @@ window.XH_PUBLICATIONS_DATA = {
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001718265400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 1,
       "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
       "topics": [
         {
           "id": "co2",
@@ -646,8 +646,8 @@ window.XH_PUBLICATIONS_DATA = {
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001719785600004&DestLinkType=FullRecord&DestApp=WOS_CPL",
       "citations": 12,
       "is_first_author": false,
-      "is_corr_author": false,
-      "is_first_or_corr": false,
+      "is_corr_author": true,
+      "is_first_or_corr": true,
       "topics": [
         {
           "id": "co2",

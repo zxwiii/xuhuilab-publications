@@ -11516,7 +11516,7 @@
     "issue": "",
     "page": "",
     "is_first_author": false,
-    "is_corr_author": false
+    "is_corr_author": true
   },
   "10.1038/s41467-026-69175-9": {
     "topics": [
@@ -11532,7 +11532,7 @@
     "issue": "1",
     "page": "",
     "is_first_author": false,
-    "is_corr_author": false
+    "is_corr_author": true
   },
   "10.1021/acs.inorgchem.6c00604": {
     "topics": [
@@ -11590,7 +11590,7 @@
     "issue": "",
     "page": "",
     "is_first_author": false,
-    "is_corr_author": false
+    "is_corr_author": true
   },
   "10.1016/j.jallcom.2026.188921": {
     "topics": [
@@ -11632,7 +11632,7 @@
     "issue": "",
     "page": "",
     "is_first_author": false,
-    "is_corr_author": false
+    "is_corr_author": true
   },
   "10.1016/j.cej.2026.181804": {
     "topics": [
@@ -11653,6 +11653,6 @@
     "issue": "",
     "page": "",
     "is_first_author": false,
-    "is_corr_author": false
+    "is_corr_author": true
   }
 }
