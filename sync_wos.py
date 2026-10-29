@@ -112,6 +112,7 @@ HONORS_CONFIG = [
 # 重点期刊严格排序规则（严格按照官方指定优先级：Nat. Energy 居首，确保严格锁定 29 篇代表作）
 TOP_JOURNALS_STRICT = [
     {"abbr": "Nat. Energy", "pattern": r"nature\s+energy", "is_top": True},
+    {"abbr": "Nat. Commun.", "pattern": r"nature\s+communications", "is_top": True},
     {"abbr": "Angew. Chem.", "pattern": r"angewandte\s+chemie", "is_top": True},
     {"abbr": "AIChE J.", "pattern": r"aiche\s+journal", "is_top": True},
     {"abbr": "CES", "pattern": r"chemical\s+engineering\s+science", "is_top": True},
@@ -120,7 +121,6 @@ TOP_JOURNALS_STRICT = [
     {"abbr": "AFM", "pattern": r"advanced\s+functional\s+materials", "is_top": True},
     {"abbr": "Adv. Energy Mater.", "pattern": r"advanced\s+energy\s+materials", "is_top": True},
     {"abbr": "Adv. Mater.", "pattern": r"^advanced\s+materials(?!\s+(interfaces|research|technologies|and|structures|applied))", "is_top": True},
-    {"abbr": "Nat. Commun.", "pattern": r"nature\s+communications", "is_top": True},
     {"abbr": "Appl. Catal. B", "pattern": r"applied\s+catalysis\s+b", "is_top": False},
     {"abbr": "Nano Energy", "pattern": r"nano\s+energy", "is_top": False},
     {"abbr": "CEJ", "pattern": r"chemical\s+engineering\s+journal", "is_top": False},
@@ -301,6 +301,53 @@ def load_corresponding_titles(filepath):
             continue
     return titles
 
+LOWERCASE_WORDS = {
+    'an', 'and', 'as', 'at', 'but', 'by', 'for', 'in', 'nor', 'of', 'on', 'or', 'so', 'the', 'to', 'up', 'yet', 'with', 'via', 'from', 'into'
+}
+SPECIAL_ACRONYMS = {
+    'co2': 'CO2', '2d': '2D', '3d': '3D', 'aiche': 'AIChE', 'acs': 'ACS', 
+    'rsc': 'RSC', 'ieee': 'IEEE', 'uv': 'UV', 'vis': 'Vis', 'nir': 'NIR',
+    'xrd': 'XRD', 'dft': 'DFT', 'led': 'LED', 'pt': 'Pt', 'pts': 'Pts', 
+    'i': 'I', 'ii': 'II', 'iii': 'III', 'iv': 'IV', 'v': 'V'
+}
+
+def smart_journal_title(s):
+    """学术期刊智能英文大小写格式化 (保证 of, and, in 等小写，缩写词大写，分卷大写)"""
+    if not s:
+        return ""
+    s = re.sub(r'\s+', ' ', s.strip())
+    parts = re.split(r'([\s\-/:(),]+)', s)
+    out = []
+    is_start = True
+    prev_delim = ''
+    prev_word = ''
+    for p in parts:
+        if not p:
+            continue
+        if re.match(r'^[\s\-/:(),]+$', p):
+            out.append(p)
+            prev_delim = p
+            if any(c in p for c in [':', '(', '/', '.']):
+                is_start = True
+            continue
+        
+        lw = p.lower()
+        if len(p) == 1 and lw in 'abcdef':
+            if lw == 'a' and not is_start and prev_delim.strip() == ' ' and prev_word.lower() not in ['part', 'section', 'series', 'surfaces']:
+                out.append('a')
+            else:
+                out.append(p.upper())
+        elif lw in SPECIAL_ACRONYMS:
+            out.append(SPECIAL_ACRONYMS[lw])
+        elif not is_start and lw in LOWERCASE_WORDS:
+            out.append(lw)
+        else:
+            out.append(p.capitalize())
+        is_start = False
+        prev_word = p
+        
+    return ''.join(out)
+
 def format_journal_name(raw_name, publish_year=None, volume=None):
     if not raw_name:
         return "Research Article"
@@ -342,7 +389,7 @@ def format_journal_name(raw_name, publish_year=None, volume=None):
     for pat, mapped in mappings.items():
         if re.search(pat, name, re.IGNORECASE):
             return mapped
-    return name.title()
+    return smart_journal_title(name)
 
 def fetch_all_wos_documents(api_keys):
     """通过 Web of Science Starter API 全量拉取论文 (支持多 Key 自动故障转移与配额轮换)"""
@@ -596,12 +643,13 @@ def run_sync():
         badges = []
         if is_selected:
             badges.append("Selected")
+            badges.append("代表作")
         if is_esi:
             badges.append("ESI Top 1%")
         if matched_j_badge and matched_j_badge not in badges:
             badges.append(matched_j_badge)
 
-        year_group = str(publish_year) if publish_year >= 2020 else ("2015-2019" if publish_year >= 2015 else "2014及以前")
+        year_group = str(publish_year) if publish_year >= 2015 else "2014及以前"
 
         pub_obj = {
             "uid": uid,
