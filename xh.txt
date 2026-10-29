@@ -247,3 +247,8 @@ Co single atom coupled oxygen vacancy on W18O49 nanowires surface to construct a
 Ionic liquids assisted construction of efficient ceramic-based catalyst by direct ink writing 3D printing for ultra-deep oxidative desulfurization of diesel
 Promotion of intramolecular electron transfer in g-C3N4 tubes by introducing pyridine structure to accelerate photocatalytic hydrogen evolution
 Application of plasma technology in Hg0 removal from flue gas: Recent advances and future perspectives
+Kilowatt-scale alkali-cation-free CO2 electrolysis via accelerating mass transfer
+Multi-element co-doping strategies for photocatalytic CO2 reduction: synergistic effects and mechanistic insights
+Rational construction of half-metallic carbon nitride and TiO2 S-scheme heterojunction for efficient photocatalytic CO2 reduction
+Atomic engineering of Cu-N coordination sites for high-performance CO2-to-CH4 electroreduction
+Recent research advances in element-doped photocatalysts for photocatalytic conversion of CO2
