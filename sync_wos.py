@@ -348,6 +348,37 @@ def smart_journal_title(s):
         
     return ''.join(out)
 
+def fetch_crossref_bib_single(doi):
+    """向 Crossref API 动态联网校准单篇文献卷期页码 (支持自动补漏)"""
+    if not doi:
+        return None
+    url = f"https://api.crossref.org/works/{urllib.parse.quote(doi)}"
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "xuhuilab-enrich/1.0 (mailto:admin@xuhuilab.com; contact: Jiangsu University)",
+            "Accept": "application/json"
+        }
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=4) as r:
+            data = json.loads(r.read().decode("utf-8"))
+            msg = data.get("message", {})
+            vol = str(msg.get("volume") or "").strip()
+            iss = str(msg.get("issue") or "").strip()
+            pg = str(msg.get("page") or "").strip()
+            art_num = str(msg.get("article-number") or "").strip()
+            final_page = pg if pg else art_num
+            if vol or final_page:
+                return {
+                    "volume": vol,
+                    "issue": iss,
+                    "page": final_page
+                }
+    except Exception:
+        pass
+    return None
+
 def format_journal_name(raw_name, publish_year=None, volume=None):
     if not raw_name:
         return "Research Article"
@@ -486,6 +517,7 @@ def run_sync():
 
     # 2. 读取 Crossref 权威卷期页码缓存 (深度补充 WoS 缺失卷期)
     crossref_cache = {}
+    crossref_cache_modified = False
     if os.path.exists(CROSSREF_CACHE_FILE):
         try:
             with open(CROSSREF_CACHE_FILE, 'r', encoding='utf-8') as f:
@@ -545,7 +577,13 @@ def run_sync():
             page_end = pages_info.get('end', '')
             page_range = f"{page_begin}-{page_end}" if (page_begin and page_end) else page_begin
 
-        # 核心深度融合：若 WoS 缺失卷号或页码，自动从 Crossref 权威库补齐
+        # 核心扩展：若传统起止页码为空，优先读取 WoS 官方电子文章号 (articleNumber，如 Nat. Commun. 的 2641)
+        if not page_range:
+            art_num = str(source.get('articleNumber', '') or '').strip()
+            if art_num:
+                page_range = art_num
+
+        # 核心深度融合：若 WoS 仍缺失卷号或页码，优先从本地 Crossref 库补齐
         if doi in crossref_cache:
             cr_info = crossref_cache[doi]
             if not vol and cr_info.get('volume'):
@@ -554,6 +592,18 @@ def run_sync():
                 iss = str(cr_info.get('issue'))
             if not page_range and cr_info.get('page'):
                 page_range = str(cr_info.get('page'))
+        elif (not vol or not page_range) and doi:
+            # 动态向 Crossref 官方实时联网校准一次，并自动沉淀更新入缓存
+            cr_info = fetch_crossref_bib_single(doi)
+            if cr_info:
+                crossref_cache[doi] = cr_info
+                crossref_cache_modified = True
+                if not vol and cr_info.get('volume'):
+                    vol = str(cr_info.get('volume'))
+                if not iss and cr_info.get('issue'):
+                    iss = str(cr_info.get('issue'))
+                if not page_range and cr_info.get('page'):
+                    page_range = str(cr_info.get('page'))
 
         journal = format_journal_name(journal_raw, publish_year=publish_year, volume=vol)
 
@@ -683,6 +733,15 @@ def run_sync():
         print(f"[Cache] 固化元数据已更新锁定: 共 {len(fixed_metadata)} 条。")
     except Exception as e:
         print(f"[Warn] 保存固化缓存异常: {e}")
+
+    # 保存动态校准后的 Crossref 缓存
+    if crossref_cache_modified:
+        try:
+            with open(CROSSREF_CACHE_FILE, 'w', encoding='utf-8') as f:
+                json.dump(crossref_cache, f, ensure_ascii=False, indent=2)
+            print(f"[Crossref] 动态校准完成，已更新沉淀 Crossref 卷期数据库: 共 {len(crossref_cache)} 篇。")
+        except Exception as e:
+            print(f"[Warn] 保存 Crossref 缓存异常: {e}")
 
     # 计算全局影响力指标
     citation_counts.sort(reverse=True)
