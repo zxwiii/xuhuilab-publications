@@ -1,11 +1,11 @@
 /**
  * 许晖课题组 (xuhuilab.com) 论文成果与多维筛选数据包
- * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年11月05日
+ * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年11月06日
  */
 window.XH_PUBLICATIONS_DATA = {
   "meta": {
     "total": 521,
-    "updated_at": "2026年11月05日",
+    "updated_at": "2026年11月06日",
     "source": "Clarivate Web of Science (核心合集)",
     "selected_count": 32,
     "esi_count": 27,
@@ -602,7 +602,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2025.125804",
       "url": "https://doi.org/10.1016/j.apcatb.2025.125804",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001602888400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 27,
+      "citations": 28,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -1410,7 +1410,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2024.124998",
       "url": "https://doi.org/10.1016/j.apcatb.2024.124998",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001416574300001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 63,
+      "citations": 64,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -2191,7 +2191,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2025.125265",
       "url": "https://doi.org/10.1016/j.apcatb.2025.125265",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001456594400001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 57,
+      "citations": 58,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -3963,7 +3963,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1002/smll.202301114",
       "url": "https://doi.org/10.1002/smll.202301114",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:001002401100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 19,
+      "citations": 20,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -5777,7 +5777,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/s1872-2067(21)63954-2",
       "url": "https://doi.org/10.1016/s1872-2067(21)63954-2",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000778498500011&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 99,
+      "citations": 100,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -9928,7 +9928,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.jallcom.2019.07.137",
       "url": "https://doi.org/10.1016/j.jallcom.2019.07.137",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000485039800049&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 40,
+      "citations": 41,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -10112,7 +10112,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.apcatb.2019.117867",
       "url": "https://doi.org/10.1016/j.apcatb.2019.117867",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000483451200068&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 195,
+      "citations": 196,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
