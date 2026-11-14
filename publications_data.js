@@ -1,11 +1,11 @@
 /**
  * 许晖课题组 (xuhuilab.com) 论文成果与多维筛选数据包
- * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年11月14日
+ * 数据源自: Clarivate Web of Science 核心合集 | 更新时间: 2026年11月15日
  */
 window.XH_PUBLICATIONS_DATA = {
   "meta": {
     "total": 521,
-    "updated_at": "2026年11月14日",
+    "updated_at": "2026年11月15日",
     "source": "Clarivate Web of Science (核心合集)",
     "selected_count": 32,
     "esi_count": 27,
@@ -8634,7 +8634,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1038/s41388-020-01475-w",
       "url": "https://doi.org/10.1038/s41388-020-01475-w",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000572714000008&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 236,
+      "citations": 237,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
@@ -9417,7 +9417,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.jcis.2019.10.089",
       "url": "https://doi.org/10.1016/j.jcis.2019.10.089",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000504130200058&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 88,
+      "citations": 89,
       "is_first_author": false,
       "is_corr_author": true,
       "is_first_or_corr": true,
@@ -16537,7 +16537,7 @@ window.XH_PUBLICATIONS_DATA = {
       "doi": "10.1016/j.colsurfa.2015.03.035",
       "url": "https://doi.org/10.1016/j.colsurfa.2015.03.035",
       "wos_link": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=lap-publications-sync&SrcAuth=WosAPI&KeyUT=WOS:000354028700010&DestLinkType=FullRecord&DestApp=WOS_CPL",
-      "citations": 303,
+      "citations": 304,
       "is_first_author": false,
       "is_corr_author": false,
       "is_first_or_corr": false,
